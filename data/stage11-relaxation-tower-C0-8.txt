@@ -1,0 +1,31 @@
+C:\Users\mekak\code\squarefree-minimum-modulus\code\stage11.py:124: RuntimeWarning: overflow encountered in scalar multiply
+  v = w * inc[j]; den = den * v.denominator // np.gcd(den, v.denominator)
+loss5=0.086957 loss7=0.088950  aligned stage-11 best=0.049984 at t=18 (model 0.055291, model truncated 0.050363)  [0.2s]
+{
+ "status": "FEASIBLE",
+ "objective": 0.055091566641,
+ "bound_upper": 0.243153901223,
+ "exact_value_of_solution": [
+  "715426259/12986130234",
+  0.05509156662597505
+ ],
+ "residues": {
+  "1": 0,
+  "2": 0,
+  "3": 0,
+  "5": 4,
+  "6": 3,
+  "7": 4,
+  "10": 4,
+  "14": 4,
+  "15": 9,
+  "21": 18,
+  "30": 9,
+  "35": 4,
+  "42": 39,
+  "70": 4,
+  "105": 54,
+  "210": 165
+ }
+}
+exit 0
