@@ -23,7 +23,14 @@ def divisors(n):
     return sorted(ds)
 
 
-def solve(N, M, time_limit=600.0, workers=8, require=(), forbid=(), redundant=False, linearization=1):
+def solve(N, M, time_limit=600.0, workers=8, require=(), forbid=(), redundant=False, linearization=1, normalize=False):
+    """normalize=True (squarefree N, M >= 3): lossless normal form for existence.  Any cover extends
+    to one using every divisor >= M of N (add unused moduli anywhere), so all moduli are required;
+    translating each CRT coordinate Z_p puts the class of modulus p at residue 0 for every odd prime
+    p | N; a class 2p whose residue is 0 mod p is redundant and can be moved, and the units of Z_p
+    then map its residue mod p to 1 (parity free); the free translation of Z_2 (modulus 2 absent)
+    fixes the parity of the class 2p for the smallest odd prime to 1.  The modulus-N translation
+    symmetry constraint is dropped in this mode."""
     D = [d for d in divisors(N) if d >= M and d not in forbid]
     if sum(Fraction(1, d) for d in D) < 1:
         return dict(N=N, M=M, status="INFEASIBLE", reason="sum of 1/d below 1", seconds=0.0)
@@ -34,8 +41,22 @@ def solve(N, M, time_limit=600.0, workers=8, require=(), forbid=(), redundant=Fa
         m.AddAtMostOne(x[(d, r)] for r in range(d))
     for n in range(N):
         m.AddBoolOr([x[(d, n % d)] for d in D])
-    for r in range(1, N):
-        m.Add(x[(N, r)] == 0)
+    if normalize:
+        assert M >= 3 and all(N % (q * q) for q in range(2, 200) if N % q == 0), "normalize needs squarefree N and M >= 3"
+        odd_primes = [q for q in range(3, N + 1) if N % q == 0 and all(q % r for r in range(2, int(q ** 0.5) + 1))]
+        for d in D:
+            m.AddBoolOr([x[(d, r)] for r in range(d)])          # every modulus used
+        for q in odd_primes:
+            if q in D:
+                m.Add(x[(q, 0)] == 1)
+            if 2 * q in D:
+                for r in range(2 * q):
+                    if r % q != 1: m.Add(x[(2 * q, r)] == 0)
+        q0 = odd_primes[0]
+        if 2 * q0 in D: m.Add(x[(2 * q0, 1)] == 1)
+    else:
+        for r in range(1, N):
+            m.Add(x[(N, r)] == 0)
     for d in require:
         m.AddBoolOr([x[(d, r)] for r in range(d)])
     if redundant:
@@ -57,7 +78,7 @@ def solve(N, M, time_limit=600.0, workers=8, require=(), forbid=(), redundant=Fa
     s.parameters.linearization_level = linearization
     st = s.Solve(m)
     name = s.StatusName(st)
-    res = dict(N=N, M=M, status=name, seconds=round(time.time() - t, 1), moduli_available=len(D))
+    res = dict(N=N, M=M, status=name, seconds=round(time.time() - t, 1), moduli_available=len(D), normalize=normalize)
     if st in (cp_model.OPTIMAL, cp_model.FEASIBLE):
         system = sorted((d, r) for (d, r), v in x.items() if s.Value(v))
         assert len({d for d, _ in system}) == len(system)
@@ -76,9 +97,9 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--M", type=int, required=True); ap.add_argument("--N", type=int, required=True)
     ap.add_argument("--time", type=float, default=600.0); ap.add_argument("--workers", type=int, default=8)
-    ap.add_argument("--output"); ap.add_argument("--redundant", action="store_true"); ap.add_argument("--lin", type=int, default=1)
+    ap.add_argument("--output"); ap.add_argument("--redundant", action="store_true"); ap.add_argument("--normalize", action="store_true"); ap.add_argument("--lin", type=int, default=1)
     a = ap.parse_args()
-    r = solve(a.N, a.M, a.time, a.workers, redundant=a.redundant, linearization=a.lin)
+    r = solve(a.N, a.M, a.time, a.workers, redundant=a.redundant, linearization=a.lin, normalize=a.normalize)
     print(json.dumps({k: v for k, v in r.items() if k != "system"}))
     if "system" in r: print("system:", [(e["residue"], e["modulus"]) for e in r["system"]])
     if a.output: json.dump(r, open(a.output, "w"), indent=1)

@@ -1,0 +1,8 @@
+{
+ "N": 2310,
+ "M": 3,
+ "status": "UNSAT",
+ "seconds": 26.8,
+ "moduli_available": 30,
+ "normalize": true
+}
