@@ -2,7 +2,7 @@
 
 Status of the determination of M_sf, the largest possible minimum modulus of a finite
 covering system with distinct squarefree moduli. Published state of the art: 2 <= M_sf <= 118.
-Last updated 24 October 2026 (08:40 JST).
+Last updated 24 October 2026 (08:50 JST).
 
 ## Current state
 
@@ -10,8 +10,9 @@ Last updated 24 October 2026 (08:40 JST).
 | --- | --- | --- | --- |
 | Upper | M_sf <= 10 | Certified 24 Oct 00:40 by the integer verifier (total 0.92457 < 1, margin 0.075; full exactness 0.92265); independently re-implemented verifier agrees to 12 decimal digits (24 Oct 00:55); re-run from this repository reproduces the integer total exactly | `data/cert10.json`, `data/cert10-full.json`, `data/audit-cert10.json`, `code/verify_squarefree.py`, `code/audit_verify.py` |
 | Upper target | M_sf <= 7 (C0 = 8) | Not reached: the comparison gives 1.018-1.020 (fails by 2 %); the whole gap sits at p = 5 and 7, where the measure is uniform. Exact two-stage adversary at (D5, D7) = (0.195, 0.1425) gives loss_5 + loss_7 = 0.2118 (comparison value to be compared) | `data/schedule8-float-only.json`, `data/exact-two-stage-C0-8-D5-195000-D7-142500.json`, `code/exact_two_stage.py` |
-| Lower | M_sf >= 2 | Krukenberg 1971 (lcm 210); 14-class system mod 210 verified in the parent repository | literature |
-| Lower target | a system with least modulus >= 3 | Open (Dalton-Trifonov Problem 4). Brute CP-SAT (24 Oct): lcm 210 min 3 UNSAT in 0.6 s; lcm 2310 and 30030 UNKNOWN after 15 min each (UNSAT proofs are the bottleneck, as for the general problem); a structured search is needed | `code/cpsat_cover.py` |
+| Lower | M_sf >= 2 | Krukenberg 1971 (lcm 210); 14- and 15-class systems mod 210 verified | literature, `data/cpsat-lcm210-min2-sat.json` |
+| Lower (obstructions) | least modulus 3 needs a prime factor >= 13 | Codex (15 Oct 2026, parent repository): rigorous counting obstruction, every distinct squarefree system with moduli >= 3 and primes <= 11 misses >= 22 residues mod 2310; best heuristic through prime 17 misses 1.575 % (126 congruences); minimum 30 needs a prime >= 37 (density) | `minimum-modulus`: `src/construction-search.tex` (sections on squarefree 30 and 3), `code/squarefree_parity_search.py`, `code/squarefree_parity_repair.py`, `data/squarefree-parity-3-*.json` |
+| Lower target | a system with least modulus >= 3 | Open (Dalton-Trifonov Problem 4). Brute CP-SAT (24 Oct): lcm 210 min 3 UNSAT in 0.6 s; lcm 2310 and 30030 UNKNOWN after 15 min each (2310 is settled by Codex's counting obstruction, see below); a structured search is needed | `code/cpsat_cover.py` |
 
 ## Timeline
 
@@ -32,5 +33,5 @@ Last updated 24 October 2026 (08:40 JST).
 ## Open directions
 
 * Upper: exact adversary at p = 5, 7 (and 11) continued with the comparison from the next prime on; if the realised two-stage loss is 10 % below the comparison's, "<= 7" follows, and the same device might reach "<= 6".
-* Lower: exact search for a distinct squarefree system with least modulus >= 3 over squarefree lcm (CP-SAT, then structured search); finite obstructions by lcm.
+* Lower: exact search for a distinct squarefree system with least modulus >= 3 over squarefree lcm. Brute CP-SAT stops at lcm 2310; Codex's parity-layer normalisation (class mod p at 0, class mod 2p at 1 mod p) plus counting gives the obstruction at 2310 and should be the basis for 30030 and 510510. Finite obstructions by lcm; the first lcm that is not excluded tells where a construction could live.
 * Write-up: a short note (118 -> 10) with the argument, the inequality list and the certificates.
