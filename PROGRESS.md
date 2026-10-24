@@ -2,7 +2,7 @@
 
 Status of the determination of M_sf, the largest possible minimum modulus of a finite
 covering system with distinct squarefree moduli. Published state of the art: 2 <= M_sf <= 118.
-Last updated 24 October 2026 (09:40 JST).
+Last updated 24 October 2026 (10:10 JST).
 
 ## Current state
 
@@ -24,6 +24,7 @@ Last updated 24 October 2026 (09:40 JST).
 | 24 Oct | upper | Exact adversary over all stage-5 families (orbits under Aff(Z_2) x Aff(Z_3) x Aff(Z_5)) and all 810,000 stage-7 residue configurations at C0 = 8: max loss_5 + loss_7 = 409327/1932805 = 0.2118 at (D5, D7) = (0.195, 0.1425). Run interrupted (machine out of memory) before the stage-11 continuation. | `code/exact_two_stage.py`, `code/stage11.py`, `data/exact-two-stage-*.json` |
 | 24 Oct | lower | Brute CP-SAT over squarefree lcm with minimum modulus 3: 210 UNSAT (0.6 s; min 2 SAT with all 15 moduli, Krukenberg type), 2310 and 30030 UNKNOWN after 900 s with 8 workers. | `data/cpsat-lcm210-*.json`, `code/cpsat_cover.py` |
 | 24 Oct | repo | Project split out of `minimum-modulus` into this repository. | |
+| 24 Oct | lower | Slice extension: a cover with lcm Lq (q a new prime) consists of a q-free family over L with residual R plus the shapes qd (d | L) distributed over the q slices; one slice is covered by q itself, each other slice must cover R. Minimal residuals at 210 (22 points) and 2310 (121 points) are spread, so Sum_d max_a |R cap (a + dZ)| is about 4.5 |R|, far below the 12 |R| needed at q = 13. The most concentrated residual with >= 22 points at L = 2310 is a full class mod 105 (Codex's bound 22 = 2310/105 is exactly this size), and it is the ONLY single-class residual that passes the count Sum_d gcd(m,d)/d >= 12 (12.09); the slice assignment for it exists (CP-SAT, 4 s). Hence a cover with least modulus 3 and lcm 30030 exists if Z_2310 can be covered by all divisors >= 3 with the modulus 105 used twice. That test is UNKNOWN after 300 s; 1 h run started 10:05. | `code/slice_extend.py`, `code/duplicate_test.py`, `data/duplicate-2310-105-300s-unknown.json` |
 | 24 Oct | upper | Exact worst case at p = 5, 7 (C0 = 8) equals the comparison value: stage 5 exactly 2/23 both, stage 7 0.1248222 exact vs 0.1248289 comparison. Route closed. Truncation ceiling at C0 = 8 computed: 0.905 total, savings per stage 0.005 (11), 0.008 (13), 0.004 (17), 0.005 (19). | `code/truncation_ceiling.py` |
 | 24 Oct | upper | Stage-11 exact adversary (relaxation alpha <= min(1, n/11), CP-SAT 540 s) for the aligned stage-5/7 measure at C0 = 8: a spread family realises 0.055092 against the comparison 0.055291 and the truncated model 0.050363. Truncation is dead for squarefree moduli too; the upper side saturates at 10. | `data/stage11-relaxation-tower-C0-8.txt`, `code/stage11.py` |
 | 24 Oct | lower | Minimum uncovered count for least modulus 3: lcm 210 exactly 22 of 210 (10.5 %, OPTIMAL 0.3 s); lcm 2310 at most 121 of 2310 (5.2 %, FEASIBLE after 540 s, solver bound 19; Codex's rigorous bound 22). | `code/cpsat_min_uncovered.py`, `data/min-uncovered-lcm2310-feasible121.json` |
