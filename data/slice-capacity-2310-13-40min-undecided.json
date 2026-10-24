@@ -1,0 +1,165 @@
+{
+ "L": 2310,
+ "q": 13,
+ "status": "FEASIBLE",
+ "seconds": 2400.2,
+ "objective": -822,
+ "bound": 1397.0,
+ "uncovered": 129,
+ "c_d": {
+  "2": 81,
+  "3": 75,
+  "5": 65,
+  "6": 54,
+  "7": 51,
+  "10": 53,
+  "11": 22,
+  "14": 33,
+  "15": 38,
+  "21": 33,
+  "22": 12,
+  "30": 38,
+  "33": 15,
+  "35": 26,
+  "42": 18,
+  "55": 11,
+  "66": 10,
+  "70": 19,
+  "77": 7,
+  "105": 16,
+  "110": 8,
+  "154": 4,
+  "165": 6,
+  "210": 10,
+  "231": 5,
+  "330": 5,
+  "385": 3,
+  "462": 3,
+  "770": 2,
+  "1155": 2,
+  "2310": 1
+ },
+ "system": [
+  {
+   "modulus": 3,
+   "residue": 0
+  },
+  {
+   "modulus": 5,
+   "residue": 0
+  },
+  {
+   "modulus": 6,
+   "residue": 1
+  },
+  {
+   "modulus": 7,
+   "residue": 0
+  },
+  {
+   "modulus": 10,
+   "residue": 6
+  },
+  {
+   "modulus": 11,
+   "residue": 0
+  },
+  {
+   "modulus": 14,
+   "residue": 8
+  },
+  {
+   "modulus": 15,
+   "residue": 2
+  },
+  {
+   "modulus": 21,
+   "residue": 17
+  },
+  {
+   "modulus": 22,
+   "residue": 1
+  },
+  {
+   "modulus": 30,
+   "residue": 22
+  },
+  {
+   "modulus": 33,
+   "residue": 14
+  },
+  {
+   "modulus": 35,
+   "residue": 18
+  },
+  {
+   "modulus": 42,
+   "residue": 29
+  },
+  {
+   "modulus": 55,
+   "residue": 54
+  },
+  {
+   "modulus": 66,
+   "residue": 59
+  },
+  {
+   "modulus": 70,
+   "residue": 68
+  },
+  {
+   "modulus": 77,
+   "residue": 51
+  },
+  {
+   "modulus": 105,
+   "residue": 74
+  },
+  {
+   "modulus": 110,
+   "residue": 34
+  },
+  {
+   "modulus": 154,
+   "residue": 114
+  },
+  {
+   "modulus": 165,
+   "residue": 134
+  },
+  {
+   "modulus": 210,
+   "residue": 178
+  },
+  {
+   "modulus": 231,
+   "residue": 170
+  },
+  {
+   "modulus": 330,
+   "residue": 251
+  },
+  {
+   "modulus": 385,
+   "residue": 303
+  },
+  {
+   "modulus": 462,
+   "residue": 5
+  },
+  {
+   "modulus": 770,
+   "residue": 618
+  },
+  {
+   "modulus": 1155,
+   "residue": 758
+  },
+  {
+   "modulus": 2310,
+   "residue": 2273
+  }
+ ],
+ "verdict": "undecided"
+}
