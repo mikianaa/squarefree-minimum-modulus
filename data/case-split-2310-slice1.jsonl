@@ -1,0 +1,15 @@
+{"slice1": [2], "status": "UNSAT", "seconds": 1.6}
+{"slice1": [3], "status": "UNSAT", "seconds": 8.1}
+{"slice1": [5], "status": "UNSAT", "seconds": 0.4}
+{"slice1": [6], "status": "UNSAT", "seconds": 0.9}
+{"slice1": [7], "status": "UNSAT", "seconds": 0.4}
+{"slice1": [10], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [14], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [15], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [21], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [30], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [35], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [42], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [70], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [105], "status": "SKIP", "reason": "union smaller than residual bound"}
+{"slice1": [210], "status": "SKIP", "reason": "union smaller than residual bound"}
