@@ -1,0 +1,19 @@
+[
+ {
+  "iteration": 0,
+  "status": "OPTIMAL",
+  "seconds": 3.0,
+  "union": [
+   [
+    2,
+    0
+   ],
+   [
+    3,
+    2
+   ]
+  ],
+  "uncovered": 156,
+  "slice_assignment": "INFEASIBLE"
+ }
+]

@@ -23,7 +23,7 @@ def divisors(n):
     return sorted(ds)
 
 
-def solve(N, M, time_limit=600.0, workers=8, require=(), forbid=(), redundant=False, linearization=1, normalize=False, slice_cuts=0):
+def solve(N, M, time_limit=600.0, workers=8, require=(), forbid=(), redundant=False, linearization=1, normalize=False, slice_cuts=0, small_slice=0):
     """normalize=True (squarefree N, M >= 3): lossless normal form for existence.  Any cover extends
     to one using every divisor >= M of N (add unused moduli anywhere), so all moduli are required;
     translating each CRT coordinate Z_p puts the class of modulus p at residue 0 for every odd prime
@@ -49,11 +49,18 @@ def solve(N, M, time_limit=600.0, workers=8, require=(), forbid=(), redundant=Fa
         for q in odd_primes:
             if q in D:
                 m.Add(x[(q, 0)] == 1)
-            if 2 * q in D:
+            if 2 * q in D and not (small_slice and q == max(odd_primes)):
                 for r in range(2 * q):
                     if r % q != 1: m.Add(x[(2 * q, r)] == 0)
         q0 = odd_primes[0]
         if 2 * q0 in D: m.Add(x[(2 * q0, 1)] == 1)
+        if small_slice:
+            # For the largest prime q the unit group of Z_q permutes the non-free slices c = 1..q-1 (the class of q
+            # is at 0), so instead of fixing the class of 2q at 1 mod q we may assume that slice 1 is a slice with
+            # the fewest shapes; the tau(N/q)-1 shapes over q-1 slices give it at most small_slice shapes.
+            qm = max(odd_primes); Lq = N // qm
+            shapes_q = [d for d in divisors(Lq) if d > 1]
+            m.Add(sum(x[(qm * d, r)] for d in shapes_q for r in range(1, qm * d, qm)) <= small_slice)
     else:
         for r in range(1, N):
             m.Add(x[(N, r)] == 0)
@@ -113,9 +120,9 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--M", type=int, required=True); ap.add_argument("--N", type=int, required=True)
     ap.add_argument("--time", type=float, default=600.0); ap.add_argument("--workers", type=int, default=8)
-    ap.add_argument("--output"); ap.add_argument("--redundant", action="store_true"); ap.add_argument("--normalize", action="store_true"); ap.add_argument("--slice-cuts", type=int, default=0, help="lower bound on the q-free residual; enables the slice cuts"); ap.add_argument("--lin", type=int, default=1)
+    ap.add_argument("--output"); ap.add_argument("--redundant", action="store_true"); ap.add_argument("--normalize", action="store_true"); ap.add_argument("--slice-cuts", type=int, default=0, help="lower bound on the q-free residual; enables the slice cuts"); ap.add_argument("--small-slice", type=int, default=0, help="WLOG slice 1 of the largest prime holds at most this many shapes (replaces the 2q normalisation)"); ap.add_argument("--lin", type=int, default=1)
     a = ap.parse_args()
-    r = solve(a.N, a.M, a.time, a.workers, redundant=a.redundant, linearization=a.lin, normalize=a.normalize, slice_cuts=a.slice_cuts)
+    r = solve(a.N, a.M, a.time, a.workers, redundant=a.redundant, linearization=a.lin, normalize=a.normalize, slice_cuts=a.slice_cuts, small_slice=a.small_slice)
     print(json.dumps({k: v for k, v in r.items() if k != "system"}))
     if "system" in r: print("system:", [(e["residue"], e["modulus"]) for e in r["system"]])
     if a.output: json.dump(r, open(a.output, "w"), indent=1)
