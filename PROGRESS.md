@@ -2,7 +2,7 @@
 
 Status of the determination of M_sf, the largest possible minimum modulus of a finite
 covering system with distinct squarefree moduli. Published state of the art: 2 <= M_sf <= 118.
-Last updated 24 October 2026 (10:25 JST).
+Last updated 24 October 2026 (10:35 JST).
 
 ## Current state
 
@@ -12,7 +12,7 @@ Last updated 24 October 2026 (10:25 JST).
 | Upper target | M_sf <= 7 (C0 = 8) | Not reached: the comparison gives 1.0078 with full exactness (1.018 in the float optimiser). The exact worst case over all families at p = 5, 7 equals the comparison value (0.211779 vs 0.211786), so the comparison is tight there and exact small-stage handling gains nothing at 5, 7. Truncation alpha <= 1 at p >= 11 has a numerical ceiling of 0.905 (saving 0.10) but is NOT realisable: for the tower measure P_7 a spread stage-11 family (CP-SAT over the 16 residue choices on Z_210) reaches 0.05509 of the comparison's 0.05529 (99.6 %), so the cap saves 0.0002 of the 0.0049 ceiling. The method saturates at 10 | `data/schedule8-float-only.json`, `data/exact-two-stage-C0-8-D5-195000-D7-142500.json`, `code/exact_two_stage.py`, `code/truncation_ceiling.py` |
 | Lower | M_sf >= 2 | Krukenberg 1971 (lcm 210); 14- and 15-class systems mod 210 verified | literature, `data/cpsat-lcm210-min2-sat.json` |
 | Lower (obstructions) | least modulus 3 needs a prime factor >= 13 | Codex (15 Oct 2026, parent repository): rigorous counting obstruction, every distinct squarefree system with moduli >= 3 and primes <= 11 misses >= 22 residues mod 2310; best heuristic through prime 17 misses 1.575 % (126 congruences); minimum 30 needs a prime >= 37 (density) | `minimum-modulus`: `src/construction-search.tex` (sections on squarefree 30 and 3), `code/squarefree_parity_search.py`, `code/squarefree_parity_repair.py`, `data/squarefree-parity-3-*.json` |
-| Lower target | a system with least modulus >= 3 | Open (Dalton-Trifonov Problem 4). CP-SAT with the lossless normal form (all divisors >= 3 used, class of each odd prime p at 0, class of 2p at 1 mod p, parity of the smallest 2p fixed): lcm 210 UNSAT 0.1 s, lcm 2310 UNSAT 27 s (agrees with Codex's counting obstruction); lcm 30030 running since 24 Oct 09:05 (limit 2 h). Without the normal form 2310 and 30030 were UNKNOWN after 15 min | `code/cpsat_cover.py` |
+| Lower target | a system with least modulus >= 3 | Open (Dalton-Trifonov Problem 4). CP-SAT with the lossless normal form (all divisors >= 3 used, class of each odd prime p at 0, class of 2p at 1 mod p, parity of the smallest 2p fixed): lcm 210 UNSAT 0.1 s, lcm 2310 UNSAT 27 s (agrees with Codex's counting obstruction); lcm 30030 UNKNOWN after 2 h with 12 workers (24 Oct). Slice-capacity relaxation at L = 2310, q = 13 running (if its dual bound is negative, 30030 is excluded without the direct search). Without the normal form 2310 and 30030 were UNKNOWN after 15 min | `code/cpsat_cover.py` |
 
 ## Timeline
 
