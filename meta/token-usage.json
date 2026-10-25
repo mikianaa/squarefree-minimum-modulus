@@ -1,0 +1,404 @@
+{
+ "generated": "2026-10-25T06:45:32+00:00",
+ "start_date": "2026-10-23",
+ "claude_sources": [
+  {
+   "project": "c--Users-mekak-code-squarefree-minimum-modulus",
+   "pattern": "**\\*.jsonl",
+   "session": null
+  },
+  {
+   "project": "c--Users-mekak-code-minimum-modulus",
+   "pattern": "a5a2cf16-*.jsonl",
+   "session": "a5a2cf16"
+  },
+  {
+   "project": "c--Users-mekak-code-minimum-modulus",
+   "pattern": "a5a2cf16-*\\**\\*.jsonl",
+   "session": "a5a2cf16"
+  },
+  {
+   "project": "c--Users-mekak-code-minimum-modulus",
+   "pattern": "23ed4d4e-*\\subagents\\agent-a8f8beabeeea7ccf1.jsonl",
+   "session": "23ed4d4e/sqfree"
+  },
+  {
+   "project": "c--Users-mekak-code-minimum-modulus",
+   "pattern": "23ed4d4e-*\\subagents\\agent-a63a63ef8bf03cc3a.jsonl",
+   "session": "23ed4d4e/sqaudit"
+  },
+  {
+   "project": "c--Users-mekak-code-minimum-modulus",
+   "pattern": "23ed4d4e-*\\subagents\\agent-afb2874acfd6ab320.jsonl",
+   "session": "23ed4d4e/sqfree7"
+  }
+ ],
+ "codex_cwd_keys": [
+  "squarefree-minimum-modulus"
+ ],
+ "rates_usd_per_mtok": {
+  "claude-code": {
+   "claude-fable-5-1": {
+    "input": 10.0,
+    "output": 50.0,
+    "cache_read": 0.25,
+    "cache_write_5m": 12.5,
+    "cache_write_1h": 20.0
+   },
+   "claude-sonnet-5-5": {
+    "input": 2.0,
+    "output": 10.0,
+    "cache_read": 0.2,
+    "cache_write_5m": 2.5,
+    "cache_write_1h": 4.0
+   }
+  },
+  "codex": null
+ },
+ "totals": {
+  "claude-code": {
+   "total": 26295888,
+   "output": 229212,
+   "cost_usd": 51.13,
+   "sessions": 6
+  },
+  "codex": {
+   "total": 115597856,
+   "output": 827196,
+   "cost_usd": null,
+   "sessions": 11
+  }
+ },
+ "per_model": {
+  "claude-code/claude-fable-5-1": {
+   "total": 26295888,
+   "output": 229212,
+   "calls": 158
+  },
+  "codex/gpt-6-astra": {
+   "total": 94185324,
+   "output": 806140,
+   "calls": 722
+  },
+  "codex/codex-auto-review": {
+   "total": 21412532,
+   "output": 21056,
+   "calls": 256
+  }
+ },
+ "per_day": {
+  "2026-10-23": {
+   "claude-code": {
+    "total": 8357978,
+    "output": 25713
+   }
+  },
+  "2026-10-24": {
+   "claude-code": {
+    "total": 16652123,
+    "output": 148931
+   }
+  },
+  "2026-10-25": {
+   "codex": {
+    "total": 115597856,
+    "output": 827196
+   },
+   "claude-code": {
+    "total": 1285787,
+    "output": 54568
+   }
+  }
+ },
+ "per_session": [
+  {
+   "agent": "claude-code",
+   "session": "23ed4d4e/sqfree",
+   "models": {
+    "claude-fable-5-1": 6171180
+   },
+   "start": "2026-10-23T13:51:40.761000+00:00",
+   "end": "2026-10-23T14:38:03.589000+00:00",
+   "calls": 38,
+   "input": 1010,
+   "cache_write": 510968,
+   "cache_read": 5654793,
+   "output": 4409,
+   "total": 6171180,
+   "cost_usd": 8.03,
+   "hours": 0.77
+  },
+  {
+   "agent": "claude-code",
+   "session": "23ed4d4e/sqaudit",
+   "models": {
+    "claude-fable-5-1": 1068281
+   },
+   "start": "2026-10-23T14:43:02.905000+00:00",
+   "end": "2026-10-23T14:54:34.020000+00:00",
+   "calls": 12,
+   "input": 324,
+   "cache_write": 97928,
+   "cache_read": 969964,
+   "output": 65,
+   "total": 1068281,
+   "cost_usd": 1.47,
+   "hours": 0.19
+  },
+  {
+   "agent": "claude-code",
+   "session": "23ed4d4e/sqfree7",
+   "models": {
+    "claude-fable-5-1": 1118517
+   },
+   "start": "2026-10-23T14:43:03.022000+00:00",
+   "end": "2026-10-23T14:54:50.914000+00:00",
+   "calls": 13,
+   "input": 386,
+   "cache_write": 141218,
+   "cache_read": 955674,
+   "output": 21239,
+   "total": 1118517,
+   "cost_usd": 3.07,
+   "hours": 0.2
+  },
+  {
+   "agent": "claude-code",
+   "session": "a5a2cf16",
+   "models": {
+    "claude-fable-5-1": 16652123
+   },
+   "start": "2026-10-23T22:25:41.943000+00:00",
+   "end": "2026-10-24T12:25:34.325000+00:00",
+   "calls": 80,
+   "input": 2062,
+   "cache_write": 1058039,
+   "cache_read": 15443091,
+   "output": 148931,
+   "total": 16652123,
+   "cost_usd": 32.49,
+   "hours": 14.0
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T07-39-49",
+   "models": {
+    "gpt-6-astra": 92975341
+   },
+   "start": "2026-10-24T22:40:01.322000+00:00",
+   "end": "2026-10-25T06:45:30.897000+00:00",
+   "calls": 707,
+   "input": 1038866,
+   "cache_write": 0,
+   "cache_read": 91137152,
+   "output": 799323,
+   "total": 92975341,
+   "cost_usd": null,
+   "hours": 8.09
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T08-13-08",
+   "models": {
+    "codex-auto-review": 2641411
+   },
+   "start": "2026-10-24T23:13:11.845000+00:00",
+   "end": "2026-10-24T23:58:24.024000+00:00",
+   "calls": 33,
+   "input": 327079,
+   "cache_write": 0,
+   "cache_read": 2311680,
+   "output": 2652,
+   "total": 2641411,
+   "cost_usd": null,
+   "hours": 0.75
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T08-25-14",
+   "models": {
+    "gpt-6-astra": 1209983
+   },
+   "start": "2026-10-24T23:26:50.608000+00:00",
+   "end": "2026-10-24T23:30:15.270000+00:00",
+   "calls": 15,
+   "input": 95326,
+   "cache_write": 0,
+   "cache_read": 1107840,
+   "output": 6817,
+   "total": 1209983,
+   "cost_usd": null,
+   "hours": 0.06
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T09-02-10",
+   "models": {
+    "codex-auto-review": 2302640
+   },
+   "start": "2026-10-25T00:02:14.751000+00:00",
+   "end": "2026-10-25T01:05:58.933000+00:00",
+   "calls": 29,
+   "input": 283052,
+   "cache_write": 0,
+   "cache_read": 2017152,
+   "output": 2436,
+   "total": 2302640,
+   "cost_usd": null,
+   "hours": 1.06
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T10-10-00",
+   "models": {
+    "codex-auto-review": 2548172
+   },
+   "start": "2026-10-25T01:10:03.291000+00:00",
+   "end": "2026-10-25T01:57:12.925000+00:00",
+   "calls": 29,
+   "input": 151357,
+   "cache_write": 0,
+   "cache_read": 2394368,
+   "output": 2447,
+   "total": 2548172,
+   "cost_usd": null,
+   "hours": 0.79
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T11-01-00",
+   "models": {
+    "codex-auto-review": 3465945
+   },
+   "start": "2026-10-25T02:01:04.201000+00:00",
+   "end": "2026-10-25T03:05:57.925000+00:00",
+   "calls": 35,
+   "input": 308903,
+   "cache_write": 0,
+   "cache_read": 3154176,
+   "output": 2866,
+   "total": 3465945,
+   "cost_usd": null,
+   "hours": 1.08
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T12-09-08",
+   "models": {
+    "codex-auto-review": 3314386
+   },
+   "start": "2026-10-25T03:09:12.479000+00:00",
+   "end": "2026-10-25T04:05:15.350000+00:00",
+   "calls": 35,
+   "input": 168726,
+   "cache_write": 0,
+   "cache_read": 3142528,
+   "output": 3132,
+   "total": 3314386,
+   "cost_usd": null,
+   "hours": 0.93
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T13-08-05",
+   "models": {
+    "codex-auto-review": 2244774
+   },
+   "start": "2026-10-25T04:08:08.755000+00:00",
+   "end": "2026-10-25T04:48:23.307000+00:00",
+   "calls": 31,
+   "input": 135062,
+   "cache_write": 0,
+   "cache_read": 2107392,
+   "output": 2320,
+   "total": 2244774,
+   "cost_usd": null,
+   "hours": 0.67
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T13-57-45",
+   "models": {
+    "codex-auto-review": 1460879
+   },
+   "start": "2026-10-25T04:57:49.257000+00:00",
+   "end": "2026-10-25T05:32:36.725000+00:00",
+   "calls": 19,
+   "input": 119781,
+   "cache_write": 0,
+   "cache_read": 1339520,
+   "output": 1578,
+   "total": 1460879,
+   "cost_usd": null,
+   "hours": 0.58
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T14-37-57",
+   "models": {
+    "codex-auto-review": 3113372
+   },
+   "start": "2026-10-25T05:38:01.565000+00:00",
+   "end": "2026-10-25T06:31:33.267000+00:00",
+   "calls": 36,
+   "input": 148878,
+   "cache_write": 0,
+   "cache_read": 2961664,
+   "output": 2830,
+   "total": 3113372,
+   "cost_usd": null,
+   "hours": 0.89
+  },
+  {
+   "agent": "claude-code",
+   "session": "d81e1866",
+   "models": {
+    "claude-fable-5-1": 1183180
+   },
+   "start": "2026-10-25T06:32:55.194000+00:00",
+   "end": "2026-10-25T06:45:01.407000+00:00",
+   "calls": 13,
+   "input": 386,
+   "cache_write": 135579,
+   "cache_read": 993048,
+   "output": 54167,
+   "total": 1183180,
+   "cost_usd": 5.67,
+   "hours": 0.2
+  },
+  {
+   "agent": "codex",
+   "session": "2026-10-25T15-35-41",
+   "models": {
+    "codex-auto-review": 320953
+   },
+   "start": "2026-10-25T06:35:44.796000+00:00",
+   "end": "2026-10-25T06:45:30.081000+00:00",
+   "calls": 9,
+   "input": 54174,
+   "cache_write": 0,
+   "cache_read": 265984,
+   "output": 795,
+   "total": 320953,
+   "cost_usd": null,
+   "hours": 0.16
+  },
+  {
+   "agent": "claude-code",
+   "session": "77930ede",
+   "models": {
+    "claude-fable-5-1": 102607
+   },
+   "start": "2026-10-25T06:41:56.033000+00:00",
+   "end": "2026-10-25T06:42:04.229000+00:00",
+   "calls": 2,
+   "input": 34,
+   "cache_write": 17735,
+   "cache_read": 84437,
+   "output": 401,
+   "total": 102607,
+   "cost_usd": 0.4,
+   "hours": 0.0
+  }
+ ]
+}

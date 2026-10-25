@@ -37,6 +37,7 @@ project is and how it is laid out.
 | `data/cert*.json`, `data/schedule*.json` | Certificates (proof objects) and their schedules for C0 = 14, 12, 10; `cert10-full.json` uses exact stages through p = 15,485,863. |
 | `data/cft118-*.json`, `data/audit-*.json` | Validation against Cummings-Filaseta-Trifonov's published numbers at C0 = 118, and the independent audit outputs. |
 | `notes/` | Dated reports. |
+| `meta/` | Meta-analysis log of the agents' progress: `agent-progress.jsonl` (one record per milestone or attempt: bounds, method, candidates, failure cause), `meta_stats.py` (token usage and cost from the local Claude Code and Codex transcripts), rendered `agent-progress.md` and `token-usage.json`. Schema in `meta/README.md`. |
 | `literature/SOURCES.md` | References. |
 
 ## Provenance
