@@ -1,0 +1,1488 @@
+{
+ "part_a": {
+  "D5": 195000,
+  "D7": 142500,
+  "n_orbits": 32,
+  "per_stage_max": 0.2117787360856372,
+  "union_max": 0.2102459034063619,
+  "union_max_exact": "1219093/5798415",
+  "gain": 0.0015328326792752867,
+  "best": {
+   "table": [
+    0,
+    0,
+    3,
+    1,
+    1,
+    3
+   ],
+   "family": [
+    [
+     0,
+     0
+    ],
+    [
+     0,
+     1
+    ],
+    [
+     3,
+     0
+    ]
+   ],
+   "covered_mass_after_5": 0.08695652173913043,
+   "loss5": 0.08695652173913043,
+   "loss7_max": 0.12482221434650675,
+   "per_stage_sum": 0.2117787360856372,
+   "loss7_on_uncovered_at_per_stage_maximiser": 0.11754263880732925,
+   "double_counting_at_per_stage_maximiser": 0.007279575539177517,
+   "loss7_uncovered_max": 0.12328938166723148,
+   "union_objective": 0.2102459034063619,
+   "union_objective_exact": "1219093/5798415",
+   "union_argmax_stage7_residues": [
+    1,
+    0,
+    2,
+    0,
+    3,
+    2,
+    1
+   ]
+  },
+  "all_orbits": [
+   {
+    "table": [
+     0,
+     0,
+     3,
+     1,
+     1,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      0
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11754263880732925,
+    "double_counting_at_per_stage_maximiser": 0.007279575539177517,
+    "loss7_uncovered_max": 0.12328938166723148,
+    "union_objective": 0.2102459034063619,
+    "union_objective_exact": "1219093/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     3,
+     2,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     3,
+     4,
+     4,
+     6
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      2
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11754263880732925,
+    "double_counting_at_per_stage_maximiser": 0.007279575539177517,
+    "loss7_uncovered_max": 0.12328938166723148,
+    "union_objective": 0.2102459034063619,
+    "union_objective_exact": "1219093/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     3,
+     0,
+     3,
+     8,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     3,
+     4,
+     4,
+     5
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      3
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11754263880732925,
+    "double_counting_at_per_stage_maximiser": 0.007279575539177517,
+    "loss7_uncovered_max": 0.12328938166723148,
+    "union_objective": 0.2102459034063619,
+    "union_objective_exact": "1219093/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     3,
+     0,
+     1,
+     8,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     3,
+     8,
+     8,
+     9
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      3,
+      4
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11754263880732925,
+    "double_counting_at_per_stage_maximiser": 0.007279575539177517,
+    "loss7_uncovered_max": 0.12328938166723148,
+    "union_objective": 0.2102459034063619,
+    "union_objective_exact": "1219093/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     2,
+     19
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      2
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11064420190690041,
+    "double_counting_at_per_stage_maximiser": 0.014178012439606341,
+    "loss7_uncovered_max": 0.1232721355749804,
+    "union_objective": 0.21022865731411083,
+    "union_objective_exact": "406331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     2,
+     11
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      3
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11064420190690041,
+    "double_counting_at_per_stage_maximiser": 0.014178012439606341,
+    "loss7_uncovered_max": 0.1232721355749804,
+    "union_objective": 0.21022865731411083,
+    "union_objective_exact": "406331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     7,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     2,
+     7
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      0,
+      4
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11064420190690041,
+    "double_counting_at_per_stage_maximiser": 0.014178012439606341,
+    "loss7_uncovered_max": 0.1232721355749804,
+    "union_objective": 0.21022865731411083,
+    "union_objective_exact": "406331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     3,
+     0,
+     3,
+     8,
+     3
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     3,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11064420190690041,
+    "double_counting_at_per_stage_maximiser": 0.014178012439606341,
+    "loss7_uncovered_max": 0.1232721355749804,
+    "union_objective": 0.21022865731411083,
+    "union_objective_exact": "406331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     18,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      2
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11064420190690041,
+    "double_counting_at_per_stage_maximiser": 0.014178012439606341,
+    "loss7_uncovered_max": 0.1232721355749804,
+    "union_objective": 0.21022865731411083,
+    "union_objective_exact": "406331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     10,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      3
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11064420190690041,
+    "double_counting_at_per_stage_maximiser": 0.014178012439606341,
+    "loss7_uncovered_max": 0.1232721355749804,
+    "union_objective": 0.21022865731411083,
+    "union_objective_exact": "406331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     7,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     6,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      2,
+      4
+     ]
+    ],
+    "covered_mass_after_5": 0.08695652173913043,
+    "loss5": 0.08695652173913043,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.2117787360856372,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11064420190690041,
+    "double_counting_at_per_stage_maximiser": 0.014178012439606341,
+    "loss7_uncovered_max": 0.1232721355749804,
+    "union_objective": 0.21022865731411083,
+    "union_objective_exact": "406331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     3,
+     0,
+     3,
+     8,
+     3
+    ]
+   },
+   {
+    "table": [
+     0,
+     1,
+     2,
+     1,
+     1,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "covered_mass_after_5": 0.046583850931677016,
+    "loss5": 0.046583850931677016,
+    "loss7_max": 0.12482557733449572,
+    "per_stage_sum": 0.17140942826617273,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.1244616847879981,
+    "double_counting_at_per_stage_maximiser": 0.0003638925464976205,
+    "loss7_uncovered_max": 0.1244616847879981,
+    "union_objective": 0.17104553571967512,
+    "union_objective_exact": "991793/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     1,
+     2,
+     1,
+     3,
+     1,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     1,
+     1,
+     2,
+     2,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.046583850931677016,
+    "loss5": 0.046583850931677016,
+    "loss7_max": 0.12482557733449572,
+    "per_stage_sum": 0.17140942826617273,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.1244616847879981,
+    "double_counting_at_per_stage_maximiser": 0.0003638925464976205,
+    "loss7_uncovered_max": 0.1244616847879981,
+    "union_objective": 0.17104553571967512,
+    "union_objective_exact": "991793/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     1,
+     2,
+     1,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     1,
+     2,
+     4,
+     4,
+     6
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      2
+     ]
+    ],
+    "covered_mass_after_5": 0.046583850931677016,
+    "loss5": 0.046583850931677016,
+    "loss7_max": 0.12482557733449572,
+    "per_stage_sum": 0.17140942826617273,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.1244616847879981,
+    "double_counting_at_per_stage_maximiser": 0.0003638925464976205,
+    "loss7_uncovered_max": 0.1244616847879981,
+    "union_objective": 0.17104553571967512,
+    "union_objective_exact": "991793/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     1,
+     3,
+     1,
+     3,
+     1,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     1,
+     2,
+     4,
+     5,
+     4
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      3
+     ]
+    ],
+    "covered_mass_after_5": 0.046583850931677016,
+    "loss5": 0.046583850931677016,
+    "loss7_max": 0.12482557733449572,
+    "per_stage_sum": 0.17140942826617273,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11066481098714046,
+    "double_counting_at_per_stage_maximiser": 0.014160766347355268,
+    "loss7_uncovered_max": 0.1244616847879981,
+    "union_objective": 0.17104553571967512,
+    "union_objective_exact": "991793/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     2,
+     3,
+     2,
+     1,
+     5,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     1,
+     2,
+     8,
+     8,
+     10
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     [
+      1,
+      4
+     ]
+    ],
+    "covered_mass_after_5": 0.046583850931677016,
+    "loss5": 0.046583850931677016,
+    "loss7_max": 0.12482557733449572,
+    "per_stage_sum": 0.17140942826617273,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.1244616847879981,
+    "double_counting_at_per_stage_maximiser": 0.0003638925464976205,
+    "loss7_uncovered_max": 0.1244616847879981,
+    "union_objective": 0.17104553571967512,
+    "union_objective_exact": "991793/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     1,
+     2,
+     1,
+     5,
+     1,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     1,
+     3,
+     1
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      2,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.045548654244306416,
+    "loss5": 0.045548654244306416,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.17037086859081318,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11755988489958032,
+    "double_counting_at_per_stage_maximiser": 0.007262329446926444,
+    "loss7_uncovered_max": 0.12445832180000914,
+    "union_objective": 0.17000697604431556,
+    "union_objective_exact": "985771/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     2,
+     2,
+     2,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     3,
+     1,
+     1,
+     1
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      3,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.045548654244306416,
+    "loss5": 0.045548654244306416,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.17037086859081318,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.12445832180000914,
+    "double_counting_at_per_stage_maximiser": 0.0003638925464976205,
+    "loss7_uncovered_max": 0.12445832180000914,
+    "union_objective": 0.17000697604431556,
+    "union_objective_exact": "985771/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     2,
+     2,
+     1,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     1,
+     1,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.045548654244306416,
+    "loss5": 0.045548654244306416,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.17037086859081318,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11755988489958032,
+    "double_counting_at_per_stage_maximiser": 0.007262329446926444,
+    "loss7_uncovered_max": 0.12328938166723148,
+    "union_objective": 0.1688380359115379,
+    "union_objective_exact": "326331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     3,
+     2,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     2,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ],
+     null
+    ],
+    "covered_mass_after_5": 0.045548654244306416,
+    "loss5": 0.045548654244306416,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.17037086859081318,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11755988489958032,
+    "double_counting_at_per_stage_maximiser": 0.007262329446926444,
+    "loss7_uncovered_max": 0.12328938166723148,
+    "union_objective": 0.1688380359115379,
+    "union_objective_exact": "326331/1932805",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     0,
+     1,
+     1,
+     3
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     null,
+     [
+      0,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.044513457556935816,
+    "loss5": 0.044513457556935816,
+    "loss7_max": 0.12213182395533952,
+    "per_stage_sum": 0.16664528151227534,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.1219408234836589,
+    "double_counting_at_per_stage_maximiser": 0.00019100047168062306,
+    "loss7_uncovered_max": 0.1219408234836589,
+    "union_objective": 0.1664542810405947,
+    "union_objective_exact": "965171/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     2,
+     0,
+     3,
+     2,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     3
+    ],
+    "family": [
+     null,
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.043478260869565216,
+    "loss5": 0.043478260869565216,
+    "loss7_max": 0.11944143356417228,
+    "per_stage_sum": 0.1629196944337375,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11925086424479793,
+    "double_counting_at_per_stage_maximiser": 0.00019056931937434628,
+    "loss7_uncovered_max": 0.11925086424479793,
+    "union_objective": 0.16272912511436316,
+    "union_objective_exact": "943571/5798415",
+    "union_argmax_stage7_residues": [
+     0,
+     2,
+     2,
+     0,
+     2,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     1,
+     1,
+     1,
+     1,
+     1
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "covered_mass_after_5": 0.005175983436853002,
+    "loss5": 0.005175983436853002,
+    "loss7_max": 0.12482557733449572,
+    "per_stage_sum": 0.13000156077134872,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.12447893088024917,
+    "double_counting_at_per_stage_maximiser": 0.0003466464542465484,
+    "loss7_uncovered_max": 0.12447893088024917,
+    "union_objective": 0.12965491431710216,
+    "union_objective_exact": "107399/828345",
+    "union_argmax_stage7_residues": [
+     1,
+     1,
+     1,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     1,
+     2,
+     1,
+     1,
+     1
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.005175983436853002,
+    "loss5": 0.005175983436853002,
+    "loss7_max": 0.12482557733449572,
+    "per_stage_sum": 0.13000156077134872,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.12447893088024917,
+    "double_counting_at_per_stage_maximiser": 0.0003466464542465484,
+    "loss7_uncovered_max": 0.12447893088024917,
+    "union_objective": 0.12965491431710216,
+    "union_objective_exact": "107399/828345",
+    "union_argmax_stage7_residues": [
+     1,
+     1,
+     2,
+     1,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     1,
+     1,
+     1
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     null,
+     [
+      1,
+      0
+     ]
+    ],
+    "covered_mass_after_5": 0.004140786749482402,
+    "loss5": 0.004140786749482402,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.12896300109598915,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.12447556789226022,
+    "double_counting_at_per_stage_maximiser": 0.0003466464542465484,
+    "loss7_uncovered_max": 0.12447556789226022,
+    "union_objective": 0.12861635464174262,
+    "union_objective_exact": "745771/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     2,
+     1,
+     1,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     2,
+     2,
+     2
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     null,
+     [
+      1,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.004140786749482402,
+    "loss5": 0.004140786749482402,
+    "loss7_max": 0.12482221434650675,
+    "per_stage_sum": 0.12896300109598915,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.12447556789226022,
+    "double_counting_at_per_stage_maximiser": 0.0003466464542465484,
+    "loss7_uncovered_max": 0.12447556789226022,
+    "union_objective": 0.12861635464174262,
+    "union_objective_exact": "745771/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     2,
+     2,
+     1,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     0,
+     1,
+     1
+    ],
+    "family": [
+     null,
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      0
+     ]
+    ],
+    "covered_mass_after_5": 0.003105590062111801,
+    "loss5": 0.003105590062111801,
+    "loss7_max": 0.12213182395533952,
+    "per_stage_sum": 0.1252374140174513,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.12178560865339924,
+    "double_counting_at_per_stage_maximiser": 0.0003462153019402716,
+    "loss7_uncovered_max": 0.12195806957590997,
+    "union_objective": 0.12506365963802177,
+    "union_objective_exact": "725171/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     2,
+     1,
+     3,
+     1,
+     2,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     0,
+     2,
+     1
+    ],
+    "family": [
+     null,
+     [
+      0,
+      0
+     ],
+     [
+      1,
+      1
+     ]
+    ],
+    "covered_mass_after_5": 0.003105590062111801,
+    "loss5": 0.003105590062111801,
+    "loss7_max": 0.12213182395533952,
+    "per_stage_sum": 0.1252374140174513,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.12178560865339924,
+    "double_counting_at_per_stage_maximiser": 0.0003462153019402716,
+    "loss7_uncovered_max": 0.12195806957590997,
+    "union_objective": 0.12506365963802177,
+    "union_objective_exact": "725171/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     2,
+     2,
+     3,
+     3,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     0,
+     1,
+     1,
+     1
+    ],
+    "family": [
+     [
+      0,
+      0
+     ],
+     null,
+     null
+    ],
+    "covered_mass_after_5": 0.003105590062111801,
+    "loss5": 0.003105590062111801,
+    "loss7_max": 0.12213182395533952,
+    "per_stage_sum": 0.1252374140174513,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.12195806957590997,
+    "double_counting_at_per_stage_maximiser": 0.00017375437942955101,
+    "loss7_uncovered_max": 0.12195806957590997,
+    "union_objective": 0.12506365963802177,
+    "union_objective_exact": "725171/5798415",
+    "union_argmax_stage7_residues": [
+     1,
+     0,
+     1,
+     0,
+     1,
+     1,
+     1
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     1,
+     0,
+     0,
+     1
+    ],
+    "family": [
+     null,
+     [
+      0,
+      0
+     ],
+     null
+    ],
+    "covered_mass_after_5": 0.002070393374741201,
+    "loss5": 0.002070393374741201,
+    "loss7_max": 0.11944143356417228,
+    "per_stage_sum": 0.12151182693891348,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11926811033704901,
+    "double_counting_at_per_stage_maximiser": 0.0001733232271232742,
+    "loss7_uncovered_max": 0.11926811033704901,
+    "union_objective": 0.12133850371179021,
+    "union_objective_exact": "703571/5798415",
+    "union_argmax_stage7_residues": [
+     0,
+     2,
+     1,
+     0,
+     1,
+     2,
+     2
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "family": [
+     null,
+     null,
+     [
+      0,
+      0
+     ]
+    ],
+    "covered_mass_after_5": 0.0010351966873706005,
+    "loss5": 0.0010351966873706005,
+    "loss7_max": 0.11675104317300504,
+    "per_stage_sum": 0.11778623986037563,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11675061202069877,
+    "double_counting_at_per_stage_maximiser": 4.311523062768015e-07,
+    "loss7_uncovered_max": 0.11675061202069877,
+    "union_objective": 0.11778580870806936,
+    "union_objective_exact": "227657/1932805",
+    "union_argmax_stage7_residues": [
+     0,
+     2,
+     1,
+     0,
+     1,
+     2,
+     11
+    ]
+   },
+   {
+    "table": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "family": [
+     null,
+     null,
+     null
+    ],
+    "covered_mass_after_5": 0.0,
+    "loss5": 0.0,
+    "loss7_max": 0.11137026239067055,
+    "per_stage_sum": 0.11137026239067055,
+    "loss7_on_uncovered_at_per_stage_maximiser": 0.11137026239067055,
+    "double_counting_at_per_stage_maximiser": 0.0,
+    "loss7_uncovered_max": 0.11137026239067055,
+    "union_objective": 0.11137026239067055,
+    "union_objective_exact": "191/1715",
+    "union_argmax_stage7_residues": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "seconds": 2.9
+ },
+ "part_b": [
+  {
+   "label": "aligned families of stage11.py",
+   "table": [
+    7,
+    1,
+    1,
+    2,
+    0,
+    0
+   ],
+   "F7": {
+    "2": [
+     0,
+     0
+    ],
+    "3": [
+     0,
+     1
+    ],
+    "5": [
+     0,
+     2
+    ],
+    "6": [
+     0,
+     3
+    ],
+    "10": [
+     0,
+     4
+    ],
+    "15": [
+     0,
+     5
+    ],
+    "30": [
+     0,
+     6
+    ]
+   },
+   "D5": 195000,
+   "D7": 142500,
+   "D11": 363750,
+   "loss5": 0.08695652173913043,
+   "loss7": 0.08895034246427688,
+   "per_stage_sum_5_7": 0.17590686420340731,
+   "covered_mass_after_7": 0.12861635464174262,
+   "double_counting_5_7": 0.047290509561664695,
+   "recorded_stage11_adversary": {
+    "residues": {
+     "1": 0,
+     "2": 0,
+     "3": 0,
+     "5": 4,
+     "6": 3,
+     "7": 4,
+     "10": 4,
+     "14": 4,
+     "15": 9,
+     "21": 18,
+     "30": 9,
+     "35": 4,
+     "42": 39,
+     "70": 4,
+     "105": 54,
+     "210": 165
+    },
+    "charge": 0.05509156662597505,
+    "charge_on_covered": 0.007799264074437281,
+    "charge_on_uncovered": 0.047292302551537775,
+    "fraction_double_counted": 0.14156911033929495
+   },
+   "aligned_stage11": {
+    "best_all_fibres": 0.04998350450086823,
+    "alignment_all": 18,
+    "best_uncovered_only": 0.04903351991133281,
+    "alignment_uncovered": 4
+   }
+  },
+  {
+   "label": "two-stage maximiser of exact_two_stage.py",
+   "table": [
+    0,
+    0,
+    1,
+    2,
+    2,
+    19
+   ],
+   "F7": {
+    "2": [
+     1,
+     0
+    ],
+    "3": [
+     2,
+     1
+    ],
+    "5": [
+     2,
+     2
+    ],
+    "6": [
+     1,
+     3
+    ],
+    "10": [
+     3,
+     4
+    ],
+    "15": [
+     2,
+     5
+    ],
+    "30": [
+     2,
+     6
+    ]
+   },
+   "D5": 195000,
+   "D7": 142500,
+   "D11": 363750,
+   "loss5": 0.08695652173913043,
+   "loss7": 0.12482221434650675,
+   "per_stage_sum_5_7": 0.2117787360856372,
+   "covered_mass_after_7": 0.19760072364603085,
+   "double_counting_5_7": 0.014178012439606341,
+   "aligned_stage11": {
+    "best_all_fibres": 0.05036262136719304,
+    "alignment_all": 83,
+    "best_uncovered_only": 0.047812807942920865,
+    "alignment_uncovered": 38
+   }
+  }
+ ]
+}
