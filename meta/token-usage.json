@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T16:22:30+00:00",
+ "generated": "2026-10-26T19:17:42+00:00",
  "start_date": "2026-10-23",
  "claude_sources": [
   {
@@ -57,9 +57,9 @@
  },
  "totals": {
   "claude-code": {
-   "total": 196027974,
-   "output": 1217652,
-   "cost_usd": 178.22,
+   "total": 275131274,
+   "output": 1305396,
+   "cost_usd": 205.03,
    "sessions": 8
   },
   "codex": {
@@ -96,9 +96,9 @@
    "calls": 1
   },
   "claude-code/claude-sonnet-5": {
-   "total": 125727062,
-   "output": 527017,
-   "calls": 444
+   "total": 204830362,
+   "output": 614761,
+   "calls": 576
   }
  },
  "per_day": {
@@ -136,8 +136,8 @@
   },
   "2026-10-27": {
    "claude-code": {
-    "total": 36828582,
-    "output": 103514
+    "total": 115931882,
+    "output": 191258
    }
   }
  },
@@ -574,18 +574,18 @@
    "agent": "claude-code",
    "session": "b1b21c80",
    "models": {
-    "claude-sonnet-5": 86832458
+    "claude-sonnet-5": 165935758
    },
    "start": "2026-10-26T12:49:47.504000+00:00",
-   "end": "2026-10-26T16:22:28.692000+00:00",
-   "calls": 317,
-   "input": 634,
-   "cache_write": 639976,
-   "cache_read": 85803423,
-   "output": 388425,
-   "total": 86832458,
-   "cost_usd": 52.49,
-   "hours": 3.54
+   "end": "2026-10-26T19:17:39.245000+00:00",
+   "calls": 449,
+   "input": 898,
+   "cache_write": 774767,
+   "cache_read": 164683924,
+   "output": 476169,
+   "total": 165935758,
+   "cost_usd": 79.3,
+   "hours": 6.46
   }
  ]
 }
