@@ -136,6 +136,42 @@ overall route, not just a numerical curiosity: whichever end of this
 spectrum is more promising for one side of the problem is less promising
 for the other.
 
+## A much better k=8->9 point: omega=4 can beat omega=3, down to 6.35x
+
+The margin-matters section above only searched omega(m)=3 (the *minimum*
+omega clearing the ratio at this scale), on the assumption that higher
+omega always means smaller |R|. That assumption is wrong: |R| = L/m
+depends on *which* primes are excluded, not just how many, and some
+omega=4 choices exclude a product of primes larger than any omega=3
+choice's excluded set. Searching omega in {3,4,5} together for the
+largest |R| that still clears ratio 22:
+
+| m | omega | ratio | margin | Lm = \|R\| | compressed vars | status | time | general-witness F-ratio |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1155 (3*5*7*11) | 4 | 27.81 | 5.81 | 8,398 | 241,904 | **SAT** | 42.3s | **9.52x** |
+| 770 (2*5*7*11) | 4 | 24.61 | 2.61 | 12,597 | 322,544 | **SAT** | 58.1s | **6.35x** |
+| 714 (2*3*7*17) | 4 | 22.74 | 0.74 | 13,585 | 322,544 | UNKNOWN | (251s) | (5.89x, if it held) |
+| 462 (2*3*7*11) | 4 | 22.05 | 0.05 | 20,995 | -- | not attempted | -- | (3.81x, if it held) |
+
+Both confirmed points were independently re-verified on the real domain
+(255 divisor/residue pairs each), exactly as for every other SAT result
+tonight. **6.35x is the best confirmed F-side comparison found for the
+primary open case (k=8->9) tonight** -- a large improvement over the
+34.6x/29.3x figures found before this search was widened past omega=3,
+and over an order of magnitude better than the first (omega=3-only)
+pass. The same margin-vs-virtual-period-size pattern holds: m=714, with a
+smaller margin (0.74) and a larger virtual period (13,585) than m=770,
+did not resolve in comparable time. m=462, with an even larger |R| but a
+razor-thin margin (0.05), was not attempted -- expected to be harder
+still, consistent with the pattern throughout this note.
+
+This changes the "next steps" framing in
+`overnight-session-summary-2026-10-27.md`: the k=8->9 omega=3 search was
+exhausted, but omega=4 (and untried omega=5) was not, and turned out to
+be where the best point actually is. The same widened search should be
+tried at k=9->10 too (only omega=4 was searched there, section below);
+there may be an even better point at omega=5 or 6.
+
 ## The F-side: three heuristics tried, all far short -- and biasing toward m makes it WORSE
 
 Does an actual family F achieve a residual anywhere near {4199 | x}
@@ -174,13 +210,15 @@ overlap with the target occurs by chance. The honest headline number for
 "how far is F from the coherent target" is **34.6x** for m=4199 itself,
 from a construction that was not even trying to get there, and the two
 deliberate methods both did worse. (Using the best *confirmed-SAT*
-coherent target overall instead of m=4199 specifically -- m=3553, section
-above -- the same general witness gives |R|/|R_target| = 79979/2730 =
-**29.3x**, slightly better still, for exactly the same reason: this
-witness's residual happens to have zero multiples of 3553 too.) That is
-itself informative: it suggests the coherent target is not merely hard to
-*reach deliberately*, it may not sit anywhere near where general-purpose
-good covers naturally land either.
+coherent target overall instead of m=4199 specifically -- m=770, the
+omega=4 point found later in this note -- the same general witness gives
+|R|/|R_target| = 79979/12597 = **6.35x**, substantially better, for
+exactly the same reason: this witness's residual also happens to have
+zero multiples of 770.) That is itself informative: it suggests the
+coherent target is not merely hard to *reach deliberately*, it may not sit
+anywhere near where general-purpose good covers naturally land either --
+though 6.35x is close enough that this specific general-purpose witness is
+clearly not the last word on how close F could plausibly get.
 
 This is still much weaker evidence than the G-side's exact result: it only
 rules out these three heuristic family-building strategies, not every
