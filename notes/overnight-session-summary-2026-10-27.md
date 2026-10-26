@@ -62,15 +62,22 @@ entries 26-39).
    family F reach a residual anywhere near that target -- was tested with
    three heuristics; the most honest comparison (the best *existing*
    general-purpose witness, built with no awareness of the target at all)
-   falls short by 34.6x (k=8->9) and 525x (k=9->10), and *trying* to steer
-   a construction toward the target makes it worse, not better. A
-   follow-up completed the picture across all four omega=3 targets that
-   clear the capacity threshold at this scale: margin above the threshold,
-   not just clearing it, predicts solve difficulty with a clean monotonic
-   trend (0.94 margin -> SAT in 22s; 0.63 -> SAT in 238s; 0.23 and 0.10 ->
-   UNKNOWN after several minutes each) -- and, intriguingly, an inverse
-   relationship with F-friendliness (the easiest G-side cases have the
-   smallest, least F-achievable residuals).
+   falls short by 34.6x (k=8->9) and, initially, 525x (k=9->10) -- and
+   *trying* to steer a construction toward the target makes it worse, not
+   better. A follow-up completed the margin-vs-solvability picture across
+   all four omega=3 targets at k=8->9 that clear the capacity threshold:
+   margin above the threshold, not just clearing it, predicts solve
+   difficulty with a clean monotonic trend (0.94 margin -> SAT in 22s;
+   0.63 -> SAT in 238s; 0.23 and 0.10 -> UNKNOWN after several minutes
+   each) -- and, intriguingly, an inverse relationship with F-friendliness
+   (the easiest G-side cases have the smallest, least F-achievable
+   residuals). A second follow-up then improved the k=9->10 F-side
+   comparison substantially by deliberately searching for larger,
+   still-solvable coherent targets: four confirmed-SAT points (each
+   independently re-verified) take the comparison from 525x down to
+   **27.2x** (|R| = 44,574), with the practical frontier for this exact
+   method sitting strictly between |R| = 44,574 (SAT) and 74,290 (UNKNOWN
+   after 311s).
    
    The reduction technique itself (sparse coherent target -> tiny virtual
    period) is the most likely-to-be-reusable output of the night; the
@@ -124,9 +131,12 @@ entries 26-39).
 
 ## Suggested next steps, roughly in order of promise
 
-1. **Push the coherent-virtual-reduction G-side result further**: try the
-   next-best omega=3/omega=4 targets with larger margins (not just the
-   single best one found tonight), and consider whether the reduction
+1. **Push the coherent-virtual-reduction G-side result further**: the
+   search for larger, still-solvable targets was only done at k=9->10
+   (down to 27.2x); redo it at the primary k=8->9 case (only the single
+   best-margin omega=3 target, 34.6x, was reported there -- there may be
+   a similarly better point among the smaller-margin omega=3/4 options,
+   same as the 9->10 case found). Also consider whether the reduction
    generalizes to *partially* coherent targets (a few coset blocks, not a
    single class) -- which is exactly where the F-side and Codex's
    maximiser search might usefully meet this technique.
