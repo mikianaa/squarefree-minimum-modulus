@@ -165,6 +165,17 @@ did not resolve in comparable time. m=462, with an even larger |R| but a
 razor-thin margin (0.05), was not attempted -- expected to be harder
 still, consistent with the pattern throughout this note.
 
+Trying the same trick at k=9->10 (q=29): m=1155 (=3*5*7*11, omega=4,
+margin 1.06, |R|=193,154 -- which would give F-ratio 6.28x, as good as
+the k=8->9 result, if it held) is **UNKNOWN after 291s** (5.8 million
+compressed variables -- far more than any case tried tonight). Not
+pursued further given the time budget; the confirmed best for k=9->10
+remains 27.2x (m=5005, section above). The same omega=4-vs-omega=3
+oversight likely applies there too (the search above only tried omega=4
+options with margin high enough relative to their own |R|, not
+specifically the largest-|R| omega=4 options), so there is likely a
+better confirmable point at k=9->10 as well; it was not found tonight.
+
 This changes the "next steps" framing in
 `overnight-session-summary-2026-10-27.md`: the k=8->9 omega=3 search was
 exhausted, but omega=4 (and untried omega=5) was not, and turned out to
