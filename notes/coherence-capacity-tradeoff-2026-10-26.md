@@ -96,6 +96,50 @@ and (b) has cap(R)/|R| anywhere near 22-28. This note supplies the
 closed-form coherent-residual capacity formula above as a cheap building
 block for exploring that continuum, but does not explore it.
 
+## Follow-up: a naive "lean toward coherence" construction does not pay off
+
+Tried the obvious next step: build an *actual* family biased toward the
+coherent target instead of just asserting its theoretical capacity.
+`code/safe_residue_construction.py` restricts every candidate modulus d to
+residues a with a mod gcd(d, m) != 0; by the standard CRT solvability
+criterion (x ≡ a (mod d) and x ≡ 0 (mod m) have a common solution iff
+a ≡ 0 (mod gcd(d, m))), such a progression can never contain a multiple of
+m, so the resulting family's uncovered set is guaranteed to contain every
+multiple of m, automatically.
+
+**Bug caught by this guarantee itself**: the first version of this script
+treated every divisor d coprime to m (gcd = 1) as fully safe (no residues
+excluded) and got uncovered = 2,854,002 for m = 390, *below* the coherent
+target of 572,033 -- impossible under the stated guarantee, which is
+exactly what caught the bug. The CRT criterion with gcd(d,m) = 1 gives
+"a ≡ 0 (mod 1)", true for every a, so a divisor coprime to m has *no* safe
+residue at all (every one of its residue classes, being equidistributed
+modulo m by CRT, contains some multiple of m) -- the opposite of what the
+first version assumed. Fixed by skipping every divisor coprime to m
+entirely; an assertion that the construction's uncovered set actually does
+contain every multiple of m now guards against a repeat.
+
+With the fix, both m tried come out *worse*, not better, than the
+unconstrained spread greedy (7.88 at |R| = 1,213,060):
+
+| m | omega(m) | usable moduli | uncovered | cap(R)/\|R\| | fraction of 28 |
+| - | - | - | - | - | - |
+| 30 | 3 | 447 / 510 | 13,524,536 | 8.15 | 0.291 |
+| 390 | 4 | 479 / 510 | 7,071,195 | 7.02 | 0.251 |
+| (unconstrained greedy, for comparison) | -- | 510 / 510 | 1,213,060 | 7.88 | 0.281 |
+
+Excluding every divisor coprime to m, and every unsafe residue of the
+rest, costs so much raw covering power (residual 6-11x larger) that the
+mild coherence gain is a wash at best (m=30) or a net loss (m=390). This is
+a negative result for this specific naive approach, not for the broader
+"partially coherent" idea: it shows that crudely forbidding "risky"
+residues is not how to approach the coherent end of the spectrum, since it
+throws away far more capacity than it protects. A real attempt would need
+to choose *which* points to sacrifice more surgically (e.g. an actual LP
+over the two objectives) rather than blanket-excluding whole divisors --
+exactly the kind of search `code/extremal_slice_capacity.py` is already
+doing, not duplicated here.
+
 ## Reproduction
 
 The closed form and the table above were computed directly (no file

@@ -1,0 +1,2248 @@
+{
+  "L": 223092870,
+  "m": 30,
+  "moduli_available": 510,
+  "moduli_used": 447,
+  "uncovered": 13524536,
+  "coherent_target_size": 7436429,
+  "extra_beyond_coherent": 6088107,
+  "seconds": 56.4,
+  "scope": "safe-residue-restricted greedy: an ACTUAL distinct family whose uncovered set automatically contains every multiple of m; 'extra' is how many additional (non-multiple-of-m) points it also failed to cover, i.e. how far short of the pure coherent target this achievable construction falls.",
+  "system": [
+    {
+      "modulus": 3,
+      "residue": 1,
+      "gain": 74364290
+    },
+    {
+      "modulus": 5,
+      "residue": 1,
+      "gain": 29745716
+    },
+    {
+      "modulus": 6,
+      "residue": 2,
+      "gain": 29745716
+    },
+    {
+      "modulus": 10,
+      "residue": 3,
+      "gain": 14872858
+    },
+    {
+      "modulus": 14,
+      "residue": 1,
+      "gain": 6374082
+    },
+    {
+      "modulus": 15,
+      "residue": 9,
+      "gain": 13810511
+    },
+    {
+      "modulus": 21,
+      "residue": 2,
+      "gain": 3187041
+    },
+    {
+      "modulus": 22,
+      "residue": 1,
+      "gain": 2607579
+    },
+    {
+      "modulus": 26,
+      "residue": 1,
+      "gain": 2005830
+    },
+    {
+      "modulus": 30,
+      "residue": 12,
+      "gain": 7436429
+    },
+    {
+      "modulus": 33,
+      "residue": 2,
+      "gain": 1337220
+    },
+    {
+      "modulus": 34,
+      "residue": 1,
+      "gain": 1337220
+    },
+    {
+      "modulus": 35,
+      "residue": 7,
+      "gain": 1594176
+    },
+    {
+      "modulus": 38,
+      "residue": 1,
+      "gain": 1042176
+    },
+    {
+      "modulus": 39,
+      "residue": 2,
+      "gain": 834624
+    },
+    {
+      "modulus": 42,
+      "residue": 5,
+      "gain": 1967328
+    },
+    {
+      "modulus": 46,
+      "residue": 1,
+      "gain": 693792
+    },
+    {
+      "modulus": 51,
+      "residue": 2,
+      "gain": 431244
+    },
+    {
+      "modulus": 55,
+      "residue": 3,
+      "gain": 676039
+    },
+    {
+      "modulus": 57,
+      "residue": 2,
+      "gain": 359370
+    },
+    {
+      "modulus": 65,
+      "residue": 3,
+      "gain": 520030
+    },
+    {
+      "modulus": 66,
+      "residue": 3,
+      "gain": 836352
+    },
+    {
+      "modulus": 69,
+      "residue": 2,
+      "gain": 277695
+    },
+    {
+      "modulus": 70,
+      "residue": 17,
+      "gain": 1214433
+    },
+    {
+      "modulus": 78,
+      "residue": 3,
+      "gain": 570240
+    },
+    {
+      "modulus": 85,
+      "residue": 3,
+      "gain": 367080
+    },
+    {
+      "modulus": 95,
+      "residue": 3,
+      "gain": 309120
+    },
+    {
+      "modulus": 102,
+      "residue": 3,
+      "gain": 392040
+    },
+    {
+      "modulus": 105,
+      "residue": 3,
+      "gain": 794880
+    },
+    {
+      "modulus": 110,
+      "residue": 5,
+      "gain": 627660
+    },
+    {
+      "modulus": 114,
+      "residue": 3,
+      "gain": 304920
+    },
+    {
+      "modulus": 115,
+      "residue": 3,
+      "gain": 207360
+    },
+    {
+      "modulus": 130,
+      "residue": 5,
+      "gain": 440640
+    },
+    {
+      "modulus": 138,
+      "residue": 5,
+      "gain": 233070
+    },
+    {
+      "modulus": 154,
+      "residue": 11,
+      "gain": 281010
+    },
+    {
+      "modulus": 165,
+      "residue": 18,
+      "gain": 456192
+    },
+    {
+      "modulus": 170,
+      "residue": 5,
+      "gain": 281180
+    },
+    {
+      "modulus": 182,
+      "residue": 13,
+      "gain": 222258
+    },
+    {
+      "modulus": 190,
+      "residue": 8,
+      "gain": 228096
+    },
+    {
+      "modulus": 195,
+      "residue": 18,
+      "gain": 323136
+    },
+    {
+      "modulus": 210,
+      "residue": 18,
+      "gain": 592416
+    },
+    {
+      "modulus": 230,
+      "residue": 15,
+      "gain": 181832
+    },
+    {
+      "modulus": 231,
+      "residue": 32,
+      "gain": 157420
+    },
+    {
+      "modulus": 238,
+      "residue": 13,
+      "gain": 143820
+    },
+    {
+      "modulus": 255,
+      "residue": 18,
+      "gain": 185130
+    },
+    {
+      "modulus": 266,
+      "residue": 13,
+      "gain": 115560
+    },
+    {
+      "modulus": 273,
+      "residue": 20,
+      "gain": 112256
+    },
+    {
+      "modulus": 285,
+      "residue": 18,
+      "gain": 163350
+    },
+    {
+      "modulus": 286,
+      "residue": 9,
+      "gain": 97994
+    },
+    {
+      "modulus": 322,
+      "residue": 11,
+      "gain": 91409
+    },
+    {
+      "modulus": 330,
+      "residue": 48,
+      "gain": 290400
+    },
+    {
+      "modulus": 345,
+      "residue": 18,
+      "gain": 105600
+    },
+    {
+      "modulus": 357,
+      "residue": 20,
+      "gain": 70352
+    },
+    {
+      "modulus": 374,
+      "residue": 7,
+      "gain": 68677
+    },
+    {
+      "modulus": 385,
+      "residue": 137,
+      "gain": 112200
+    },
+    {
+      "modulus": 390,
+      "residue": 15,
+      "gain": 226096
+    },
+    {
+      "modulus": 399,
+      "residue": 41,
+      "gain": 55452
+    },
+    {
+      "modulus": 418,
+      "residue": 15,
+      "gain": 56307
+    },
+    {
+      "modulus": 429,
+      "residue": 8,
+      "gain": 44438
+    },
+    {
+      "modulus": 442,
+      "residue": 11,
+      "gain": 53489
+    },
+    {
+      "modulus": 455,
+      "residue": 62,
+      "gain": 78232
+    },
+    {
+      "modulus": 462,
+      "residue": 179,
+      "gain": 148478
+    },
+    {
+      "modulus": 483,
+      "residue": 14,
+      "gain": 42350
+    },
+    {
+      "modulus": 494,
+      "residue": 17,
+      "gain": 44374
+    },
+    {
+      "modulus": 506,
+      "residue": 17,
+      "gain": 45306
+    },
+    {
+      "modulus": 510,
+      "residue": 48,
+      "gain": 147840
+    },
+    {
+      "modulus": 546,
+      "residue": 419,
+      "gain": 95357
+    },
+    {
+      "modulus": 561,
+      "residue": 29,
+      "gain": 30053
+    },
+    {
+      "modulus": 570,
+      "residue": 48,
+      "gain": 129360
+    },
+    {
+      "modulus": 595,
+      "residue": 27,
+      "gain": 45497
+    },
+    {
+      "modulus": 598,
+      "residue": 19,
+      "gain": 35625
+    },
+    {
+      "modulus": 627,
+      "residue": 26,
+      "gain": 25431
+    },
+    {
+      "modulus": 646,
+      "residue": 9,
+      "gain": 29249
+    },
+    {
+      "modulus": 663,
+      "residue": 38,
+      "gain": 23216
+    },
+    {
+      "modulus": 665,
+      "residue": 32,
+      "gain": 37555
+    },
+    {
+      "modulus": 690,
+      "residue": 48,
+      "gain": 92400
+    },
+    {
+      "modulus": 714,
+      "residue": 33,
+      "gain": 60577
+    },
+    {
+      "modulus": 715,
+      "residue": 217,
+      "gain": 28496
+    },
+    {
+      "modulus": 741,
+      "residue": 56,
+      "gain": 19607
+    },
+    {
+      "modulus": 759,
+      "residue": 50,
+      "gain": 21575
+    },
+    {
+      "modulus": 770,
+      "residue": 347,
+      "gain": 95121
+    },
+    {
+      "modulus": 782,
+      "residue": 23,
+      "gain": 23229
+    },
+    {
+      "modulus": 798,
+      "residue": 51,
+      "gain": 51385
+    },
+    {
+      "modulus": 805,
+      "residue": 62,
+      "gain": 25717
+    },
+    {
+      "modulus": 858,
+      "residue": 21,
+      "gain": 48017
+    },
+    {
+      "modulus": 874,
+      "residue": 29,
+      "gain": 19355
+    },
+    {
+      "modulus": 897,
+      "residue": 32,
+      "gain": 16214
+    },
+    {
+      "modulus": 910,
+      "residue": 325,
+      "gain": 72810
+    },
+    {
+      "modulus": 935,
+      "residue": 117,
+      "gain": 19696
+    },
+    {
+      "modulus": 966,
+      "residue": 35,
+      "gain": 40744
+    },
+    {
+      "modulus": 969,
+      "residue": 8,
+      "gain": 12449
+    },
+    {
+      "modulus": 1045,
+      "residue": 92,
+      "gain": 17338
+    },
+    {
+      "modulus": 1105,
+      "residue": 102,
+      "gain": 14944
+    },
+    {
+      "modulus": 1122,
+      "residue": 123,
+      "gain": 32290
+    },
+    {
+      "modulus": 1155,
+      "residue": 1017,
+      "gain": 56227
+    },
+    {
+      "modulus": 1173,
+      "residue": 125,
+      "gain": 10776
+    },
+    {
+      "modulus": 1190,
+      "residue": 455,
+      "gain": 45524
+    },
+    {
+      "modulus": 1235,
+      "residue": 57,
+      "gain": 12455
+    },
+    {
+      "modulus": 1254,
+      "residue": 81,
+      "gain": 27027
+    },
+    {
+      "modulus": 1265,
+      "residue": 152,
+      "gain": 11836
+    },
+    {
+      "modulus": 1311,
+      "residue": 44,
+      "gain": 9058
+    },
+    {
+      "modulus": 1326,
+      "residue": 51,
+      "gain": 26745
+    },
+    {
+      "modulus": 1330,
+      "residue": 185,
+      "gain": 34640
+    },
+    {
+      "modulus": 1365,
+      "residue": 117,
+      "gain": 44133
+    },
+    {
+      "modulus": 1430,
+      "residue": 75,
+      "gain": 42848
+    },
+    {
+      "modulus": 1482,
+      "residue": 69,
+      "gain": 22208
+    },
+    {
+      "modulus": 1495,
+      "residue": 227,
+      "gain": 9356
+    },
+    {
+      "modulus": 1518,
+      "residue": 63,
+      "gain": 19383
+    },
+    {
+      "modulus": 1610,
+      "residue": 105,
+      "gain": 29959
+    },
+    {
+      "modulus": 1615,
+      "residue": 13,
+      "gain": 8800
+    },
+    {
+      "modulus": 1785,
+      "residue": 269,
+      "gain": 31314
+    },
+    {
+      "modulus": 1794,
+      "residue": 33,
+      "gain": 17019
+    },
+    {
+      "modulus": 1870,
+      "residue": 95,
+      "gain": 27400
+    },
+    {
+      "modulus": 1938,
+      "residue": 63,
+      "gain": 14387
+    },
+    {
+      "modulus": 1955,
+      "residue": 8,
+      "gain": 6600
+    },
+    {
+      "modulus": 1995,
+      "residue": 387,
+      "gain": 25904
+    },
+    {
+      "modulus": 2002,
+      "residue": 767,
+      "gain": 22571
+    },
+    {
+      "modulus": 2090,
+      "residue": 125,
+      "gain": 22305
+    },
+    {
+      "modulus": 2145,
+      "residue": 33,
+      "gain": 20825
+    },
+    {
+      "modulus": 2185,
+      "residue": 23,
+      "gain": 6090
+    },
+    {
+      "modulus": 2210,
+      "residue": 765,
+      "gain": 23417
+    },
+    {
+      "modulus": 2310,
+      "residue": 2277,
+      "gain": 50993
+    },
+    {
+      "modulus": 2346,
+      "residue": 87,
+      "gain": 10768
+    },
+    {
+      "modulus": 2415,
+      "residue": 329,
+      "gain": 23269
+    },
+    {
+      "modulus": 2470,
+      "residue": 95,
+      "gain": 18980
+    },
+    {
+      "modulus": 2530,
+      "residue": 215,
+      "gain": 18388
+    },
+    {
+      "modulus": 2618,
+      "residue": 557,
+      "gain": 16159
+    },
+    {
+      "modulus": 2622,
+      "residue": 21,
+      "gain": 8972
+    },
+    {
+      "modulus": 2730,
+      "residue": 327,
+      "gain": 43428
+    },
+    {
+      "modulus": 2805,
+      "residue": 63,
+      "gain": 16445
+    },
+    {
+      "modulus": 2926,
+      "residue": 1467,
+      "gain": 14223
+    },
+    {
+      "modulus": 2990,
+      "residue": 45,
+      "gain": 15532
+    },
+    {
+      "modulus": 3003,
+      "residue": 536,
+      "gain": 13389
+    },
+    {
+      "modulus": 3094,
+      "residue": 167,
+      "gain": 12675
+    },
+    {
+      "modulus": 3135,
+      "residue": 78,
+      "gain": 15345
+    },
+    {
+      "modulus": 3230,
+      "residue": 825,
+      "gain": 11889
+    },
+    {
+      "modulus": 3315,
+      "residue": 78,
+      "gain": 11860
+    },
+    {
+      "modulus": 3458,
+      "residue": 251,
+      "gain": 10315
+    },
+    {
+      "modulus": 3542,
+      "residue": 53,
+      "gain": 10379
+    },
+    {
+      "modulus": 3570,
+      "residue": 479,
+      "gain": 31314
+    },
+    {
+      "modulus": 3705,
+      "residue": 63,
+      "gain": 11060
+    },
+    {
+      "modulus": 3795,
+      "residue": 93,
+      "gain": 11350
+    },
+    {
+      "modulus": 3910,
+      "residue": 1035,
+      "gain": 9851
+    },
+    {
+      "modulus": 3927,
+      "residue": 326,
+      "gain": 9611
+    },
+    {
+      "modulus": 3990,
+      "residue": 138,
+      "gain": 23740
+    },
+    {
+      "modulus": 4186,
+      "residue": 279,
+      "gain": 7857
+    },
+    {
+      "modulus": 4290,
+      "residue": 945,
+      "gain": 26766
+    },
+    {
+      "modulus": 4370,
+      "residue": 1055,
+      "gain": 7848
+    },
+    {
+      "modulus": 4389,
+      "residue": 620,
+      "gain": 8450
+    },
+    {
+      "modulus": 4485,
+      "residue": 108,
+      "gain": 8104
+    },
+    {
+      "modulus": 4522,
+      "residue": 237,
+      "gain": 6176
+    },
+    {
+      "modulus": 4641,
+      "residue": 272,
+      "gain": 7211
+    },
+    {
+      "modulus": 4830,
+      "residue": 749,
+      "gain": 23269
+    },
+    {
+      "modulus": 4845,
+      "residue": 33,
+      "gain": 8605
+    },
+    {
+      "modulus": 4862,
+      "residue": 425,
+      "gain": 6362
+    },
+    {
+      "modulus": 5005,
+      "residue": 5002,
+      "gain": 9158
+    },
+    {
+      "modulus": 5187,
+      "residue": 3254,
+      "gain": 5904
+    },
+    {
+      "modulus": 5313,
+      "residue": 284,
+      "gain": 6540
+    },
+    {
+      "modulus": 5434,
+      "residue": 1841,
+      "gain": 5362
+    },
+    {
+      "modulus": 5474,
+      "residue": 363,
+      "gain": 4650
+    },
+    {
+      "modulus": 5610,
+      "residue": 585,
+      "gain": 16871
+    },
+    {
+      "modulus": 5865,
+      "residue": 123,
+      "gain": 6343
+    },
+    {
+      "modulus": 6006,
+      "residue": 1229,
+      "gain": 13340
+    },
+    {
+      "modulus": 6118,
+      "residue": 489,
+      "gain": 3749
+    },
+    {
+      "modulus": 6270,
+      "residue": 408,
+      "gain": 15120
+    },
+    {
+      "modulus": 6279,
+      "residue": 1553,
+      "gain": 4511
+    },
+    {
+      "modulus": 6545,
+      "residue": 3252,
+      "gain": 6780
+    },
+    {
+      "modulus": 6555,
+      "residue": 153,
+      "gain": 5995
+    },
+    {
+      "modulus": 6578,
+      "residue": 229,
+      "gain": 4401
+    },
+    {
+      "modulus": 6630,
+      "residue": 1065,
+      "gain": 15165
+    },
+    {
+      "modulus": 6783,
+      "residue": 2099,
+      "gain": 3366
+    },
+    {
+      "modulus": 7106,
+      "residue": 315,
+      "gain": 3621
+    },
+    {
+      "modulus": 7293,
+      "residue": 623,
+      "gain": 2964
+    },
+    {
+      "modulus": 7315,
+      "residue": 2237,
+      "gain": 6346
+    },
+    {
+      "modulus": 7410,
+      "residue": 225,
+      "gain": 12190
+    },
+    {
+      "modulus": 7590,
+      "residue": 258,
+      "gain": 11142
+    },
+    {
+      "modulus": 7735,
+      "residue": 1637,
+      "gain": 5322
+    },
+    {
+      "modulus": 7854,
+      "residue": 1019,
+      "gain": 9601
+    },
+    {
+      "modulus": 8151,
+      "residue": 1460,
+      "gain": 2485
+    },
+    {
+      "modulus": 8211,
+      "residue": 287,
+      "gain": 2860
+    },
+    {
+      "modulus": 8398,
+      "residue": 739,
+      "gain": 2965
+    },
+    {
+      "modulus": 8602,
+      "residue": 2097,
+      "gain": 2978
+    },
+    {
+      "modulus": 8645,
+      "residue": 342,
+      "gain": 4258
+    },
+    {
+      "modulus": 8778,
+      "residue": 5933,
+      "gain": 8450
+    },
+    {
+      "modulus": 8855,
+      "residue": 592,
+      "gain": 4572
+    },
+    {
+      "modulus": 8970,
+      "residue": 735,
+      "gain": 9625
+    },
+    {
+      "modulus": 9177,
+      "residue": 98,
+      "gain": 2358
+    },
+    {
+      "modulus": 9282,
+      "residue": 6719,
+      "gain": 7185
+    },
+    {
+      "modulus": 9614,
+      "residue": 257,
+      "gain": 2506
+    },
+    {
+      "modulus": 9690,
+      "residue": 108,
+      "gain": 8550
+    },
+    {
+      "modulus": 9867,
+      "residue": 515,
+      "gain": 2179
+    },
+    {
+      "modulus": 10010,
+      "residue": 1375,
+      "gain": 8660
+    },
+    {
+      "modulus": 10166,
+      "residue": 193,
+      "gain": 2415
+    },
+    {
+      "modulus": 10374,
+      "residue": 3527,
+      "gain": 5875
+    },
+    {
+      "modulus": 10465,
+      "residue": 1462,
+      "gain": 3259
+    },
+    {
+      "modulus": 10626,
+      "residue": 1439,
+      "gain": 6537
+    },
+    {
+      "modulus": 10659,
+      "residue": 1250,
+      "gain": 1718
+    },
+    {
+      "modulus": 11305,
+      "residue": 2022,
+      "gain": 2631
+    },
+    {
+      "modulus": 11362,
+      "residue": 435,
+      "gain": 2006
+    },
+    {
+      "modulus": 11730,
+      "residue": 168,
+      "gain": 6288
+    },
+    {
+      "modulus": 12155,
+      "residue": 337,
+      "gain": 1951
+    },
+    {
+      "modulus": 12558,
+      "residue": 3737,
+      "gain": 4470
+    },
+    {
+      "modulus": 12597,
+      "residue": 446,
+      "gain": 1353
+    },
+    {
+      "modulus": 12903,
+      "residue": 8081,
+      "gain": 1515
+    },
+    {
+      "modulus": 13090,
+      "residue": 10567,
+      "gain": 6778
+    },
+    {
+      "modulus": 13110,
+      "residue": 228,
+      "gain": 5995
+    },
+    {
+      "modulus": 13566,
+      "residue": 5711,
+      "gain": 3201
+    },
+    {
+      "modulus": 13585,
+      "residue": 2127,
+      "gain": 1725
+    },
+    {
+      "modulus": 13685,
+      "residue": 3457,
+      "gain": 1987
+    },
+    {
+      "modulus": 14421,
+      "residue": 3293,
+      "gain": 1270
+    },
+    {
+      "modulus": 14586,
+      "residue": 255,
+      "gain": 3393
+    },
+    {
+      "modulus": 14630,
+      "residue": 12247,
+      "gain": 6344
+    },
+    {
+      "modulus": 14858,
+      "residue": 941,
+      "gain": 1336
+    },
+    {
+      "modulus": 15015,
+      "residue": 957,
+      "gain": 5129
+    },
+    {
+      "modulus": 15249,
+      "residue": 584,
+      "gain": 1174
+    },
+    {
+      "modulus": 15295,
+      "residue": 6432,
+      "gain": 1572
+    },
+    {
+      "modulus": 15470,
+      "residue": 14727,
+      "gain": 5301
+    },
+    {
+      "modulus": 16302,
+      "residue": 411,
+      "gain": 2871
+    },
+    {
+      "modulus": 16422,
+      "residue": 371,
+      "gain": 2860
+    },
+    {
+      "modulus": 16445,
+      "residue": 372,
+      "gain": 1313
+    },
+    {
+      "modulus": 17043,
+      "residue": 2552,
+      "gain": 972
+    },
+    {
+      "modulus": 17290,
+      "residue": 3177,
+      "gain": 4239
+    },
+    {
+      "modulus": 17710,
+      "residue": 10987,
+      "gain": 4571
+    },
+    {
+      "modulus": 17765,
+      "residue": 502,
+      "gain": 1178
+    },
+    {
+      "modulus": 18354,
+      "residue": 917,
+      "gain": 2358
+    },
+    {
+      "modulus": 19635,
+      "residue": 374,
+      "gain": 3642
+    },
+    {
+      "modulus": 19734,
+      "residue": 669,
+      "gain": 2218
+    },
+    {
+      "modulus": 20930,
+      "residue": 605,
+      "gain": 3337
+    },
+    {
+      "modulus": 20995,
+      "residue": 1187,
+      "gain": 891
+    },
+    {
+      "modulus": 21318,
+      "residue": 519,
+      "gain": 1894
+    },
+    {
+      "modulus": 21505,
+      "residue": 8642,
+      "gain": 893
+    },
+    {
+      "modulus": 21945,
+      "residue": 6582,
+      "gain": 3496
+    },
+    {
+      "modulus": 22287,
+      "residue": 788,
+      "gain": 664
+    },
+    {
+      "modulus": 22610,
+      "residue": 16617,
+      "gain": 2619
+    },
+    {
+      "modulus": 23205,
+      "residue": 1167,
+      "gain": 3230
+    },
+    {
+      "modulus": 24035,
+      "residue": 1302,
+      "gain": 795
+    },
+    {
+      "modulus": 24310,
+      "residue": 3285,
+      "gain": 3178
+    },
+    {
+      "modulus": 25194,
+      "residue": 297,
+      "gain": 1606
+    },
+    {
+      "modulus": 25415,
+      "residue": 1077,
+      "gain": 670
+    },
+    {
+      "modulus": 25806,
+      "residue": 9203,
+      "gain": 1469
+    },
+    {
+      "modulus": 25935,
+      "residue": 2007,
+      "gain": 2644
+    },
+    {
+      "modulus": 26565,
+      "residue": 1694,
+      "gain": 2717
+    },
+    {
+      "modulus": 27170,
+      "residue": 1555,
+      "gain": 2594
+    },
+    {
+      "modulus": 27370,
+      "residue": 2905,
+      "gain": 2346
+    },
+    {
+      "modulus": 28405,
+      "residue": 512,
+      "gain": 580
+    },
+    {
+      "modulus": 28842,
+      "residue": 4019,
+      "gain": 1269
+    },
+    {
+      "modulus": 30030,
+      "residue": 7887,
+      "gain": 5129
+    },
+    {
+      "modulus": 30498,
+      "residue": 189,
+      "gain": 1238
+    },
+    {
+      "modulus": 30590,
+      "residue": 2275,
+      "gain": 1757
+    },
+    {
+      "modulus": 31395,
+      "residue": 959,
+      "gain": 2211
+    },
+    {
+      "modulus": 32890,
+      "residue": 855,
+      "gain": 2165
+    },
+    {
+      "modulus": 33915,
+      "residue": 689,
+      "gain": 1898
+    },
+    {
+      "modulus": 34034,
+      "residue": 711,
+      "gain": 1597
+    },
+    {
+      "modulus": 34086,
+      "residue": 969,
+      "gain": 1032
+    },
+    {
+      "modulus": 35530,
+      "residue": 1775,
+      "gain": 1676
+    },
+    {
+      "modulus": 36465,
+      "residue": 138,
+      "gain": 1465
+    },
+    {
+      "modulus": 37145,
+      "residue": 38,
+      "gain": 435
+    },
+    {
+      "modulus": 38038,
+      "residue": 2545,
+      "gain": 1405
+    },
+    {
+      "modulus": 39270,
+      "residue": 1319,
+      "gain": 3642
+    },
+    {
+      "modulus": 40755,
+      "residue": 123,
+      "gain": 1385
+    },
+    {
+      "modulus": 41055,
+      "residue": 644,
+      "gain": 1607
+    },
+    {
+      "modulus": 41990,
+      "residue": 4275,
+      "gain": 1460
+    },
+    {
+      "modulus": 43010,
+      "residue": 2845,
+      "gain": 1408
+    },
+    {
+      "modulus": 43890,
+      "residue": 7737,
+      "gain": 3494
+    },
+    {
+      "modulus": 44574,
+      "residue": 465,
+      "gain": 670
+    },
+    {
+      "modulus": 45885,
+      "residue": 1064,
+      "gain": 1413
+    },
+    {
+      "modulus": 46046,
+      "residue": 1131,
+      "gain": 1199
+    },
+    {
+      "modulus": 46410,
+      "residue": 4107,
+      "gain": 3229
+    },
+    {
+      "modulus": 48070,
+      "residue": 675,
+      "gain": 1142
+    },
+    {
+      "modulus": 49335,
+      "residue": 288,
+      "gain": 1021
+    },
+    {
+      "modulus": 49742,
+      "residue": 2405,
+      "gain": 994
+    },
+    {
+      "modulus": 50830,
+      "residue": 6525,
+      "gain": 1210
+    },
+    {
+      "modulus": 51051,
+      "residue": 2846,
+      "gain": 926
+    },
+    {
+      "modulus": 51870,
+      "residue": 3267,
+      "gain": 2644
+    },
+    {
+      "modulus": 53130,
+      "residue": 2639,
+      "gain": 2717
+    },
+    {
+      "modulus": 53295,
+      "residue": 243,
+      "gain": 1095
+    },
+    {
+      "modulus": 56810,
+      "residue": 9405,
+      "gain": 976
+    },
+    {
+      "modulus": 57057,
+      "residue": 1082,
+      "gain": 815
+    },
+    {
+      "modulus": 58786,
+      "residue": 2729,
+      "gain": 846
+    },
+    {
+      "modulus": 60214,
+      "residue": 15187,
+      "gain": 847
+    },
+    {
+      "modulus": 62790,
+      "residue": 3689,
+      "gain": 2211
+    },
+    {
+      "modulus": 62985,
+      "residue": 183,
+      "gain": 790
+    },
+    {
+      "modulus": 64515,
+      "residue": 318,
+      "gain": 809
+    },
+    {
+      "modulus": 67298,
+      "residue": 7781,
+      "gain": 746
+    },
+    {
+      "modulus": 67830,
+      "residue": 1529,
+      "gain": 1898
+    },
+    {
+      "modulus": 69069,
+      "residue": 2594,
+      "gain": 726
+    },
+    {
+      "modulus": 71162,
+      "residue": 6551,
+      "gain": 648
+    },
+    {
+      "modulus": 72105,
+      "residue": 273,
+      "gain": 765
+    },
+    {
+      "modulus": 72930,
+      "residue": 2235,
+      "gain": 2025
+    },
+    {
+      "modulus": 74290,
+      "residue": 7435,
+      "gain": 623
+    },
+    {
+      "modulus": 74613,
+      "residue": 6164,
+      "gain": 590
+    },
+    {
+      "modulus": 76245,
+      "residue": 333,
+      "gain": 582
+    },
+    {
+      "modulus": 79534,
+      "residue": 979,
+      "gain": 527
+    },
+    {
+      "modulus": 81510,
+      "residue": 615,
+      "gain": 1654
+    },
+    {
+      "modulus": 82110,
+      "residue": 1739,
+      "gain": 1607
+    },
+    {
+      "modulus": 85085,
+      "residue": 4407,
+      "gain": 636
+    },
+    {
+      "modulus": 85215,
+      "residue": 378,
+      "gain": 555
+    },
+    {
+      "modulus": 88179,
+      "residue": 2456,
+      "gain": 495
+    },
+    {
+      "modulus": 90321,
+      "residue": 55766,
+      "gain": 525
+    },
+    {
+      "modulus": 91770,
+      "residue": 4319,
+      "gain": 1413
+    },
+    {
+      "modulus": 92378,
+      "residue": 909,
+      "gain": 395
+    },
+    {
+      "modulus": 95095,
+      "residue": 2622,
+      "gain": 596
+    },
+    {
+      "modulus": 98670,
+      "residue": 1425,
+      "gain": 1317
+    },
+    {
+      "modulus": 100947,
+      "residue": 8936,
+      "gain": 462
+    },
+    {
+      "modulus": 102102,
+      "residue": 2867,
+      "gain": 926
+    },
+    {
+      "modulus": 104006,
+      "residue": 713,
+      "gain": 321
+    },
+    {
+      "modulus": 106590,
+      "residue": 468,
+      "gain": 1095
+    },
+    {
+      "modulus": 106743,
+      "residue": 1007,
+      "gain": 382
+    },
+    {
+      "modulus": 111435,
+      "residue": 213,
+      "gain": 435
+    },
+    {
+      "modulus": 111826,
+      "residue": 799,
+      "gain": 325
+    },
+    {
+      "modulus": 114114,
+      "residue": 4085,
+      "gain": 815
+    },
+    {
+      "modulus": 115115,
+      "residue": 2307,
+      "gain": 476
+    },
+    {
+      "modulus": 119301,
+      "residue": 734,
+      "gain": 313
+    },
+    {
+      "modulus": 124355,
+      "residue": 1852,
+      "gain": 434
+    },
+    {
+      "modulus": 124982,
+      "residue": 1087,
+      "gain": 274
+    },
+    {
+      "modulus": 125970,
+      "residue": 1785,
+      "gain": 953
+    },
+    {
+      "modulus": 129030,
+      "residue": 1095,
+      "gain": 834
+    },
+    {
+      "modulus": 138138,
+      "residue": 4673,
+      "gain": 726
+    },
+    {
+      "modulus": 138567,
+      "residue": 1988,
+      "gain": 185
+    },
+    {
+      "modulus": 144210,
+      "residue": 438,
+      "gain": 765
+    },
+    {
+      "modulus": 146965,
+      "residue": 1182,
+      "gain": 354
+    },
+    {
+      "modulus": 149226,
+      "residue": 10553,
+      "gain": 590
+    },
+    {
+      "modulus": 150535,
+      "residue": 41367,
+      "gain": 346
+    },
+    {
+      "modulus": 152490,
+      "residue": 2295,
+      "gain": 756
+    },
+    {
+      "modulus": 156009,
+      "residue": 5480,
+      "gain": 183
+    },
+    {
+      "modulus": 163438,
+      "residue": 389,
+      "gain": 187
+    },
+    {
+      "modulus": 167739,
+      "residue": 2231,
+      "gain": 162
+    },
+    {
+      "modulus": 168245,
+      "residue": 10707,
+      "gain": 324
+    },
+    {
+      "modulus": 170170,
+      "residue": 8565,
+      "gain": 640
+    },
+    {
+      "modulus": 170430,
+      "residue": 3945,
+      "gain": 609
+    },
+    {
+      "modulus": 176358,
+      "residue": 3443,
+      "gain": 495
+    },
+    {
+      "modulus": 177905,
+      "residue": 11472,
+      "gain": 273
+    },
+    {
+      "modulus": 180642,
+      "residue": 83255,
+      "gain": 525
+    },
+    {
+      "modulus": 187473,
+      "residue": 1412,
+      "gain": 136
+    },
+    {
+      "modulus": 190190,
+      "residue": 24567,
+      "gain": 596
+    },
+    {
+      "modulus": 193154,
+      "residue": 1317,
+      "gain": 153
+    },
+    {
+      "modulus": 198835,
+      "residue": 4192,
+      "gain": 219
+    },
+    {
+      "modulus": 201894,
+      "residue": 13325,
+      "gain": 462
+    },
+    {
+      "modulus": 213486,
+      "residue": 18479,
+      "gain": 382
+    },
+    {
+      "modulus": 222870,
+      "residue": 498,
+      "gain": 435
+    },
+    {
+      "modulus": 230230,
+      "residue": 6367,
+      "gain": 476
+    },
+    {
+      "modulus": 230945,
+      "residue": 997,
+      "gain": 124
+    },
+    {
+      "modulus": 238602,
+      "residue": 9533,
+      "gain": 313
+    },
+    {
+      "modulus": 245157,
+      "residue": 1283,
+      "gain": 95
+    },
+    {
+      "modulus": 248710,
+      "residue": 12877,
+      "gain": 434
+    },
+    {
+      "modulus": 255255,
+      "residue": 1272,
+      "gain": 372
+    },
+    {
+      "modulus": 260015,
+      "residue": 2617,
+      "gain": 138
+    },
+    {
+      "modulus": 277134,
+      "residue": 2037,
+      "gain": 210
+    },
+    {
+      "modulus": 279565,
+      "residue": 1932,
+      "gain": 95
+    },
+    {
+      "modulus": 285285,
+      "residue": 912,
+      "gain": 328
+    },
+    {
+      "modulus": 289731,
+      "residue": 2507,
+      "gain": 75
+    },
+    {
+      "modulus": 293930,
+      "residue": 1357,
+      "gain": 354
+    },
+    {
+      "modulus": 301070,
+      "residue": 54457,
+      "gain": 346
+    },
+    {
+      "modulus": 312018,
+      "residue": 7853,
+      "gain": 183
+    },
+    {
+      "modulus": 312455,
+      "residue": 1747,
+      "gain": 84
+    },
+    {
+      "modulus": 335478,
+      "residue": 219,
+      "gain": 163
+    },
+    {
+      "modulus": 336490,
+      "residue": 39967,
+      "gain": 324
+    },
+    {
+      "modulus": 345345,
+      "residue": 1274,
+      "gain": 253
+    },
+    {
+      "modulus": 355810,
+      "residue": 29217,
+      "gain": 273
+    },
+    {
+      "modulus": 373065,
+      "residue": 282,
+      "gain": 239
+    },
+    {
+      "modulus": 374946,
+      "residue": 477,
+      "gain": 138
+    },
+    {
+      "modulus": 397670,
+      "residue": 5907,
+      "gain": 219
+    },
+    {
+      "modulus": 408595,
+      "residue": 2897,
+      "gain": 58
+    },
+    {
+      "modulus": 440895,
+      "residue": 12,
+      "gain": 195
+    },
+    {
+      "modulus": 451605,
+      "residue": 539,
+      "gain": 185
+    },
+    {
+      "modulus": 461890,
+      "residue": 5925,
+      "gain": 196
+    },
+    {
+      "modulus": 482885,
+      "residue": 2632,
+      "gain": 44
+    },
+    {
+      "modulus": 490314,
+      "residue": 1811,
+      "gain": 95
+    },
+    {
+      "modulus": 504735,
+      "residue": 434,
+      "gain": 163
+    },
+    {
+      "modulus": 510510,
+      "residue": 2427,
+      "gain": 372
+    },
+    {
+      "modulus": 520030,
+      "residue": 7665,
+      "gain": 145
+    },
+    {
+      "modulus": 533715,
+      "residue": 1169,
+      "gain": 151
+    },
+    {
+      "modulus": 559130,
+      "residue": 1085,
+      "gain": 164
+    },
+    {
+      "modulus": 570570,
+      "residue": 2067,
+      "gain": 328
+    },
+    {
+      "modulus": 579462,
+      "residue": 1311,
+      "gain": 78
+    },
+    {
+      "modulus": 596505,
+      "residue": 1904,
+      "gain": 133
+    },
+    {
+      "modulus": 624910,
+      "residue": 985,
+      "gain": 134
+    },
+    {
+      "modulus": 646646,
+      "residue": 1049,
+      "gain": 100
+    },
+    {
+      "modulus": 690690,
+      "residue": 4949,
+      "gain": 253
+    },
+    {
+      "modulus": 692835,
+      "residue": 363,
+      "gain": 100
+    },
+    {
+      "modulus": 746130,
+      "residue": 807,
+      "gain": 239
+    },
+    {
+      "modulus": 780045,
+      "residue": 2009,
+      "gain": 97
+    },
+    {
+      "modulus": 782782,
+      "residue": 1789,
+      "gain": 83
+    },
+    {
+      "modulus": 817190,
+      "residue": 7475,
+      "gain": 88
+    },
+    {
+      "modulus": 838695,
+      "residue": 423,
+      "gain": 74
+    },
+    {
+      "modulus": 874874,
+      "residue": 1593,
+      "gain": 73
+    },
+    {
+      "modulus": 881790,
+      "residue": 4737,
+      "gain": 195
+    },
+    {
+      "modulus": 903210,
+      "residue": 2159,
+      "gain": 185
+    },
+    {
+      "modulus": 937365,
+      "residue": 453,
+      "gain": 70
+    },
+    {
+      "modulus": 965770,
+      "residue": 3295,
+      "gain": 76
+    },
+    {
+      "modulus": 969969,
+      "residue": 524,
+      "gain": 58
+    },
+    {
+      "modulus": 1009470,
+      "residue": 1379,
+      "gain": 163
+    },
+    {
+      "modulus": 1067430,
+      "residue": 3209,
+      "gain": 151
+    },
+    {
+      "modulus": 1144066,
+      "residue": 4547,
+      "gain": 52
+    },
+    {
+      "modulus": 1174173,
+      "residue": 3791,
+      "gain": 50
+    },
+    {
+      "modulus": 1193010,
+      "residue": 5789,
+      "gain": 133
+    },
+    {
+      "modulus": 1225785,
+      "residue": 603,
+      "gain": 55
+    },
+    {
+      "modulus": 1312311,
+      "residue": 5135,
+      "gain": 44
+    },
+    {
+      "modulus": 1352078,
+      "residue": 4437,
+      "gain": 43
+    },
+    {
+      "modulus": 1385670,
+      "residue": 5535,
+      "gain": 124
+    },
+    {
+      "modulus": 1448655,
+      "residue": 543,
+      "gain": 40
+    },
+    {
+      "modulus": 1560090,
+      "residue": 3059,
+      "gain": 97
+    },
+    {
+      "modulus": 1616615,
+      "residue": 2232,
+      "gain": 40
+    },
+    {
+      "modulus": 1677390,
+      "residue": 1605,
+      "gain": 99
+    },
+    {
+      "modulus": 1716099,
+      "residue": 6332,
+      "gain": 32
+    },
+    {
+      "modulus": 1874730,
+      "residue": 1995,
+      "gain": 81
+    },
+    {
+      "modulus": 1939938,
+      "residue": 1595,
+      "gain": 58
+    },
+    {
+      "modulus": 1956955,
+      "residue": 3672,
+      "gain": 32
+    },
+    {
+      "modulus": 2028117,
+      "residue": 1070,
+      "gain": 26
+    },
+    {
+      "modulus": 2124694,
+      "residue": 1273,
+      "gain": 20
+    },
+    {
+      "modulus": 2187185,
+      "residue": 3462,
+      "gain": 30
+    },
+    {
+      "modulus": 2348346,
+      "residue": 4925,
+      "gain": 50
+    },
+    {
+      "modulus": 2451570,
+      "residue": 648,
+      "gain": 55
+    },
+    {
+      "modulus": 2624622,
+      "residue": 6521,
+      "gain": 44
+    },
+    {
+      "modulus": 2860165,
+      "residue": 312,
+      "gain": 22
+    },
+    {
+      "modulus": 2897310,
+      "residue": 1545,
+      "gain": 47
+    },
+    {
+      "modulus": 3187041,
+      "residue": 2780,
+      "gain": 10
+    },
+    {
+      "modulus": 3233230,
+      "residue": 1935,
+      "gain": 40
+    },
+    {
+      "modulus": 3380195,
+      "residue": 447,
+      "gain": 18
+    },
+    {
+      "modulus": 3432198,
+      "residue": 17483,
+      "gain": 32
+    },
+    {
+      "modulus": 3913910,
+      "residue": 385,
+      "gain": 34
+    },
+    {
+      "modulus": 4056234,
+      "residue": 7097,
+      "gain": 26
+    },
+    {
+      "modulus": 4374370,
+      "residue": 6857,
+      "gain": 30
+    },
+    {
+      "modulus": 4849845,
+      "residue": 2592,
+      "gain": 22
+    },
+    {
+      "modulus": 5311735,
+      "residue": 1967,
+      "gain": 6
+    },
+    {
+      "modulus": 5720330,
+      "residue": 31357,
+      "gain": 22
+    },
+    {
+      "modulus": 5870865,
+      "residue": 164,
+      "gain": 17
+    },
+    {
+      "modulus": 6374082,
+      "residue": 321,
+      "gain": 10
+    },
+    {
+      "modulus": 6561555,
+      "residue": 72,
+      "gain": 15
+    },
+    {
+      "modulus": 6760390,
+      "residue": 2267,
+      "gain": 18
+    },
+    {
+      "modulus": 8580495,
+      "residue": 723,
+      "gain": 11
+    },
+    {
+      "modulus": 9699690,
+      "residue": 5367,
+      "gain": 22
+    },
+    {
+      "modulus": 10140585,
+      "residue": 657,
+      "gain": 9
+    },
+    {
+      "modulus": 10623470,
+      "residue": 1205,
+      "gain": 10
+    },
+    {
+      "modulus": 11741730,
+      "residue": 285,
+      "gain": 17
+    },
+    {
+      "modulus": 13123110,
+      "residue": 1227,
+      "gain": 15
+    },
+    {
+      "modulus": 14872858,
+      "residue": 349,
+      "gain": 5
+    },
+    {
+      "modulus": 15935205,
+      "residue": 633,
+      "gain": 5
+    },
+    {
+      "modulus": 17160990,
+      "residue": 888,
+      "gain": 11
+    },
+    {
+      "modulus": 20281170,
+      "residue": 3477,
+      "gain": 9
+    },
+    {
+      "modulus": 22309287,
+      "residue": 671,
+      "gain": 3
+    },
+    {
+      "modulus": 31870410,
+      "residue": 1845,
+      "gain": 6
+    },
+    {
+      "modulus": 37182145,
+      "residue": 2827,
+      "gain": 2
+    },
+    {
+      "modulus": 44618574,
+      "residue": 2309,
+      "gain": 3
+    },
+    {
+      "modulus": 74364290,
+      "residue": 745,
+      "gain": 2
+    },
+    {
+      "modulus": 111546435,
+      "residue": 492,
+      "gain": 1
+    },
+    {
+      "modulus": 223092870,
+      "residue": 537,
+      "gain": 1
+    }
+  ]
+}
