@@ -83,16 +83,55 @@ in-code recomputation, used for the SAT direction, does not apply here
 since both come back INFEASIBLE/UNKNOWN); they were not separately sent to
 the blind auditor, which already confirmed the k=5 methodology and verdict.
 
+## A variable-count compression helps a lot, but does not rescue k=7
+
+The naive encoding gives one boolean per (divisor, residue) pair, even
+though almost none of a large divisor's residues ever match a point of R
+(|R| = 7,436 or 79,979, far below most divisors' own size). Compressing to
+one boolean per (divisor, residue) pair that *actually occurs* among R's
+points, plus a single "junk" variable per divisor standing in for every
+other (interchangeable, zero-impact) residue, is a lossless rewrite of the
+same decision problem -- added to `code/static_two_family_test.py` as
+`--compressed`, and re-checked at k=5 (still INFEASIBLE, same answer).
+
+| k | naive boolean vars | compressed boolean vars | compression ratio |
+| - | - | - | - |
+| 5 (2310) | 6,909 | 1,053 | 6.6x |
+| 7 (510510) | 1,742,621 | 104,367 | 16.7x |
+| 8 (9699690) | ~34,836,479 | ~1,378,601 | 25.3x (variable count only, not run) |
+
+The compressed k=7 model has about the same variable count as the
+*uncompressed* k=6 model (96,767), which decided instantly. Running it
+anyway: **still UNKNOWN**, after 300s and then again after 560s (about
+14.5 minutes of CP-SAT time total, two separate runs). So the k=7 scaling
+wall was not really about variable count; this specific heuristic (hence
+non-optimal, "loose") witness's constraint structure is itself hard for
+CP-SAT to decide, independent of the encoding size. Given that, running the
+much bigger compressed k=8 model (~1.38M variables, 13x the compressed k=7
+size that already failed to resolve) was not attempted -- it would very
+likely cost significant wall-clock time for another UNKNOWN.
+
+This is a useful negative finding on its own: a smarter encoding is
+necessary but evidently not sufficient here; whatever moves the solver
+needs to also exploit the problem's actual algebraic structure (the
+divisor lattice, CRT compatibility), not just shrink the variable count,
+confirming that direction 5 (polyhedral characterization) is the right
+kind of next step, not further bit-twiddling on this one.
+
 ## Why this does not scale to k=8 (9699690, q=23) directly
 
-The same exact-CP-SAT encoding needs sum_{d|L, d>1} d boolean variables (one
+The naive exact-CP-SAT encoding needs sum_{d|L, d>1} d boolean variables (one
 per divisor, per its own residues) -- about 35 million at L=9699690 (sigma(L)
-minus 1 and 2), far beyond what CP-SAT can even build in memory, let alone
-solve, in one evening. The k=5 case above only worked because L=2310 is
-small (sigma(2310)-3 = 6,909 variables). Resolving the open k=8 case this
-way needs either a genuinely different (polyhedral/profile-compressed)
-encoding -- exactly direction 5 of the direction-analysis note -- or a
-heuristic witness-construction attempt instead of an exact solver, as in
+minus 1 and 2). The compressed encoding above cuts this to about 1.38
+million, no longer a memory problem, but the k=7 experiment just above
+shows compression alone does not make the solver actually decide these
+harder instances -- so k=8 was not attempted with it, not for lack of
+memory this time, but because the k=7 precedent makes a multi-hour UNKNOWN
+the likely outcome. Resolving the open k=8 case needs either a genuinely
+different (polyhedral/profile-compressed, in the sense of exploiting
+structure rather than just shrinking variable count) encoding -- exactly
+direction 5 of the direction-analysis note -- or a heuristic witness-
+construction attempt instead of an exact solver, as in
 `notes/nine-prime-greedy-construction-2026-10-26.md`'s direct-cover
 experiment (which took the complementary approach of attacking the full
 period directly rather than this slice/G-family decomposition, since the
