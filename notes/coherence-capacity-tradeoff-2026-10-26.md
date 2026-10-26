@@ -140,6 +140,28 @@ over the two objectives) rather than blanket-excluding whole divisors --
 exactly the kind of search `code/extremal_slice_capacity.py` is already
 doing, not duplicated here.
 
+## Does local search close the gap? No
+
+The one-pass safe-residue result above could just be a weak-greedy
+artifact rather than a real obstruction, since greedy is not exhaustive.
+`code/safe_residue_local_search.py` applies the same coordinate-descent
+refinement used successfully elsewhere tonight (the plain nine-prime
+greedy improved 8.5% under it) to the m=390 safe-residue construction,
+respecting the same safety constraint on every revisit.
+
+Four sweeps to convergence (~353s): uncovered falls from 7,071,195 to
+6,715,293 (5% improvement), still 11.7x the coherent target (572,033).
+cap(R)/|R| moves from 7.02 to 7.35 (fraction of the tenth-prime requirement
+28: 0.251 -> 0.263) -- better than the one-pass version but still below
+the *unconstrained* spread greedy's 7.88. Local search does not close the
+gap in any material way. This is reasonably strong (though not
+exhaustive/proof-level) evidence that the clean coherent construction found
+at the smaller 2310 scale (modulus 105 used twice, verified by exact
+CP-SAT in 4 seconds there) does not have an easy analogue at nine primes
+reachable by local search; whether it is achievable by some genuinely
+different exact construction remains open and is not settled by either of
+these two local-search experiments.
+
 ## Reproduction
 
 The closed form and the table above were computed directly (no file
