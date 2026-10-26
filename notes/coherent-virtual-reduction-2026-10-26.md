@@ -241,6 +241,38 @@ like a dead end that is different from (and sharper than) "not enough raw
 capacity": the capacity is there; getting a real family anywhere near the
 needed residual is what fails, and fails harder as primes are added.
 
+## Pushing for a better F-side comparison at 9 -> 10: four confirmed-SAT points, down to 27x
+
+The single m = 96577 target above was the *best-margin* omega=4 option,
+but far from the most F-friendly (|R| = 2310 is tiny, giving the weak
+525x comparison). There are 98 omega=4 combinations clearing ratio >= 28
+at this scale; searching among the larger-|R| ones for a combination of
+decent margin and a virtual period small enough to actually resolve:
+
+| m | margin above 28 | Lm = \|R\| | compressed vars | status | time | general-witness F-ratio |
+| --- | --- | --- | --- | --- | --- | --- |
+| 96577 | 18.88 | 2,310 | 110,576 | SAT | 22.1s | 525x |
+| 37145 | 13.97 | 6,006 | 258,032 | **SAT** | 46.1s | **202.0x** |
+| 10659 | 7.99 | 20,930 | 774,128 | **SAT** | 158.1s | **58.0x** |
+| 5005 | 8.22 | 44,574 | 1,658,864 | **SAT** | 271.8s | **27.2x** |
+| 2145 | 2.90 | 104,006 | 3,317,744 | UNKNOWN | (246s, not resolved) | (11.7x, if it held) |
+
+Every SAT row's real system (511 divisor/residue pairs) was re-verified
+directly on all real multiples of m in Z_223092870, same as the headline
+case. The pattern confirms and refines the margin-matters finding from the
+k=8->9 section: it is not just margin above the ratio threshold that
+matters, but margin *relative to the size of the resulting virtual
+problem* -- m=2145 has a smaller margin (2.90) than every SAT case here,
+and also by far the largest virtual period (104,006 vs <=44,574), and it
+is the one that did not resolve. The practical frontier for this specific
+exact method, tonight, sits around |R| ~ 44,000-100,000: the F-side
+comparison ratio for the best *confirmed* target has improved from 525x to
+**27.2x** by choosing a better coherent target, without weakening the
+G-side guarantee at all (every SAT row is an exact, re-verified result,
+not a heuristic). Whether an even better point exists past the 2145
+frontier (with more solver time, or a smarter CP-SAT configuration) is not
+resolved here.
+
 ## Scope (read this before citing the headline result)
 
 * This does **not** show a 9-prime covering system exists, and does not
