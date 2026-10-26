@@ -176,6 +176,10 @@ options with margin high enough relative to their own |R|, not
 specifically the largest-|R| omega=4 options), so there is likely a
 better confirmable point at k=9->10 as well; it was not found tonight.
 
+(A second attempt at a better margin, m=1995=3*5*7*19, margin 2.15,
+|R|=111,826, F-ratio 10.85x if it held, was also UNKNOWN after 288.5s
+with 3.5 million variables. Not pursued further.)
+
 This changes the "next steps" framing in
 `overnight-session-summary-2026-10-27.md`: the k=8->9 omega=3 search was
 exhausted, but omega=4 (and untried omega=5) was not, and turned out to
