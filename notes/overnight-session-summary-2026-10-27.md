@@ -131,15 +131,16 @@ entries 26-39).
 
 ## Suggested next steps, roughly in order of promise
 
-1. **Push the coherent-virtual-reduction G-side result further**: the
-   search for larger, still-solvable targets was only done at k=9->10
-   (down to 27.2x); redo it at the primary k=8->9 case (only the single
-   best-margin omega=3 target, 34.6x, was reported there -- there may be
-   a similarly better point among the smaller-margin omega=3/4 options,
-   same as the 9->10 case found). Also consider whether the reduction
-   generalizes to *partially* coherent targets (a few coset blocks, not a
-   single class) -- which is exactly where the F-side and Codex's
-   maximiser search might usefully meet this technique.
+1. **Push the coherent-virtual-reduction G-side result further**: at
+   k=8->9 there were only 4 omega=3 candidates total (the minimum omega
+   that clears the capacity ratio there), and all 4 were tested, giving
+   29.3x as the best confirmed figure (m=3553) -- that search is actually
+   exhausted, unlike k=9->10 (98 omega=4 candidates, pushed to 27.2x
+   before hitting a frontier). The open room at k=8->9 is *higher* omega
+   (4, 5, ...) with correspondingly smaller |R| but possibly easier-to-
+   verify margins, or a cleverer non-single-class (partially coherent)
+   target -- which is exactly where the F-side and Codex's maximiser
+   search might usefully meet this technique.
 2. **An exact F-side construction or obstruction**, analogous to the
    historical 2310/105 duplicate-modulus case (found by direct CP-SAT at
    that small scale) -- not attempted at k=8 scale tonight; the sparse-vs-
