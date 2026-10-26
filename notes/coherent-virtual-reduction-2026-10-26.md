@@ -171,11 +171,16 @@ So biasing the construction toward the coherent target, by either method
 tried, makes things *worse* than simply running the best known
 general-purpose covering search and accepting whatever (here: zero)
 overlap with the target occurs by chance. The honest headline number for
-"how far is F from the coherent target" is **34.6x**, from a construction
-that was not even trying to get there, and the two methods that did try
-both did worse. That is itself informative: it suggests the coherent
-target is not merely hard to *reach deliberately*, it may not sit anywhere
-near where general-purpose good covers naturally land either.
+"how far is F from the coherent target" is **34.6x** for m=4199 itself,
+from a construction that was not even trying to get there, and the two
+deliberate methods both did worse. (Using the best *confirmed-SAT*
+coherent target overall instead of m=4199 specifically -- m=3553, section
+above -- the same general witness gives |R|/|R_target| = 79979/2730 =
+**29.3x**, slightly better still, for exactly the same reason: this
+witness's residual happens to have zero multiples of 3553 too.) That is
+itself informative: it suggests the coherent target is not merely hard to
+*reach deliberately*, it may not sit anywhere near where general-purpose
+good covers naturally land either.
 
 This is still much weaker evidence than the G-side's exact result: it only
 rules out these three heuristic family-building strategies, not every
