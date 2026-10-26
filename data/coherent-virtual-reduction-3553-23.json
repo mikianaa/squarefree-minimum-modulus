@@ -1,0 +1,16 @@
+{
+  "L": 9699690,
+  "m": 3553,
+  "q": 23,
+  "Lm": 2730,
+  "free": 7,
+  "need_extra": 15,
+  "omega_m": 3,
+  "copies": 8,
+  "num_virtual_divs": 31,
+  "num_vars": 64504,
+  "status": "SAT",
+  "seconds": 238.2,
+  "real_system_size": 255,
+  "real_verification": "passed: every real multiple of m gets >= q-1 real divisors matching"
+}

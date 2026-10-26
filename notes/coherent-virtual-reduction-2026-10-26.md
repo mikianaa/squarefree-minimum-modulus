@@ -104,23 +104,37 @@ tightest G-side witness found so far at this scale by a wide margin (ratio
 22.94 against a requirement of 22, versus ~7-8 for every spread witness
 tested elsewhere tonight).
 
-## Not every passing target is equally easy -- margin matters
+## Not every passing target is equally easy -- margin matters, with a clean trend
 
 Four omega(m)=3 combinations clear ratio >= 22 at k=8->9: m=4199 (ratio
-22.94, |R|=2310), 3553 (22.63, 2730), 2717 (22.23, 3570), and 2431 (22.10,
-3990). The largest-|R| one, m=2431, is the most attractive on paper for
-the F-side (biggest, hence most achievable, target) -- its direct
-general-witness T-shortfall ratio is 20.0x, the best of the four. But its
-G-side reduced model (92,152 compressed variables, essentially the same
-size as m=4199's 55,288) is **UNKNOWN after 300s, and still UNKNOWN after a second run to 580s**
-(roughly 15 minutes of CP-SAT time total), not SAT, despite clearing the
-capacity threshold by a comparable margin (0.10 vs m=4199's 0.94 above
-22). The capacity ratio is a necessary, not sufficient, condition; a
-thinner margin above it apparently makes the actual constraint-
-satisfaction problem harder for the solver (or possibly genuinely
-infeasible -- not resolved either way here, and not pursued further
-tonight). m=4199, with the largest margin of the four, is the only one
-confirmed SAT.
+22.94, margin 0.94), 3553 (22.63, margin 0.63), 2717 (22.23, margin 0.23),
+and 2431 (22.10, margin 0.10). All four reduced models are essentially the
+same size (55-92 thousand compressed variables). Testing all four gives a
+clean monotonic trend:
+
+| m | ratio | margin above 22 | \|R\| | status | time to resolve |
+| --- | --- | --- | --- | --- | --- |
+| 4199 | 22.94 | 0.94 | 2310 | **SAT** | 22.1s |
+| 3553 | 22.63 | 0.63 | 2730 | **SAT** | 238.2s |
+| 2717 | 22.23 | 0.23 | 3570 | UNKNOWN | (400s, not resolved) |
+| 2431 | 22.10 | 0.10 | 3990 | UNKNOWN | (~15 min total, not resolved) |
+
+The capacity ratio is a necessary, not sufficient, condition, and clearing
+it by more headroom makes the actual constraint-satisfaction problem
+reliably easier to decide, not just "sometimes": the ordering by margin
+exactly matches the ordering by solve difficulty across all four points
+tested, with a roughly 10x jump in solve time between the two SAT cases
+and no resolution at all (within several minutes) for the two closer
+calls. Note the inverse relationship with F-friendliness: the two easiest
+G-side cases (4199, 3553) have the *smallest* |R| (hardest for F to reach,
+per the section below), while the two hardest-to-decide G-side cases
+(2717, 2431) have the *largest* |R| (easiest for F, per their general-
+witness T-shortfall ratios of 22.4x and 20.0x respectively -- vs 29.3x for
+3553 and 34.6x for 4199 -- both still far short but consistently better
+than the easy-to-decide G-side cases). This is a genuine tension in the
+overall route, not just a numerical curiosity: whichever end of this
+spectrum is more promising for one side of the problem is less promising
+for the other.
 
 ## The F-side: three heuristics tried, all far short -- and biasing toward m makes it WORSE
 

@@ -1,0 +1,14 @@
+{
+  "L": 9699690,
+  "m": 2717,
+  "q": 23,
+  "Lm": 3570,
+  "free": 7,
+  "need_extra": 15,
+  "omega_m": 3,
+  "copies": 8,
+  "num_virtual_divs": 31,
+  "num_vars": 82936,
+  "status": "UNKNOWN",
+  "seconds": 400.4
+}
