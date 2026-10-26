@@ -75,9 +75,18 @@ entries 26-39).
    comparison substantially by deliberately searching for larger,
    still-solvable coherent targets: four confirmed-SAT points (each
    independently re-verified) take the comparison from 525x down to
-   **27.2x** (|R| = 44,574), with the practical frontier for this exact
-   method sitting strictly between |R| = 44,574 (SAT) and 74,290 (UNKNOWN
-   after 311s).
+   27.2x (|R| = 44,574), with the practical frontier for that search
+   sitting strictly between |R| = 44,574 (SAT) and 74,290 (UNKNOWN after
+   311s). **A third, final follow-up corrected a bad assumption** in all
+   of the above (that the omega clearing the capacity ratio with the
+   fewest prime factors always gives the largest, most F-friendly
+   residual -- false, since |R| = L/m depends on *which* primes are
+   excluded, not just how many) and found a substantially better point at
+   k=8->9 by searching omega=4 instead of only omega=3: m=770
+   (|R| = 12,597, SAT in 58s, independently re-verified) brings the
+   primary case's F-side comparison down to **6.35x** -- close enough
+   that the general-purpose witness used for the comparison is clearly
+   not the last word on how near F could plausibly get.
    
    The reduction technique itself (sparse coherent target -> tiny virtual
    period) is the most likely-to-be-reusable output of the night; the
@@ -131,16 +140,15 @@ entries 26-39).
 
 ## Suggested next steps, roughly in order of promise
 
-1. **Push the coherent-virtual-reduction G-side result further**: at
-   k=8->9 there were only 4 omega=3 candidates total (the minimum omega
-   that clears the capacity ratio there), and all 4 were tested, giving
-   29.3x as the best confirmed figure (m=3553) -- that search is actually
-   exhausted, unlike k=9->10 (98 omega=4 candidates, pushed to 27.2x
-   before hitting a frontier). The open room at k=8->9 is *higher* omega
-   (4, 5, ...) with correspondingly smaller |R| but possibly easier-to-
-   verify margins, or a cleverer non-single-class (partially coherent)
-   target -- which is exactly where the F-side and Codex's maximiser
-   search might usefully meet this technique.
+1. **Push the coherent-virtual-reduction G-side result further**: the
+   widened (multi-omega) search found 6.35x at k=8->9 (m=770, omega=4) and
+   27.2x at k=9->10 (m=5005, omega=4), each after exploring only a
+   fraction of the available combinations (omega=5,6,... were barely
+   touched, and the boundary between SAT and UNKNOWN was only pinned down
+   to within a factor of ~1.2x of |R| in each case, not tightly). Likely
+   more room left on both sides. Also worth trying a cleverer non-single-
+   class (partially coherent) target -- which is exactly where the F-side
+   and Codex's maximiser search might usefully meet this technique.
 2. **An exact F-side construction or obstruction**, analogous to the
    historical 2310/105 duplicate-modulus case (found by direct CP-SAT at
    that small scale) -- not attempted at k=8 scale tonight; the sparse-vs-
