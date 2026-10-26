@@ -104,6 +104,22 @@ tightest G-side witness found so far at this scale by a wide margin (ratio
 22.94 against a requirement of 22, versus ~7-8 for every spread witness
 tested elsewhere tonight).
 
+## Not every passing target is equally easy -- margin matters
+
+Four omega(m)=3 combinations clear ratio >= 22 at k=8->9: m=4199 (ratio
+22.94, |R|=2310), 3553 (22.63, 2730), 2717 (22.23, 3570), and 2431 (22.10,
+3990). The largest-|R| one, m=2431, is the most attractive on paper for
+the F-side (biggest, hence most achievable, target) -- its direct
+general-witness T-shortfall ratio is 20.0x, the best of the four. But its
+G-side reduced model (92,152 compressed variables, essentially the same
+size as m=4199's 55,288) is **UNKNOWN after 300s**, not SAT, despite
+clearing the capacity threshold by a comparable margin (0.10 vs m=4199's
+0.94 above 22). The capacity ratio is a necessary, not sufficient,
+condition; a thinner margin above it apparently makes the actual
+constraint-satisfaction problem harder for the solver (or possibly
+genuinely infeasible -- not resolved either way here). m=4199, with the
+largest margin of the four, is the only one confirmed SAT tonight.
+
 ## The F-side: three heuristics tried, all far short -- and biasing toward m makes it WORSE
 
 Does an actual family F achieve a residual anywhere near {4199 | x}
