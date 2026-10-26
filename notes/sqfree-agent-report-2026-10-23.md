@@ -1,5 +1,10 @@
 # Agent "sqfree": certified squarefree minimum-modulus bound via the convex stop-loss comparison
 
+Update, 26 October 2026: the comparison in this report now certifies the
+stronger bound M_sf<=7. Earlier numerical comments about stopping at 10
+are superseded; see `upper-bound-seven-2026-10-26.md`. The comparison proof
+and rounding inequalities below are still the basis of the new certificate.
+
 Date: 23 Oct 2026. Time spent: about 2.5 hours. Nothing in the repository was edited.
 
 ## 1. Idea tested
@@ -23,7 +28,7 @@ and a problem of Dalton and Trifonov, https://arxiv.org/abs/2508.18062 (general 
 CFT https://arxiv.org/abs/2211.08548 ; BBMST squarefree https://arxiv.org/abs/1901.11465 ;
 repository notes/codex-readme-log-2026-10-14-15.md (squarefree targets 30 and 3) and literature/SOURCES.md.
 
-Scripts (all in C:\Users\mekak\AppData\Local\Temp\claude\c--Users-mekak-code-minimum-modulus\23ed4d4e-d4c3-4fc1-93e5-481b63d3d735\scratchpad\agents\sqfree\ ; venv python for the optimiser, plain python 3.12 for the verifier):
+Scripts (originally in the agent's local scratch directory; venv python for the optimiser, plain python 3.12 for the verifier):
 
 * sqfree_float_opt.py - floating-point model and coordinate-descent optimiser of the delta schedule
   (62 bands: one per stage for k <= 30, then growing bands up to stage 10^6; a finer variant with
@@ -220,7 +225,7 @@ instead of 1+nu/(p-1)).
 
 ## 6. Files produced
 
-All in C:\Users\mekak\AppData\Local\Temp\claude\c--Users-mekak-code-minimum-modulus\23ed4d4e-d4c3-4fc1-93e5-481b63d3d735\scratchpad\agents\sqfree\ :
+All originally in the agent's local scratch directory:
 REPORT.md; sqfree_float_opt.py; verify_squarefree.py; summarise.py; cft_sched.json, cft118_check.json
 (validation); opt14.json, opt13.json (checkpoint), opt12.json, opt10.json, opt8.json, opt8fine.json,
 opt6.json and their .log files (schedules); cert14.json, cert12.json, cert10.json (certificates,

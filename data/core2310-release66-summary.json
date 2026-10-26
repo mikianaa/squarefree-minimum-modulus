@@ -1,0 +1,362 @@
+[
+  {
+    "residue66": 0,
+    "residue110": 5,
+    "value": 0.9814237997325332,
+    "measure_file": "data/core2310-release66-0-5-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 5,
+    "value": 0.9822160650921549,
+    "measure_file": "data/core2310-release66-2-5-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 5,
+    "value": 0.9918238639377083,
+    "measure_file": "data/core2310-release66-3-5-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 5,
+    "value": 0.9869632944406429,
+    "measure_file": "data/core2310-release66-4-5-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 5,
+    "value": 0.9864295171502279,
+    "measure_file": "data/core2310-release66-5-5-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 5,
+    "value": 0.9983516119535946,
+    "measure_file": "data/core2310-release66-1-5-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 0,
+    "value": 0.9741067914392332,
+    "measure_file": "data/core2310-release66-0-0-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 1,
+    "value": 0.98045738166098,
+    "measure_file": "data/core2310-release66-0-1-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 2,
+    "value": 0.9842236517181935,
+    "measure_file": "data/core2310-release66-0-2-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 3,
+    "value": 0.9788132597731878,
+    "measure_file": "data/core2310-release66-0-3-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 4,
+    "value": 0.9765257122458252,
+    "measure_file": "data/core2310-release66-0-4-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 6,
+    "value": 0.9799395475576522,
+    "measure_file": "data/core2310-release66-0-6-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 7,
+    "value": 0.9838746133682529,
+    "measure_file": "data/core2310-release66-0-7-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 8,
+    "value": 0.9766719381246013,
+    "measure_file": "data/core2310-release66-0-8-measure.json"
+  },
+  {
+    "residue66": 0,
+    "residue110": 9,
+    "value": 0.9803106156473372,
+    "measure_file": "data/core2310-release66-0-9-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 0,
+    "value": 0.9726013716577845,
+    "measure_file": "data/core2310-release66-2-0-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 1,
+    "value": 0.9781141495340827,
+    "measure_file": "data/core2310-release66-2-1-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 2,
+    "value": 0.9835732314855866,
+    "measure_file": "data/core2310-release66-2-2-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 3,
+    "value": 0.9784736111169403,
+    "measure_file": "data/core2310-release66-2-3-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 4,
+    "value": 0.9796964953976058,
+    "measure_file": "data/core2310-release66-2-4-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 6,
+    "value": 0.9775730578028116,
+    "measure_file": "data/core2310-release66-2-6-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 7,
+    "value": 0.9817717847620623,
+    "measure_file": "data/core2310-release66-2-7-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 8,
+    "value": 0.9800812665228905,
+    "measure_file": "data/core2310-release66-2-8-measure.json"
+  },
+  {
+    "residue66": 2,
+    "residue110": 9,
+    "value": 0.9805162552769382,
+    "measure_file": "data/core2310-release66-2-9-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 0,
+    "value": 0.9814634357493794,
+    "measure_file": "data/core2310-release66-3-0-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 1,
+    "value": 0.9879958921871718,
+    "measure_file": "data/core2310-release66-3-1-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 2,
+    "value": 0.9903438491280738,
+    "measure_file": "data/core2310-release66-3-2-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 3,
+    "value": 0.9861250806707164,
+    "measure_file": "data/core2310-release66-3-3-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 4,
+    "value": 0.9846160870847308,
+    "measure_file": "data/core2310-release66-3-4-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 6,
+    "value": 0.9850701907401695,
+    "measure_file": "data/core2310-release66-3-6-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 7,
+    "value": 0.9912162029196138,
+    "measure_file": "data/core2310-release66-3-7-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 8,
+    "value": 0.984721634334974,
+    "measure_file": "data/core2310-release66-3-8-measure.json"
+  },
+  {
+    "residue66": 3,
+    "residue110": 9,
+    "value": 0.9902131617657844,
+    "measure_file": "data/core2310-release66-3-9-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 0,
+    "value": 0.9797390680322469,
+    "measure_file": "data/core2310-release66-4-0-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 1,
+    "value": 0.985109463320778,
+    "measure_file": "data/core2310-release66-4-1-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 2,
+    "value": 0.9891156100920547,
+    "measure_file": "data/core2310-release66-4-2-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 3,
+    "value": 0.9846431236525074,
+    "measure_file": "data/core2310-release66-4-3-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 4,
+    "value": 0.9856782644098496,
+    "measure_file": "data/core2310-release66-4-4-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 6,
+    "value": 0.9859028369806777,
+    "measure_file": "data/core2310-release66-4-6-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 7,
+    "value": 0.9869139682053661,
+    "measure_file": "data/core2310-release66-4-7-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 8,
+    "value": 0.986243393549418,
+    "measure_file": "data/core2310-release66-4-8-measure.json"
+  },
+  {
+    "residue66": 4,
+    "residue110": 9,
+    "value": 0.9856369384994615,
+    "measure_file": "data/core2310-release66-4-9-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 0,
+    "value": 0.9754894362244834,
+    "measure_file": "data/core2310-release66-5-0-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 1,
+    "value": 0.9808665369573347,
+    "measure_file": "data/core2310-release66-5-1-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 2,
+    "value": 0.9846773755371592,
+    "measure_file": "data/core2310-release66-5-2-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 3,
+    "value": 0.9827180007307674,
+    "measure_file": "data/core2310-release66-5-3-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 4,
+    "value": 0.9790933372374828,
+    "measure_file": "data/core2310-release66-5-4-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 6,
+    "value": 0.9785716798656576,
+    "measure_file": "data/core2310-release66-5-6-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 7,
+    "value": 0.9852429338253474,
+    "measure_file": "data/core2310-release66-5-7-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 8,
+    "value": 0.9798616459257214,
+    "measure_file": "data/core2310-release66-5-8-measure.json"
+  },
+  {
+    "residue66": 5,
+    "residue110": 9,
+    "value": 0.9840900850915218,
+    "measure_file": "data/core2310-release66-5-9-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 0,
+    "value": 0.9873468142331079,
+    "measure_file": "data/core2310-release66-1-0-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 1,
+    "value": 0.9941918406822549,
+    "measure_file": "data/core2310-release66-1-1-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 2,
+    "value": 0.9926549393154961,
+    "measure_file": "data/core2310-release66-1-2-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 3,
+    "value": 0.9942912440966879,
+    "measure_file": "data/core2310-release66-1-3-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 4,
+    "value": 0.9918429904460854,
+    "measure_file": "data/core2310-release66-1-4-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 6,
+    "value": 0.9918618916783115,
+    "measure_file": "data/core2310-release66-1-6-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 7,
+    "value": 0.9945638820684402,
+    "measure_file": "data/core2310-release66-1-7-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 8,
+    "value": 0.992103213542554,
+    "measure_file": "data/core2310-release66-1-8-measure.json"
+  },
+  {
+    "residue66": 1,
+    "residue110": 9,
+    "value": 0.9969128928617953,
+    "measure_file": "data/core2310-release66-1-9-measure.json"
+  }
+]

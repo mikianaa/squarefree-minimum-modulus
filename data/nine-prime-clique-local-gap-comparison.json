@@ -1,0 +1,20 @@
+[
+  {
+    "pool": "seed_only",
+    "total_gap": 64362.915598,
+    "point_state_pairs": 22783,
+    "source": "data/nine-prime-clique-local-gap-seed_only.json"
+  },
+  {
+    "pool": "seed_parity_shared",
+    "total_gap": 34678.157523,
+    "point_state_pairs": 269244,
+    "source": "data/nine-prime-clique-local-gap-seed_parity_shared.json"
+  },
+  {
+    "pool": "all_known_parity_shared",
+    "total_gap": 34678.157523,
+    "point_state_pairs": 763546,
+    "source": "data/nine-prime-clique-local-gap-all_known_parity_shared.json"
+  }
+]

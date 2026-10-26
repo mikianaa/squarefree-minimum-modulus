@@ -1,0 +1,277 @@
+{
+  "N": 30030,
+  "pattern": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "uncovered": 792,
+  "initial_uncovered": 799,
+  "passes": 2167,
+  "verified_full_period": true,
+  "seed": 19,
+  "scope": "upper witness for uncovered count; no optimality claim",
+  "system": [
+    {
+      "modulus": 3,
+      "residue": 0
+    },
+    {
+      "modulus": 5,
+      "residue": 0
+    },
+    {
+      "modulus": 6,
+      "residue": 4
+    },
+    {
+      "modulus": 7,
+      "residue": 0
+    },
+    {
+      "modulus": 10,
+      "residue": 1
+    },
+    {
+      "modulus": 11,
+      "residue": 0
+    },
+    {
+      "modulus": 13,
+      "residue": 0
+    },
+    {
+      "modulus": 14,
+      "residue": 1
+    },
+    {
+      "modulus": 15,
+      "residue": 2
+    },
+    {
+      "modulus": 21,
+      "residue": 2
+    },
+    {
+      "modulus": 22,
+      "residue": 1
+    },
+    {
+      "modulus": 26,
+      "residue": 1
+    },
+    {
+      "modulus": 30,
+      "residue": 26
+    },
+    {
+      "modulus": 33,
+      "residue": 14
+    },
+    {
+      "modulus": 35,
+      "residue": 3
+    },
+    {
+      "modulus": 39,
+      "residue": 7
+    },
+    {
+      "modulus": 42,
+      "residue": 37
+    },
+    {
+      "modulus": 55,
+      "residue": 9
+    },
+    {
+      "modulus": 65,
+      "residue": 24
+    },
+    {
+      "modulus": 66,
+      "residue": 8
+    },
+    {
+      "modulus": 70,
+      "residue": 53
+    },
+    {
+      "modulus": 77,
+      "residue": 26
+    },
+    {
+      "modulus": 78,
+      "residue": 31
+    },
+    {
+      "modulus": 91,
+      "residue": 41
+    },
+    {
+      "modulus": 105,
+      "residue": 83
+    },
+    {
+      "modulus": 110,
+      "residue": 19
+    },
+    {
+      "modulus": 130,
+      "residue": 29
+    },
+    {
+      "modulus": 143,
+      "residue": 139
+    },
+    {
+      "modulus": 154,
+      "residue": 61
+    },
+    {
+      "modulus": 165,
+      "residue": 134
+    },
+    {
+      "modulus": 182,
+      "residue": 69
+    },
+    {
+      "modulus": 195,
+      "residue": 149
+    },
+    {
+      "modulus": 210,
+      "residue": 158
+    },
+    {
+      "modulus": 231,
+      "residue": 131
+    },
+    {
+      "modulus": 273,
+      "residue": 97
+    },
+    {
+      "modulus": 286,
+      "residue": 203
+    },
+    {
+      "modulus": 330,
+      "residue": 314
+    },
+    {
+      "modulus": 385,
+      "residue": 383
+    },
+    {
+      "modulus": 390,
+      "residue": 37
+    },
+    {
+      "modulus": 429,
+      "residue": 293
+    },
+    {
+      "modulus": 455,
+      "residue": 444
+    },
+    {
+      "modulus": 462,
+      "residue": 355
+    },
+    {
+      "modulus": 546,
+      "residue": 517
+    },
+    {
+      "modulus": 715,
+      "residue": 324
+    },
+    {
+      "modulus": 770,
+      "residue": 173
+    },
+    {
+      "modulus": 858,
+      "residue": 805
+    },
+    {
+      "modulus": 910,
+      "residue": 249
+    },
+    {
+      "modulus": 1001,
+      "residue": 810
+    },
+    {
+      "modulus": 1155,
+      "residue": 68
+    },
+    {
+      "modulus": 1365,
+      "residue": 629
+    },
+    {
+      "modulus": 1430,
+      "residue": 359
+    },
+    {
+      "modulus": 2002,
+      "residue": 1083
+    },
+    {
+      "modulus": 2145,
+      "residue": 764
+    },
+    {
+      "modulus": 2310,
+      "residue": 698
+    },
+    {
+      "modulus": 2730,
+      "residue": 1147
+    },
+    {
+      "modulus": 3003,
+      "residue": 1349
+    },
+    {
+      "modulus": 4290,
+      "residue": 4064
+    },
+    {
+      "modulus": 5005,
+      "residue": 964
+    },
+    {
+      "modulus": 6006,
+      "residue": 1195
+    },
+    {
+      "modulus": 10010,
+      "residue": 5169
+    },
+    {
+      "modulus": 15015,
+      "residue": 2204
+    },
+    {
+      "modulus": 30030,
+      "residue": 18338
+    }
+  ],
+  "provenance": {
+    "source": "data/min-uncovered-2310-five-patterns-optimal.json",
+    "prefix_pattern": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "extension": "local improvement with q=13, parity=1",
+    "verification": "direct coverage of every integer in [0,30030)"
+  }
+}

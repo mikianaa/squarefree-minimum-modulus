@@ -1,0 +1,41 @@
+[
+  {
+    "iteration": "first",
+    "certificate": "data\\nine-prime-four-curve-dual-priced.json",
+    "exact_pool_numerator": -151027982713,
+    "exact_capacity_numerator": -286156965098,
+    "denominator": 1000000,
+    "normalized_pool_gap": -0.15102798270257906,
+    "numerical_scenario_margin": -151515.52613033334,
+    "total_event_weight": 1000000000069,
+    "point_states": 19120,
+    "group_constraints": 3716,
+    "seconds": 85.38999999998487
+  },
+  {
+    "iteration": "second",
+    "certificate": "data\\nine-prime-four-curve-corrected-priced.json",
+    "exact_pool_numerator": -44932618101,
+    "exact_capacity_numerator": -177652262984,
+    "denominator": 1000000,
+    "normalized_pool_gap": -0.04493261810657165,
+    "numerical_scenario_margin": -45962.59595039533,
+    "total_event_weight": 999999999876,
+    "point_states": 20877,
+    "group_constraints": 3922,
+    "seconds": 69.34400000001187
+  },
+  {
+    "iteration": "third",
+    "certificate": "data\\nine-prime-four-curve-third-priced.json",
+    "exact_pool_numerator": -27766730378,
+    "exact_capacity_numerator": -161640666298,
+    "denominator": 1000000,
+    "normalized_pool_gap": -0.02776673037747243,
+    "numerical_scenario_margin": -28352.458133066222,
+    "total_event_weight": 1000000000019,
+    "point_states": 22783,
+    "group_constraints": 4092,
+    "seconds": 63.85899999999674
+  }
+]

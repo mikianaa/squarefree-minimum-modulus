@@ -1,0 +1,10 @@
+{
+  "denominator": 100000000,
+  "fractional_states_checked": 329,
+  "cuts": [],
+  "verified": false,
+  "covering_obstruction": false,
+  "exact_triples": true,
+  "scope": "At most one violated conditional triple event cut per displayed fractional state. No claim of compatibility of four or more points.",
+  "source": "data/nine-prime-three-curve-barrier.json"
+}

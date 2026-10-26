@@ -1,0 +1,60 @@
+{
+  "subset_size": 4,
+  "subset_group_combinations_checked": 226765,
+  "violations": [
+    {
+      "axis": 8,
+      "points": [
+        0,
+        8,
+        11,
+        19
+      ],
+      "thresholds": [
+        8,
+        4,
+        4,
+        8
+      ],
+      "projection_sum_capacity": 23,
+      "violation_numerator": 61578118
+    },
+    {
+      "axis": 10,
+      "points": [
+        0,
+        8,
+        11,
+        19
+      ],
+      "thresholds": [
+        8,
+        4,
+        4,
+        8
+      ],
+      "projection_sum_capacity": 23,
+      "violation_numerator": 16240659
+    },
+    {
+      "axis": 17,
+      "points": [
+        0,
+        8,
+        11,
+        19
+      ],
+      "thresholds": [
+        8,
+        4,
+        4,
+        8
+      ],
+      "projection_sum_capacity": 23,
+      "violation_numerator": 8673132
+    }
+  ],
+  "denominator": 1000000000,
+  "seconds": 9.969,
+  "scope": "valid cuts excluding the supplied fractional witness; not a covering obstruction"
+}

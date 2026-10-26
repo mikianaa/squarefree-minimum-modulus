@@ -1,0 +1,817 @@
+{
+  "status": "VERIFIED_FULL_RANGE_BARRIER",
+  "scale": 100000000,
+  "grid_denominator": 5000,
+  "count_terms": 18,
+  "capacity_padding_scale": 1000000000000,
+  "original_objective_horizon": 10007,
+  "relaxed_prefix_last_prime": 5003,
+  "minimum_lower_integer": 103219703,
+  "minimum_lower": 1.03219703,
+  "cases": [
+    {
+      "atoms": [
+        0,
+        0,
+        0
+      ],
+      "deltas": [
+        "0",
+        "0",
+        "0"
+      ],
+      "prefix_loss": "61/77",
+      "prefix_lower": 79220779,
+      "denominator": 2310,
+      "numerators": [
+        480,
+        968,
+        652,
+        186,
+        23,
+        1
+      ],
+      "continuation_lower": 48137837,
+      "total_lower": 127358616
+    },
+    {
+      "atoms": [
+        0,
+        0,
+        1
+      ],
+      "deltas": [
+        "0",
+        "0",
+        "1/11"
+      ],
+      "prefix_loss": "251/350",
+      "prefix_lower": 71714285,
+      "denominator": 2100,
+      "numerators": [
+        432,
+        876,
+        596,
+        173,
+        22,
+        1
+      ],
+      "continuation_lower": 49611676,
+      "total_lower": 121325961
+    },
+    {
+      "atoms": [
+        0,
+        0,
+        2
+      ],
+      "deltas": [
+        "0",
+        "0",
+        "2/11"
+      ],
+      "prefix_loss": "41/63",
+      "prefix_lower": 65079365,
+      "denominator": 1890,
+      "numerators": [
+        384,
+        784,
+        540,
+        160,
+        21,
+        1
+      ],
+      "continuation_lower": 51406665,
+      "total_lower": 116486030
+    },
+    {
+      "atoms": [
+        0,
+        0,
+        4
+      ],
+      "deltas": [
+        "0",
+        "0",
+        "4/11"
+      ],
+      "prefix_loss": "431/735",
+      "prefix_lower": 58639455,
+      "denominator": 1470,
+      "numerators": [
+        288,
+        600,
+        428,
+        134,
+        19,
+        1
+      ],
+      "continuation_lower": 56511107,
+      "total_lower": 115150562
+    },
+    {
+      "atoms": [
+        0,
+        1,
+        0
+      ],
+      "deltas": [
+        "0",
+        "1/7",
+        "0"
+      ],
+      "prefix_loss": "227/330",
+      "prefix_lower": 68787878,
+      "denominator": 1980,
+      "numerators": [
+        400,
+        820,
+        568,
+        169,
+        22,
+        1
+      ],
+      "continuation_lower": 51537018,
+      "total_lower": 120324896
+    },
+    {
+      "atoms": [
+        0,
+        1,
+        1
+      ],
+      "deltas": [
+        "0",
+        "1/7",
+        "1/11"
+      ],
+      "prefix_loss": "46/75",
+      "prefix_lower": 61333333,
+      "denominator": 1800,
+      "numerators": [
+        360,
+        742,
+        519,
+        157,
+        21,
+        1
+      ],
+      "continuation_lower": 53081470,
+      "total_lower": 114414803
+    },
+    {
+      "atoms": [
+        0,
+        1,
+        2
+      ],
+      "deltas": [
+        "0",
+        "1/7",
+        "2/11"
+      ],
+      "prefix_loss": "443/810",
+      "prefix_lower": 54691358,
+      "denominator": 1620,
+      "numerators": [
+        320,
+        664,
+        470,
+        145,
+        20,
+        1
+      ],
+      "continuation_lower": 54963642,
+      "total_lower": 109655000
+    },
+    {
+      "atoms": [
+        0,
+        1,
+        4
+      ],
+      "deltas": [
+        "0",
+        "1/7",
+        "4/11"
+      ],
+      "prefix_loss": "101/210",
+      "prefix_lower": 48095238,
+      "denominator": 1260,
+      "numerators": [
+        240,
+        508,
+        372,
+        121,
+        18,
+        1
+      ],
+      "continuation_lower": 60331918,
+      "total_lower": 108427156
+    },
+    {
+      "atoms": [
+        0,
+        2,
+        0
+      ],
+      "deltas": [
+        "0",
+        "2/7",
+        "0"
+      ],
+      "prefix_loss": "491/825",
+      "prefix_lower": 59515151,
+      "denominator": 1650,
+      "numerators": [
+        320,
+        672,
+        484,
+        152,
+        21,
+        1
+      ],
+      "continuation_lower": 56274315,
+      "total_lower": 115789466
+    },
+    {
+      "atoms": [
+        0,
+        2,
+        1
+      ],
+      "deltas": [
+        "0",
+        "2/7",
+        "1/11"
+      ],
+      "prefix_loss": "391/750",
+      "prefix_lower": 52133333,
+      "denominator": 1500,
+      "numerators": [
+        288,
+        608,
+        442,
+        141,
+        20,
+        1
+      ],
+      "continuation_lower": 57922619,
+      "total_lower": 110055952
+    },
+    {
+      "atoms": [
+        0,
+        2,
+        2
+      ],
+      "deltas": [
+        "0",
+        "2/7",
+        "2/11"
+      ],
+      "prefix_loss": "307/675",
+      "prefix_lower": 45481481,
+      "denominator": 1350,
+      "numerators": [
+        256,
+        544,
+        400,
+        130,
+        19,
+        1
+      ],
+      "continuation_lower": 59935179,
+      "total_lower": 105416660
+    },
+    {
+      "atoms": [
+        0,
+        2,
+        4
+      ],
+      "deltas": [
+        "0",
+        "2/7",
+        "4/11"
+      ],
+      "prefix_loss": "29/75",
+      "prefix_lower": 38666666,
+      "denominator": 1050,
+      "numerators": [
+        192,
+        416,
+        316,
+        108,
+        17,
+        1
+      ],
+      "continuation_lower": 65677981,
+      "total_lower": 104344647
+    },
+    {
+      "atoms": [
+        0,
+        4,
+        0
+      ],
+      "deltas": [
+        "0",
+        "4/7",
+        "0"
+      ],
+      "prefix_loss": "53/99",
+      "prefix_lower": 53535353,
+      "denominator": 990,
+      "numerators": [
+        160,
+        376,
+        316,
+        118,
+        19,
+        1
+      ],
+      "continuation_lower": 75177898,
+      "total_lower": 128713251
+    },
+    {
+      "atoms": [
+        0,
+        4,
+        1
+      ],
+      "deltas": [
+        "0",
+        "4/7",
+        "1/11"
+      ],
+      "prefix_loss": "209/450",
+      "prefix_lower": 46444444,
+      "denominator": 900,
+      "numerators": [
+        144,
+        340,
+        288,
+        109,
+        18,
+        1
+      ],
+      "continuation_lower": 77257100,
+      "total_lower": 123701544
+    },
+    {
+      "atoms": [
+        0,
+        4,
+        2
+      ],
+      "deltas": [
+        "0",
+        "4/7",
+        "2/11"
+      ],
+      "prefix_loss": "161/405",
+      "prefix_lower": 39753086,
+      "denominator": 810,
+      "numerators": [
+        128,
+        304,
+        260,
+        100,
+        17,
+        1
+      ],
+      "continuation_lower": 79798125,
+      "total_lower": 119551211
+    },
+    {
+      "atoms": [
+        0,
+        4,
+        4
+      ],
+      "deltas": [
+        "0",
+        "4/7",
+        "4/11"
+      ],
+      "prefix_loss": "101/315",
+      "prefix_lower": 32063492,
+      "denominator": 630,
+      "numerators": [
+        96,
+        232,
+        204,
+        82,
+        15,
+        1
+      ],
+      "continuation_lower": 87057408,
+      "total_lower": 119120900
+    },
+    {
+      "atoms": [
+        1,
+        0,
+        0
+      ],
+      "deltas": [
+        "1/5",
+        "0",
+        "0"
+      ],
+      "prefix_loss": "647/924",
+      "prefix_lower": 70021645,
+      "denominator": 1848,
+      "numerators": [
+        360,
+        756,
+        542,
+        167,
+        22,
+        1
+      ],
+      "continuation_lower": 54398273,
+      "total_lower": 124419918
+    },
+    {
+      "atoms": [
+        1,
+        0,
+        1
+      ],
+      "deltas": [
+        "1/5",
+        "0",
+        "1/11"
+      ],
+      "prefix_loss": "263/420",
+      "prefix_lower": 62619047,
+      "denominator": 1680,
+      "numerators": [
+        324,
+        684,
+        495,
+        155,
+        21,
+        1
+      ],
+      "continuation_lower": 56011747,
+      "total_lower": 118630794
+    },
+    {
+      "atoms": [
+        1,
+        0,
+        2
+      ],
+      "deltas": [
+        "1/5",
+        "0",
+        "2/11"
+      ],
+      "prefix_loss": "47/84",
+      "prefix_lower": 55952380,
+      "denominator": 1512,
+      "numerators": [
+        288,
+        612,
+        448,
+        143,
+        20,
+        1
+      ],
+      "continuation_lower": 57980245,
+      "total_lower": 113932625
+    },
+    {
+      "atoms": [
+        1,
+        0,
+        4
+      ],
+      "deltas": [
+        "1/5",
+        "0",
+        "4/11"
+      ],
+      "prefix_loss": "289/588",
+      "prefix_lower": 49149659,
+      "denominator": 1176,
+      "numerators": [
+        216,
+        468,
+        354,
+        119,
+        18,
+        1
+      ],
+      "continuation_lower": 63595983,
+      "total_lower": 112745642
+    },
+    {
+      "atoms": [
+        1,
+        1,
+        0
+      ],
+      "deltas": [
+        "1/5",
+        "1/7",
+        "0"
+      ],
+      "prefix_loss": "79/132",
+      "prefix_lower": 59848484,
+      "denominator": 1584,
+      "numerators": [
+        300,
+        640,
+        471,
+        151,
+        21,
+        1
+      ],
+      "continuation_lower": 58138733,
+      "total_lower": 117987217
+    },
+    {
+      "atoms": [
+        1,
+        1,
+        1
+      ],
+      "deltas": [
+        "1/5",
+        "1/7",
+        "1/11"
+      ],
+      "prefix_loss": "21/40",
+      "prefix_lower": 52500000,
+      "denominator": 1440,
+      "numerators": [
+        270,
+        579,
+        430,
+        140,
+        20,
+        1
+      ],
+      "continuation_lower": 59832741,
+      "total_lower": 112332741
+    },
+    {
+      "atoms": [
+        1,
+        1,
+        2
+      ],
+      "deltas": [
+        "1/5",
+        "1/7",
+        "2/11"
+      ],
+      "prefix_loss": "11/24",
+      "prefix_lower": 45833333,
+      "denominator": 1296,
+      "numerators": [
+        240,
+        518,
+        389,
+        129,
+        19,
+        1
+      ],
+      "continuation_lower": 61900603,
+      "total_lower": 107733936
+    },
+    {
+      "atoms": [
+        1,
+        1,
+        4
+      ],
+      "deltas": [
+        "1/5",
+        "1/7",
+        "4/11"
+      ],
+      "prefix_loss": "7/18",
+      "prefix_lower": 38888888,
+      "denominator": 1008,
+      "numerators": [
+        180,
+        396,
+        307,
+        107,
+        17,
+        1
+      ],
+      "continuation_lower": 67804392,
+      "total_lower": 106693280
+    },
+    {
+      "atoms": [
+        1,
+        2,
+        0
+      ],
+      "deltas": [
+        "1/5",
+        "2/7",
+        "0"
+      ],
+      "prefix_loss": "167/330",
+      "prefix_lower": 50606060,
+      "denominator": 1320,
+      "numerators": [
+        240,
+        524,
+        400,
+        135,
+        20,
+        1
+      ],
+      "continuation_lower": 63367101,
+      "total_lower": 113973161
+    },
+    {
+      "atoms": [
+        1,
+        2,
+        1
+      ],
+      "deltas": [
+        "1/5",
+        "2/7",
+        "1/11"
+      ],
+      "prefix_loss": "13/30",
+      "prefix_lower": 43333333,
+      "denominator": 1200,
+      "numerators": [
+        216,
+        474,
+        365,
+        125,
+        19,
+        1
+      ],
+      "continuation_lower": 65175041,
+      "total_lower": 108508374
+    },
+    {
+      "atoms": [
+        1,
+        2,
+        2
+      ],
+      "deltas": [
+        "1/5",
+        "2/7",
+        "2/11"
+      ],
+      "prefix_loss": "11/30",
+      "prefix_lower": 36666666,
+      "denominator": 1080,
+      "numerators": [
+        192,
+        424,
+        330,
+        115,
+        18,
+        1
+      ],
+      "continuation_lower": 67384457,
+      "total_lower": 104051123
+    },
+    {
+      "atoms": [
+        1,
+        2,
+        4
+      ],
+      "deltas": [
+        "1/5",
+        "2/7",
+        "4/11"
+      ],
+      "prefix_loss": "31/105",
+      "prefix_lower": 29523809,
+      "denominator": 840,
+      "numerators": [
+        144,
+        324,
+        260,
+        95,
+        16,
+        1
+      ],
+      "continuation_lower": 73695894,
+      "total_lower": 103219703
+    },
+    {
+      "atoms": [
+        1,
+        4,
+        0
+      ],
+      "deltas": [
+        "1/5",
+        "4/7",
+        "0"
+      ],
+      "prefix_loss": "175/396",
+      "prefix_lower": 44191919,
+      "denominator": 792,
+      "numerators": [
+        120,
+        292,
+        258,
+        103,
+        18,
+        1
+      ],
+      "continuation_lower": 84259393,
+      "total_lower": 128451312
+    },
+    {
+      "atoms": [
+        1,
+        4,
+        1
+      ],
+      "deltas": [
+        "1/5",
+        "4/7",
+        "1/11"
+      ],
+      "prefix_loss": "67/180",
+      "prefix_lower": 37222222,
+      "denominator": 720,
+      "numerators": [
+        108,
+        264,
+        235,
+        95,
+        17,
+        1
+      ],
+      "continuation_lower": 86534200,
+      "total_lower": 123756422
+    },
+    {
+      "atoms": [
+        1,
+        4,
+        2
+      ],
+      "deltas": [
+        "1/5",
+        "4/7",
+        "2/11"
+      ],
+      "prefix_loss": "11/36",
+      "prefix_lower": 30555555,
+      "denominator": 648,
+      "numerators": [
+        96,
+        236,
+        212,
+        87,
+        16,
+        1
+      ],
+      "continuation_lower": 89314506,
+      "total_lower": 119870061
+    },
+    {
+      "atoms": [
+        1,
+        4,
+        4
+      ],
+      "deltas": [
+        "1/5",
+        "4/7",
+        "4/11"
+      ],
+      "prefix_loss": "19/84",
+      "prefix_lower": 22619047,
+      "denominator": 504,
+      "numerators": [
+        72,
+        180,
+        166,
+        71,
+        14,
+        1
+      ],
+      "continuation_lower": 97257902,
+      "total_lower": 119876949
+    }
+  ],
+  "pruning_file": "data/fullrange-action-pruning.json",
+  "pruning_sha256": "d10aa8de81211367e164975bf083936203f5b1071236a36be5d81e063dc1ad80",
+  "pruning_audit_file": "data/audit-fullrange-action-pruning.json",
+  "seconds": 116.42
+}

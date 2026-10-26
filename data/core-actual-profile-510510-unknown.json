@@ -1,0 +1,110 @@
+{
+  "N": 510510,
+  "pattern": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "core_residual": [
+    10,
+    12
+  ],
+  "status": "UNKNOWN",
+  "cells": 3405,
+  "resources": 106,
+  "build_seconds": 1.672,
+  "seconds": 62.422,
+  "minimize": false,
+  "variable_core_frontier": false,
+  "fixed_family_capacities": true,
+  "scope": "capacity relaxation at one fixed anchor pattern",
+  "core_family": [
+    [
+      3,
+      0
+    ],
+    [
+      5,
+      0
+    ],
+    [
+      6,
+      4
+    ],
+    [
+      7,
+      0
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      14,
+      1
+    ],
+    [
+      15,
+      2
+    ],
+    [
+      21,
+      2
+    ],
+    [
+      30,
+      7
+    ],
+    [
+      35,
+      3
+    ],
+    [
+      42,
+      8
+    ],
+    [
+      70,
+      53
+    ],
+    [
+      105,
+      83
+    ],
+    [
+      210,
+      163
+    ]
+  ],
+  "core_residual_sets": [
+    [
+      26,
+      68,
+      74,
+      104,
+      116,
+      146,
+      158,
+      164,
+      194,
+      206
+    ],
+    [
+      13,
+      19,
+      59,
+      79,
+      89,
+      103,
+      109,
+      139,
+      173,
+      179,
+      199,
+      209
+    ]
+  ]
+}

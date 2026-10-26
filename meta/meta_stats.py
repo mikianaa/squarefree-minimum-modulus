@@ -27,6 +27,7 @@ import datetime as dt
 import glob
 import json
 import os
+import re
 import sys
 from collections import defaultdict
 
@@ -34,8 +35,16 @@ HOME = os.path.expanduser("~")
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 META = os.path.join(ROOT, "meta")
 CLAUDE_PROJECTS = os.path.join(HOME, ".claude", "projects")
-THIS_PROJECT = "c--Users-mekak-code-squarefree-minimum-modulus"
-PARENT_PROJECT = "c--Users-mekak-code-minimum-modulus"
+def project_directory_key(path):
+    """Derive Claude's local directory key without storing a user's home path."""
+    path = os.path.abspath(path)
+    if len(path) > 1 and path[1] == ":":
+        path = path[0].lower() + path[1:]
+    return re.sub(r"[^A-Za-z0-9]", "-", path)
+
+
+THIS_PROJECT = project_directory_key(ROOT)
+PARENT_PROJECT = project_directory_key(os.path.join(os.path.dirname(ROOT), "minimum-modulus"))
 
 # Claude Code transcripts that belong to this project: (project dir, relative
 # glob, session label or None).  With label None the session is the first path
@@ -226,7 +235,8 @@ def summarise(events):
     return {
         "generated": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         "start_date": START_DATE.date().isoformat(),
-        "claude_sources": [{"project": p, "pattern": g, "session": l} for p, g, l in CLAUDE_SOURCES],
+        "claude_sources": [{"project": "squarefree-minimum-modulus" if p == THIS_PROJECT else "minimum-modulus",
+                            "pattern": g, "session": l} for p, g, l in CLAUDE_SOURCES],
         "codex_cwd_keys": list(CWD_KEYS),
         "rates_usd_per_mtok": {"claude-code": CLAUDE_RATES, "codex": CODEX_RATES},
         "totals": {k: dict(v) for k, v in totals.items()},

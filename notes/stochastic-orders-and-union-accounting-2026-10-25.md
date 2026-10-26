@@ -1,5 +1,12 @@
 # Stochastic orders behind the comparison lemma, and what is left to gain
 
+Historical note: the blanket sharpness statements below refer to the old
+comparison information and should not be read as excluding geometry-aware
+refinements. The later core comparison proves a new no-modulus-10 branch
+at cutoff 6; see `core30-overlap-refinement-2026-10-26.md`. Claims below
+that union accounting is the only discarded information are too broad:
+actual conditional laws and last-coordinate collisions can also matter.
+
 Date: 25 Oct 2026 (Fable). Question from the owner: the nested-event lemma is a special case of
 the comonotonic convex-order theorem; does the stochastic-orders / dependence / actuarial
 literature contain sharper results that would strengthen the certified bound M_sf <= 10

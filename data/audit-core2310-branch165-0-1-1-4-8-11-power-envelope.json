@@ -1,0 +1,18 @@
+{
+  "status": "VERIFIED",
+  "core_file": "data\\core2310-branch165-0-1-1-4-8-11-power-envelope.json",
+  "core_sha256": "5b186f0d8944fe4e07485a086a10527b9fb17e0d14f9e5b6cb61618501c9ab79",
+  "catalogues": 810000,
+  "thresholds": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "arithmetic": "uint32",
+  "partial_sum_bound": 2869356588,
+  "scope": "Independent overflow-checked integer core audit; initial free-class charges and infinite continuation are separate"
+}

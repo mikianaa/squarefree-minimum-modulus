@@ -1,0 +1,546 @@
+[
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "input_lower": 156,
+    "status": "integer_only",
+    "uncovered_lower": 766,
+    "minimizing_sizes_and_assignment": [
+      33,
+      123,
+      0
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "input_lower": 156,
+    "status": "integer_only",
+    "uncovered_lower": 676,
+    "minimizing_sizes_and_assignment": [
+      15,
+      141,
+      0
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "input_lower": 156,
+    "status": "including_solver",
+    "uncovered_lower": 766,
+    "minimizing_sizes_and_assignment": [
+      33,
+      123,
+      0
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "input_lower": 156,
+    "status": "including_solver",
+    "uncovered_lower": 676,
+    "minimizing_sizes_and_assignment": [
+      15,
+      141,
+      0
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "input_lower": 138,
+    "status": "integer_only",
+    "uncovered_lower": 645,
+    "minimizing_sizes_and_assignment": [
+      25,
+      113,
+      64
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "input_lower": 138,
+    "status": "integer_only",
+    "uncovered_lower": 557,
+    "minimizing_sizes_and_assignment": [
+      16,
+      122,
+      64
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "input_lower": 138,
+    "status": "including_solver",
+    "uncovered_lower": 645,
+    "minimizing_sizes_and_assignment": [
+      25,
+      113,
+      64
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "input_lower": 138,
+    "status": "including_solver",
+    "uncovered_lower": 557,
+    "minimizing_sizes_and_assignment": [
+      16,
+      122,
+      64
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "input_lower": 114,
+    "status": "integer_only",
+    "uncovered_lower": 453,
+    "minimizing_sizes_and_assignment": [
+      82,
+      32,
+      1439
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "input_lower": 114,
+    "status": "integer_only",
+    "uncovered_lower": 401,
+    "minimizing_sizes_and_assignment": [
+      6,
+      108,
+      1024
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "input_lower": 114,
+    "status": "including_solver",
+    "uncovered_lower": 453,
+    "minimizing_sizes_and_assignment": [
+      82,
+      32,
+      1439
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      0,
+      1
+    ],
+    "input_lower": 114,
+    "status": "including_solver",
+    "uncovered_lower": 401,
+    "minimizing_sizes_and_assignment": [
+      6,
+      108,
+      1024
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "input_lower": 106,
+    "status": "integer_only",
+    "uncovered_lower": 366,
+    "minimizing_sizes_and_assignment": [
+      89,
+      17,
+      1503
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "input_lower": 106,
+    "status": "integer_only",
+    "uncovered_lower": 368,
+    "minimizing_sizes_and_assignment": [
+      15,
+      91,
+      1088
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      1,
+      0
+    ],
+    "input_lower": 141,
+    "status": "including_solver",
+    "uncovered_lower": 644,
+    "minimizing_sizes_and_assignment": [
+      89,
+      52,
+      1479
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "input_lower": 141,
+    "status": "including_solver",
+    "uncovered_lower": 639,
+    "minimizing_sizes_and_assignment": [
+      17,
+      124,
+      1088
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "input_lower": 103,
+    "status": "integer_only",
+    "uncovered_lower": 359,
+    "minimizing_sizes_and_assignment": [
+      84,
+      19,
+      4511
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "input_lower": 103,
+    "status": "integer_only",
+    "uncovered_lower": 346,
+    "minimizing_sizes_and_assignment": [
+      4,
+      99,
+      4096
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "input_lower": 134,
+    "status": "including_solver",
+    "uncovered_lower": 617,
+    "minimizing_sizes_and_assignment": [
+      84,
+      50,
+      4383
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "input_lower": 134,
+    "status": "including_solver",
+    "uncovered_lower": 544,
+    "minimizing_sizes_and_assignment": [
+      27,
+      107,
+      4352
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "input_lower": 90,
+    "status": "integer_only",
+    "uncovered_lower": 285,
+    "minimizing_sizes_and_assignment": [
+      73,
+      17,
+      4191
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "input_lower": 90,
+    "status": "integer_only",
+    "uncovered_lower": 286,
+    "minimizing_sizes_and_assignment": [
+      13,
+      77,
+      4176
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "input_lower": 124,
+    "status": "including_solver",
+    "uncovered_lower": 501,
+    "minimizing_sizes_and_assignment": [
+      92,
+      32,
+      4575
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "input_lower": 124,
+    "status": "including_solver",
+    "uncovered_lower": 494,
+    "minimizing_sizes_and_assignment": [
+      17,
+      107,
+      4160
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "input_lower": 96,
+    "status": "integer_only",
+    "uncovered_lower": 316,
+    "minimizing_sizes_and_assignment": [
+      79,
+      17,
+      5535
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "input_lower": 96,
+    "status": "integer_only",
+    "uncovered_lower": 315,
+    "minimizing_sizes_and_assignment": [
+      16,
+      80,
+      5504
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    "input_lower": 123,
+    "status": "including_solver",
+    "uncovered_lower": 481,
+    "minimizing_sizes_and_assignment": [
+      96,
+      27,
+      5535
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "input_lower": 123,
+    "status": "including_solver",
+    "uncovered_lower": 495,
+    "minimizing_sizes_and_assignment": [
+      29,
+      94,
+      5376
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "input_lower": 90,
+    "status": "integer_only",
+    "uncovered_lower": 281,
+    "minimizing_sizes_and_assignment": [
+      74,
+      16,
+      5599
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "input_lower": 90,
+    "status": "integer_only",
+    "uncovered_lower": 292,
+    "minimizing_sizes_and_assignment": [
+      18,
+      72,
+      5568
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      1,
+      0
+    ],
+    "input_lower": 121,
+    "status": "including_solver",
+    "uncovered_lower": 436,
+    "minimizing_sizes_and_assignment": [
+      105,
+      16,
+      5599
+    ]
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ],
+    "input_lower": 121,
+    "status": "including_solver",
+    "uncovered_lower": 507,
+    "minimizing_sizes_and_assignment": [
+      33,
+      88,
+      5568
+    ]
+  }
+]

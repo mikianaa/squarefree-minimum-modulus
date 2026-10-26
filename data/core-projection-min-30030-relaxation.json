@@ -1,0 +1,723 @@
+{
+  "N": 30030,
+  "pattern": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "core_residual": [
+    8,
+    14
+  ],
+  "status": "FEASIBLE",
+  "cells": 219,
+  "resources": 44,
+  "build_seconds": 0.109,
+  "seconds": 60.281,
+  "minimize": true,
+  "variable_core_frontier": true,
+  "scope": "capacity relaxation at one fixed anchor pattern",
+  "uncovered_lower_bound": 66,
+  "relaxation_uncovered": 268,
+  "selected_core_residual": [
+    7,
+    15
+  ],
+  "placements": [
+    {
+      "modulus": 33,
+      "core_divisor": 3,
+      "high_subset": [
+        0
+      ],
+      "parity": null,
+      "labels": [
+        2
+      ],
+      "capacity": [
+        24,
+        15
+      ]
+    },
+    {
+      "modulus": 39,
+      "core_divisor": 3,
+      "high_subset": [
+        1
+      ],
+      "parity": null,
+      "labels": [
+        2
+      ],
+      "capacity": [
+        24,
+        15
+      ]
+    },
+    {
+      "modulus": 55,
+      "core_divisor": 5,
+      "high_subset": [
+        0
+      ],
+      "parity": null,
+      "labels": [
+        3
+      ],
+      "capacity": [
+        6,
+        10
+      ]
+    },
+    {
+      "modulus": 65,
+      "core_divisor": 5,
+      "high_subset": [
+        1
+      ],
+      "parity": null,
+      "labels": [
+        3
+      ],
+      "capacity": [
+        6,
+        10
+      ]
+    },
+    {
+      "modulus": 66,
+      "core_divisor": 6,
+      "high_subset": [
+        0
+      ],
+      "parity": 1,
+      "labels": [
+        4
+      ],
+      "capacity": [
+        24,
+        15
+      ]
+    },
+    {
+      "modulus": 77,
+      "core_divisor": 7,
+      "high_subset": [
+        0
+      ],
+      "parity": null,
+      "labels": [
+        5
+      ],
+      "capacity": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus": 78,
+      "core_divisor": 6,
+      "high_subset": [
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        4
+      ],
+      "capacity": [
+        24,
+        15
+      ]
+    },
+    {
+      "modulus": 91,
+      "core_divisor": 7,
+      "high_subset": [
+        1
+      ],
+      "parity": null,
+      "labels": [
+        5
+      ],
+      "capacity": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus": 110,
+      "core_divisor": 10,
+      "high_subset": [
+        0
+      ],
+      "parity": 1,
+      "labels": [
+        6
+      ],
+      "capacity": [
+        6,
+        10
+      ]
+    },
+    {
+      "modulus": 130,
+      "core_divisor": 10,
+      "high_subset": [
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        6
+      ],
+      "capacity": [
+        6,
+        10
+      ]
+    },
+    {
+      "modulus": 143,
+      "core_divisor": 1,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": null,
+      "labels": [
+        7,
+        7
+      ],
+      "capacity": [
+        24,
+        30
+      ]
+    },
+    {
+      "modulus": 154,
+      "core_divisor": 14,
+      "high_subset": [
+        0
+      ],
+      "parity": 1,
+      "labels": [
+        7
+      ],
+      "capacity": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus": 165,
+      "core_divisor": 15,
+      "high_subset": [
+        0
+      ],
+      "parity": null,
+      "labels": [
+        8
+      ],
+      "capacity": [
+        6,
+        5
+      ]
+    },
+    {
+      "modulus": 182,
+      "core_divisor": 14,
+      "high_subset": [
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        8
+      ],
+      "capacity": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus": 195,
+      "core_divisor": 15,
+      "high_subset": [
+        1
+      ],
+      "parity": null,
+      "labels": [
+        9
+      ],
+      "capacity": [
+        6,
+        5
+      ]
+    },
+    {
+      "modulus": 231,
+      "core_divisor": 21,
+      "high_subset": [
+        0
+      ],
+      "parity": null,
+      "labels": [
+        9
+      ],
+      "capacity": [
+        4,
+        3
+      ]
+    },
+    {
+      "modulus": 273,
+      "core_divisor": 21,
+      "high_subset": [
+        1
+      ],
+      "parity": null,
+      "labels": [
+        10
+      ],
+      "capacity": [
+        4,
+        3
+      ]
+    },
+    {
+      "modulus": 286,
+      "core_divisor": 2,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        10,
+        7
+      ],
+      "capacity": [
+        24,
+        30
+      ]
+    },
+    {
+      "modulus": 330,
+      "core_divisor": 30,
+      "high_subset": [
+        0
+      ],
+      "parity": 0,
+      "labels": [
+        1
+      ],
+      "capacity": [
+        6,
+        5
+      ]
+    },
+    {
+      "modulus": 385,
+      "core_divisor": 35,
+      "high_subset": [
+        0
+      ],
+      "parity": null,
+      "labels": [
+        10
+      ],
+      "capacity": [
+        1,
+        2
+      ]
+    },
+    {
+      "modulus": 390,
+      "core_divisor": 30,
+      "high_subset": [
+        1
+      ],
+      "parity": 0,
+      "labels": [
+        1
+      ],
+      "capacity": [
+        6,
+        5
+      ]
+    },
+    {
+      "modulus": 429,
+      "core_divisor": 3,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": null,
+      "labels": [
+        10,
+        11
+      ],
+      "capacity": [
+        24,
+        15
+      ]
+    },
+    {
+      "modulus": 455,
+      "core_divisor": 35,
+      "high_subset": [
+        1
+      ],
+      "parity": null,
+      "labels": [
+        12
+      ],
+      "capacity": [
+        1,
+        2
+      ]
+    },
+    {
+      "modulus": 462,
+      "core_divisor": 42,
+      "high_subset": [
+        0
+      ],
+      "parity": 0,
+      "labels": [
+        6
+      ],
+      "capacity": [
+        4,
+        3
+      ]
+    },
+    {
+      "modulus": 546,
+      "core_divisor": 42,
+      "high_subset": [
+        1
+      ],
+      "parity": 0,
+      "labels": [
+        8
+      ],
+      "capacity": [
+        4,
+        3
+      ]
+    },
+    {
+      "modulus": 715,
+      "core_divisor": 5,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": null,
+      "labels": [
+        9,
+        11
+      ],
+      "capacity": [
+        6,
+        10
+      ]
+    },
+    {
+      "modulus": 770,
+      "core_divisor": 70,
+      "high_subset": [
+        0
+      ],
+      "parity": 1,
+      "labels": [
+        9
+      ],
+      "capacity": [
+        1,
+        2
+      ]
+    },
+    {
+      "modulus": 858,
+      "core_divisor": 6,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        8,
+        11
+      ],
+      "capacity": [
+        24,
+        15
+      ]
+    },
+    {
+      "modulus": 910,
+      "core_divisor": 70,
+      "high_subset": [
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        12
+      ],
+      "capacity": [
+        1,
+        2
+      ]
+    },
+    {
+      "modulus": 1001,
+      "core_divisor": 7,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": null,
+      "labels": [
+        10,
+        12
+      ],
+      "capacity": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus": 1155,
+      "core_divisor": 105,
+      "high_subset": [
+        0
+      ],
+      "parity": null,
+      "labels": [
+        7
+      ],
+      "capacity": [
+        1,
+        1
+      ]
+    },
+    {
+      "modulus": 1365,
+      "core_divisor": 105,
+      "high_subset": [
+        1
+      ],
+      "parity": null,
+      "labels": [
+        12
+      ],
+      "capacity": [
+        1,
+        1
+      ]
+    },
+    {
+      "modulus": 1430,
+      "core_divisor": 10,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        10,
+        10
+      ],
+      "capacity": [
+        6,
+        10
+      ]
+    },
+    {
+      "modulus": 2002,
+      "core_divisor": 14,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        8,
+        10
+      ],
+      "capacity": [
+        4,
+        6
+      ]
+    },
+    {
+      "modulus": 2145,
+      "core_divisor": 15,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": null,
+      "labels": [
+        7,
+        11
+      ],
+      "capacity": [
+        6,
+        5
+      ]
+    },
+    {
+      "modulus": 2310,
+      "core_divisor": 210,
+      "high_subset": [
+        0
+      ],
+      "parity": 0,
+      "labels": [
+        4
+      ],
+      "capacity": [
+        1,
+        1
+      ]
+    },
+    {
+      "modulus": 2730,
+      "core_divisor": 210,
+      "high_subset": [
+        1
+      ],
+      "parity": 0,
+      "labels": [
+        6
+      ],
+      "capacity": [
+        1,
+        1
+      ]
+    },
+    {
+      "modulus": 3003,
+      "core_divisor": 21,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": null,
+      "labels": [
+        7,
+        12
+      ],
+      "capacity": [
+        4,
+        3
+      ]
+    },
+    {
+      "modulus": 4290,
+      "core_divisor": 30,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": 0,
+      "labels": [
+        7,
+        4
+      ],
+      "capacity": [
+        6,
+        5
+      ]
+    },
+    {
+      "modulus": 5005,
+      "core_divisor": 35,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": null,
+      "labels": [
+        10,
+        5
+      ],
+      "capacity": [
+        1,
+        2
+      ]
+    },
+    {
+      "modulus": 6006,
+      "core_divisor": 42,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": 0,
+      "labels": [
+        4,
+        12
+      ],
+      "capacity": [
+        4,
+        3
+      ]
+    },
+    {
+      "modulus": 10010,
+      "core_divisor": 70,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": 1,
+      "labels": [
+        7,
+        9
+      ],
+      "capacity": [
+        1,
+        2
+      ]
+    },
+    {
+      "modulus": 15015,
+      "core_divisor": 105,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": null,
+      "labels": [
+        5,
+        7
+      ],
+      "capacity": [
+        1,
+        1
+      ]
+    },
+    {
+      "modulus": 30030,
+      "core_divisor": 210,
+      "high_subset": [
+        0,
+        1
+      ],
+      "parity": 0,
+      "labels": [
+        3,
+        7
+      ],
+      "capacity": [
+        1,
+        1
+      ]
+    }
+  ],
+  "verdict": "relaxation feasible; not a covering system"
+}

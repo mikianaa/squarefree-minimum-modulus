@@ -1,0 +1,505 @@
+{
+  "success": true,
+  "status": 0,
+  "variables": 59175,
+  "constraints": 196,
+  "seconds": 9.094,
+  "mixed_thresholds": true,
+  "complete_threshold_check": true,
+  "scope": "fractional hit-distribution relaxation; does not represent an actual covering",
+  "float_lower": 96249.66666666686,
+  "exact_dual_numerator": 96249666633,
+  "exact_dual_denominator": 1000000,
+  "integer_lower": 96250,
+  "equality_multipliers": [
+    12275000000,
+    11620999998
+  ],
+  "active_multipliers": [
+    {
+      "axis": 0,
+      "thresholds": [
+        2,
+        2
+      ],
+      "bound": 45,
+      "multiplier": -108000000
+    },
+    {
+      "axis": 0,
+      "thresholds": [
+        3,
+        3
+      ],
+      "bound": 32,
+      "multiplier": -141000000
+    },
+    {
+      "axis": 0,
+      "thresholds": [
+        6,
+        6
+      ],
+      "bound": 9,
+      "multiplier": -405000000
+    },
+    {
+      "axis": 1,
+      "thresholds": [
+        2,
+        2
+      ],
+      "bound": 45,
+      "multiplier": -87000000
+    },
+    {
+      "axis": 1,
+      "thresholds": [
+        3,
+        3
+      ],
+      "bound": 32,
+      "multiplier": -99000000
+    },
+    {
+      "axis": 1,
+      "thresholds": [
+        4,
+        4
+      ],
+      "bound": 23,
+      "multiplier": -105000000
+    },
+    {
+      "axis": 1,
+      "thresholds": [
+        6,
+        6
+      ],
+      "bound": 9,
+      "multiplier": -219000000
+    },
+    {
+      "axis": 1,
+      "thresholds": [
+        7,
+        7
+      ],
+      "bound": 7,
+      "multiplier": -144000000
+    },
+    {
+      "axis": 2,
+      "thresholds": [
+        3,
+        3
+      ],
+      "bound": 32,
+      "multiplier": -52000000
+    },
+    {
+      "axis": 2,
+      "thresholds": [
+        4,
+        4
+      ],
+      "bound": 23,
+      "multiplier": -69000000
+    },
+    {
+      "axis": 2,
+      "thresholds": [
+        6,
+        6
+      ],
+      "bound": 9,
+      "multiplier": -116000000
+    },
+    {
+      "axis": 2,
+      "thresholds": [
+        7,
+        7
+      ],
+      "bound": 7,
+      "multiplier": -379285714
+    },
+    {
+      "axis": 3,
+      "thresholds": [
+        3,
+        3
+      ],
+      "bound": 32,
+      "multiplier": -42000000
+    },
+    {
+      "axis": 3,
+      "thresholds": [
+        4,
+        4
+      ],
+      "bound": 23,
+      "multiplier": -45000000
+    },
+    {
+      "axis": 3,
+      "thresholds": [
+        6,
+        6
+      ],
+      "bound": 9,
+      "multiplier": -69000000
+    },
+    {
+      "axis": 3,
+      "thresholds": [
+        7,
+        7
+      ],
+      "bound": 7,
+      "multiplier": -278571429
+    },
+    {
+      "axis": 3,
+      "thresholds": [
+        2,
+        1
+      ],
+      "bound": 56,
+      "multiplier": -80000000
+    },
+    {
+      "axis": 1,
+      "thresholds": [
+        2,
+        1
+      ],
+      "bound": 56,
+      "multiplier": -573000000
+    },
+    {
+      "axis": 2,
+      "thresholds": [
+        2,
+        1
+      ],
+      "bound": 56,
+      "multiplier": -240000000
+    },
+    {
+      "axis": 3,
+      "thresholds": [
+        3,
+        2
+      ],
+      "bound": 39,
+      "multiplier": -298000000
+    },
+    {
+      "axis": 2,
+      "thresholds": [
+        3,
+        2
+      ],
+      "bound": 39,
+      "multiplier": -198000000
+    },
+    {
+      "axis": 0,
+      "thresholds": [
+        2,
+        1
+      ],
+      "bound": 56,
+      "multiplier": -750000000
+    },
+    {
+      "axis": 3,
+      "thresholds": [
+        6,
+        7
+      ],
+      "bound": 8,
+      "multiplier": -33000000
+    },
+    {
+      "axis": 1,
+      "thresholds": [
+        7,
+        6
+      ],
+      "bound": 8,
+      "multiplier": -310000000
+    },
+    {
+      "axis": 0,
+      "thresholds": [
+        4,
+        3
+      ],
+      "bound": 29,
+      "multiplier": -286000000
+    },
+    {
+      "axis": 0,
+      "thresholds": [
+        7,
+        6
+      ],
+      "bound": 8,
+      "multiplier": -362666667
+    },
+    {
+      "axis": 1,
+      "thresholds": [
+        4,
+        3
+      ],
+      "bound": 29,
+      "multiplier": -45000000
+    }
+  ],
+  "primal_support": [
+    {
+      "parity": 0,
+      "counts": [
+        1,
+        12,
+        0,
+        2
+      ],
+      "mass": 0.5999999999999995
+    },
+    {
+      "parity": 0,
+      "counts": [
+        2,
+        7,
+        3,
+        6
+      ],
+      "mass": 0.39999999999999974
+    },
+    {
+      "parity": 0,
+      "counts": [
+        3,
+        3,
+        7,
+        7
+      ],
+      "mass": 0.999999999999985
+    },
+    {
+      "parity": 0,
+      "counts": [
+        3,
+        4,
+        6,
+        6
+      ],
+      "mass": 1.9999999999999867
+    },
+    {
+      "parity": 0,
+      "counts": [
+        4,
+        3,
+        6,
+        6
+      ],
+      "mass": 2.0000000000000058
+    },
+    {
+      "parity": 0,
+      "counts": [
+        10,
+        2,
+        1,
+        2
+      ],
+      "mass": 1.0000000000000007
+    },
+    {
+      "parity": 1,
+      "counts": [
+        0,
+        11,
+        1,
+        1
+      ],
+      "mass": 0.4000000000000186
+    },
+    {
+      "parity": 1,
+      "counts": [
+        1,
+        1,
+        1,
+        14
+      ],
+      "mass": 0.7333333333333392
+    },
+    {
+      "parity": 1,
+      "counts": [
+        1,
+        1,
+        2,
+        14
+      ],
+      "mass": 0.26666666666666117
+    },
+    {
+      "parity": 1,
+      "counts": [
+        1,
+        1,
+        14,
+        1
+      ],
+      "mass": 0.7333333333333437
+    },
+    {
+      "parity": 1,
+      "counts": [
+        1,
+        1,
+        14,
+        2
+      ],
+      "mass": 0.26666666666665656
+    },
+    {
+      "parity": 1,
+      "counts": [
+        1,
+        6,
+        3,
+        6
+      ],
+      "mass": 0.2666666666666118
+    },
+    {
+      "parity": 1,
+      "counts": [
+        1,
+        6,
+        4,
+        4
+      ],
+      "mass": 0.7333333333334041
+    },
+    {
+      "parity": 1,
+      "counts": [
+        1,
+        11,
+        1,
+        1
+      ],
+      "mass": 0.5999999999999817
+    },
+    {
+      "parity": 1,
+      "counts": [
+        2,
+        3,
+        6,
+        6
+      ],
+      "mass": 0.33333333333337867
+    },
+    {
+      "parity": 1,
+      "counts": [
+        2,
+        6,
+        3,
+        3
+      ],
+      "mass": 1.8000000000000098
+    },
+    {
+      "parity": 1,
+      "counts": [
+        2,
+        6,
+        3,
+        4
+      ],
+      "mass": 0.5999999999999757
+    },
+    {
+      "parity": 1,
+      "counts": [
+        2,
+        6,
+        4,
+        3
+      ],
+      "mass": 1.2666666666666122
+    },
+    {
+      "parity": 1,
+      "counts": [
+        3,
+        3,
+        6,
+        4
+      ],
+      "mass": 0.666666666666624
+    },
+    {
+      "parity": 1,
+      "counts": [
+        3,
+        6,
+        3,
+        2
+      ],
+      "mass": 0.3333333333333866
+    },
+    {
+      "parity": 1,
+      "counts": [
+        6,
+        1,
+        2,
+        3
+      ],
+      "mass": 0.33333333333335563
+    },
+    {
+      "parity": 1,
+      "counts": [
+        6,
+        2,
+        2,
+        2
+      ],
+      "mass": 3.9999999999999813
+    },
+    {
+      "parity": 1,
+      "counts": [
+        9,
+        0,
+        1,
+        0
+      ],
+      "mass": 1.0000000000000062
+    },
+    {
+      "parity": 1,
+      "counts": [
+        9,
+        1,
+        1,
+        1
+      ],
+      "mass": 0.6666666666666505
+    }
+  ]
+}

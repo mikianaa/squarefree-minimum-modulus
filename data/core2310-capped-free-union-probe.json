@@ -1,0 +1,32 @@
+{
+  "status": "OPTIMAL",
+  "incumbent": 6834860.0,
+  "upper": 6834860.0,
+  "linear_bound": 6834860,
+  "denominator": 100000010,
+  "possible_saving": 0.0,
+  "seconds": 0.054862260818481445,
+  "scope": "CP-SAT diagnostic only; not an independently audited upper or impossibility certificate",
+  "base_residue_witness": {
+    "14": 13,
+    "15": 13,
+    "21": 4,
+    "30": 4,
+    "35": 6,
+    "42": 13,
+    "70": 6,
+    "105": 104,
+    "210": 1
+  },
+  "actual_residue_witness": {
+    "154": 111,
+    "165": 13,
+    "231": 67,
+    "330": 244,
+    "385": 321,
+    "462": 433,
+    "770": 496,
+    "1155": 1049,
+    "2310": 1
+  }
+}

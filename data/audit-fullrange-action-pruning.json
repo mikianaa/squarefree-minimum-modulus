@@ -1,0 +1,1643 @@
+{
+  "status": "VERIFIED_FULL_RANGE_ACTION_DOMINANCE",
+  "source": "data/fullrange-action-pruning.json",
+  "source_sha256": "d10aa8de81211367e164975bf083936203f5b1071236a36be5d81e063dc1ad80",
+  "horizon_prime": 10007,
+  "state_cap": 28,
+  "scale": 10000000000,
+  "eliminations_checked": 326,
+  "smallest_verified_lower_integer": 87317,
+  "checks": [
+    {
+      "pass_index": 0,
+      "p": 5,
+      "lower_integer": 5107448714
+    },
+    {
+      "pass_index": 0,
+      "p": 11,
+      "lower_integer": 4772763208
+    },
+    {
+      "pass_index": 0,
+      "p": 13,
+      "lower_integer": 981413467
+    },
+    {
+      "pass_index": 0,
+      "p": 17,
+      "lower_integer": 4754928592
+    },
+    {
+      "pass_index": 0,
+      "p": 19,
+      "lower_integer": 3777743895
+    },
+    {
+      "pass_index": 0,
+      "p": 23,
+      "lower_integer": 2075034550
+    },
+    {
+      "pass_index": 0,
+      "p": 37,
+      "lower_integer": 2610497703
+    },
+    {
+      "pass_index": 0,
+      "p": 41,
+      "lower_integer": 2109840125
+    },
+    {
+      "pass_index": 0,
+      "p": 43,
+      "lower_integer": 1670648759
+    },
+    {
+      "pass_index": 0,
+      "p": 47,
+      "lower_integer": 950524149
+    },
+    {
+      "pass_index": 0,
+      "p": 67,
+      "lower_integer": 1628452399
+    },
+    {
+      "pass_index": 0,
+      "p": 71,
+      "lower_integer": 1473069180
+    },
+    {
+      "pass_index": 0,
+      "p": 73,
+      "lower_integer": 1347048116
+    },
+    {
+      "pass_index": 0,
+      "p": 79,
+      "lower_integer": 1137611791
+    },
+    {
+      "pass_index": 0,
+      "p": 83,
+      "lower_integer": 948006061
+    },
+    {
+      "pass_index": 0,
+      "p": 89,
+      "lower_integer": 667841481
+    },
+    {
+      "pass_index": 0,
+      "p": 97,
+      "lower_integer": 249855291
+    },
+    {
+      "pass_index": 0,
+      "p": 131,
+      "lower_integer": 831821249
+    },
+    {
+      "pass_index": 0,
+      "p": 137,
+      "lower_integer": 775170401
+    },
+    {
+      "pass_index": 0,
+      "p": 139,
+      "lower_integer": 737683684
+    },
+    {
+      "pass_index": 0,
+      "p": 149,
+      "lower_integer": 656666268
+    },
+    {
+      "pass_index": 0,
+      "p": 151,
+      "lower_integer": 618410599
+    },
+    {
+      "pass_index": 0,
+      "p": 157,
+      "lower_integer": 554790573
+    },
+    {
+      "pass_index": 0,
+      "p": 163,
+      "lower_integer": 484049882
+    },
+    {
+      "pass_index": 0,
+      "p": 167,
+      "lower_integer": 422989004
+    },
+    {
+      "pass_index": 0,
+      "p": 173,
+      "lower_integer": 338829667
+    },
+    {
+      "pass_index": 0,
+      "p": 179,
+      "lower_integer": 248995657
+    },
+    {
+      "pass_index": 0,
+      "p": 181,
+      "lower_integer": 198469040
+    },
+    {
+      "pass_index": 0,
+      "p": 257,
+      "lower_integer": 394612925
+    },
+    {
+      "pass_index": 0,
+      "p": 263,
+      "lower_integer": 378969941
+    },
+    {
+      "pass_index": 0,
+      "p": 269,
+      "lower_integer": 363197050
+    },
+    {
+      "pass_index": 0,
+      "p": 271,
+      "lower_integer": 352878031
+    },
+    {
+      "pass_index": 0,
+      "p": 277,
+      "lower_integer": 336754229
+    },
+    {
+      "pass_index": 0,
+      "p": 281,
+      "lower_integer": 323400302
+    },
+    {
+      "pass_index": 0,
+      "p": 283,
+      "lower_integer": 312945583
+    },
+    {
+      "pass_index": 0,
+      "p": 293,
+      "lower_integer": 289979645
+    },
+    {
+      "pass_index": 0,
+      "p": 307,
+      "lower_integer": 259760060
+    },
+    {
+      "pass_index": 0,
+      "p": 311,
+      "lower_integer": 244932934
+    },
+    {
+      "pass_index": 0,
+      "p": 313,
+      "lower_integer": 233459952
+    },
+    {
+      "pass_index": 0,
+      "p": 317,
+      "lower_integer": 217637346
+    },
+    {
+      "pass_index": 0,
+      "p": 331,
+      "lower_integer": 178121799
+    },
+    {
+      "pass_index": 0,
+      "p": 337,
+      "lower_integer": 155049996
+    },
+    {
+      "pass_index": 0,
+      "p": 347,
+      "lower_integer": 120312846
+    },
+    {
+      "pass_index": 0,
+      "p": 349,
+      "lower_integer": 107051599
+    },
+    {
+      "pass_index": 0,
+      "p": 353,
+      "lower_integer": 86073444
+    },
+    {
+      "pass_index": 0,
+      "p": 359,
+      "lower_integer": 50802676
+    },
+    {
+      "pass_index": 0,
+      "p": 521,
+      "lower_integer": 164490911
+    },
+    {
+      "pass_index": 0,
+      "p": 523,
+      "lower_integer": 161861752
+    },
+    {
+      "pass_index": 0,
+      "p": 541,
+      "lower_integer": 153569058
+    },
+    {
+      "pass_index": 0,
+      "p": 547,
+      "lower_integer": 149513190
+    },
+    {
+      "pass_index": 0,
+      "p": 557,
+      "lower_integer": 143978872
+    },
+    {
+      "pass_index": 0,
+      "p": 563,
+      "lower_integer": 139877334
+    },
+    {
+      "pass_index": 0,
+      "p": 569,
+      "lower_integer": 135749682
+    },
+    {
+      "pass_index": 0,
+      "p": 571,
+      "lower_integer": 133106959
+    },
+    {
+      "pass_index": 0,
+      "p": 577,
+      "lower_integer": 128923408
+    },
+    {
+      "pass_index": 0,
+      "p": 587,
+      "lower_integer": 123160883
+    },
+    {
+      "pass_index": 0,
+      "p": 593,
+      "lower_integer": 118899554
+    },
+    {
+      "pass_index": 0,
+      "p": 599,
+      "lower_integer": 114496456
+    },
+    {
+      "pass_index": 0,
+      "p": 601,
+      "lower_integer": 111711969
+    },
+    {
+      "pass_index": 0,
+      "p": 607,
+      "lower_integer": 107074320
+    },
+    {
+      "pass_index": 0,
+      "p": 613,
+      "lower_integer": 102278779
+    },
+    {
+      "pass_index": 0,
+      "p": 617,
+      "lower_integer": 98338704
+    },
+    {
+      "pass_index": 0,
+      "p": 619,
+      "lower_integer": 95352210
+    },
+    {
+      "pass_index": 0,
+      "p": 631,
+      "lower_integer": 86911801
+    },
+    {
+      "pass_index": 0,
+      "p": 641,
+      "lower_integer": 79137091
+    },
+    {
+      "pass_index": 0,
+      "p": 643,
+      "lower_integer": 75926393
+    },
+    {
+      "pass_index": 0,
+      "p": 647,
+      "lower_integer": 71443925
+    },
+    {
+      "pass_index": 0,
+      "p": 653,
+      "lower_integer": 65587577
+    },
+    {
+      "pass_index": 0,
+      "p": 659,
+      "lower_integer": 59610230
+    },
+    {
+      "pass_index": 0,
+      "p": 661,
+      "lower_integer": 56264116
+    },
+    {
+      "pass_index": 0,
+      "p": 673,
+      "lower_integer": 46036021
+    },
+    {
+      "pass_index": 0,
+      "p": 677,
+      "lower_integer": 41042451
+    },
+    {
+      "pass_index": 0,
+      "p": 683,
+      "lower_integer": 33185190
+    },
+    {
+      "pass_index": 0,
+      "p": 691,
+      "lower_integer": 21354755
+    },
+    {
+      "pass_index": 0,
+      "p": 1031,
+      "lower_integer": 66093142
+    },
+    {
+      "pass_index": 0,
+      "p": 1033,
+      "lower_integer": 65474019
+    },
+    {
+      "pass_index": 0,
+      "p": 1039,
+      "lower_integer": 64521736
+    },
+    {
+      "pass_index": 0,
+      "p": 1049,
+      "lower_integer": 63231994
+    },
+    {
+      "pass_index": 0,
+      "p": 1051,
+      "lower_integer": 62612635
+    },
+    {
+      "pass_index": 0,
+      "p": 1061,
+      "lower_integer": 61313026
+    },
+    {
+      "pass_index": 0,
+      "p": 1063,
+      "lower_integer": 60692928
+    },
+    {
+      "pass_index": 0,
+      "p": 1069,
+      "lower_integer": 59727523
+    },
+    {
+      "pass_index": 0,
+      "p": 1087,
+      "lower_integer": 57718484
+    },
+    {
+      "pass_index": 0,
+      "p": 1091,
+      "lower_integer": 56922267
+    },
+    {
+      "pass_index": 0,
+      "p": 1093,
+      "lower_integer": 56299693
+    },
+    {
+      "pass_index": 0,
+      "p": 1097,
+      "lower_integer": 55499092
+    },
+    {
+      "pass_index": 0,
+      "p": 1103,
+      "lower_integer": 54518160
+    },
+    {
+      "pass_index": 0,
+      "p": 1109,
+      "lower_integer": 53533803
+    },
+    {
+      "pass_index": 0,
+      "p": 1117,
+      "lower_integer": 52365492
+    },
+    {
+      "pass_index": 0,
+      "p": 1123,
+      "lower_integer": 51374019
+    },
+    {
+      "pass_index": 0,
+      "p": 1129,
+      "lower_integer": 50378872
+    },
+    {
+      "pass_index": 0,
+      "p": 1151,
+      "lower_integer": 47908365
+    },
+    {
+      "pass_index": 0,
+      "p": 1153,
+      "lower_integer": 47275345
+    },
+    {
+      "pass_index": 0,
+      "p": 1163,
+      "lower_integer": 45879863
+    },
+    {
+      "pass_index": 0,
+      "p": 1171,
+      "lower_integer": 44636811
+    },
+    {
+      "pass_index": 0,
+      "p": 1181,
+      "lower_integer": 43150392
+    },
+    {
+      "pass_index": 0,
+      "p": 1187,
+      "lower_integer": 42050977
+    },
+    {
+      "pass_index": 0,
+      "p": 1193,
+      "lower_integer": 40931121
+    },
+    {
+      "pass_index": 0,
+      "p": 1201,
+      "lower_integer": 39560671
+    },
+    {
+      "pass_index": 0,
+      "p": 1213,
+      "lower_integer": 37675045
+    },
+    {
+      "pass_index": 0,
+      "p": 1217,
+      "lower_integer": 36719547
+    },
+    {
+      "pass_index": 0,
+      "p": 1223,
+      "lower_integer": 35500509
+    },
+    {
+      "pass_index": 0,
+      "p": 1229,
+      "lower_integer": 34260395
+    },
+    {
+      "pass_index": 0,
+      "p": 1231,
+      "lower_integer": 33528874
+    },
+    {
+      "pass_index": 0,
+      "p": 1237,
+      "lower_integer": 32257593
+    },
+    {
+      "pass_index": 0,
+      "p": 1249,
+      "lower_integer": 30127623
+    },
+    {
+      "pass_index": 0,
+      "p": 1259,
+      "lower_integer": 28214358
+    },
+    {
+      "pass_index": 0,
+      "p": 1277,
+      "lower_integer": 25023256
+    },
+    {
+      "pass_index": 0,
+      "p": 1279,
+      "lower_integer": 24245759
+    },
+    {
+      "pass_index": 0,
+      "p": 1283,
+      "lower_integer": 23155822
+    },
+    {
+      "pass_index": 0,
+      "p": 1289,
+      "lower_integer": 21748708
+    },
+    {
+      "pass_index": 0,
+      "p": 1291,
+      "lower_integer": 20971957
+    },
+    {
+      "pass_index": 0,
+      "p": 1297,
+      "lower_integer": 19554992
+    },
+    {
+      "pass_index": 0,
+      "p": 1301,
+      "lower_integer": 18455391
+    },
+    {
+      "pass_index": 0,
+      "p": 1303,
+      "lower_integer": 17677843
+    },
+    {
+      "pass_index": 0,
+      "p": 1307,
+      "lower_integer": 16465175
+    },
+    {
+      "pass_index": 0,
+      "p": 1319,
+      "lower_integer": 13311174
+    },
+    {
+      "pass_index": 0,
+      "p": 1321,
+      "lower_integer": 12234823
+    },
+    {
+      "pass_index": 0,
+      "p": 1327,
+      "lower_integer": 9997246
+    },
+    {
+      "pass_index": 0,
+      "p": 2053,
+      "lower_integer": 23486452
+    },
+    {
+      "pass_index": 0,
+      "p": 2063,
+      "lower_integer": 23203220
+    },
+    {
+      "pass_index": 0,
+      "p": 2069,
+      "lower_integer": 22993652
+    },
+    {
+      "pass_index": 0,
+      "p": 2081,
+      "lower_integer": 22672039
+    },
+    {
+      "pass_index": 0,
+      "p": 2083,
+      "lower_integer": 22536605
+    },
+    {
+      "pass_index": 0,
+      "p": 2087,
+      "lower_integer": 22363572
+    },
+    {
+      "pass_index": 0,
+      "p": 2089,
+      "lower_integer": 22227966
+    },
+    {
+      "pass_index": 0,
+      "p": 2099,
+      "lower_integer": 21941151
+    },
+    {
+      "pass_index": 0,
+      "p": 2111,
+      "lower_integer": 21615815
+    },
+    {
+      "pass_index": 0,
+      "p": 2113,
+      "lower_integer": 21479972
+    },
+    {
+      "pass_index": 0,
+      "p": 2129,
+      "lower_integer": 21076742
+    },
+    {
+      "pass_index": 0,
+      "p": 2131,
+      "lower_integer": 20940708
+    },
+    {
+      "pass_index": 0,
+      "p": 2137,
+      "lower_integer": 20727646
+    },
+    {
+      "pass_index": 0,
+      "p": 2141,
+      "lower_integer": 20552783
+    },
+    {
+      "pass_index": 0,
+      "p": 2143,
+      "lower_integer": 20416383
+    },
+    {
+      "pass_index": 0,
+      "p": 2153,
+      "lower_integer": 20124445
+    },
+    {
+      "pass_index": 0,
+      "p": 2161,
+      "lower_integer": 19870821
+    },
+    {
+      "pass_index": 0,
+      "p": 2179,
+      "lower_integer": 19421035
+    },
+    {
+      "pass_index": 0,
+      "p": 2203,
+      "lower_integer": 18852204
+    },
+    {
+      "pass_index": 0,
+      "p": 2207,
+      "lower_integer": 18675613
+    },
+    {
+      "pass_index": 0,
+      "p": 2213,
+      "lower_integer": 18459204
+    },
+    {
+      "pass_index": 0,
+      "p": 2221,
+      "lower_integer": 18202701
+    },
+    {
+      "pass_index": 0,
+      "p": 2237,
+      "lower_integer": 17786453
+    },
+    {
+      "pass_index": 0,
+      "p": 2239,
+      "lower_integer": 17648494
+    },
+    {
+      "pass_index": 0,
+      "p": 2243,
+      "lower_integer": 17470315
+    },
+    {
+      "pass_index": 0,
+      "p": 2251,
+      "lower_integer": 17211456
+    },
+    {
+      "pass_index": 0,
+      "p": 2267,
+      "lower_integer": 16789158
+    },
+    {
+      "pass_index": 0,
+      "p": 2269,
+      "lower_integer": 16649215
+    },
+    {
+      "pass_index": 0,
+      "p": 2273,
+      "lower_integer": 16466820
+    },
+    {
+      "pass_index": 0,
+      "p": 2281,
+      "lower_integer": 16197425
+    },
+    {
+      "pass_index": 0,
+      "p": 2287,
+      "lower_integer": 15967715
+    },
+    {
+      "pass_index": 0,
+      "p": 2293,
+      "lower_integer": 15735443
+    },
+    {
+      "pass_index": 0,
+      "p": 2297,
+      "lower_integer": 15545862
+    },
+    {
+      "pass_index": 0,
+      "p": 2309,
+      "lower_integer": 15170311
+    },
+    {
+      "pass_index": 0,
+      "p": 2311,
+      "lower_integer": 15023249
+    },
+    {
+      "pass_index": 0,
+      "p": 2333,
+      "lower_integer": 14391993
+    },
+    {
+      "pass_index": 0,
+      "p": 2339,
+      "lower_integer": 14141265
+    },
+    {
+      "pass_index": 0,
+      "p": 2341,
+      "lower_integer": 13989573
+    },
+    {
+      "pass_index": 0,
+      "p": 2347,
+      "lower_integer": 13734944
+    },
+    {
+      "pass_index": 0,
+      "p": 2351,
+      "lower_integer": 13529788
+    },
+    {
+      "pass_index": 0,
+      "p": 2357,
+      "lower_integer": 13270473
+    },
+    {
+      "pass_index": 0,
+      "p": 2371,
+      "lower_integer": 12791740
+    },
+    {
+      "pass_index": 0,
+      "p": 2377,
+      "lower_integer": 12524076
+    },
+    {
+      "pass_index": 0,
+      "p": 2381,
+      "lower_integer": 12309894
+    },
+    {
+      "pass_index": 0,
+      "p": 2383,
+      "lower_integer": 12150968
+    },
+    {
+      "pass_index": 0,
+      "p": 2389,
+      "lower_integer": 11877217
+    },
+    {
+      "pass_index": 0,
+      "p": 2393,
+      "lower_integer": 11658816
+    },
+    {
+      "pass_index": 0,
+      "p": 2399,
+      "lower_integer": 11380257
+    },
+    {
+      "pass_index": 0,
+      "p": 2411,
+      "lower_integer": 10918524
+    },
+    {
+      "pass_index": 0,
+      "p": 2417,
+      "lower_integer": 10632066
+    },
+    {
+      "pass_index": 0,
+      "p": 2423,
+      "lower_integer": 10342727
+    },
+    {
+      "pass_index": 0,
+      "p": 2437,
+      "lower_integer": 9795536
+    },
+    {
+      "pass_index": 0,
+      "p": 2441,
+      "lower_integer": 9562269
+    },
+    {
+      "pass_index": 0,
+      "p": 2447,
+      "lower_integer": 9262684
+    },
+    {
+      "pass_index": 0,
+      "p": 2459,
+      "lower_integer": 8760522
+    },
+    {
+      "pass_index": 0,
+      "p": 2467,
+      "lower_integer": 8386876
+    },
+    {
+      "pass_index": 0,
+      "p": 2473,
+      "lower_integer": 8079631
+    },
+    {
+      "pass_index": 0,
+      "p": 2477,
+      "lower_integer": 7841285
+    },
+    {
+      "pass_index": 0,
+      "p": 2503,
+      "lower_integer": 6832595
+    },
+    {
+      "pass_index": 0,
+      "p": 2521,
+      "lower_integer": 6064006
+    },
+    {
+      "pass_index": 0,
+      "p": 2531,
+      "lower_integer": 5495759
+    },
+    {
+      "pass_index": 0,
+      "p": 2539,
+      "lower_integer": 4975190
+    },
+    {
+      "pass_index": 0,
+      "p": 2543,
+      "lower_integer": 4636458
+    },
+    {
+      "pass_index": 0,
+      "p": 2549,
+      "lower_integer": 4176506
+    },
+    {
+      "pass_index": 0,
+      "p": 2551,
+      "lower_integer": 3907271
+    },
+    {
+      "pass_index": 0,
+      "p": 2557,
+      "lower_integer": 3294711
+    },
+    {
+      "pass_index": 0,
+      "p": 4099,
+      "lower_integer": 6803826
+    },
+    {
+      "pass_index": 0,
+      "p": 4111,
+      "lower_integer": 6737325
+    },
+    {
+      "pass_index": 0,
+      "p": 4127,
+      "lower_integer": 6654995
+    },
+    {
+      "pass_index": 0,
+      "p": 4129,
+      "lower_integer": 6627725
+    },
+    {
+      "pass_index": 0,
+      "p": 4133,
+      "lower_integer": 6592545
+    },
+    {
+      "pass_index": 0,
+      "p": 4139,
+      "lower_integer": 6549423
+    },
+    {
+      "pass_index": 0,
+      "p": 4153,
+      "lower_integer": 6474549
+    },
+    {
+      "pass_index": 0,
+      "p": 4157,
+      "lower_integer": 6439273
+    },
+    {
+      "pass_index": 0,
+      "p": 4159,
+      "lower_integer": 6411925
+    },
+    {
+      "pass_index": 0,
+      "p": 4177,
+      "lower_integer": 6320790
+    },
+    {
+      "pass_index": 0,
+      "p": 4201,
+      "lower_integer": 6205553
+    },
+    {
+      "pass_index": 0,
+      "p": 4211,
+      "lower_integer": 6146126
+    },
+    {
+      "pass_index": 0,
+      "p": 4217,
+      "lower_integer": 6102650
+    },
+    {
+      "pass_index": 0,
+      "p": 4219,
+      "lower_integer": 6075186
+    },
+    {
+      "pass_index": 0,
+      "p": 4229,
+      "lower_integer": 6015526
+    },
+    {
+      "pass_index": 0,
+      "p": 4231,
+      "lower_integer": 5988025
+    },
+    {
+      "pass_index": 0,
+      "p": 4241,
+      "lower_integer": 5928209
+    },
+    {
+      "pass_index": 0,
+      "p": 4243,
+      "lower_integer": 5900668
+    },
+    {
+      "pass_index": 0,
+      "p": 4253,
+      "lower_integer": 5840698
+    },
+    {
+      "pass_index": 0,
+      "p": 4259,
+      "lower_integer": 5796881
+    },
+    {
+      "pass_index": 0,
+      "p": 4261,
+      "lower_integer": 5769282
+    },
+    {
+      "pass_index": 0,
+      "p": 4271,
+      "lower_integer": 5709072
+    },
+    {
+      "pass_index": 0,
+      "p": 4273,
+      "lower_integer": 5681424
+    },
+    {
+      "pass_index": 0,
+      "p": 4283,
+      "lower_integer": 5621057
+    },
+    {
+      "pass_index": 0,
+      "p": 4289,
+      "lower_integer": 5576983
+    },
+    {
+      "pass_index": 0,
+      "p": 4297,
+      "lower_integer": 5524659
+    },
+    {
+      "pass_index": 0,
+      "p": 4327,
+      "lower_integer": 5381839
+    },
+    {
+      "pass_index": 0,
+      "p": 4337,
+      "lower_integer": 5321107
+    },
+    {
+      "pass_index": 0,
+      "p": 4339,
+      "lower_integer": 5293285
+    },
+    {
+      "pass_index": 0,
+      "p": 4349,
+      "lower_integer": 5232387
+    },
+    {
+      "pass_index": 0,
+      "p": 4357,
+      "lower_integer": 5179690
+    },
+    {
+      "pass_index": 0,
+      "p": 4363,
+      "lower_integer": 5135203
+    },
+    {
+      "pass_index": 0,
+      "p": 4373,
+      "lower_integer": 5074053
+    },
+    {
+      "pass_index": 0,
+      "p": 4391,
+      "lower_integer": 4979291
+    },
+    {
+      "pass_index": 0,
+      "p": 4397,
+      "lower_integer": 4934144
+    },
+    {
+      "pass_index": 0,
+      "p": 4409,
+      "lower_integer": 4862717
+    },
+    {
+      "pass_index": 0,
+      "p": 4421,
+      "lower_integer": 4790211
+    },
+    {
+      "pass_index": 0,
+      "p": 4423,
+      "lower_integer": 4761490
+    },
+    {
+      "pass_index": 0,
+      "p": 4441,
+      "lower_integer": 4660260
+    },
+    {
+      "pass_index": 0,
+      "p": 4447,
+      "lower_integer": 4612692
+    },
+    {
+      "pass_index": 0,
+      "p": 4451,
+      "lower_integer": 4574149
+    },
+    {
+      "pass_index": 0,
+      "p": 4457,
+      "lower_integer": 4526030
+    },
+    {
+      "pass_index": 0,
+      "p": 4463,
+      "lower_integer": 4477589
+    },
+    {
+      "pass_index": 0,
+      "p": 4481,
+      "lower_integer": 4370631
+    },
+    {
+      "pass_index": 0,
+      "p": 4483,
+      "lower_integer": 4340730
+    },
+    {
+      "pass_index": 0,
+      "p": 4493,
+      "lower_integer": 4271075
+    },
+    {
+      "pass_index": 0,
+      "p": 4507,
+      "lower_integer": 4180281
+    },
+    {
+      "pass_index": 0,
+      "p": 4513,
+      "lower_integer": 4129340
+    },
+    {
+      "pass_index": 0,
+      "p": 4517,
+      "lower_integer": 4088456
+    },
+    {
+      "pass_index": 0,
+      "p": 4519,
+      "lower_integer": 4057826
+    },
+    {
+      "pass_index": 0,
+      "p": 4523,
+      "lower_integer": 4016667
+    },
+    {
+      "pass_index": 0,
+      "p": 4547,
+      "lower_integer": 3868386
+    },
+    {
+      "pass_index": 0,
+      "p": 4549,
+      "lower_integer": 3837173
+    },
+    {
+      "pass_index": 0,
+      "p": 4561,
+      "lower_integer": 3750883
+    },
+    {
+      "pass_index": 0,
+      "p": 4567,
+      "lower_integer": 3697078
+    },
+    {
+      "pass_index": 0,
+      "p": 4583,
+      "lower_integer": 3586121
+    },
+    {
+      "pass_index": 0,
+      "p": 4591,
+      "lower_integer": 3519600
+    },
+    {
+      "pass_index": 0,
+      "p": 4597,
+      "lower_integer": 3464200
+    },
+    {
+      "pass_index": 0,
+      "p": 4603,
+      "lower_integer": 3408456
+    },
+    {
+      "pass_index": 0,
+      "p": 4621,
+      "lower_integer": 3280327
+    },
+    {
+      "pass_index": 0,
+      "p": 4637,
+      "lower_integer": 3161740
+    },
+    {
+      "pass_index": 0,
+      "p": 4639,
+      "lower_integer": 3128728
+    },
+    {
+      "pass_index": 0,
+      "p": 4643,
+      "lower_integer": 3083199
+    },
+    {
+      "pass_index": 0,
+      "p": 4649,
+      "lower_integer": 3025031
+    },
+    {
+      "pass_index": 0,
+      "p": 4651,
+      "lower_integer": 2992009
+    },
+    {
+      "pass_index": 0,
+      "p": 4657,
+      "lower_integer": 2933548
+    },
+    {
+      "pass_index": 0,
+      "p": 4663,
+      "lower_integer": 2874865
+    },
+    {
+      "pass_index": 0,
+      "p": 4673,
+      "lower_integer": 2789855
+    },
+    {
+      "pass_index": 0,
+      "p": 4679,
+      "lower_integer": 2730568
+    },
+    {
+      "pass_index": 0,
+      "p": 4691,
+      "lower_integer": 2630840
+    },
+    {
+      "pass_index": 0,
+      "p": 4703,
+      "lower_integer": 2529876
+    },
+    {
+      "pass_index": 0,
+      "p": 4721,
+      "lower_integer": 2385593
+    },
+    {
+      "pass_index": 0,
+      "p": 4723,
+      "lower_integer": 2352631
+    },
+    {
+      "pass_index": 0,
+      "p": 4729,
+      "lower_integer": 2291219
+    },
+    {
+      "pass_index": 0,
+      "p": 4733,
+      "lower_integer": 2243891
+    },
+    {
+      "pass_index": 0,
+      "p": 4751,
+      "lower_integer": 2094479
+    },
+    {
+      "pass_index": 0,
+      "p": 4759,
+      "lower_integer": 2017529
+    },
+    {
+      "pass_index": 0,
+      "p": 4783,
+      "lower_integer": 1784709
+    },
+    {
+      "pass_index": 0,
+      "p": 4787,
+      "lower_integer": 1721286
+    },
+    {
+      "pass_index": 0,
+      "p": 4789,
+      "lower_integer": 1676684
+    },
+    {
+      "pass_index": 0,
+      "p": 4793,
+      "lower_integer": 1610307
+    },
+    {
+      "pass_index": 0,
+      "p": 4799,
+      "lower_integer": 1520680
+    },
+    {
+      "pass_index": 0,
+      "p": 4801,
+      "lower_integer": 1473021
+    },
+    {
+      "pass_index": 0,
+      "p": 4813,
+      "lower_integer": 1286584
+    },
+    {
+      "pass_index": 0,
+      "p": 4817,
+      "lower_integer": 1187492
+    },
+    {
+      "pass_index": 0,
+      "p": 4831,
+      "lower_integer": 390068
+    },
+    {
+      "pass_index": 0,
+      "p": 8209,
+      "lower_integer": 1163588
+    },
+    {
+      "pass_index": 0,
+      "p": 8219,
+      "lower_integer": 1152455
+    },
+    {
+      "pass_index": 0,
+      "p": 8221,
+      "lower_integer": 1147577
+    },
+    {
+      "pass_index": 0,
+      "p": 8231,
+      "lower_integer": 1136425
+    },
+    {
+      "pass_index": 0,
+      "p": 8233,
+      "lower_integer": 1131538
+    },
+    {
+      "pass_index": 0,
+      "p": 8237,
+      "lower_integer": 1125081
+    },
+    {
+      "pass_index": 0,
+      "p": 8243,
+      "lower_integer": 1117047
+    },
+    {
+      "pass_index": 0,
+      "p": 8263,
+      "lower_integer": 1097989
+    },
+    {
+      "pass_index": 0,
+      "p": 8269,
+      "lower_integer": 1089941
+    },
+    {
+      "pass_index": 0,
+      "p": 8273,
+      "lower_integer": 1083461
+    },
+    {
+      "pass_index": 0,
+      "p": 8287,
+      "lower_integer": 1069086
+    },
+    {
+      "pass_index": 0,
+      "p": 8291,
+      "lower_integer": 1062594
+    },
+    {
+      "pass_index": 0,
+      "p": 8293,
+      "lower_integer": 1057682
+    },
+    {
+      "pass_index": 0,
+      "p": 8297,
+      "lower_integer": 1051183
+    },
+    {
+      "pass_index": 0,
+      "p": 8311,
+      "lower_integer": 1036759
+    },
+    {
+      "pass_index": 0,
+      "p": 8317,
+      "lower_integer": 1028663
+    },
+    {
+      "pass_index": 0,
+      "p": 8329,
+      "lower_integer": 1015800
+    },
+    {
+      "pass_index": 0,
+      "p": 8353,
+      "lower_integer": 993242
+    },
+    {
+      "pass_index": 0,
+      "p": 8363,
+      "lower_integer": 981745
+    },
+    {
+      "pass_index": 0,
+      "p": 8369,
+      "lower_integer": 973455
+    },
+    {
+      "pass_index": 0,
+      "p": 8377,
+      "lower_integer": 963472
+    },
+    {
+      "pass_index": 0,
+      "p": 8387,
+      "lower_integer": 951747
+    },
+    {
+      "pass_index": 0,
+      "p": 8389,
+      "lower_integer": 946687
+    },
+    {
+      "pass_index": 0,
+      "p": 8419,
+      "lower_integer": 917687
+    },
+    {
+      "pass_index": 0,
+      "p": 8423,
+      "lower_integer": 910816
+    },
+    {
+      "pass_index": 0,
+      "p": 8429,
+      "lower_integer": 902175
+    },
+    {
+      "pass_index": 0,
+      "p": 8431,
+      "lower_integer": 897014
+    },
+    {
+      "pass_index": 0,
+      "p": 8443,
+      "lower_integer": 883004
+    },
+    {
+      "pass_index": 0,
+      "p": 8447,
+      "lower_integer": 876024
+    },
+    {
+      "pass_index": 0,
+      "p": 8461,
+      "lower_integer": 860022
+    },
+    {
+      "pass_index": 0,
+      "p": 8467,
+      "lower_integer": 851200
+    },
+    {
+      "pass_index": 0,
+      "p": 8501,
+      "lower_integer": 816702
+    },
+    {
+      "pass_index": 0,
+      "p": 8513,
+      "lower_integer": 802406
+    },
+    {
+      "pass_index": 0,
+      "p": 8521,
+      "lower_integer": 791876
+    },
+    {
+      "pass_index": 0,
+      "p": 8527,
+      "lower_integer": 783265
+    },
+    {
+      "pass_index": 0,
+      "p": 8537,
+      "lower_integer": 770804
+    },
+    {
+      "pass_index": 0,
+      "p": 8539,
+      "lower_integer": 766103
+    },
+    {
+      "pass_index": 0,
+      "p": 8543,
+      "lower_integer": 759468
+    },
+    {
+      "pass_index": 0,
+      "p": 8563,
+      "lower_integer": 737065
+    },
+    {
+      "pass_index": 0,
+      "p": 8573,
+      "lower_integer": 724474
+    },
+    {
+      "pass_index": 0,
+      "p": 8581,
+      "lower_integer": 713870
+    },
+    {
+      "pass_index": 0,
+      "p": 8597,
+      "lower_integer": 695043
+    },
+    {
+      "pass_index": 0,
+      "p": 8599,
+      "lower_integer": 690569
+    },
+    {
+      "pass_index": 0,
+      "p": 8609,
+      "lower_integer": 677799
+    },
+    {
+      "pass_index": 0,
+      "p": 8623,
+      "lower_integer": 660752
+    },
+    {
+      "pass_index": 0,
+      "p": 8627,
+      "lower_integer": 654220
+    },
+    {
+      "pass_index": 0,
+      "p": 8629,
+      "lower_integer": 649819
+    },
+    {
+      "pass_index": 0,
+      "p": 8641,
+      "lower_integer": 633857
+    },
+    {
+      "pass_index": 0,
+      "p": 8647,
+      "lower_integer": 623417
+    },
+    {
+      "pass_index": 0,
+      "p": 8663,
+      "lower_integer": 596759
+    },
+    {
+      "pass_index": 0,
+      "p": 8669,
+      "lower_integer": 573657
+    },
+    {
+      "pass_index": 0,
+      "p": 8677,
+      "lower_integer": 507137
+    },
+    {
+      "pass_index": 0,
+      "p": 8681,
+      "lower_integer": 431734
+    },
+    {
+      "pass_index": 0,
+      "p": 8689,
+      "lower_integer": 252691
+    },
+    {
+      "pass_index": 0,
+      "p": 8693,
+      "lower_integer": 87317
+    }
+  ],
+  "seconds": 0.68
+}

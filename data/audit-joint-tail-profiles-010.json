@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "core_pattern": [
+    0,
+    1,
+    0
+  ],
+  "ordinary_pair_residuals": 351244,
+  "distinct_histogram_profiles": 4340,
+  "count_envelopes": 276,
+  "all_entries_match": true,
+  "seconds": 31.797,
+  "profile_catalogue_verified": true,
+  "final_count_tables": 7945,
+  "maximal_tables": 491,
+  "scope": "complete ordinary-residue audit of joint concentration upper bounds; no covering exclusion by itself"
+}

@@ -1,0 +1,31 @@
+{
+  "excluded_primorial": 510510,
+  "excluded_prime_support": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17
+  ],
+  "minimum_allowed_modulus": 3,
+  "anchor_patterns_excluded": 32,
+  "counterexample_prime_factors_at_least": 8,
+  "next_primorial": 9699690,
+  "arithmetic": "exact integer enumeration and two independent arithmetic implementations",
+  "solver_dependent": false,
+  "proof_assistant_verified": false,
+  "global_problem_settled": false,
+  "extension_to_arbitrary_support": "BBMST even-modulus theorem plus prime compression",
+  "certificate_sha256": {
+    "core-geometry-profile-audit.json": "2b22c1269634f9822b2b9322d80369f181273af54030a2a1f001a3fb9dad675f",
+    "plane-capacity-510510.json": "4269f5ad9c0dd84eb0c248b2d8f2b258b4057299cea835d95b34cc781ca9dd61",
+    "refined-plane-capacity-510510.json": "0ec940565a7bbcad39703e4a367a097db841469602449267dec24eefea6c8679",
+    "core-triple-refinement-010.json": "d77d12e1ed859b350472f92035f88e61d46081a75e51fd37fd08b16d9858f563",
+    "core-triple-refinement-011.json": "bd0bc5b169a5cc84424e8210e43d691a93840a9c5008a3cfd69cf6debf7f1f1a",
+    "coupled-core3-510510.json": "33b1b6ebcb0a50caecadbc8111af3ae13973c064a100bfad2e97236816a0a844",
+    "audit-core-completeness-510510.json": "6e055350def69ee18555e91b43931fe739da0471923ee7de930c7ab8bcce0f1d",
+    "audit-plane-capacity-510510.json": "225f17ecd40537ae30fad5af918a32cc1e7740bfd06abc7e246c1e6ca7842a54"
+  }
+}

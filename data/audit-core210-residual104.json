@@ -1,0 +1,20 @@
+{
+  "passed": true,
+  "minimum_uncovered": 104,
+  "witness_uncovered": 104,
+  "pair_checks": 360,
+  "outside_capacities": {
+    "10": 18,
+    "14": 15,
+    "15": 12,
+    "21": 10,
+    "30": 6,
+    "35": 6,
+    "42": 5,
+    "70": 3,
+    "105": 2,
+    "210": 1
+  },
+  "lower_bound_derivation": "180-(78-1-1)=104; the two pairs use disjoint modulus sets",
+  "scope": "Sharp finite-core residual theorem, not a bound on the full infinite-prime covering problem"
+}

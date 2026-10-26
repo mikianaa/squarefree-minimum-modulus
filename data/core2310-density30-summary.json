@@ -1,0 +1,52 @@
+[
+  {
+    "residue110": 0,
+    "value": 0.9873143920555091,
+    "measure_file": "data/core2310-density30-0-measure.json"
+  },
+  {
+    "residue110": 1,
+    "value": 0.9941525515005752,
+    "measure_file": "data/core2310-density30-1-measure.json"
+  },
+  {
+    "residue110": 2,
+    "value": 0.9926182003971566,
+    "measure_file": "data/core2310-density30-2-measure.json"
+  },
+  {
+    "residue110": 3,
+    "value": 0.9942549048173823,
+    "measure_file": "data/core2310-density30-3-measure.json"
+  },
+  {
+    "residue110": 4,
+    "value": 0.9918094796337282,
+    "measure_file": "data/core2310-density30-4-measure.json"
+  },
+  {
+    "residue110": 5,
+    "value": 0.9983210882453106,
+    "measure_file": "data/core2310-density30-5-measure.json"
+  },
+  {
+    "residue110": 6,
+    "value": 0.9918259194135165,
+    "measure_file": "data/core2310-density30-6-measure.json"
+  },
+  {
+    "residue110": 7,
+    "value": 0.9945372229464071,
+    "measure_file": "data/core2310-density30-7-measure.json"
+  },
+  {
+    "residue110": 8,
+    "value": 0.992069265307531,
+    "measure_file": "data/core2310-density30-8-measure.json"
+  },
+  {
+    "residue110": 9,
+    "value": 0.9968808584857045,
+    "measure_file": "data/core2310-density30-9-measure.json"
+  }
+]

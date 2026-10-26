@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "counts": [
+    7,
+    16
+  ],
+  "high_pattern": [
+    1,
+    1,
+    1,
+    0
+  ],
+  "denominator": 1000000000,
+  "objective_numerator": -6521997797,
+  "concentration_inequalities_checked": 4079,
+  "support_size": 51,
+  "scope": "feasible negative-cost aggregate-relaxation distribution; not an actual covering system"
+}

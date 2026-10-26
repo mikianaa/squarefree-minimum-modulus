@@ -1,0 +1,861 @@
+{
+  "status": "CERTIFIED_FULL_RANGE_BARRIER",
+  "scope": "cutoff 6; original independent Bernoulli catalogue; every 0<=delta_p<1, using the trivial probability cap at 1",
+  "original_objective_horizon": 10007,
+  "relaxed_prefix_last_prime": 5003,
+  "scale": 1000000000,
+  "mix_scale": 1000000000,
+  "grid_denominator": 4000,
+  "count_terms": 20,
+  "minimum_lower_integer": 1029993468,
+  "minimum_lower": 1.029993468,
+  "cases": [
+    {
+      "atoms": [
+        0,
+        0,
+        0
+      ],
+      "deltas": [
+        "0",
+        "0",
+        "0"
+      ],
+      "seed_numerators": [
+        480,
+        968,
+        652,
+        186,
+        23,
+        1
+      ],
+      "seed_denominator": 2310,
+      "prefix_loss": "61/77",
+      "prefix_lower": 792207792,
+      "continuation_lower": 479908903,
+      "total_lower": 1272116695
+    },
+    {
+      "atoms": [
+        0,
+        0,
+        1
+      ],
+      "deltas": [
+        "0",
+        "0",
+        "1/11"
+      ],
+      "seed_numerators": [
+        432,
+        876,
+        596,
+        173,
+        22,
+        1
+      ],
+      "seed_denominator": 2100,
+      "prefix_loss": "251/350",
+      "prefix_lower": 717142857,
+      "continuation_lower": 494613124,
+      "total_lower": 1211755981
+    },
+    {
+      "atoms": [
+        0,
+        0,
+        2
+      ],
+      "deltas": [
+        "0",
+        "0",
+        "2/11"
+      ],
+      "seed_numerators": [
+        384,
+        784,
+        540,
+        160,
+        21,
+        1
+      ],
+      "seed_denominator": 1890,
+      "prefix_loss": "41/63",
+      "prefix_lower": 650793650,
+      "continuation_lower": 512528321,
+      "total_lower": 1163321971
+    },
+    {
+      "atoms": [
+        0,
+        0,
+        4
+      ],
+      "deltas": [
+        "0",
+        "0",
+        "4/11"
+      ],
+      "seed_numerators": [
+        288,
+        600,
+        428,
+        134,
+        19,
+        1
+      ],
+      "seed_denominator": 1470,
+      "prefix_loss": "431/735",
+      "prefix_lower": 586394557,
+      "continuation_lower": 563442634,
+      "total_lower": 1149837191
+    },
+    {
+      "atoms": [
+        0,
+        1,
+        0
+      ],
+      "deltas": [
+        "0",
+        "1/7",
+        "0"
+      ],
+      "seed_numerators": [
+        400,
+        820,
+        568,
+        169,
+        22,
+        1
+      ],
+      "seed_denominator": 1980,
+      "prefix_loss": "227/330",
+      "prefix_lower": 687878787,
+      "continuation_lower": 513826844,
+      "total_lower": 1201705631
+    },
+    {
+      "atoms": [
+        0,
+        1,
+        1
+      ],
+      "deltas": [
+        "0",
+        "1/7",
+        "1/11"
+      ],
+      "seed_numerators": [
+        360,
+        742,
+        519,
+        157,
+        21,
+        1
+      ],
+      "seed_denominator": 1800,
+      "prefix_loss": "46/75",
+      "prefix_lower": 613333333,
+      "continuation_lower": 529236022,
+      "total_lower": 1142569355
+    },
+    {
+      "atoms": [
+        0,
+        1,
+        2
+      ],
+      "deltas": [
+        "0",
+        "1/7",
+        "2/11"
+      ],
+      "seed_numerators": [
+        320,
+        664,
+        470,
+        145,
+        20,
+        1
+      ],
+      "seed_denominator": 1620,
+      "prefix_loss": "443/810",
+      "prefix_lower": 546913580,
+      "continuation_lower": 548017282,
+      "total_lower": 1094930862
+    },
+    {
+      "atoms": [
+        0,
+        1,
+        4
+      ],
+      "deltas": [
+        "0",
+        "1/7",
+        "4/11"
+      ],
+      "seed_numerators": [
+        240,
+        508,
+        372,
+        121,
+        18,
+        1
+      ],
+      "seed_denominator": 1260,
+      "prefix_loss": "101/210",
+      "prefix_lower": 480952380,
+      "continuation_lower": 601541927,
+      "total_lower": 1082494307
+    },
+    {
+      "atoms": [
+        0,
+        2,
+        0
+      ],
+      "deltas": [
+        "0",
+        "2/7",
+        "0"
+      ],
+      "seed_numerators": [
+        320,
+        672,
+        484,
+        152,
+        21,
+        1
+      ],
+      "seed_denominator": 1650,
+      "prefix_loss": "491/825",
+      "prefix_lower": 595151515,
+      "continuation_lower": 561083055,
+      "total_lower": 1156234570
+    },
+    {
+      "atoms": [
+        0,
+        2,
+        1
+      ],
+      "deltas": [
+        "0",
+        "2/7",
+        "1/11"
+      ],
+      "seed_numerators": [
+        288,
+        608,
+        442,
+        141,
+        20,
+        1
+      ],
+      "seed_denominator": 1500,
+      "prefix_loss": "391/750",
+      "prefix_lower": 521333333,
+      "continuation_lower": 577508022,
+      "total_lower": 1098841355
+    },
+    {
+      "atoms": [
+        0,
+        2,
+        2
+      ],
+      "deltas": [
+        "0",
+        "2/7",
+        "2/11"
+      ],
+      "seed_numerators": [
+        256,
+        544,
+        400,
+        130,
+        19,
+        1
+      ],
+      "seed_denominator": 1350,
+      "prefix_loss": "307/675",
+      "prefix_lower": 454814814,
+      "continuation_lower": 597575554,
+      "total_lower": 1052390368
+    },
+    {
+      "atoms": [
+        0,
+        2,
+        4
+      ],
+      "deltas": [
+        "0",
+        "2/7",
+        "4/11"
+      ],
+      "seed_numerators": [
+        192,
+        416,
+        316,
+        108,
+        17,
+        1
+      ],
+      "seed_denominator": 1050,
+      "prefix_loss": "29/75",
+      "prefix_lower": 386666666,
+      "continuation_lower": 654831166,
+      "total_lower": 1041497832
+    },
+    {
+      "atoms": [
+        0,
+        4,
+        0
+      ],
+      "deltas": [
+        "0",
+        "4/7",
+        "0"
+      ],
+      "seed_numerators": [
+        160,
+        376,
+        316,
+        118,
+        19,
+        1
+      ],
+      "seed_denominator": 990,
+      "prefix_loss": "53/99",
+      "prefix_lower": 535353535,
+      "continuation_lower": 749528060,
+      "total_lower": 1284881595
+    },
+    {
+      "atoms": [
+        0,
+        4,
+        1
+      ],
+      "deltas": [
+        "0",
+        "4/7",
+        "1/11"
+      ],
+      "seed_numerators": [
+        144,
+        340,
+        288,
+        109,
+        18,
+        1
+      ],
+      "seed_denominator": 900,
+      "prefix_loss": "209/450",
+      "prefix_lower": 464444444,
+      "continuation_lower": 770255983,
+      "total_lower": 1234700427
+    },
+    {
+      "atoms": [
+        0,
+        4,
+        2
+      ],
+      "deltas": [
+        "0",
+        "4/7",
+        "2/11"
+      ],
+      "seed_numerators": [
+        128,
+        304,
+        260,
+        100,
+        17,
+        1
+      ],
+      "seed_denominator": 810,
+      "prefix_loss": "161/405",
+      "prefix_lower": 397530864,
+      "continuation_lower": 795584813,
+      "total_lower": 1193115677
+    },
+    {
+      "atoms": [
+        0,
+        4,
+        4
+      ],
+      "deltas": [
+        "0",
+        "4/7",
+        "4/11"
+      ],
+      "seed_numerators": [
+        96,
+        232,
+        204,
+        82,
+        15,
+        1
+      ],
+      "seed_denominator": 630,
+      "prefix_loss": "101/315",
+      "prefix_lower": 320634920,
+      "continuation_lower": 867929280,
+      "total_lower": 1188564200
+    },
+    {
+      "atoms": [
+        1,
+        0,
+        0
+      ],
+      "deltas": [
+        "1/5",
+        "0",
+        "0"
+      ],
+      "seed_numerators": [
+        360,
+        756,
+        542,
+        167,
+        22,
+        1
+      ],
+      "seed_denominator": 1848,
+      "prefix_loss": "647/924",
+      "prefix_lower": 700216450,
+      "continuation_lower": 542351958,
+      "total_lower": 1242568408
+    },
+    {
+      "atoms": [
+        1,
+        0,
+        1
+      ],
+      "deltas": [
+        "1/5",
+        "0",
+        "1/11"
+      ],
+      "seed_numerators": [
+        324,
+        684,
+        495,
+        155,
+        21,
+        1
+      ],
+      "seed_denominator": 1680,
+      "prefix_loss": "263/420",
+      "prefix_lower": 626190476,
+      "continuation_lower": 558458783,
+      "total_lower": 1184649259
+    },
+    {
+      "atoms": [
+        1,
+        0,
+        2
+      ],
+      "deltas": [
+        "1/5",
+        "0",
+        "2/11"
+      ],
+      "seed_numerators": [
+        288,
+        612,
+        448,
+        143,
+        20,
+        1
+      ],
+      "seed_denominator": 1512,
+      "prefix_loss": "47/84",
+      "prefix_lower": 559523809,
+      "continuation_lower": 578082054,
+      "total_lower": 1137605863
+    },
+    {
+      "atoms": [
+        1,
+        0,
+        4
+      ],
+      "deltas": [
+        "1/5",
+        "0",
+        "4/11"
+      ],
+      "seed_numerators": [
+        216,
+        468,
+        354,
+        119,
+        18,
+        1
+      ],
+      "seed_denominator": 1176,
+      "prefix_loss": "289/588",
+      "prefix_lower": 491496598,
+      "continuation_lower": 634076071,
+      "total_lower": 1125572669
+    },
+    {
+      "atoms": [
+        1,
+        1,
+        0
+      ],
+      "deltas": [
+        "1/5",
+        "1/7",
+        "0"
+      ],
+      "seed_numerators": [
+        300,
+        640,
+        471,
+        151,
+        21,
+        1
+      ],
+      "seed_denominator": 1584,
+      "prefix_loss": "79/132",
+      "prefix_lower": 598484848,
+      "continuation_lower": 579661518,
+      "total_lower": 1178146366
+    },
+    {
+      "atoms": [
+        1,
+        1,
+        1
+      ],
+      "deltas": [
+        "1/5",
+        "1/7",
+        "1/11"
+      ],
+      "seed_numerators": [
+        270,
+        579,
+        430,
+        140,
+        20,
+        1
+      ],
+      "seed_denominator": 1440,
+      "prefix_loss": "21/40",
+      "prefix_lower": 525000000,
+      "continuation_lower": 596546275,
+      "total_lower": 1121546275
+    },
+    {
+      "atoms": [
+        1,
+        1,
+        2
+      ],
+      "deltas": [
+        "1/5",
+        "1/7",
+        "2/11"
+      ],
+      "seed_numerators": [
+        240,
+        518,
+        389,
+        129,
+        19,
+        1
+      ],
+      "seed_denominator": 1296,
+      "prefix_loss": "11/24",
+      "prefix_lower": 458333333,
+      "continuation_lower": 617174113,
+      "total_lower": 1075507446
+    },
+    {
+      "atoms": [
+        1,
+        1,
+        4
+      ],
+      "deltas": [
+        "1/5",
+        "1/7",
+        "4/11"
+      ],
+      "seed_numerators": [
+        180,
+        396,
+        307,
+        107,
+        17,
+        1
+      ],
+      "seed_denominator": 1008,
+      "prefix_loss": "7/18",
+      "prefix_lower": 388888888,
+      "continuation_lower": 676028847,
+      "total_lower": 1064917735
+    },
+    {
+      "atoms": [
+        1,
+        2,
+        0
+      ],
+      "deltas": [
+        "1/5",
+        "2/7",
+        "0"
+      ],
+      "seed_numerators": [
+        240,
+        524,
+        400,
+        135,
+        20,
+        1
+      ],
+      "seed_denominator": 1320,
+      "prefix_loss": "167/330",
+      "prefix_lower": 506060606,
+      "continuation_lower": 631789590,
+      "total_lower": 1137850196
+    },
+    {
+      "atoms": [
+        1,
+        2,
+        1
+      ],
+      "deltas": [
+        "1/5",
+        "2/7",
+        "1/11"
+      ],
+      "seed_numerators": [
+        216,
+        474,
+        365,
+        125,
+        19,
+        1
+      ],
+      "seed_denominator": 1200,
+      "prefix_loss": "13/30",
+      "prefix_lower": 433333333,
+      "continuation_lower": 649818346,
+      "total_lower": 1083151679
+    },
+    {
+      "atoms": [
+        1,
+        2,
+        2
+      ],
+      "deltas": [
+        "1/5",
+        "2/7",
+        "2/11"
+      ],
+      "seed_numerators": [
+        192,
+        424,
+        330,
+        115,
+        18,
+        1
+      ],
+      "seed_denominator": 1080,
+      "prefix_loss": "11/30",
+      "prefix_lower": 366666666,
+      "continuation_lower": 671840983,
+      "total_lower": 1038507649
+    },
+    {
+      "atoms": [
+        1,
+        2,
+        4
+      ],
+      "deltas": [
+        "1/5",
+        "2/7",
+        "4/11"
+      ],
+      "seed_numerators": [
+        144,
+        324,
+        260,
+        95,
+        16,
+        1
+      ],
+      "seed_denominator": 840,
+      "prefix_loss": "31/105",
+      "prefix_lower": 295238095,
+      "continuation_lower": 734755373,
+      "total_lower": 1029993468
+    },
+    {
+      "atoms": [
+        1,
+        4,
+        0
+      ],
+      "deltas": [
+        "1/5",
+        "4/7",
+        "0"
+      ],
+      "seed_numerators": [
+        120,
+        292,
+        258,
+        103,
+        18,
+        1
+      ],
+      "seed_denominator": 792,
+      "prefix_loss": "175/396",
+      "prefix_lower": 441919191,
+      "continuation_lower": 840054122,
+      "total_lower": 1281973313
+    },
+    {
+      "atoms": [
+        1,
+        4,
+        1
+      ],
+      "deltas": [
+        "1/5",
+        "4/7",
+        "1/11"
+      ],
+      "seed_numerators": [
+        108,
+        264,
+        235,
+        95,
+        17,
+        1
+      ],
+      "seed_denominator": 720,
+      "prefix_loss": "67/180",
+      "prefix_lower": 372222222,
+      "continuation_lower": 862726143,
+      "total_lower": 1234948365
+    },
+    {
+      "atoms": [
+        1,
+        4,
+        2
+      ],
+      "deltas": [
+        "1/5",
+        "4/7",
+        "2/11"
+      ],
+      "seed_numerators": [
+        96,
+        236,
+        212,
+        87,
+        16,
+        1
+      ],
+      "seed_denominator": 648,
+      "prefix_loss": "11/36",
+      "prefix_lower": 305555555,
+      "continuation_lower": 890431840,
+      "total_lower": 1195987395
+    },
+    {
+      "atoms": [
+        1,
+        4,
+        4
+      ],
+      "deltas": [
+        "1/5",
+        "4/7",
+        "4/11"
+      ],
+      "seed_numerators": [
+        72,
+        180,
+        166,
+        71,
+        14,
+        1
+      ],
+      "seed_denominator": 504,
+      "prefix_loss": "19/84",
+      "prefix_lower": 226190476,
+      "continuation_lower": 969563377,
+      "total_lower": 1195753853
+    }
+  ],
+  "pruning_file": "data/fullrange-action-pruning.json",
+  "pruning_sha256": "d10aa8de81211367e164975bf083936203f5b1071236a36be5d81e063dc1ad80",
+  "checkpoints": [
+    {
+      "k": 600,
+      "p": 4457,
+      "width": 4637,
+      "seconds": 1.75
+    },
+    {
+      "k": 500,
+      "p": 3617,
+      "width": 4532,
+      "seconds": 4.86
+    },
+    {
+      "k": 400,
+      "p": 2791,
+      "width": 4296,
+      "seconds": 8.43
+    },
+    {
+      "k": 300,
+      "p": 2017,
+      "width": 4048,
+      "seconds": 11.92
+    },
+    {
+      "k": 200,
+      "p": 1277,
+      "width": 3647,
+      "seconds": 14.79
+    },
+    {
+      "k": 100,
+      "p": 577,
+      "width": 3104,
+      "seconds": 17.16
+    },
+    {
+      "k": 0,
+      "p": 13,
+      "width": 1,
+      "seconds": 19.68
+    }
+  ],
+  "seconds": 19.68
+}

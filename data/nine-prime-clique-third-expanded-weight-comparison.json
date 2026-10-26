@@ -1,0 +1,26 @@
+{
+  "configurations": 45581,
+  "comparisons": [
+    {
+      "certificate": "data/nine-prime-cached-slope-support.json",
+      "pool_numerator": -66940367176,
+      "denominator": 1000000,
+      "event_mass": 5014870401318,
+      "normalized_gap": -0.013348374298647247
+    },
+    {
+      "certificate": "data/nine-prime-clique-closed-priced.json",
+      "pool_numerator": -15497388176,
+      "denominator": 1000000,
+      "event_mass": 1000000000001,
+      "normalized_gap": -0.015497388175984502
+    },
+    {
+      "certificate": "data\\nine-prime-clique-expanded-priced.json",
+      "pool_numerator": -5493839687,
+      "denominator": 1000000,
+      "event_mass": 1000000000060,
+      "normalized_gap": -0.005493839686670369
+    }
+  ]
+}

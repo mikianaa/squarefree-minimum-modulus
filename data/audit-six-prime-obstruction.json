@@ -1,0 +1,114 @@
+[
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "brute_uncovered_2310_lower": 156,
+    "all_count_pairs_deficits": [
+      498,
+      414
+    ],
+    "verified": true
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "brute_uncovered_2310_lower": 138,
+    "all_count_pairs_deficits": [
+      387,
+      309
+    ],
+    "verified": true
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      0
+    ],
+    "brute_uncovered_2310_lower": 114,
+    "all_count_pairs_deficits": [
+      203,
+      143
+    ],
+    "verified": true
+  },
+  {
+    "pattern": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "brute_uncovered_2310_lower": 106,
+    "all_count_pairs_deficits": [
+      170,
+      124
+    ],
+    "verified": true
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "brute_uncovered_2310_lower": 103,
+    "all_count_pairs_deficits": [
+      137,
+      106
+    ],
+    "verified": true
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "brute_uncovered_2310_lower": 90,
+    "all_count_pairs_deficits": [
+      63,
+      45
+    ],
+    "verified": true
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "brute_uncovered_2310_lower": 96,
+    "all_count_pairs_deficits": [
+      107,
+      83
+    ],
+    "verified": true
+  },
+  {
+    "pattern": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "brute_uncovered_2310_lower": 90,
+    "all_count_pairs_deficits": [
+      53,
+      69
+    ],
+    "verified": true
+  }
+]

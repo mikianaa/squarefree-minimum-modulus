@@ -1,0 +1,19 @@
+{
+  "status": "VERIFIED",
+  "claim": "The specified probability measure on the fixed residual core has the claimed convex power-of-two comparison",
+  "core_file": "data/core2310-split77-110-5-6-envelope.json",
+  "core_sha256": "6f6ed5f1fd803b04819a191c528371cd9bc3c3d08bb435b53449def9445e1e16",
+  "catalogues": 810000,
+  "thresholds": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "residual": 865,
+  "seconds": 6.201797723770142,
+  "scope": "One fixed subfamily; later continuation and any free initial classes are charged separately"
+}

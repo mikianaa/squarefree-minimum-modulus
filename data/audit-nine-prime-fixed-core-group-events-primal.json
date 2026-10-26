@@ -1,0 +1,34 @@
+{
+  "verified": true,
+  "counts": [
+    7,
+    15
+  ],
+  "high_primes": [
+    11,
+    13,
+    17,
+    19,
+    23
+  ],
+  "high_pattern": [
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "objective_numerator": -9963858788173,
+  "denominator": 1000000000,
+  "projection_resources_checked": 486,
+  "point_link_inequalities_checked": 682,
+  "concentration_inequalities_checked": 8639,
+  "rank_inequalities_checked": 38180,
+  "pair_inequalities_checked": 86461,
+  "triple_inequalities_checked": 9772351,
+  "stored_subset_inequalities_checked": 8,
+  "group_event_inequalities_checked": 5,
+  "group_event_rup_additions_checked": 602394,
+  "support_size": 260,
+  "scope": "feasible negative-cost point-identity relaxation distribution; not an actual covering system"
+}

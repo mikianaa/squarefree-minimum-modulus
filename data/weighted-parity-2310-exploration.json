@@ -1,0 +1,290 @@
+[
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "weights": [
+      1,
+      2
+    ],
+    "status": "FEASIBLE",
+    "seconds": 60.125,
+    "scope": "weighted lower bound depends on CP-SAT; incumbent verified over full period",
+    "weighted_lower": 0,
+    "residual_counts": [
+      86,
+      45
+    ],
+    "weighted_upper": 176,
+    "system": [
+      {
+        "modulus": 3,
+        "residue": 0
+      },
+      {
+        "modulus": 5,
+        "residue": 0
+      },
+      {
+        "modulus": 6,
+        "residue": 4
+      },
+      {
+        "modulus": 7,
+        "residue": 0
+      },
+      {
+        "modulus": 10,
+        "residue": 1
+      },
+      {
+        "modulus": 11,
+        "residue": 0
+      },
+      {
+        "modulus": 14,
+        "residue": 1
+      },
+      {
+        "modulus": 15,
+        "residue": 2
+      },
+      {
+        "modulus": 21,
+        "residue": 2
+      },
+      {
+        "modulus": 22,
+        "residue": 1
+      },
+      {
+        "modulus": 30,
+        "residue": 7
+      },
+      {
+        "modulus": 33,
+        "residue": 2
+      },
+      {
+        "modulus": 35,
+        "residue": 3
+      },
+      {
+        "modulus": 42,
+        "residue": 37
+      },
+      {
+        "modulus": 55,
+        "residue": 14
+      },
+      {
+        "modulus": 66,
+        "residue": 26
+      },
+      {
+        "modulus": 70,
+        "residue": 53
+      },
+      {
+        "modulus": 77,
+        "residue": 60
+      },
+      {
+        "modulus": 105,
+        "residue": 68
+      },
+      {
+        "modulus": 110,
+        "residue": 39
+      },
+      {
+        "modulus": 154,
+        "residue": 27
+      },
+      {
+        "modulus": 165,
+        "residue": 29
+      },
+      {
+        "modulus": 210,
+        "residue": 103
+      },
+      {
+        "modulus": 231,
+        "residue": 41
+      },
+      {
+        "modulus": 330,
+        "residue": 139
+      },
+      {
+        "modulus": 385,
+        "residue": 229
+      },
+      {
+        "modulus": 462,
+        "residue": 251
+      },
+      {
+        "modulus": 770,
+        "residue": 769
+      },
+      {
+        "modulus": 1155,
+        "residue": 608
+      },
+      {
+        "modulus": 2310,
+        "residue": 1973
+      }
+    ]
+  },
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "weights": [
+      2,
+      1
+    ],
+    "status": "FEASIBLE",
+    "seconds": 60.375,
+    "scope": "weighted lower bound depends on CP-SAT; incumbent verified over full period",
+    "weighted_lower": 2,
+    "residual_counts": [
+      23,
+      107
+    ],
+    "weighted_upper": 153,
+    "system": [
+      {
+        "modulus": 3,
+        "residue": 0
+      },
+      {
+        "modulus": 5,
+        "residue": 0
+      },
+      {
+        "modulus": 6,
+        "residue": 4
+      },
+      {
+        "modulus": 7,
+        "residue": 0
+      },
+      {
+        "modulus": 10,
+        "residue": 1
+      },
+      {
+        "modulus": 11,
+        "residue": 0
+      },
+      {
+        "modulus": 14,
+        "residue": 1
+      },
+      {
+        "modulus": 15,
+        "residue": 2
+      },
+      {
+        "modulus": 21,
+        "residue": 2
+      },
+      {
+        "modulus": 22,
+        "residue": 1
+      },
+      {
+        "modulus": 30,
+        "residue": 26
+      },
+      {
+        "modulus": 33,
+        "residue": 2
+      },
+      {
+        "modulus": 35,
+        "residue": 3
+      },
+      {
+        "modulus": 42,
+        "residue": 8
+      },
+      {
+        "modulus": 55,
+        "residue": 14
+      },
+      {
+        "modulus": 66,
+        "residue": 37
+      },
+      {
+        "modulus": 70,
+        "residue": 53
+      },
+      {
+        "modulus": 77,
+        "residue": 5
+      },
+      {
+        "modulus": 105,
+        "residue": 83
+      },
+      {
+        "modulus": 110,
+        "residue": 39
+      },
+      {
+        "modulus": 154,
+        "residue": 117
+      },
+      {
+        "modulus": 165,
+        "residue": 74
+      },
+      {
+        "modulus": 210,
+        "residue": 158
+      },
+      {
+        "modulus": 231,
+        "residue": 152
+      },
+      {
+        "modulus": 330,
+        "residue": 254
+      },
+      {
+        "modulus": 385,
+        "residue": 139
+      },
+      {
+        "modulus": 462,
+        "residue": 26
+      },
+      {
+        "modulus": 770,
+        "residue": 634
+      },
+      {
+        "modulus": 1155,
+        "residue": 599
+      },
+      {
+        "modulus": 2310,
+        "residue": 1748
+      }
+    ]
+  }
+]

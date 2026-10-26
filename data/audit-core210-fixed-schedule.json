@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "lower_bound_exact": "25029809419968797730091/25000000000000000000000",
+  "lower_bound_float": 1.0011923767987518,
+  "safe_lower_numerator": 1001192376,
+  "safe_lower_denominator": 1000000000,
+  "worst_point": 199,
+  "point_checks": 104,
+  "positive_dual_terms": 123,
+  "prime_stages": 216812,
+  "count_cap": 50,
+  "coefficient_scale": "1000000000000000000000000",
+  "seconds": 2.2378547191619873,
+  "scope": "For this fixed schedule and the specified stop-loss core-catalogue functional, every initial probability on this actual 104-point core has value >1. Not an all-schedule barrier and not a covering."
+}

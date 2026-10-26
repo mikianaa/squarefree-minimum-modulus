@@ -1,0 +1,22 @@
+{
+  "scope": "record of completed audits, not a replacement for running the audits",
+  "minimum_uncovered": {
+    "2310": 119,
+    "30030": 501,
+    "510510": 510
+  },
+  "integer_only": true,
+  "global_conjecture_resolved": false,
+  "minimum_prime_support_for_counterexample": 8,
+  "dual_cases": 32,
+  "dual_input_pairs": 11332,
+  "hashes": {
+    "data/core-geometry-profile-audit.json": "2b22c1269634f9822b2b9322d80369f181273af54030a2a1f001a3fb9dad675f",
+    "data/three-axis-210-certificate.json": "192c5603c7625d78d5bce2e8b68cee18c7a8fea7526fba5677d453b7723670a7",
+    "data/compressed-parity-frontiers.json": "d5809bc3b1f7d0b131904b94c99c3ec95281deefa2c3c500b304215117c3320f",
+    "data/audit-compressed-parity.json": "9e625be076d5f6ba86178cf11e0cf1241eeb73536633afff8f2bd9ee965e6b0c",
+    "data/core-capacity-frontiers.json": "331ea2e0c20e10d5b55baad5cb635c6597e8adb5492b24b600beb5193ea232af",
+    "data/audit-core-capacity-frontiers.json": "6de442eca5ce149f58bb65399cffeeb0109691be2612f1a9a26063ec6bc97b53",
+    "data/audit-hybrid-slice-510510.json": "3e7d3ec7723676bf1f207d37a3e99d1a1e41281727a19c8f00b0761e003cdfed"
+  }
+}

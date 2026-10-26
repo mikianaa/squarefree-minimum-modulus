@@ -1,0 +1,79 @@
+[
+  {
+    "N": 210,
+    "pattern": [
+      0,
+      1,
+      1
+    ],
+    "uncovered_at_most": 21,
+    "status": "UNSAT",
+    "variables": 1435,
+    "clauses": 2344,
+    "seconds": 2.813,
+    "stats": {
+      "restarts": 442,
+      "conflicts": 104977,
+      "decisions": 147601,
+      "propagations": 13248297
+    },
+    "rup_audit": {
+      "verified": true,
+      "checked_additions": 104976,
+      "reason": "root contradiction after verified RUP additions"
+    },
+    "proof_path": "tmp\\sat-bound-210-21.rup.gz",
+    "proof_sha256": "0212443efb1f86294b28ecac22df5de07bd59dc1f2602a5eca6fd1814d108a31",
+    "temporary_result_file": "tmp/sat-bound-210-21.json"
+  },
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "uncovered_at_most": 120,
+    "status": "UNKNOWN",
+    "variables": 20583,
+    "clauses": 35049,
+    "seconds": 120.203,
+    "stats": {
+      "restarts": 2006,
+      "conflicts": 396340,
+      "decisions": 1555353,
+      "propagations": 211380249
+    },
+    "temporary_result_file": "tmp/sat-bound-2310-120.json"
+  },
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "uncovered_at_most": 120,
+    "primes": [
+      3,
+      5,
+      7,
+      11
+    ],
+    "label_symmetry": true,
+    "solver": "cadical195",
+    "status": "UNKNOWN",
+    "variables": 20583,
+    "clauses": 35049,
+    "seconds": 60.782,
+    "stats": {
+      "restarts": 5671,
+      "conflicts": 216105,
+      "decisions": 1475838,
+      "propagations": 147505967
+    },
+    "temporary_result_file": "tmp/cadical-bound-2310-120.json"
+  }
+]

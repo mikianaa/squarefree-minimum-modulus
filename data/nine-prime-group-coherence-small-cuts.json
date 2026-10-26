@@ -1,0 +1,733 @@
+{
+  "source": "data/nine-prime-fixed-core-subset-rank-lp.json",
+  "cuts": [
+    {
+      "axis": 8,
+      "events": [
+        {
+          "point": 0,
+          "threshold": 8,
+          "weight": 3
+        },
+        {
+          "point": 1,
+          "threshold": 8,
+          "weight": 3
+        },
+        {
+          "point": 3,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 5,
+          "threshold": 8,
+          "weight": 4
+        },
+        {
+          "point": 6,
+          "threshold": 6,
+          "weight": 2
+        },
+        {
+          "point": 8,
+          "threshold": 4,
+          "weight": 3
+        },
+        {
+          "point": 9,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 11,
+          "threshold": 4,
+          "weight": 2
+        },
+        {
+          "point": 12,
+          "threshold": 6,
+          "weight": 1
+        },
+        {
+          "point": 14,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 14,
+          "threshold": 8,
+          "weight": 3
+        },
+        {
+          "point": 16,
+          "threshold": 8,
+          "weight": 2
+        },
+        {
+          "point": 18,
+          "threshold": 4,
+          "weight": 2
+        },
+        {
+          "point": 19,
+          "threshold": 8,
+          "weight": 2
+        },
+        {
+          "point": 20,
+          "threshold": 8,
+          "weight": 2
+        }
+      ],
+      "bound": 19,
+      "violation_numerator": 161809005,
+      "denominator": 1000000000,
+      "pricing": {
+        "status": "OPTIMAL",
+        "counts": [
+          3,
+          8,
+          4,
+          4,
+          4,
+          4,
+          1,
+          2,
+          4,
+          8,
+          1,
+          4,
+          1,
+          4,
+          8,
+          2,
+          8,
+          2,
+          4,
+          1,
+          8,
+          2
+        ],
+        "residues": [
+          0,
+          1,
+          1,
+          3,
+          1,
+          3,
+          3,
+          3,
+          8,
+          10,
+          23,
+          33,
+          31,
+          33,
+          13,
+          13
+        ],
+        "objective": 19,
+        "upper_bound": 19
+      }
+    },
+    {
+      "axis": 10,
+      "events": [
+        {
+          "point": 0,
+          "threshold": 5,
+          "weight": 2
+        },
+        {
+          "point": 0,
+          "threshold": 8,
+          "weight": 7
+        },
+        {
+          "point": 1,
+          "threshold": 8,
+          "weight": 2
+        },
+        {
+          "point": 4,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 4,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 5,
+          "threshold": 8,
+          "weight": 2
+        },
+        {
+          "point": 6,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 8,
+          "threshold": 4,
+          "weight": 4
+        },
+        {
+          "point": 8,
+          "threshold": 8,
+          "weight": 2
+        },
+        {
+          "point": 9,
+          "threshold": 8,
+          "weight": 4
+        },
+        {
+          "point": 10,
+          "threshold": 4,
+          "weight": 2
+        },
+        {
+          "point": 11,
+          "threshold": 8,
+          "weight": 3
+        },
+        {
+          "point": 14,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 14,
+          "threshold": 8,
+          "weight": 5
+        },
+        {
+          "point": 15,
+          "threshold": 6,
+          "weight": 3
+        },
+        {
+          "point": 15,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 16,
+          "threshold": 8,
+          "weight": 5
+        },
+        {
+          "point": 17,
+          "threshold": 4,
+          "weight": 3
+        },
+        {
+          "point": 17,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 18,
+          "threshold": 4,
+          "weight": 3
+        },
+        {
+          "point": 19,
+          "threshold": 8,
+          "weight": 5
+        },
+        {
+          "point": 20,
+          "threshold": 8,
+          "weight": 4
+        },
+        {
+          "point": 21,
+          "threshold": 8,
+          "weight": 3
+        }
+      ],
+      "bound": 31,
+      "violation_numerator": 1511019007,
+      "denominator": 1000000000,
+      "pricing": {
+        "status": "OPTIMAL",
+        "counts": [
+          8,
+          5,
+          4,
+          3,
+          4,
+          8,
+          2,
+          4,
+          4,
+          8,
+          2,
+          4,
+          3,
+          4,
+          3,
+          2,
+          8,
+          4,
+          4,
+          3,
+          3,
+          3
+        ],
+        "residues": [
+          0,
+          1,
+          2,
+          3,
+          1,
+          5,
+          8,
+          11,
+          8,
+          8,
+          8,
+          33,
+          13,
+          33,
+          103,
+          8
+        ],
+        "objective": 31,
+        "upper_bound": 31
+      }
+    },
+    {
+      "axis": 17,
+      "events": [
+        {
+          "point": 0,
+          "threshold": 8,
+          "weight": 19
+        },
+        {
+          "point": 1,
+          "threshold": 4,
+          "weight": 4
+        },
+        {
+          "point": 1,
+          "threshold": 8,
+          "weight": 3
+        },
+        {
+          "point": 1,
+          "threshold": 12,
+          "weight": 9
+        },
+        {
+          "point": 2,
+          "threshold": 8,
+          "weight": 3
+        },
+        {
+          "point": 3,
+          "threshold": 8,
+          "weight": 6
+        },
+        {
+          "point": 4,
+          "threshold": 4,
+          "weight": 4
+        },
+        {
+          "point": 6,
+          "threshold": 6,
+          "weight": 5
+        },
+        {
+          "point": 8,
+          "threshold": 4,
+          "weight": 5
+        },
+        {
+          "point": 12,
+          "threshold": 6,
+          "weight": 7
+        },
+        {
+          "point": 13,
+          "threshold": 8,
+          "weight": 6
+        },
+        {
+          "point": 16,
+          "threshold": 8,
+          "weight": 11
+        },
+        {
+          "point": 17,
+          "threshold": 8,
+          "weight": 9
+        },
+        {
+          "point": 18,
+          "threshold": 4,
+          "weight": 4
+        },
+        {
+          "point": 18,
+          "threshold": 8,
+          "weight": 10
+        },
+        {
+          "point": 19,
+          "threshold": 8,
+          "weight": 15
+        },
+        {
+          "point": 20,
+          "threshold": 8,
+          "weight": 9
+        }
+      ],
+      "bound": 61,
+      "violation_numerator": 2027647924,
+      "denominator": 1000000000,
+      "pricing": {
+        "status": "OPTIMAL",
+        "counts": [
+          8,
+          3,
+          3,
+          2,
+          1,
+          9,
+          6,
+          5,
+          2,
+          5,
+          6,
+          1,
+          6,
+          2,
+          1,
+          6,
+          8,
+          2,
+          4,
+          8,
+          1,
+          2
+        ],
+        "residues": [
+          0,
+          0,
+          2,
+          3,
+          2,
+          5,
+          4,
+          5,
+          8,
+          5,
+          14,
+          33,
+          13,
+          8,
+          82,
+          8
+        ],
+        "objective": 61,
+        "upper_bound": 61
+      }
+    },
+    {
+      "axis": 0,
+      "events": [
+        {
+          "point": 0,
+          "threshold": 9,
+          "weight": 2
+        },
+        {
+          "point": 0,
+          "threshold": 10,
+          "weight": 1
+        },
+        {
+          "point": 2,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 4,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 5,
+          "threshold": 10,
+          "weight": 3
+        },
+        {
+          "point": 6,
+          "threshold": 9,
+          "weight": 1
+        },
+        {
+          "point": 7,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 8,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 10,
+          "threshold": 9,
+          "weight": 1
+        },
+        {
+          "point": 13,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 15,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 21,
+          "threshold": 4,
+          "weight": 1
+        }
+      ],
+      "bound": 6,
+      "violation_numerator": 733028127,
+      "denominator": 1000000000,
+      "pricing": {
+        "status": "OPTIMAL",
+        "counts": [
+          1,
+          2,
+          4,
+          4,
+          4,
+          3,
+          3,
+          8,
+          4,
+          2,
+          3,
+          3,
+          3,
+          3,
+          3,
+          4,
+          3,
+          3,
+          4,
+          6,
+          3,
+          4
+        ],
+        "residues": [
+          2,
+          4,
+          1,
+          5,
+          7,
+          13,
+          14,
+          5,
+          7,
+          24,
+          25,
+          19,
+          89,
+          89
+        ],
+        "objective": 6,
+        "upper_bound": 6
+      }
+    },
+    {
+      "axis": 16,
+      "events": [
+        {
+          "point": 0,
+          "threshold": 12,
+          "weight": 21
+        },
+        {
+          "point": 1,
+          "threshold": 8,
+          "weight": 11
+        },
+        {
+          "point": 3,
+          "threshold": 4,
+          "weight": 2
+        },
+        {
+          "point": 3,
+          "threshold": 8,
+          "weight": 8
+        },
+        {
+          "point": 3,
+          "threshold": 12,
+          "weight": 14
+        },
+        {
+          "point": 4,
+          "threshold": 4,
+          "weight": 4
+        },
+        {
+          "point": 4,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 5,
+          "threshold": 8,
+          "weight": 6
+        },
+        {
+          "point": 5,
+          "threshold": 12,
+          "weight": 14
+        },
+        {
+          "point": 6,
+          "threshold": 6,
+          "weight": 2
+        },
+        {
+          "point": 8,
+          "threshold": 4,
+          "weight": 5
+        },
+        {
+          "point": 9,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 10,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 12,
+          "threshold": 5,
+          "weight": 5
+        },
+        {
+          "point": 12,
+          "threshold": 6,
+          "weight": 3
+        },
+        {
+          "point": 13,
+          "threshold": 4,
+          "weight": 3
+        },
+        {
+          "point": 14,
+          "threshold": 8,
+          "weight": 4
+        },
+        {
+          "point": 17,
+          "threshold": 4,
+          "weight": 3
+        },
+        {
+          "point": 17,
+          "threshold": 8,
+          "weight": 1
+        },
+        {
+          "point": 18,
+          "threshold": 4,
+          "weight": 1
+        },
+        {
+          "point": 18,
+          "threshold": 8,
+          "weight": 4
+        },
+        {
+          "point": 19,
+          "threshold": 8,
+          "weight": 8
+        },
+        {
+          "point": 20,
+          "threshold": 8,
+          "weight": 3
+        },
+        {
+          "point": 21,
+          "threshold": 8,
+          "weight": 5
+        }
+      ],
+      "bound": 52,
+      "violation_numerator": 525733100,
+      "denominator": 1000000000,
+      "pricing": {
+        "status": "OPTIMAL",
+        "counts": [
+          2,
+          4,
+          5,
+          12,
+          4,
+          2,
+          4,
+          7,
+          4,
+          3,
+          4,
+          6,
+          5,
+          6,
+          4,
+          8,
+          3,
+          7,
+          3,
+          4,
+          8,
+          8
+        ],
+        "residues": [
+          0,
+          1,
+          2,
+          4,
+          1,
+          3,
+          9,
+          13,
+          14,
+          17,
+          29,
+          24,
+          25,
+          59,
+          59,
+          134
+        ],
+        "objective": 52,
+        "upper_bound": 52
+      }
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+[
+  {
+    "base_residue77": 0,
+    "base_residue110": 0,
+    "value": 0.9673498356796391,
+    "measure_file": "data/core2310-split77-110-0-0-measure.json",
+    "residual": 885
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 1,
+    "value": 0.9736776918164015,
+    "measure_file": "data/core2310-split77-110-0-1-measure.json",
+    "residual": 877
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 2,
+    "value": 0.972321986717632,
+    "measure_file": "data/core2310-split77-110-0-2-measure.json",
+    "residual": 868
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 3,
+    "value": 0.9737351229998741,
+    "measure_file": "data/core2310-split77-110-0-3-measure.json",
+    "residual": 877
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 4,
+    "value": 0.971504310371222,
+    "measure_file": "data/core2310-split77-110-0-4-measure.json",
+    "residual": 874
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 5,
+    "value": 0.9775462246746495,
+    "measure_file": "data/core2310-split77-110-0-5-measure.json",
+    "residual": 872
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 6,
+    "value": 0.9714241071097648,
+    "measure_file": "data/core2310-split77-110-0-6-measure.json",
+    "residual": 875
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 7,
+    "value": 0.9739390105060989,
+    "measure_file": "data/core2310-split77-110-0-7-measure.json",
+    "residual": 872
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 8,
+    "value": 0.9717995910507167,
+    "measure_file": "data/core2310-split77-110-0-8-measure.json",
+    "residual": 874
+  },
+  {
+    "base_residue77": 0,
+    "base_residue110": 9,
+    "value": 0.9761441686946519,
+    "measure_file": "data/core2310-split77-110-0-9-measure.json",
+    "residual": 872
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 0,
+    "value": 0.9773344942175047,
+    "measure_file": "data/core2310-split77-110-1-0-measure.json",
+    "residual": 872
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 1,
+    "value": 0.9838846222031444,
+    "measure_file": "data/core2310-split77-110-1-1-measure.json",
+    "residual": 864
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 2,
+    "value": 0.9824160070004027,
+    "measure_file": "data/core2310-split77-110-1-2-measure.json",
+    "residual": 855
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 3,
+    "value": 0.9839963907304226,
+    "measure_file": "data/core2310-split77-110-1-3-measure.json",
+    "residual": 864
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 4,
+    "value": 0.9816552794557363,
+    "measure_file": "data/core2310-split77-110-1-4-measure.json",
+    "residual": 861
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 5,
+    "value": 0.9878873472947812,
+    "measure_file": "data/core2310-split77-110-1-5-measure.json",
+    "residual": 859
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 6,
+    "value": 0.981507858174468,
+    "measure_file": "data/core2310-split77-110-1-6-measure.json",
+    "residual": 862
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 7,
+    "value": 0.984104477335509,
+    "measure_file": "data/core2310-split77-110-1-7-measure.json",
+    "residual": 859
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 8,
+    "value": 0.9818963623462129,
+    "measure_file": "data/core2310-split77-110-1-8-measure.json",
+    "residual": 861
+  },
+  {
+    "base_residue77": 1,
+    "base_residue110": 9,
+    "value": 0.9864795339144979,
+    "measure_file": "data/core2310-split77-110-1-9-measure.json",
+    "residual": 859
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 0,
+    "value": 0.9814067120146395,
+    "measure_file": "data/core2310-split77-110-2-0-measure.json",
+    "residual": 867
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 1,
+    "value": 0.9880544013241408,
+    "measure_file": "data/core2310-split77-110-2-1-measure.json",
+    "residual": 859
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 2,
+    "value": 0.9867236202677027,
+    "measure_file": "data/core2310-split77-110-2-2-measure.json",
+    "residual": 850
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 3,
+    "value": 0.9882839707930283,
+    "measure_file": "data/core2310-split77-110-2-3-measure.json",
+    "residual": 859
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 4,
+    "value": 0.9859697547113372,
+    "measure_file": "data/core2310-split77-110-2-4-measure.json",
+    "residual": 856
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 5,
+    "value": 0.9921778836414232,
+    "measure_file": "data/core2310-split77-110-2-5-measure.json",
+    "residual": 854
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 6,
+    "value": 0.9852469301151536,
+    "measure_file": "data/core2310-split77-110-2-6-measure.json",
+    "residual": 857
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 7,
+    "value": 0.9886755030854676,
+    "measure_file": "data/core2310-split77-110-2-7-measure.json",
+    "residual": 854
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 8,
+    "value": 0.9861570506207097,
+    "measure_file": "data/core2310-split77-110-2-8-measure.json",
+    "residual": 856
+  },
+  {
+    "base_residue77": 2,
+    "base_residue110": 9,
+    "value": 0.9909432993940279,
+    "measure_file": "data/core2310-split77-110-2-9-measure.json",
+    "residual": 854
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 0,
+    "value": 0.9840394297531345,
+    "measure_file": "data/core2310-split77-110-3-0-measure.json",
+    "residual": 865
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 1,
+    "value": 0.9908093733119416,
+    "measure_file": "data/core2310-split77-110-3-1-measure.json",
+    "residual": 857
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 2,
+    "value": 0.9892366811326683,
+    "measure_file": "data/core2310-split77-110-3-2-measure.json",
+    "residual": 848
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 3,
+    "value": 0.9910223458514232,
+    "measure_file": "data/core2310-split77-110-3-3-measure.json",
+    "residual": 857
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 4,
+    "value": 0.9885666361093913,
+    "measure_file": "data/core2310-split77-110-3-4-measure.json",
+    "residual": 854
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 5,
+    "value": 0.9949288466092263,
+    "measure_file": "data/core2310-split77-110-3-5-measure.json",
+    "residual": 852
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 6,
+    "value": 0.9879559594724173,
+    "measure_file": "data/core2310-split77-110-3-6-measure.json",
+    "residual": 855
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 7,
+    "value": 0.9913069301115591,
+    "measure_file": "data/core2310-split77-110-3-7-measure.json",
+    "residual": 852
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 8,
+    "value": 0.9887878539819885,
+    "measure_file": "data/core2310-split77-110-3-8-measure.json",
+    "residual": 854
+  },
+  {
+    "base_residue77": 3,
+    "base_residue110": 9,
+    "value": 0.9935775284821543,
+    "measure_file": "data/core2310-split77-110-3-9-measure.json",
+    "residual": 852
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 0,
+    "value": 0.9820643317078577,
+    "measure_file": "data/core2310-split77-110-4-0-measure.json",
+    "residual": 866
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 1,
+    "value": 0.9887955644652155,
+    "measure_file": "data/core2310-split77-110-4-1-measure.json",
+    "residual": 858
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 2,
+    "value": 0.9873155458768156,
+    "measure_file": "data/core2310-split77-110-4-2-measure.json",
+    "residual": 849
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 3,
+    "value": 0.9884269481823944,
+    "measure_file": "data/core2310-split77-110-4-3-measure.json",
+    "residual": 858
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 4,
+    "value": 0.9865701060841484,
+    "measure_file": "data/core2310-split77-110-4-4-measure.json",
+    "residual": 855
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 5,
+    "value": 0.9921539090538642,
+    "measure_file": "data/core2310-split77-110-4-5-measure.json",
+    "residual": 853
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 6,
+    "value": 0.9866547473980868,
+    "measure_file": "data/core2310-split77-110-4-6-measure.json",
+    "residual": 856
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 7,
+    "value": 0.9889517384306881,
+    "measure_file": "data/core2310-split77-110-4-7-measure.json",
+    "residual": 853
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 8,
+    "value": 0.9869111453861574,
+    "measure_file": "data/core2310-split77-110-4-8-measure.json",
+    "residual": 855
+  },
+  {
+    "base_residue77": 4,
+    "base_residue110": 9,
+    "value": 0.9910660359981278,
+    "measure_file": "data/core2310-split77-110-4-9-measure.json",
+    "residual": 853
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 0,
+    "value": 0.9730310231287951,
+    "measure_file": "data/core2310-split77-110-5-0-measure.json",
+    "residual": 875
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 1,
+    "value": 0.9796663753215136,
+    "measure_file": "data/core2310-split77-110-5-1-measure.json",
+    "residual": 867
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 2,
+    "value": 0.9790170632495682,
+    "measure_file": "data/core2310-split77-110-5-2-measure.json",
+    "residual": 858
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 3,
+    "value": 0.9792493343274796,
+    "measure_file": "data/core2310-split77-110-5-3-measure.json",
+    "residual": 867
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 4,
+    "value": 0.9778406676105519,
+    "measure_file": "data/core2310-split77-110-5-4-measure.json",
+    "residual": 864
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 5,
+    "value": 0.9826892873809122,
+    "measure_file": "data/core2310-split77-110-5-5-measure.json",
+    "residual": 862
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 6,
+    "value": 0.9776999193421002,
+    "measure_file": "data/core2310-split77-110-5-6-measure.json",
+    "residual": 865
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 7,
+    "value": 0.9794225408722093,
+    "measure_file": "data/core2310-split77-110-5-7-measure.json",
+    "residual": 862
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 8,
+    "value": 0.977989746185228,
+    "measure_file": "data/core2310-split77-110-5-8-measure.json",
+    "residual": 864
+  },
+  {
+    "base_residue77": 5,
+    "base_residue110": 9,
+    "value": 0.9818248209021365,
+    "measure_file": "data/core2310-split77-110-5-9-measure.json",
+    "residual": 862
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 0,
+    "value": 0.9868717705372931,
+    "measure_file": "data/core2310-split77-110-6-0-measure.json",
+    "residual": 861
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 1,
+    "value": 0.993771228783663,
+    "measure_file": "data/core2310-split77-110-6-1-measure.json",
+    "residual": 853
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 2,
+    "value": 0.992131892771118,
+    "measure_file": "data/core2310-split77-110-6-2-measure.json",
+    "residual": 844
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 3,
+    "value": 0.9934317193061357,
+    "measure_file": "data/core2310-split77-110-6-3-measure.json",
+    "residual": 853
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 4,
+    "value": 0.9913749185205789,
+    "measure_file": "data/core2310-split77-110-6-4-measure.json",
+    "residual": 850
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 5,
+    "value": 0.9970814009312239,
+    "measure_file": "data/core2310-split77-110-6-5-measure.json",
+    "residual": 848
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 6,
+    "value": 0.9914836411365716,
+    "measure_file": "data/core2310-split77-110-6-6-measure.json",
+    "residual": 851
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 7,
+    "value": 0.9940150155820684,
+    "measure_file": "data/core2310-split77-110-6-7-measure.json",
+    "residual": 848
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 8,
+    "value": 0.9917233782088437,
+    "measure_file": "data/core2310-split77-110-6-8-measure.json",
+    "residual": 850
+  },
+  {
+    "base_residue77": 6,
+    "base_residue110": 9,
+    "value": 0.99610246114626,
+    "measure_file": "data/core2310-split77-110-6-9-measure.json",
+    "residual": 848
+  }
+]

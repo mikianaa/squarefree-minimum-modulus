@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED",
+  "claim": "The union bound for these nine free moduli is attained by actual disjoint classes on the specified measure",
+  "class_witness": {
+    "154": 111,
+    "165": 13,
+    "231": 67,
+    "330": 244,
+    "385": 321,
+    "462": 433,
+    "770": 496,
+    "1155": 1049,
+    "2310": 1
+  },
+  "union_numerator": 6834860,
+  "denominator": 100000010,
+  "union_mass": 0.06834859316514068,
+  "core_file": "data\\core2310-hard-projection-fibre-envelope.json",
+  "core_sha256": "984e3e766116fbfa4ec1051861ca00eb6b7f0e223e36f28efc77b797f575b72c",
+  "scope": "One fixed measure only. Does not exclude better weights, future overlap accounting, or a smaller global bound."
+}

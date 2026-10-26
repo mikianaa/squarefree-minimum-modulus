@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "mode": "nonpositive_support",
+  "denominator": 1000000000,
+  "unrestricted_capacity_numerator": -4158485577546000,
+  "pool_numerator": -255478165546000,
+  "gain_over_pointwise_dual_numerator": 74983888070000,
+  "plane_states_checked": 9453375,
+  "configurations_checked": 39968,
+  "excludes_unrestricted_core_pattern": false,
+  "excludes_stated_pool": false,
+  "scope": "Necessary event-score excess on nonpositive support; same fixed core/pattern and finite pool as input"
+}

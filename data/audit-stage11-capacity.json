@@ -1,0 +1,39 @@
+{
+  "status": "VERIFIED",
+  "claim": "Minimum residual modulo 2310 after adding all stage-11 moduli to the specified fixed core-210 family is 787",
+  "base_family": {
+    "7": 0,
+    "10": 0,
+    "14": 5,
+    "15": 3,
+    "21": 8,
+    "30": 24,
+    "35": 16,
+    "42": 11,
+    "70": 66,
+    "105": 36,
+    "210": 101
+  },
+  "base_uncovered": 104,
+  "capacity_by_divisor": {
+    "2": 55,
+    "3": 46,
+    "5": 30,
+    "6": 24,
+    "7": 24,
+    "10": 17,
+    "14": 14,
+    "15": 11,
+    "21": 9,
+    "30": 6,
+    "35": 6,
+    "42": 5,
+    "70": 3,
+    "105": 2,
+    "210": 1
+  },
+  "total_capacity": 253,
+  "minimum_residual": 787,
+  "witness_file": "data/core2310-overlap-prefix.json",
+  "scope": "Conditional on one fixed core-210 family; neither all core-210 configurations nor the upper bound 6 is established"
+}

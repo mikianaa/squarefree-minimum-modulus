@@ -1,0 +1,216 @@
+{
+  "violations": [
+    {
+      "axis": 8,
+      "points": [
+        0,
+        8,
+        11,
+        19
+      ],
+      "thresholds": [
+        8,
+        4,
+        4,
+        8
+      ],
+      "projection_sum_capacity": 23,
+      "violation_numerator": 61578118
+    },
+    {
+      "axis": 10,
+      "points": [
+        0,
+        8,
+        11,
+        19
+      ],
+      "thresholds": [
+        8,
+        4,
+        4,
+        8
+      ],
+      "projection_sum_capacity": 23,
+      "violation_numerator": 16240659
+    },
+    {
+      "axis": 17,
+      "points": [
+        0,
+        8,
+        11,
+        19
+      ],
+      "thresholds": [
+        8,
+        4,
+        4,
+        8
+      ],
+      "projection_sum_capacity": 23,
+      "violation_numerator": 8673132
+    }
+  ],
+  "axis_reports": [
+    {
+      "axis": 0,
+      "status": "INFEASIBLE",
+      "seconds": 0.018116800000000002
+    },
+    {
+      "axis": 1,
+      "status": "INFEASIBLE",
+      "seconds": 0.0129438
+    },
+    {
+      "axis": 2,
+      "status": "INFEASIBLE",
+      "seconds": 0.0087846
+    },
+    {
+      "axis": 3,
+      "status": "INFEASIBLE",
+      "seconds": 0.009555600000000001
+    },
+    {
+      "axis": 4,
+      "status": "INFEASIBLE",
+      "seconds": 0.009226400000000001
+    },
+    {
+      "axis": 5,
+      "status": "INFEASIBLE",
+      "seconds": 0.0930386
+    },
+    {
+      "axis": 6,
+      "status": "INFEASIBLE",
+      "seconds": 0.0943904
+    },
+    {
+      "axis": 7,
+      "status": "INFEASIBLE",
+      "seconds": 0.09018870000000001
+    },
+    {
+      "axis": 8,
+      "status": "OPTIMAL",
+      "seconds": 0.0331914
+    },
+    {
+      "axis": 9,
+      "status": "INFEASIBLE",
+      "seconds": 0.030695800000000002
+    },
+    {
+      "axis": 10,
+      "status": "OPTIMAL",
+      "seconds": 0.0359497
+    },
+    {
+      "axis": 11,
+      "status": "INFEASIBLE",
+      "seconds": 0.043737200000000004
+    },
+    {
+      "axis": 12,
+      "status": "INFEASIBLE",
+      "seconds": 0.032901200000000005
+    },
+    {
+      "axis": 13,
+      "status": "INFEASIBLE",
+      "seconds": 0.014030800000000001
+    },
+    {
+      "axis": 14,
+      "status": "INFEASIBLE",
+      "seconds": 0.033103
+    },
+    {
+      "axis": 15,
+      "status": "INFEASIBLE",
+      "seconds": 0.1241353
+    },
+    {
+      "axis": 16,
+      "status": "INFEASIBLE",
+      "seconds": 0.0687807
+    },
+    {
+      "axis": 17,
+      "status": "OPTIMAL",
+      "seconds": 0.07188470000000001
+    },
+    {
+      "axis": 18,
+      "status": "INFEASIBLE",
+      "seconds": 0.1131761
+    },
+    {
+      "axis": 19,
+      "status": "INFEASIBLE",
+      "seconds": 0.0573096
+    },
+    {
+      "axis": 20,
+      "status": "INFEASIBLE",
+      "seconds": 0.08190230000000001
+    },
+    {
+      "axis": 21,
+      "status": "INFEASIBLE",
+      "seconds": 0.0309027
+    },
+    {
+      "axis": 22,
+      "status": "INFEASIBLE",
+      "seconds": 0.0416612
+    },
+    {
+      "axis": 23,
+      "status": "INFEASIBLE",
+      "seconds": 0.0378804
+    },
+    {
+      "axis": 24,
+      "status": "INFEASIBLE",
+      "seconds": 0.016437300000000002
+    },
+    {
+      "axis": 25,
+      "status": "INFEASIBLE",
+      "seconds": 0.032623200000000005
+    },
+    {
+      "axis": 26,
+      "status": "INFEASIBLE",
+      "seconds": 0.1889335
+    },
+    {
+      "axis": 27,
+      "status": "INFEASIBLE",
+      "seconds": 0.0387501
+    },
+    {
+      "axis": 28,
+      "status": "INFEASIBLE",
+      "seconds": 0.0800893
+    },
+    {
+      "axis": 29,
+      "status": "INFEASIBLE",
+      "seconds": 0.0234251
+    },
+    {
+      "axis": 30,
+      "status": "INFEASIBLE",
+      "seconds": 0.0872793
+    }
+  ],
+  "all_axes_proved_no_violation": false,
+  "denominator": 1000000000,
+  "seconds": 1.812999999994645,
+  "scope": "threshold-event separation only; solver infeasibility is not an independently audited proof"
+}

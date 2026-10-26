@@ -1,0 +1,53 @@
+{
+  "status": "VERIFIED",
+  "claim": "No distinct squarefree covering system with all moduli >6 can contain the specified fixed subfamily",
+  "fixed_family": {
+    "7": 0,
+    "10": 0,
+    "14": 5,
+    "15": 3,
+    "21": 8,
+    "30": 24,
+    "35": 16,
+    "42": 11,
+    "70": 66,
+    "105": 36,
+    "210": 101,
+    "11": 0,
+    "22": 3,
+    "33": 10,
+    "55": 17,
+    "66": 7,
+    "77": 41,
+    "110": 12,
+    "154": 97,
+    "165": 13,
+    "231": 62
+  },
+  "free_moduli": [
+    330,
+    385,
+    462,
+    770,
+    1155,
+    2310
+  ],
+  "free_class_capacity_numerators": {
+    "330": 764004,
+    "385": 692144,
+    "462": 593813,
+    "770": 412108,
+    "1155": 280036,
+    "2310": 140018
+  },
+  "capacity_denominator": 100000112,
+  "free_charge": "2882123/100000112",
+  "tail_upper": "97070903837649751956412560553877299337995827756519/100000000000000000000000000000000000000000000000000",
+  "total_upper": "624707097231637813275842198349656998003569289449038045633/625000700000000000000000000000000000000000000000000000000",
+  "total_upper_float": 0.9995302360967561,
+  "core_file": "data/core2310-six-free-envelope.json",
+  "core_sha256": "41f18c14636e7a1cebee75703336269c40d79032ba3151e27302e9f5400503b5",
+  "schedule_file": "data/schedule-core2310-six-free.json",
+  "schedule_sha256": "d5dcacd3bb1ecd21f0ce8231d4d3e29e939c85c425362af8b890a60e732139a9",
+  "scope": "All choices or omissions of the six listed moduli and all later primes; remaining early configurations are not excluded, so global upper bound stays 7"
+}

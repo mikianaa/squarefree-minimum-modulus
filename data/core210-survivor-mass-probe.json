@@ -1,0 +1,75 @@
+{
+  "ordinary_total": 1.0029376367535254,
+  "survivor_before_tail": 0.0,
+  "quadratic_remaining": 0.0019111109653788144,
+  "survivor_after_tail": -0.0019111109653788144,
+  "first_failure_prime": 98713,
+  "credit_before_failure": 1.7249265320294898e-07,
+  "rows": [
+    {
+      "p": 11,
+      "ordinary": 0.11144165025338088,
+      "union_charge": 0.11144165025338088,
+      "credit": 0.0,
+      "survivor": 0.8885583497466192
+    },
+    {
+      "p": 13,
+      "ordinary": 0.08872982271027777,
+      "union_charge": 0.08872982271027777,
+      "credit": 0.0,
+      "survivor": 0.7998285270363414
+    },
+    {
+      "p": 17,
+      "ordinary": 0.08429689778273572,
+      "union_charge": 0.08429689778273572,
+      "credit": 0.0,
+      "survivor": 0.7155316292536057
+    },
+    {
+      "p": 101,
+      "ordinary": 0.008093075736212015,
+      "union_charge": 0.008093075736212015,
+      "credit": 0.0,
+      "survivor": 0.273091710737619
+    },
+    {
+      "p": 1009,
+      "ordinary": 0.0002656881092714113,
+      "union_charge": 0.0002656881092714113,
+      "credit": 0.0,
+      "survivor": 0.052655515379040466
+    },
+    {
+      "p": 10007,
+      "ordinary": 6.455956133478779e-06,
+      "union_charge": 6.455956133478779e-06,
+      "credit": 0.0,
+      "survivor": 0.00732192553578924
+    },
+    {
+      "p": 98689,
+      "ordinary": 1.226289518100469e-07,
+      "union_charge": 1.2195137830169797e-07,
+      "credit": 6.775735083489284e-10,
+      "survivor": 7.338694769393999e-08
+    },
+    {
+      "p": 98711,
+      "ordinary": 1.2259792953964327e-07,
+      "union_charge": 7.259372733878026e-08,
+      "credit": 5.0004202200863005e-08,
+      "survivor": 7.932203551597268e-10
+    },
+    {
+      "p": 98713,
+      "ordinary": 1.2260409784889288e-07,
+      "union_charge": 7.932203551597268e-10,
+      "credit": 1.2181087749373316e-07,
+      "survivor": 0.0
+    }
+  ],
+  "seconds": 4.58157753944397,
+  "scope": "Numerical probe using an incompletely priced core law; no covering certificate"
+}

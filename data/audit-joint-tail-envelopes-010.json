@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "core_pattern": [
+    0,
+    1,
+    0
+  ],
+  "ordinary_pair_residuals": 351244,
+  "distinct_histogram_profiles": 4340,
+  "count_envelopes": 276,
+  "all_entries_match": true,
+  "seconds": 30.172,
+  "scope": "complete ordinary-residue audit of joint concentration upper envelopes; no covering exclusion by itself"
+}

@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "pool_numerator": 0,
+  "capacity_numerator": 0,
+  "denominator": 1000000000000000,
+  "fixed_point_reweighting_barrier_verified": true,
+  "barrier_assignments_checked": 56,
+  "minimum_score_excess_numerator": 246727741452477000000,
+  "score_denominator": 1000000000000000000,
+  "excludes_stated_pool": false,
+  "excludes_unrestricted_core_pattern": false,
+  "scope": "Only combinations of the fixed point event inequalities; no general optimality claim about the method"
+}

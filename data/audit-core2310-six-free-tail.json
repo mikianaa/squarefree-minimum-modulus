@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED",
+  "total_integer": "97070903837649751956412560553877299337995827756519",
+  "scale": "100000000000000000000000000000000000000000000000000",
+  "total_upper": 0.9707090383764975,
+  "part_integers": {
+    "exact": "96871657641146903301832122030489805865861875379521",
+    "far": "105499942265122014793765263637481983042052661100",
+    "tail": "93746254237726639786673259750011489091899715898"
+  },
+  "schedule_sha256": "d5dcacd3bb1ecd21f0ce8231d4d3e29e939c85c425362af8b890a60e732139a9",
+  "core_sha256": "41f18c14636e7a1cebee75703336269c40d79032ba3151e27302e9f5400503b5",
+  "parameters": {
+    "count_cap": 100,
+    "p_exact": 3000000,
+    "n_stages": 1000000,
+    "last_prime": 15485863
+  },
+  "seconds": 87.87288212776184,
+  "scope": "No covering extension with all moduli >6 of the specified fixed core only; not the global upper bound 6"
+}

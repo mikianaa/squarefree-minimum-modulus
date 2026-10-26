@@ -1,0 +1,51 @@
+{
+  "verified": true,
+  "cases": [
+    {
+      "pattern": [
+        0,
+        0,
+        0
+      ],
+      "canonical_source_masks": 61604,
+      "full_even_source_masks": 481937,
+      "orbits": 50145,
+      "same_orbits": true
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1
+      ],
+      "canonical_source_masks": 45415,
+      "full_even_source_masks": 377945,
+      "orbits": 35994,
+      "same_orbits": true
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0
+      ],
+      "canonical_source_masks": 44836,
+      "full_even_source_masks": 354214,
+      "orbits": 35400,
+      "same_orbits": true
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1
+      ],
+      "canonical_source_masks": 39174,
+      "full_even_source_masks": 327848,
+      "orbits": 29997,
+      "same_orbits": true
+    }
+  ],
+  "seconds": 62.54700000000594,
+  "scope": "full-even versus canonical-even pair residuals have identical CRT-label orbits"
+}

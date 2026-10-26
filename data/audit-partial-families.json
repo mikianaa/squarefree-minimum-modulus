@@ -1,0 +1,41 @@
+[
+  {
+    "file": "data/min-uncovered-30030-witness.json",
+    "period": 30030,
+    "classes": 62,
+    "uncovered": 792,
+    "parity_uncovered": [
+      311,
+      481
+    ],
+    "verified": true,
+    "sha256": "ec8aff54e5f34782ec6c43af7377af8d050e63cc50b2ad0e7e8e79c3cfa29ab0",
+    "scope": "upper witness only, not an optimality or covering certificate"
+  },
+  {
+    "file": "data/min-uncovered-510510-witness.json",
+    "period": 510510,
+    "classes": 126,
+    "uncovered": 7436,
+    "parity_uncovered": [
+      2779,
+      4657
+    ],
+    "verified": true,
+    "sha256": "c60b4e35b3b105a7fe758c3a7ce719624d32669407e571db7ccf4bde86c28317",
+    "scope": "upper witness only, not an optimality or covering certificate"
+  },
+  {
+    "file": "data/min-uncovered-9699690-witness.json",
+    "period": 9699690,
+    "classes": 254,
+    "uncovered": 79979,
+    "parity_uncovered": [
+      30484,
+      49495
+    ],
+    "verified": true,
+    "sha256": "d1981fecf87a6f8b365e7334180b983b247dbbe791396d2635e0c204a4dda96f",
+    "scope": "upper witness only, not an optimality or covering certificate"
+  }
+]

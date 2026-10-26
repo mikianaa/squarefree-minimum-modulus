@@ -1,0 +1,54 @@
+{
+  "verified": true,
+  "cases": [
+    {
+      "pattern": [
+        0,
+        0,
+        0
+      ],
+      "canonical_pair_residuals": 61604,
+      "profiles": 2298,
+      "catalogue_complete": true
+    },
+    {
+      "pattern": [
+        0,
+        0,
+        1
+      ],
+      "canonical_pair_residuals": 45415,
+      "profiles": 2734,
+      "catalogue_complete": true
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        0
+      ],
+      "canonical_pair_residuals": 44836,
+      "profiles": 3255,
+      "catalogue_complete": true,
+      "critical_pair_residuals": 53,
+      "actual_triple_residuals": 28940,
+      "refinement_complete": true
+    },
+    {
+      "pattern": [
+        0,
+        1,
+        1
+      ],
+      "canonical_pair_residuals": 39174,
+      "profiles": 3332,
+      "catalogue_complete": true,
+      "coupled_residual_sets_checked": 1108,
+      "critical_pair_residuals": 45,
+      "actual_triple_residuals": 19819,
+      "refinement_complete": true
+    }
+  ],
+  "seconds": 17.906,
+  "scope": "core-catalogue and refinement completeness; plane arithmetic audited separately"
+}

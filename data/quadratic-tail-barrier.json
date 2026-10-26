@@ -1,0 +1,74 @@
+[
+  {
+    "prefix_last_prime": 7,
+    "finite_tail_last_prime": 109,
+    "minimum_initial_moment": [
+      80,
+      7
+    ],
+    "tail_factor_lower": [
+      876720610462295605275842009285505315829,
+      10000000000000000000000000000000000000000
+    ],
+    "loss_bound_lower": [
+      876720610462295605275842009285505315829,
+      875000000000000000000000000000000000000
+    ],
+    "loss_bound_lower_decimal": 1.0019664119569092,
+    "scope": "barrier for the factored quadratic catalogue estimate only"
+  },
+  {
+    "prefix_last_prime": 11,
+    "finite_tail_last_prime": 241,
+    "minimum_initial_moment": [
+      160,
+      11
+    ],
+    "tail_factor_lower": [
+      344538258255385437804554699195108265689,
+      5000000000000000000000000000000000000000
+    ],
+    "loss_bound_lower": [
+      344538258255385437804554699195108265689,
+      343750000000000000000000000000000000000
+    ],
+    "loss_bound_lower_decimal": 1.0022931149247576,
+    "scope": "barrier for the factored quadratic catalogue estimate only"
+  },
+  {
+    "prefix_last_prime": 13,
+    "finite_tail_last_prime": 709,
+    "minimum_initial_moment": [
+      2560,
+      143
+    ],
+    "tail_factor_lower": [
+      558721872682110761515725056990699234691,
+      10000000000000000000000000000000000000000
+    ],
+    "loss_bound_lower": [
+      558721872682110761515725056990699234691,
+      558593750000000000000000000000000000000
+    ],
+    "loss_bound_lower_decimal": 1.0002293664798627,
+    "scope": "barrier for the factored quadratic catalogue estimate only"
+  },
+  {
+    "prefix_last_prime": 17,
+    "finite_tail_last_prime": 3943,
+    "minimum_initial_moment": [
+      51200,
+      2431
+    ],
+    "tail_factor_lower": [
+      474832810846730664291718366010294125519,
+      10000000000000000000000000000000000000000
+    ],
+    "loss_bound_lower": [
+      474832810846730664291718366010294125519,
+      474804687500000000000000000000000000000
+    ],
+    "loss_bound_lower_decimal": 1.0000592314007655,
+    "scope": "barrier for the factored quadratic catalogue estimate only"
+  }
+]

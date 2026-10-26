@@ -1,0 +1,707 @@
+[
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "status": "OPTIMAL",
+    "minimize": true,
+    "label_symmetry": true,
+    "points": 540,
+    "pair_relaxation": false,
+    "omitted_capacity": 0,
+    "build_seconds": 0.063,
+    "seconds": 52.156,
+    "lower_bound": 141,
+    "uncovered": 141,
+    "system": [
+      {
+        "modulus": 3,
+        "residue": 0
+      },
+      {
+        "modulus": 5,
+        "residue": 0
+      },
+      {
+        "modulus": 6,
+        "residue": 4
+      },
+      {
+        "modulus": 7,
+        "residue": 0
+      },
+      {
+        "modulus": 10,
+        "residue": 6
+      },
+      {
+        "modulus": 11,
+        "residue": 0
+      },
+      {
+        "modulus": 14,
+        "residue": 1
+      },
+      {
+        "modulus": 15,
+        "residue": 2
+      },
+      {
+        "modulus": 21,
+        "residue": 16
+      },
+      {
+        "modulus": 22,
+        "residue": 1
+      },
+      {
+        "modulus": 30,
+        "residue": 8
+      },
+      {
+        "modulus": 33,
+        "residue": 2
+      },
+      {
+        "modulus": 35,
+        "residue": 24
+      },
+      {
+        "modulus": 42,
+        "residue": 25
+      },
+      {
+        "modulus": 55,
+        "residue": 14
+      },
+      {
+        "modulus": 66,
+        "residue": 59
+      },
+      {
+        "modulus": 70,
+        "residue": 31
+      },
+      {
+        "modulus": 77,
+        "residue": 5
+      },
+      {
+        "modulus": 105,
+        "residue": 104
+      },
+      {
+        "modulus": 110,
+        "residue": 83
+      },
+      {
+        "modulus": 154,
+        "residue": 117
+      },
+      {
+        "modulus": 165,
+        "residue": 74
+      },
+      {
+        "modulus": 210,
+        "residue": 157
+      },
+      {
+        "modulus": 231,
+        "residue": 95
+      },
+      {
+        "modulus": 330,
+        "residue": 173
+      },
+      {
+        "modulus": 385,
+        "residue": 369
+      },
+      {
+        "modulus": 462,
+        "residue": 13
+      },
+      {
+        "modulus": 770,
+        "residue": 713
+      },
+      {
+        "modulus": 1155,
+        "residue": 494
+      },
+      {
+        "modulus": 2310,
+        "residue": 2239
+      }
+    ]
+  },
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "status": "OPTIMAL",
+    "minimize": true,
+    "label_symmetry": true,
+    "points": 540,
+    "pair_relaxation": false,
+    "omitted_capacity": 0,
+    "build_seconds": 0.031,
+    "seconds": 43.078,
+    "lower_bound": 134,
+    "uncovered": 134,
+    "system": [
+      {
+        "modulus": 3,
+        "residue": 0
+      },
+      {
+        "modulus": 5,
+        "residue": 0
+      },
+      {
+        "modulus": 6,
+        "residue": 4
+      },
+      {
+        "modulus": 7,
+        "residue": 0
+      },
+      {
+        "modulus": 10,
+        "residue": 1
+      },
+      {
+        "modulus": 11,
+        "residue": 0
+      },
+      {
+        "modulus": 14,
+        "residue": 8
+      },
+      {
+        "modulus": 15,
+        "residue": 2
+      },
+      {
+        "modulus": 21,
+        "residue": 2
+      },
+      {
+        "modulus": 22,
+        "residue": 12
+      },
+      {
+        "modulus": 30,
+        "residue": 7
+      },
+      {
+        "modulus": 33,
+        "residue": 2
+      },
+      {
+        "modulus": 35,
+        "residue": 3
+      },
+      {
+        "modulus": 42,
+        "residue": 32
+      },
+      {
+        "modulus": 55,
+        "residue": 14
+      },
+      {
+        "modulus": 66,
+        "residue": 37
+      },
+      {
+        "modulus": 70,
+        "residue": 53
+      },
+      {
+        "modulus": 77,
+        "residue": 5
+      },
+      {
+        "modulus": 105,
+        "residue": 83
+      },
+      {
+        "modulus": 110,
+        "residue": 89
+      },
+      {
+        "modulus": 154,
+        "residue": 71
+      },
+      {
+        "modulus": 165,
+        "residue": 149
+      },
+      {
+        "modulus": 210,
+        "residue": 13
+      },
+      {
+        "modulus": 231,
+        "residue": 194
+      },
+      {
+        "modulus": 330,
+        "residue": 19
+      },
+      {
+        "modulus": 385,
+        "residue": 174
+      },
+      {
+        "modulus": 462,
+        "residue": 26
+      },
+      {
+        "modulus": 770,
+        "residue": 109
+      },
+      {
+        "modulus": 1155,
+        "residue": 734
+      },
+      {
+        "modulus": 2310,
+        "residue": 2063
+      }
+    ]
+  },
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "status": "OPTIMAL",
+    "minimize": true,
+    "label_symmetry": true,
+    "points": 524,
+    "pair_relaxation": false,
+    "omitted_capacity": 0,
+    "build_seconds": 0.032,
+    "seconds": 32.266,
+    "lower_bound": 124,
+    "uncovered": 124,
+    "system": [
+      {
+        "modulus": 3,
+        "residue": 0
+      },
+      {
+        "modulus": 5,
+        "residue": 0
+      },
+      {
+        "modulus": 6,
+        "residue": 4
+      },
+      {
+        "modulus": 7,
+        "residue": 0
+      },
+      {
+        "modulus": 10,
+        "residue": 1
+      },
+      {
+        "modulus": 11,
+        "residue": 0
+      },
+      {
+        "modulus": 14,
+        "residue": 8
+      },
+      {
+        "modulus": 15,
+        "residue": 2
+      },
+      {
+        "modulus": 21,
+        "residue": 2
+      },
+      {
+        "modulus": 22,
+        "residue": 1
+      },
+      {
+        "modulus": 30,
+        "residue": 7
+      },
+      {
+        "modulus": 33,
+        "residue": 2
+      },
+      {
+        "modulus": 35,
+        "residue": 3
+      },
+      {
+        "modulus": 42,
+        "residue": 32
+      },
+      {
+        "modulus": 55,
+        "residue": 14
+      },
+      {
+        "modulus": 66,
+        "residue": 37
+      },
+      {
+        "modulus": 70,
+        "residue": 53
+      },
+      {
+        "modulus": 77,
+        "residue": 5
+      },
+      {
+        "modulus": 105,
+        "residue": 83
+      },
+      {
+        "modulus": 110,
+        "residue": 39
+      },
+      {
+        "modulus": 154,
+        "residue": 71
+      },
+      {
+        "modulus": 165,
+        "residue": 29
+      },
+      {
+        "modulus": 210,
+        "residue": 146
+      },
+      {
+        "modulus": 231,
+        "residue": 173
+      },
+      {
+        "modulus": 330,
+        "residue": 229
+      },
+      {
+        "modulus": 385,
+        "residue": 278
+      },
+      {
+        "modulus": 462,
+        "residue": 446
+      },
+      {
+        "modulus": 770,
+        "residue": 349
+      },
+      {
+        "modulus": 1155,
+        "residue": 719
+      },
+      {
+        "modulus": 2310,
+        "residue": 1259
+      }
+    ]
+  },
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "status": "OPTIMAL",
+    "minimize": true,
+    "label_symmetry": true,
+    "points": 516,
+    "pair_relaxation": false,
+    "omitted_capacity": 0,
+    "build_seconds": 0.031,
+    "seconds": 57.125,
+    "lower_bound": 123,
+    "uncovered": 123,
+    "system": [
+      {
+        "modulus": 3,
+        "residue": 0
+      },
+      {
+        "modulus": 5,
+        "residue": 0
+      },
+      {
+        "modulus": 6,
+        "residue": 4
+      },
+      {
+        "modulus": 7,
+        "residue": 0
+      },
+      {
+        "modulus": 10,
+        "residue": 1
+      },
+      {
+        "modulus": 11,
+        "residue": 0
+      },
+      {
+        "modulus": 14,
+        "residue": 1
+      },
+      {
+        "modulus": 15,
+        "residue": 2
+      },
+      {
+        "modulus": 21,
+        "residue": 2
+      },
+      {
+        "modulus": 22,
+        "residue": 12
+      },
+      {
+        "modulus": 30,
+        "residue": 7
+      },
+      {
+        "modulus": 33,
+        "residue": 2
+      },
+      {
+        "modulus": 35,
+        "residue": 3
+      },
+      {
+        "modulus": 42,
+        "residue": 32
+      },
+      {
+        "modulus": 55,
+        "residue": 14
+      },
+      {
+        "modulus": 66,
+        "residue": 26
+      },
+      {
+        "modulus": 70,
+        "residue": 53
+      },
+      {
+        "modulus": 77,
+        "residue": 5
+      },
+      {
+        "modulus": 105,
+        "residue": 83
+      },
+      {
+        "modulus": 110,
+        "residue": 59
+      },
+      {
+        "modulus": 154,
+        "residue": 89
+      },
+      {
+        "modulus": 165,
+        "residue": 149
+      },
+      {
+        "modulus": 210,
+        "residue": 163
+      },
+      {
+        "modulus": 231,
+        "residue": 194
+      },
+      {
+        "modulus": 330,
+        "residue": 79
+      },
+      {
+        "modulus": 385,
+        "residue": 349
+      },
+      {
+        "modulus": 462,
+        "residue": 404
+      },
+      {
+        "modulus": 770,
+        "residue": 459
+      },
+      {
+        "modulus": 1155,
+        "residue": 614
+      },
+      {
+        "modulus": 2310,
+        "residue": 2099
+      }
+    ]
+  },
+  {
+    "N": 2310,
+    "pattern": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "status": "OPTIMAL",
+    "minimize": true,
+    "label_symmetry": true,
+    "points": 510,
+    "pair_relaxation": false,
+    "omitted_capacity": 0,
+    "build_seconds": 0.032,
+    "seconds": 43.141,
+    "lower_bound": 121,
+    "uncovered": 121,
+    "system": [
+      {
+        "modulus": 3,
+        "residue": 0
+      },
+      {
+        "modulus": 5,
+        "residue": 0
+      },
+      {
+        "modulus": 6,
+        "residue": 4
+      },
+      {
+        "modulus": 7,
+        "residue": 0
+      },
+      {
+        "modulus": 10,
+        "residue": 1
+      },
+      {
+        "modulus": 11,
+        "residue": 0
+      },
+      {
+        "modulus": 14,
+        "residue": 1
+      },
+      {
+        "modulus": 15,
+        "residue": 2
+      },
+      {
+        "modulus": 21,
+        "residue": 2
+      },
+      {
+        "modulus": 22,
+        "residue": 1
+      },
+      {
+        "modulus": 30,
+        "residue": 7
+      },
+      {
+        "modulus": 33,
+        "residue": 2
+      },
+      {
+        "modulus": 35,
+        "residue": 3
+      },
+      {
+        "modulus": 42,
+        "residue": 8
+      },
+      {
+        "modulus": 55,
+        "residue": 14
+      },
+      {
+        "modulus": 66,
+        "residue": 56
+      },
+      {
+        "modulus": 70,
+        "residue": 53
+      },
+      {
+        "modulus": 77,
+        "residue": 26
+      },
+      {
+        "modulus": 105,
+        "residue": 83
+      },
+      {
+        "modulus": 110,
+        "residue": 49
+      },
+      {
+        "modulus": 154,
+        "residue": 61
+      },
+      {
+        "modulus": 165,
+        "residue": 29
+      },
+      {
+        "modulus": 210,
+        "residue": 163
+      },
+      {
+        "modulus": 231,
+        "residue": 173
+      },
+      {
+        "modulus": 330,
+        "residue": 79
+      },
+      {
+        "modulus": 385,
+        "residue": 314
+      },
+      {
+        "modulus": 462,
+        "residue": 116
+      },
+      {
+        "modulus": 770,
+        "residue": 279
+      },
+      {
+        "modulus": 1155,
+        "residue": 698
+      },
+      {
+        "modulus": 2310,
+        "residue": 1129
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "n_orbits": 288846,
+  "normalized_assignments": 35490420,
+  "counts_without_symmetry": [
+    1,
+    7,
+    60,
+    420,
+    9060,
+    338004,
+    35490420
+  ],
+  "canonical_and_stabilizer_checks": 288846,
+  "minimum_uncovered": 104,
+  "scope": "Complete equality cases after the proved base normalization; not all prefixes",
+  "catalogue_sha256": "1d2bf1334e6f885b61e705c97032d0ded644fa79bec82b64942af596cd75a10e",
+  "seconds": 1.7962384223937988
+}

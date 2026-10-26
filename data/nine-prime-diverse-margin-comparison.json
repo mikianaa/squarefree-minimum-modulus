@@ -1,0 +1,65 @@
+{
+  "candidates": [
+    {
+      "candidate": "data/nine-prime-three-curve-pair-repaired-support.json",
+      "mass": 14531874793545,
+      "pool_gap": -546600730794,
+      "normalized_gap": -0.037613916893696184,
+      "normalized_fraction": [
+        -182200243598,
+        4843958264515
+      ]
+    },
+    {
+      "candidate": "data/nine-prime-diverse-support.json",
+      "mass": 11648745334691,
+      "pool_gap": -232040632834,
+      "normalized_gap": -0.019919796181221538,
+      "normalized_fraction": [
+        -232040632834,
+        11648745334691
+      ]
+    },
+    {
+      "candidate": "data/nine-prime-diverse-support-resumed.json",
+      "mass": 10875978237717,
+      "pool_gap": -144572600201,
+      "normalized_gap": -0.013292836473286981,
+      "normalized_fraction": [
+        -144572600201,
+        10875978237717
+      ]
+    },
+    {
+      "candidate": "data/nine-prime-parity-shared-support.json",
+      "mass": 7579006532390,
+      "pool_gap": -80607833091,
+      "normalized_gap": -0.010635672729204093,
+      "normalized_fraction": [
+        -80607833091,
+        7579006532390
+      ]
+    },
+    {
+      "candidate": "data/nine-prime-cached-slope-support.json",
+      "mass": 5014870401318,
+      "pool_gap": -47976248035,
+      "normalized_gap": -0.009566797184308284,
+      "normalized_fraction": [
+        -47976248035,
+        5014870401318
+      ]
+    },
+    {
+      "candidate": "data/nine-prime-compact-master-support.json",
+      "mass": 677279443230,
+      "pool_gap": -8554427561,
+      "normalized_gap": -0.012630573165196404,
+      "normalized_fraction": [
+        -8554427561,
+        677279443230
+      ]
+    }
+  ],
+  "scope": "Gap divided by total event weight; invariant under uniform rescaling. Negative gaps do not exclude covers or measure distance to a proof."
+}

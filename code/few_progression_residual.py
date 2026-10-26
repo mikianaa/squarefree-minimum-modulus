@@ -65,6 +65,13 @@ def main():
             if asg is not None:
                 entry["family"] = fam; entry["R"] = R; entry["assignment"] = {d: list(v) for d, v in asg.items()}
                 log.append(entry); print("COVER at L*q EXISTS: family + assignment recorded"); break
+            if st2 != "INFEASIBLE":
+                # A timeout is not a refutation: removing this residual could
+                # remove a genuine covering and make a later UNSAT unsound.
+                entry["verdict"] = "undecided (slice assignment not resolved)"
+                entry["family"] = fam; entry["R"] = R
+                log.append(entry)
+                break
             # forbid exactly this residual (valid cut); forbidding the union would be unsound
             m.AddBoolOr([u[n].Not() for n in R] + [u[n] for n in range(L) if n not in set(R)])
         else:

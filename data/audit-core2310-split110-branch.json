@@ -1,0 +1,149 @@
+{
+  "status": "VERIFIED",
+  "claim": "No distinct squarefree covering system with all moduli >6 can contain the listed fixed subfamily",
+  "fixed_family": {
+    "7": 0,
+    "10": 0,
+    "14": 5,
+    "15": 3,
+    "21": 8,
+    "30": 24,
+    "35": 16,
+    "42": 11,
+    "70": 66,
+    "105": 36,
+    "210": 101,
+    "11": 0,
+    "22": 3,
+    "33": 10,
+    "55": 17,
+    "66": 7,
+    "77": 41
+  },
+  "free_moduli": [
+    110,
+    154,
+    165,
+    231,
+    330,
+    385,
+    462,
+    770,
+    1155,
+    2310
+  ],
+  "case_count": 10,
+  "covered_mod110_residues": 110,
+  "omission_allowed": true,
+  "maximum_upper": "1994219089441354292935240698399114291973196526185554256949/1999999880000000000000000000000000000000000000000000000000",
+  "maximum_upper_float": 0.9971096045472534,
+  "cases": [
+    {
+      "base_residue": 0,
+      "total_upper": "6579399505812158775548234981463150318932251242077351297491/6666680000000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9869079520559197,
+      "core_file": "data/core2310-split110-0-envelope.json",
+      "core_sha256": "a3a88025352180145c59a0bc82196482e56a2ecd6e109e92d196103c740b742c"
+    },
+    {
+      "base_residue": 1,
+      "total_upper": "39752526537846024356745946379221926339240948468459195747217/40000034000000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9938123187056797,
+      "core_file": "data/core2310-split110-1-envelope.json",
+      "core_sha256": "dd5b701bebdec5f3343fc6adbb5239a24c493c7639bd0cbcce840efd9bd4cfc2"
+    },
+    {
+      "base_residue": 2,
+      "total_upper": "7937325163648148088063433601752088357035800991278762711373/7999998400000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9921658438891873,
+      "core_file": "data/core2310-split110-2-envelope.json",
+      "core_sha256": "4ffc033cb8413d5cfeb4b2c30852b6725f2ee078bd742e3a4ec9acd3213f3115"
+    },
+    {
+      "base_residue": 3,
+      "total_upper": "993464724434560812001538695346545344893197640577011724869/999999210000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9934655092723131,
+      "core_file": "data/core2310-split110-3-envelope.json",
+      "core_sha256": "3ae672417f29b8bf584611e50e3084b1df1fbeca24b6fd44bd1e71a98f5abc6a"
+    },
+    {
+      "base_residue": 4,
+      "total_upper": "39656326494695828798375122178055707227065072578262562658011/39999969200000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9914089257522686,
+      "core_file": "data/core2310-split110-4-envelope.json",
+      "core_sha256": "4c21a445bb5eb48aae094392ced3f9b354a278fe13657c5805f61db5d6b5fdca"
+    },
+    {
+      "base_residue": 5,
+      "total_upper": "1994219089441354292935240698399114291973196526185554256949/1999999880000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9971096045472534,
+      "core_file": "data/core2310-split110-5-envelope.json",
+      "core_sha256": "00b55821008b801e08d7e60799de6294b1e9007ea9599e3cd4a4c601a80dfd33"
+    },
+    {
+      "base_residue": 6,
+      "total_upper": "39660933553360462724601155298303983563687755558224353054851/39999967600000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9915241419685665,
+      "core_file": "data/core2310-split110-6-envelope.json",
+      "core_sha256": "ec67bb1c789cc79a065e80761ee5d5115872602b0fb14ebe9b0da4ffe3e38450"
+    },
+    {
+      "base_residue": 7,
+      "total_upper": "1242563354221272425986074590607607094874194990626921616169/1250001837500000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9940492221246614,
+      "core_file": "data/core2310-split110-7-envelope.json",
+      "core_sha256": "4b842e91dc6260de17fcf01c40b4ca37711047498a92c6272b1f8df80c66978e"
+    },
+    {
+      "base_residue": 8,
+      "total_upper": "2479390603712206293531669092150588582425896281333900937283/2500001675000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9917555770086459,
+      "core_file": "data/core2310-split110-8-envelope.json",
+      "core_sha256": "26d278db267fb54977ba23456aa5d2245dcd9dd5ee8d7f355920717610539bfe"
+    },
+    {
+      "base_residue": 9,
+      "total_upper": "1992274582035458076977446696997114035161347186521240698243/1999998200000000000000000000000000000000000000000000000000",
+      "total_upper_float": 0.9961381875420978,
+      "core_file": "data/core2310-split110-9-envelope.json",
+      "core_sha256": "547e318da2e0a6fdc4d2c3a1959e47c31d59f6ec7de4ef9f0830d6f57135d897"
+    }
+  ],
+  "scope": "One core-210 family and five base-projection conditions; all 11-colours, all other stage-11 choices and all later primes are unrestricted. Global upper bound remains 7.",
+  "stronger_projection_claim": "No cover for the fixed core-210 family when each listed stage-11 modulus, if present, has the listed base projection; every 11-colour and omission is allowed",
+  "fixed_core210_family": {
+    "7": 0,
+    "10": 0,
+    "14": 5,
+    "15": 3,
+    "21": 8,
+    "30": 24,
+    "35": 16,
+    "42": 11,
+    "70": 66,
+    "105": 36,
+    "210": 101
+  },
+  "stage11_projection_conditions": {
+    "22": {
+      "modulus": 2,
+      "residue": 1
+    },
+    "33": {
+      "modulus": 3,
+      "residue": 1
+    },
+    "55": {
+      "modulus": 5,
+      "residue": 2
+    },
+    "66": {
+      "modulus": 6,
+      "residue": 1
+    },
+    "77": {
+      "modulus": 7,
+      "residue": 6
+    }
+  }
+}

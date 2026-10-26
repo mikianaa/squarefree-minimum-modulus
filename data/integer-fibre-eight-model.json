@@ -1,0 +1,290 @@
+{
+  "status": "FEASIBLE",
+  "seconds": 60.453,
+  "tail_capacity": 132663,
+  "scope": "integer projections for one specified core; no covering claim",
+  "solver_lower": 104242,
+  "choices": [
+    {
+      "high_prime": 11,
+      "core_modulus": 3,
+      "core_residue": 2
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 5,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 6,
+      "core_residue": 2
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 7,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 10,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 14,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 15,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 21,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 30,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 35,
+      "core_residue": 33
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 42,
+      "core_residue": 26
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 70,
+      "core_residue": 33
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 105,
+      "core_residue": 68
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 210,
+      "core_residue": 68
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 3,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 5,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 6,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 7,
+      "core_residue": 6
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 10,
+      "core_residue": 9
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 14,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 15,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 21,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 30,
+      "core_residue": 7
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 35,
+      "core_residue": 34
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 42,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 70,
+      "core_residue": 69
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 105,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 210,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 3,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 5,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 6,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 7,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 10,
+      "core_residue": 9
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 14,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 15,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 21,
+      "core_residue": 19
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 30,
+      "core_residue": 7
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 35,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 42,
+      "core_residue": 19
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 70,
+      "core_residue": 39
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 105,
+      "core_residue": 74
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 210,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 3,
+      "core_residue": 2
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 5,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 6,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 7,
+      "core_residue": 3
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 10,
+      "core_residue": 9
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 14,
+      "core_residue": 3
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 15,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 21,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 30,
+      "core_residue": 7
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 35,
+      "core_residue": 24
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 42,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 70,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 105,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 210,
+      "core_residue": 8
+    }
+  ],
+  "plane_expression_upper": 145314
+}

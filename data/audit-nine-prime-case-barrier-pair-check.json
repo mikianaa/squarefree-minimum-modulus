@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "individual_global_violations": 37,
+  "individual_conditional_violations": 41,
+  "mixture_violations": 1,
+  "largest_mixture_excess": [
+    4961018949,
+    50000000000
+  ],
+  "excludes_this_fractional_barrier_witness": true,
+  "covering_obstruction": false,
+  "scope": "Checks claimed violations, not completeness of the violation list; the old witness fails stronger pair compatibility"
+}

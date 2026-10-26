@@ -1,0 +1,149 @@
+{
+  "verified_local_arithmetic": true,
+  "denominator": 1000000000,
+  "raw_numerator": 656403066794462,
+  "positive_point_means_numerator": 656403066794462,
+  "positive_state_costs_numerator": 1022780941868544,
+  "state_signs": {
+    "positive": 907,
+    "negative": 160,
+    "zero": 0
+  },
+  "positive_mean_points": 22,
+  "point_rows": [
+    {
+      "point_index": 0,
+      "residue": 8,
+      "cost_numerator": 108643979729749,
+      "positive_state_costs_numerator": 118601475167620
+    },
+    {
+      "point_index": 1,
+      "residue": 13,
+      "cost_numerator": 95665488536450,
+      "positive_state_costs_numerator": 99231494271524
+    },
+    {
+      "point_index": 2,
+      "residue": 19,
+      "cost_numerator": 8763765078362,
+      "positive_state_costs_numerator": 24962449859191
+    },
+    {
+      "point_index": 3,
+      "residue": 59,
+      "cost_numerator": 15597317808528,
+      "positive_state_costs_numerator": 34375918495384
+    },
+    {
+      "point_index": 4,
+      "residue": 67,
+      "cost_numerator": 53016064267601,
+      "positive_state_costs_numerator": 56767887078524
+    },
+    {
+      "point_index": 5,
+      "residue": 68,
+      "cost_numerator": 71711928128857,
+      "positive_state_costs_numerator": 78689004306827
+    },
+    {
+      "point_index": 6,
+      "residue": 74,
+      "cost_numerator": 29599386116358,
+      "positive_state_costs_numerator": 51849225171552
+    },
+    {
+      "point_index": 7,
+      "residue": 89,
+      "cost_numerator": 8520526170035,
+      "positive_state_costs_numerator": 20743676525828
+    },
+    {
+      "point_index": 8,
+      "residue": 97,
+      "cost_numerator": 11746550073362,
+      "positive_state_costs_numerator": 36559879066973
+    },
+    {
+      "point_index": 9,
+      "residue": 103,
+      "cost_numerator": 12754359705791,
+      "positive_state_costs_numerator": 42350225125126
+    },
+    {
+      "point_index": 10,
+      "residue": 104,
+      "cost_numerator": 24676910973278,
+      "positive_state_costs_numerator": 41764601060828
+    },
+    {
+      "point_index": 11,
+      "residue": 109,
+      "cost_numerator": 34754314156666,
+      "positive_state_costs_numerator": 41204552491154
+    },
+    {
+      "point_index": 12,
+      "residue": 134,
+      "cost_numerator": 17981835178379,
+      "positive_state_costs_numerator": 43201742617050
+    },
+    {
+      "point_index": 13,
+      "residue": 139,
+      "cost_numerator": 11428304040559,
+      "positive_state_costs_numerator": 22028861995688
+    },
+    {
+      "point_index": 14,
+      "residue": 157,
+      "cost_numerator": 6362235238271,
+      "positive_state_costs_numerator": 39610696001027
+    },
+    {
+      "point_index": 15,
+      "residue": 164,
+      "cost_numerator": 30159460008752,
+      "positive_state_costs_numerator": 53307013229634
+    },
+    {
+      "point_index": 16,
+      "residue": 173,
+      "cost_numerator": 11962730718684,
+      "positive_state_costs_numerator": 42950020993902
+    },
+    {
+      "point_index": 17,
+      "residue": 179,
+      "cost_numerator": 23817966107119,
+      "positive_state_costs_numerator": 38580591358679
+    },
+    {
+      "point_index": 18,
+      "residue": 187,
+      "cost_numerator": 1302016946737,
+      "positive_state_costs_numerator": 39221416597040
+    },
+    {
+      "point_index": 19,
+      "residue": 194,
+      "cost_numerator": 28279606079991,
+      "positive_state_costs_numerator": 36434774597003
+    },
+    {
+      "point_index": 20,
+      "residue": 199,
+      "cost_numerator": 21271066680426,
+      "positive_state_costs_numerator": 31417023981467
+    },
+    {
+      "point_index": 21,
+      "residue": 209,
+      "cost_numerator": 28387255050507,
+      "positive_state_costs_numerator": 28928411876523
+    }
+  ],
+  "scope": "evaluation of a fixed witness, not optimization of either strengthened model",
+  "source": "data/nine-prime-pointwise-catalogue-pricing.json"
+}

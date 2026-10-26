@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "local_refinement_unchanged": true,
+  "event_weights_unchanged": true,
+  "all_local_states_retained": true,
+  "local_states": 28430,
+  "group_configurations": 42532,
+  "cached_group_rows": 4537,
+  "old_actual_indices_preserved": true,
+  "scenario_indices_remapped": true,
+  "scope": "Continuation consistency only; full pool obstruction is not claimed."
+}

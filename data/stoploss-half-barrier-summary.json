@@ -1,0 +1,34 @@
+{
+  "status": "CERTIFIED_AND_SEPARATELY_RECOMPUTED",
+  "conclusion": "7 is optimal for the specified squarefree catalogue comparison and distortion interval [0,1/2].",
+  "modulus_cutoff_excluded": 6,
+  "last_prime_needed": 5003,
+  "prefix_cases": 60,
+  "primary_lower": {
+    "numerator": 1010143243,
+    "denominator": 1000000000
+  },
+  "separate_audit_lower": {
+    "numerator": 101255014,
+    "denominator": 100000000
+  },
+  "scope": [
+    "increasing prime order",
+    "independent Bernoulli catalogue comparison",
+    "minimum of first, stop-loss and quadratic bounds",
+    "every real distortion schedule with 0<=delta_p<=1/2",
+    "uniform total-loss-less-than-1 certificate"
+  ],
+  "not_excluded": [
+    "delta_p>1/2",
+    "different or conditional comparison bounds",
+    "using actual congruence compatibility and overlaps",
+    "the existence or nonexistence of a covering system with minimum modulus above 2"
+  ],
+  "files_sha256": {
+    "code/certify_stoploss_half_barrier.py": "a82282745ab38b9498b6cbc9412426863b0a2820d55d19fb66fef885ddd1bcf0",
+    "code/audit_stoploss_half_barrier.py": "73475bd9544f5e3f4f8f670adb0b52d2385a2490492ebd192183ed72d3c25c3b",
+    "data/stoploss-half-barrier.json": "30a3eaec5299814ad1c6d4ae36d2d705734d1630c745366aeeac3bbf4a80c085",
+    "data/audit-stoploss-half-barrier.json": "f7f7c3a61f93695029edce1896f1a332540d57c5786cd5629af980d527d32449"
+  }
+}

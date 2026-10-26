@@ -1,0 +1,24 @@
+{
+  "verified": true,
+  "axis": 6,
+  "group_primes": [
+    11,
+    17
+  ],
+  "bounds": [
+    {
+      "source": "data/nine-prime-plain-tree-axis6-depth6.json",
+      "bound": 121950699883,
+      "nodes": 106,
+      "pair_multipliers": 0
+    },
+    {
+      "source": "data/nine-prime-pair-tree-axis6-depth6.json",
+      "bound": 119163880384,
+      "nodes": 116,
+      "pair_multipliers": 1253
+    }
+  ],
+  "decrease": 2786819499,
+  "scope": "Both are valid upper bounds on every actual assignment of group 6; no full covering obstruction"
+}

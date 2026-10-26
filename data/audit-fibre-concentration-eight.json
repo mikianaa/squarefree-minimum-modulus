@@ -1,0 +1,15 @@
+{
+  "verified": true,
+  "all_core_subsets": 4194304,
+  "dual": {
+    "verified": true,
+    "integer_lower": 104242,
+    "hit_count_columns_checked": 630225,
+    "exact_numerator": 104241520772,
+    "exact_denominator": 1000000
+  },
+  "tail_capacity": 132663,
+  "excludes_this_core": false,
+  "seconds": 14.031,
+  "scope": "bounds for one specified core residual only; no global covering obstruction obtained"
+}

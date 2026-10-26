@@ -1,0 +1,72 @@
+[
+  {
+    "base_residue": 0,
+    "mod110_residue": 90,
+    "value": 0.9868717705372919,
+    "measure_file": "data/core2310-split110-0-measure.json",
+    "residual": 861
+  },
+  {
+    "base_residue": 1,
+    "mod110_residue": 101,
+    "value": 0.993771228783663,
+    "measure_file": "data/core2310-split110-1-measure.json",
+    "residual": 853
+  },
+  {
+    "base_residue": 2,
+    "mod110_residue": 2,
+    "value": 0.9921318927711187,
+    "measure_file": "data/core2310-split110-2-measure.json",
+    "residual": 844
+  },
+  {
+    "base_residue": 3,
+    "mod110_residue": 13,
+    "value": 0.9934317710617054,
+    "measure_file": "data/core2310-split110-3-measure.json",
+    "residual": 853
+  },
+  {
+    "base_residue": 4,
+    "mod110_residue": 24,
+    "value": 0.9913749185205782,
+    "measure_file": "data/core2310-split110-4-measure.json",
+    "residual": 850
+  },
+  {
+    "base_residue": 5,
+    "mod110_residue": 35,
+    "value": 0.9970814009312239,
+    "measure_file": "data/core2310-split110-5-measure.json",
+    "residual": 848
+  },
+  {
+    "base_residue": 6,
+    "mod110_residue": 46,
+    "value": 0.9914836411365711,
+    "measure_file": "data/core2310-split110-6-measure.json",
+    "residual": 851
+  },
+  {
+    "base_residue": 7,
+    "mod110_residue": 57,
+    "value": 0.9940150155820668,
+    "measure_file": "data/core2310-split110-7-measure.json",
+    "residual": 848
+  },
+  {
+    "base_residue": 8,
+    "mod110_residue": 68,
+    "value": 0.9917233782088417,
+    "measure_file": "data/core2310-split110-8-measure.json",
+    "residual": 850
+  },
+  {
+    "base_residue": 9,
+    "mod110_residue": 79,
+    "value": 0.99610246114626,
+    "measure_file": "data/core2310-split110-9-measure.json",
+    "residual": 848
+  }
+]

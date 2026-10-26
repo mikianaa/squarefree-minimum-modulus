@@ -1,0 +1,91 @@
+{
+ "N": 210,
+ "M": 3,
+ "status": "FEASIBLE",
+ "seconds": 10.1,
+ "moduli": 14,
+ "uncovered": 22,
+ "lower_bound": 5,
+ "system": [
+  {
+   "modulus": 3,
+   "residue": 0
+  },
+  {
+   "modulus": 5,
+   "residue": 0
+  },
+  {
+   "modulus": 6,
+   "residue": 1
+  },
+  {
+   "modulus": 7,
+   "residue": 0
+  },
+  {
+   "modulus": 10,
+   "residue": 6
+  },
+  {
+   "modulus": 14,
+   "residue": 8
+  },
+  {
+   "modulus": 15,
+   "residue": 8
+  },
+  {
+   "modulus": 21,
+   "residue": 20
+  },
+  {
+   "modulus": 30,
+   "residue": 28
+  },
+  {
+   "modulus": 35,
+   "residue": 19
+  },
+  {
+   "modulus": 42,
+   "residue": 11
+  },
+  {
+   "modulus": 70,
+   "residue": 2
+  },
+  {
+   "modulus": 105,
+   "residue": 17
+  },
+  {
+   "modulus": 210,
+   "residue": 29
+  }
+ ],
+ "uncovered_residues": [
+  4,
+  32,
+  34,
+  44,
+  47,
+  52,
+  59,
+  71,
+  74,
+  82,
+  94,
+  101,
+  107,
+  131,
+  149,
+  152,
+  164,
+  172,
+  184,
+  191,
+  197,
+  202
+ ]
+}

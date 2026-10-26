@@ -1,0 +1,91 @@
+{
+  "source": "data/nine-prime-group-coherence-small-cuts.json",
+  "reports": [
+    {
+      "axis": 8,
+      "bound": 19,
+      "variables": 1405,
+      "clauses": 2595,
+      "cnf_sha256": "d25d3c03abb20e2a794e497927dfdadc4c7154e521cd3af3005e8a64fcff1677",
+      "status": "UNSAT",
+      "rup_audit": {
+        "verified": true,
+        "checked_additions": 61842,
+        "reason": "root contradiction after verified RUP additions"
+      },
+      "proof_path": "data\\audit-nine-prime-group-event-cuts-axis8.rup.gz",
+      "proof_sha256": "d01998289bbbc634b59c1e828d25a9205751c25d2939024b74618d7f292d52d7",
+      "verified": true,
+      "seconds": 3.4839999999967404
+    },
+    {
+      "axis": 10,
+      "bound": 31,
+      "variables": 2753,
+      "clauses": 5256,
+      "cnf_sha256": "b923483c398358dedd030d1470dcd4ab4696106936b8ae04a8cf9afe2bc92f7e",
+      "status": "UNSAT",
+      "rup_audit": {
+        "verified": true,
+        "checked_additions": 345402,
+        "reason": "root contradiction after verified RUP additions"
+      },
+      "proof_path": "data\\audit-nine-prime-group-event-cuts-axis10.rup.gz",
+      "proof_sha256": "686ee7d39132f57a7b2f1b03e62be75630e8502349d96dbbdd0f2d7a1a35f4b9",
+      "verified": true,
+      "seconds": 35.23399999999674
+    },
+    {
+      "axis": 17,
+      "bound": 61,
+      "variables": 5546,
+      "clauses": 10876,
+      "cnf_sha256": "6b12d579c504b6d5d3786127ef617247c68041d4192e75b25a8a74676f5b24a4",
+      "status": "UNSAT",
+      "rup_audit": {
+        "verified": true,
+        "checked_additions": 105038,
+        "reason": "root contradiction after verified RUP additions"
+      },
+      "proof_path": "data\\audit-nine-prime-group-event-cuts-axis17.rup.gz",
+      "proof_sha256": "d6b01057b642a6674915da321b71775bcfda5e56f0469a77ab8999cc095964a0",
+      "verified": true,
+      "seconds": 9.843999999997322
+    },
+    {
+      "axis": 0,
+      "bound": 6,
+      "variables": 829,
+      "clauses": 1481,
+      "cnf_sha256": "a21f5967c59acbfa57e3b2e157da11eea9695b93f4813839cde1cb0570161646",
+      "status": "UNSAT",
+      "rup_audit": {
+        "verified": true,
+        "checked_additions": 16583,
+        "reason": "root contradiction after verified RUP additions"
+      },
+      "proof_path": "data\\audit-nine-prime-group-event-cuts-axis0.rup.gz",
+      "proof_sha256": "6877311feb3ee9d6df12640d40fd206678e4e5f075719ce59edbf2d3d9f6a1e3",
+      "verified": true,
+      "seconds": 0.6100000000005821
+    },
+    {
+      "axis": 16,
+      "bound": 52,
+      "variables": 5856,
+      "clauses": 11457,
+      "cnf_sha256": "a302d737b0846fdf339865e933732a6178fef7081886b0ff591316620af7ad92",
+      "status": "UNSAT",
+      "rup_audit": {
+        "verified": true,
+        "checked_additions": 73529,
+        "reason": "root contradiction after verified RUP additions"
+      },
+      "proof_path": "data\\audit-nine-prime-group-event-cuts-axis16.rup.gz",
+      "proof_sha256": "d8cb6e704b983f5ecf93ff0b5b04b76630e96a594f8348e01b387f20f021364d",
+      "verified": true,
+      "seconds": 7.360000000000582
+    }
+  ],
+  "all_verified": true
+}

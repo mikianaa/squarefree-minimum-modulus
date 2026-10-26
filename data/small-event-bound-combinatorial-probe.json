@@ -1,0 +1,9767 @@
+{
+  "points": [
+    8,
+    19,
+    67,
+    68,
+    74,
+    89,
+    97,
+    104,
+    139,
+    164,
+    209
+  ],
+  "minimal_violations": 459,
+  "capacity_certified": 458,
+  "unresolved": [
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7
+    }
+  ],
+  "certificates": [
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        8,
+        15
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        0,
+        8,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        0,
+        10,
+        9,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        6,
+        10
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        13
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        0,
+        4,
+        10,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        7,
+        8,
+        10
+      ],
+      "capacity": 18
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        2,
+        6,
+        10
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        10
+      ],
+      "capacity": 23
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        13,
+        15
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        8,
+        15
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        2,
+        5,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        8,
+        15
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        0,
+        10,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        2,
+        4,
+        8,
+        10,
+        15
+      ],
+      "capacity": 24
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        2,
+        6,
+        10
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        2,
+        4,
+        6,
+        8,
+        15
+      ],
+      "capacity": 24
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        2,
+        6,
+        10
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        2,
+        6,
+        10
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        2,
+        6,
+        10
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        6,
+        7
+      ],
+      "capacity": 18
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        7,
+        10
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        0,
+        9,
+        8,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        6,
+        7,
+        8
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        13
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        15
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        4,
+        5,
+        13
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        0,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        8,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        0,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        7
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        9,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        0,
+        4,
+        4,
+        10,
+        9,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        21
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        13
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        13
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        8
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        8
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        8
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        0,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        0,
+        10,
+        9,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        5
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        5
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        5
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        5
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        0,
+        4,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        8
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        5
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        5
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        13
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        8
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        5,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        4
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        9,
+        4,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        5
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        8,
+        15
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        0,
+        9,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        21
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        15
+      ],
+      "capacity": 22
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        13
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        10,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        5,
+        8
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        10,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        0,
+        10,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        13
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        0,
+        4,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        5
+      ],
+      "capacity": 20
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        15
+      ],
+      "capacity": 17
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        8
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        8
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        8
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        0,
+        4,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        0,
+        8,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        0,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        8,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        0,
+        9,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        0,
+        10,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        5
+      ],
+      "capacity": 21
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        4
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        0,
+        9,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        4,
+        21
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        4
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        2,
+        4
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        0,
+        4,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        10
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        8,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        0,
+        8,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        7
+      ],
+      "capacity": 15
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        0,
+        4
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        0,
+        4,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        0,
+        4,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        9,
+        0,
+        0,
+        9,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        9,
+        0,
+        4,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    },
+    {
+      "thresholds": [
+        10,
+        4,
+        4,
+        0,
+        9,
+        8,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "score": 7,
+      "witness_subset": [
+        0,
+        6
+      ],
+      "capacity": 16
+    }
+  ]
+}

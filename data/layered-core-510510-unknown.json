@@ -1,0 +1,30 @@
+{
+  "N": 510510,
+  "high_primes": [
+    11,
+    13,
+    17
+  ],
+  "pattern": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "prefix_floors": [
+    121,
+    282
+  ],
+  "status": "UNKNOWN",
+  "minimize": false,
+  "build_seconds": 1.063,
+  "seconds": 62.063,
+  "stage_cell_counts": [
+    19,
+    219,
+    3405
+  ],
+  "scope": "necessary capacity constraints; a feasible result is not a covering"
+}

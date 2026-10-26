@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "conditional_clique_cuts_checked": 329,
+  "ordinary_residue_pair_checks": 46630,
+  "largest_violation_numerator": 358333327,
+  "denominator": 100000000,
+  "displayed_barrier_decomposition_excluded": true,
+  "covering_obstruction": false,
+  "global_problem_settled": false,
+  "scope": "Within each stated residue case the events are pairwise disjoint, so their probabilities sum to at most one. This excludes the displayed fractional states, not every possible barrier mixture or a covering system."
+}

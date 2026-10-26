@@ -1,0 +1,2876 @@
+{
+  "core_pattern": [
+    0,
+    1,
+    1
+  ],
+  "high_pattern": [
+    1,
+    1,
+    1
+  ],
+  "enhanced_profiles": 14,
+  "actual_residual_sets": 1108,
+  "tests": [
+    {
+      "profile": [
+        5,
+        18,
+        5,
+        13,
+        3,
+        7,
+        2,
+        5,
+        3,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        5
+      ],
+      "actual_residual_sets": 174,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6496,
+          "line_point_capacity_upper": 4749,
+          "gap": 1747,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3492,
+            3004
+          ],
+          "seconds": 0.062,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 6301,
+          "line_point_capacity_upper": 4749,
+          "gap": 1552,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            122
+          ],
+          "minimizing_layer_deficits": [
+            3318,
+            2983
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6340,
+          "line_point_capacity_upper": 4749,
+          "gap": 1591,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3370,
+            2970
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 6175,
+          "line_point_capacity_upper": 4749,
+          "gap": 1426,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3089,
+            3086
+          ],
+          "seconds": 0.063,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6422,
+          "line_point_capacity_upper": 4749,
+          "gap": 1673,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2892,
+            3530
+          ],
+          "seconds": 0.062,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 6286,
+          "line_point_capacity_upper": 4749,
+          "gap": 1537,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2965,
+            3321
+          ],
+          "seconds": 0.063,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6374,
+          "line_point_capacity_upper": 4749,
+          "gap": 1625,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2837,
+            3537
+          ],
+          "seconds": 0.046,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 6279,
+          "line_point_capacity_upper": 4749,
+          "gap": 1530,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2598,
+            3681
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        18,
+        5,
+        13,
+        3,
+        8,
+        2,
+        5,
+        3,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        5
+      ],
+      "actual_residual_sets": 60,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6157,
+          "line_point_capacity_upper": 4821,
+          "gap": 1336,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            122
+          ],
+          "minimizing_layer_deficits": [
+            3298,
+            2859
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 5975,
+          "line_point_capacity_upper": 4821,
+          "gap": 1154,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            122
+          ],
+          "minimizing_layer_deficits": [
+            3004,
+            2971
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6015,
+          "line_point_capacity_upper": 4821,
+          "gap": 1194,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            122,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3090,
+            2925
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 5835,
+          "line_point_capacity_upper": 4821,
+          "gap": 1014,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3089,
+            2746
+          ],
+          "seconds": 0.046,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6048,
+          "line_point_capacity_upper": 4821,
+          "gap": 1227,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2892,
+            3156
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 5938,
+          "line_point_capacity_upper": 4821,
+          "gap": 1117,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2645,
+            3293
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6026,
+          "line_point_capacity_upper": 4821,
+          "gap": 1205,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2837,
+            3189
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 5915,
+          "line_point_capacity_upper": 4821,
+          "gap": 1094,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2598,
+            3317
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        18,
+        5,
+        13,
+        3,
+        9,
+        2,
+        5,
+        3,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        5
+      ],
+      "actual_residual_sets": 40,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 5919,
+          "line_point_capacity_upper": 4893,
+          "gap": 1026,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            122
+          ],
+          "minimizing_layer_deficits": [
+            3298,
+            2621
+          ],
+          "seconds": 0.031,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 5731,
+          "line_point_capacity_upper": 4893,
+          "gap": 838,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            122
+          ],
+          "minimizing_layer_deficits": [
+            3004,
+            2727
+          ],
+          "seconds": 0.031,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 5767,
+          "line_point_capacity_upper": 4893,
+          "gap": 874,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            122,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3090,
+            2677
+          ],
+          "seconds": 0.031,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 5599,
+          "line_point_capacity_upper": 4893,
+          "gap": 706,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3089,
+            2510
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 5798,
+          "line_point_capacity_upper": 4893,
+          "gap": 905,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2892,
+            2906
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 5682,
+          "line_point_capacity_upper": 4893,
+          "gap": 789,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2645,
+            3037
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 5774,
+          "line_point_capacity_upper": 4893,
+          "gap": 881,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2525,
+            3249
+          ],
+          "seconds": 0.046,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 5657,
+          "line_point_capacity_upper": 4893,
+          "gap": 764,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2598,
+            3059
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        18,
+        5,
+        13,
+        4,
+        7,
+        2,
+        5,
+        4,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        5
+      ],
+      "actual_residual_sets": 48,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6139,
+          "line_point_capacity_upper": 4827,
+          "gap": 1312,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3458,
+            2681
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 5954,
+          "line_point_capacity_upper": 4827,
+          "gap": 1127,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3168,
+            2786
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 5998,
+          "line_point_capacity_upper": 4827,
+          "gap": 1171,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3028,
+            2970
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 5859,
+          "line_point_capacity_upper": 4827,
+          "gap": 1032,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2773,
+            3086
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6089,
+          "line_point_capacity_upper": 4827,
+          "gap": 1262,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2898,
+            3191
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 5970,
+          "line_point_capacity_upper": 4827,
+          "gap": 1143,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            127,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2764,
+            3206
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6062,
+          "line_point_capacity_upper": 4827,
+          "gap": 1235,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2608,
+            3454
+          ],
+          "seconds": 0.046,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 5989,
+          "line_point_capacity_upper": 4827,
+          "gap": 1162,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            127,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2506,
+            3483
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        18,
+        5,
+        13,
+        4,
+        9,
+        2,
+        5,
+        4,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        5
+      ],
+      "actual_residual_sets": 20,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 5556,
+          "line_point_capacity_upper": 4971,
+          "gap": 585,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            114,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2639,
+            2917
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 5414,
+          "line_point_capacity_upper": 4971,
+          "gap": 443,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            118
+          ],
+          "minimizing_layer_deficits": [
+            2893,
+            2521
+          ],
+          "seconds": 0.031,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 5444,
+          "line_point_capacity_upper": 4971,
+          "gap": 473,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3028,
+            2416
+          ],
+          "seconds": 0.031,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 5283,
+          "line_point_capacity_upper": 4971,
+          "gap": 312,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2773,
+            2510
+          ],
+          "seconds": 0.031,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 5466,
+          "line_point_capacity_upper": 4971,
+          "gap": 495,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            114,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2079,
+            3387
+          ],
+          "seconds": 0.031,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 5390,
+          "line_point_capacity_upper": 4971,
+          "gap": 419,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2653,
+            2737
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 5466,
+          "line_point_capacity_upper": 4971,
+          "gap": 495,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2608,
+            2858
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 5373,
+          "line_point_capacity_upper": 4971,
+          "gap": 402,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2393,
+            2980
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        20,
+        5,
+        13,
+        3,
+        10,
+        2,
+        5,
+        3,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        7
+      ],
+      "actual_residual_sets": 40,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7036,
+          "line_point_capacity_upper": 5109,
+          "gap": 1927,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3492,
+            3544
+          ],
+          "seconds": 0.062,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 6842,
+          "line_point_capacity_upper": 5109,
+          "gap": 1733,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3518,
+            3324
+          ],
+          "seconds": 0.063,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6842,
+          "line_point_capacity_upper": 5109,
+          "gap": 1733,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3370,
+            3472
+          ],
+          "seconds": 0.047,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 6644,
+          "line_point_capacity_upper": 5109,
+          "gap": 1535,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3089,
+            3555
+          ],
+          "seconds": 0.062,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6842,
+          "line_point_capacity_upper": 5109,
+          "gap": 1733,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2892,
+            3950
+          ],
+          "seconds": 0.109,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 6706,
+          "line_point_capacity_upper": 5109,
+          "gap": 1597,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2965,
+            3741
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6750,
+          "line_point_capacity_upper": 5109,
+          "gap": 1641,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2837,
+            3913
+          ],
+          "seconds": 0.125,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 6605,
+          "line_point_capacity_upper": 5109,
+          "gap": 1496,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2598,
+            4007
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        20,
+        5,
+        13,
+        4,
+        10,
+        2,
+        5,
+        4,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        7
+      ],
+      "actual_residual_sets": 20,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6693,
+          "line_point_capacity_upper": 5187,
+          "gap": 1506,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            118,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2943,
+            3750
+          ],
+          "seconds": 0.125,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 6492,
+          "line_point_capacity_upper": 5187,
+          "gap": 1305,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3168,
+            3324
+          ],
+          "seconds": 0.157,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6500,
+          "line_point_capacity_upper": 5187,
+          "gap": 1313,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3028,
+            3472
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 6328,
+          "line_point_capacity_upper": 5187,
+          "gap": 1141,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2773,
+            3555
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 6531,
+          "line_point_capacity_upper": 5187,
+          "gap": 1344,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            118,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2460,
+            4071
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 6394,
+          "line_point_capacity_upper": 5187,
+          "gap": 1207,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2653,
+            3741
+          ],
+          "seconds": 0.157,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 6434,
+          "line_point_capacity_upper": 5187,
+          "gap": 1247,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2608,
+            3826
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 6313,
+          "line_point_capacity_upper": 5187,
+          "gap": 1126,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2393,
+            3920
+          ],
+          "seconds": 0.11,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        21,
+        5,
+        13,
+        3,
+        10,
+        2,
+        5,
+        3,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        8
+      ],
+      "actual_residual_sets": 180,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7830,
+          "line_point_capacity_upper": 5181,
+          "gap": 2649,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3836,
+            3994
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7595,
+          "line_point_capacity_upper": 5181,
+          "gap": 2414,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3518,
+            4077
+          ],
+          "seconds": 0.157,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7581,
+          "line_point_capacity_upper": 5181,
+          "gap": 2400,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3370,
+            4211
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7383,
+          "line_point_capacity_upper": 5181,
+          "gap": 2202,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3089,
+            4294
+          ],
+          "seconds": 0.109,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7595,
+          "line_point_capacity_upper": 5181,
+          "gap": 2414,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3236,
+            4359
+          ],
+          "seconds": 0.125,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7411,
+          "line_point_capacity_upper": 5181,
+          "gap": 2230,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2965,
+            4446
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7432,
+          "line_point_capacity_upper": 5181,
+          "gap": 2251,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2924,
+            4508
+          ],
+          "seconds": 0.157,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7280,
+          "line_point_capacity_upper": 5181,
+          "gap": 2099,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2685,
+            4595
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        21,
+        5,
+        13,
+        4,
+        10,
+        2,
+        5,
+        4,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        8
+      ],
+      "actual_residual_sets": 64,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7452,
+          "line_point_capacity_upper": 5259,
+          "gap": 2193,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3458,
+            3994
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7245,
+          "line_point_capacity_upper": 5259,
+          "gap": 1986,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3168,
+            4077
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7236,
+          "line_point_capacity_upper": 5259,
+          "gap": 1977,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            3114,
+            4122
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7064,
+          "line_point_capacity_upper": 5259,
+          "gap": 1805,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2859,
+            4205
+          ],
+          "seconds": 0.157,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7252,
+          "line_point_capacity_upper": 5259,
+          "gap": 1993,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2982,
+            4270
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7094,
+          "line_point_capacity_upper": 5259,
+          "gap": 1835,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2737,
+            4357
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7116,
+          "line_point_capacity_upper": 5259,
+          "gap": 1857,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2608,
+            4508
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 6988,
+          "line_point_capacity_upper": 5259,
+          "gap": 1729,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2393,
+            4595
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        21,
+        5,
+        14,
+        3,
+        10,
+        2,
+        5,
+        3,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        14,
+        7
+      ],
+      "actual_residual_sets": 36,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7715,
+          "line_point_capacity_upper": 5253,
+          "gap": 2462,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3492,
+            4223
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7522,
+          "line_point_capacity_upper": 5253,
+          "gap": 2269,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3518,
+            4004
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7554,
+          "line_point_capacity_upper": 5253,
+          "gap": 2301,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3370,
+            4184
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7397,
+          "line_point_capacity_upper": 5253,
+          "gap": 2144,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3089,
+            4308
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7614,
+          "line_point_capacity_upper": 5253,
+          "gap": 2361,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            122,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2892,
+            4722
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7486,
+          "line_point_capacity_upper": 5253,
+          "gap": 2233,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2965,
+            4521
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7562,
+          "line_point_capacity_upper": 5253,
+          "gap": 2309,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2924,
+            4638
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7465,
+          "line_point_capacity_upper": 5253,
+          "gap": 2212,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2685,
+            4780
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        21,
+        5,
+        14,
+        4,
+        10,
+        2,
+        5,
+        4,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        14,
+        7
+      ],
+      "actual_residual_sets": 12,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7342,
+          "line_point_capacity_upper": 5331,
+          "gap": 2011,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3458,
+            3884
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7172,
+          "line_point_capacity_upper": 5331,
+          "gap": 1841,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3168,
+            4004
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7210,
+          "line_point_capacity_upper": 5331,
+          "gap": 1879,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            3114,
+            4096
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7079,
+          "line_point_capacity_upper": 5331,
+          "gap": 1748,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2859,
+            4220
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7278,
+          "line_point_capacity_upper": 5331,
+          "gap": 1947,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2982,
+            4296
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7169,
+          "line_point_capacity_upper": 5331,
+          "gap": 1838,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            127,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2850,
+            4319
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7246,
+          "line_point_capacity_upper": 5331,
+          "gap": 1915,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2608,
+            4638
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7171,
+          "line_point_capacity_upper": 5331,
+          "gap": 1840,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            127,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2506,
+            4665
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        22,
+        5,
+        13,
+        3,
+        8,
+        2,
+        6,
+        3,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        9
+      ],
+      "actual_residual_sets": 102,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 8959,
+          "line_point_capacity_upper": 5181,
+          "gap": 3778,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3836,
+            5123
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 8708,
+          "line_point_capacity_upper": 5181,
+          "gap": 3527,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3518,
+            5190
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 8689,
+          "line_point_capacity_upper": 5181,
+          "gap": 3508,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3370,
+            5319
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 8475,
+          "line_point_capacity_upper": 5181,
+          "gap": 3294,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3089,
+            5386
+          ],
+          "seconds": 0.157,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 8683,
+          "line_point_capacity_upper": 5181,
+          "gap": 3502,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3236,
+            5447
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 8480,
+          "line_point_capacity_upper": 5181,
+          "gap": 3299,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2965,
+            5515
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 8488,
+          "line_point_capacity_upper": 5181,
+          "gap": 3307,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2924,
+            5564
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 8317,
+          "line_point_capacity_upper": 5181,
+          "gap": 3136,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2685,
+            5632
+          ],
+          "seconds": 0.157,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        22,
+        5,
+        13,
+        3,
+        9,
+        2,
+        6,
+        3,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        9
+      ],
+      "actual_residual_sets": 254,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 8513,
+          "line_point_capacity_upper": 5253,
+          "gap": 3260,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3836,
+            4677
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 8256,
+          "line_point_capacity_upper": 5253,
+          "gap": 3003,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3518,
+            4738
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 8233,
+          "line_point_capacity_upper": 5253,
+          "gap": 2980,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3370,
+            4863
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 8013,
+          "line_point_capacity_upper": 5253,
+          "gap": 2760,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3089,
+            4924
+          ],
+          "seconds": 0.157,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 8221,
+          "line_point_capacity_upper": 5253,
+          "gap": 2968,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3236,
+            4985
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 8012,
+          "line_point_capacity_upper": 5253,
+          "gap": 2759,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            2965,
+            5047
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 8020,
+          "line_point_capacity_upper": 5253,
+          "gap": 2767,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2924,
+            5096
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7843,
+          "line_point_capacity_upper": 5253,
+          "gap": 2590,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2685,
+            5158
+          ],
+          "seconds": 0.14,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    },
+    {
+      "profile": [
+        5,
+        22,
+        5,
+        13,
+        4,
+        9,
+        2,
+        6,
+        4,
+        5,
+        2,
+        3,
+        1,
+        2,
+        1,
+        1
+      ],
+      "layer1_mod3_counts": [
+        13,
+        9
+      ],
+      "actual_residual_sets": 58,
+      "cases": [
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 8135,
+          "line_point_capacity_upper": 5331,
+          "gap": 2804,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3458,
+            4677
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7906,
+          "line_point_capacity_upper": 5331,
+          "gap": 2575,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            126
+          ],
+          "minimizing_layer_deficits": [
+            3168,
+            4738
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7888,
+          "line_point_capacity_upper": 5331,
+          "gap": 2557,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            3114,
+            4774
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            1,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7694,
+          "line_point_capacity_upper": 5331,
+          "gap": 2363,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2859,
+            4835
+          ],
+          "seconds": 0.125,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            1
+          ],
+          "plane_deficit_lower": 7878,
+          "line_point_capacity_upper": 5331,
+          "gap": 2547,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2982,
+            4896
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            1,
+            2
+          ],
+          "plane_deficit_lower": 7687,
+          "line_point_capacity_upper": 5331,
+          "gap": 2356,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            127,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2850,
+            4837
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            1
+          ],
+          "plane_deficit_lower": 7704,
+          "line_point_capacity_upper": 5331,
+          "gap": 2373,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            126,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2608,
+            5096
+          ],
+          "seconds": 0.156,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        },
+        {
+          "core_mod3_choices": [
+            2,
+            2,
+            2
+          ],
+          "plane_deficit_lower": 7543,
+          "line_point_capacity_upper": 5331,
+          "gap": 2212,
+          "excluded": true,
+          "minimizing_allocation_indices": [
+            126,
+            127,
+            127
+          ],
+          "minimizing_layer_deficits": [
+            2506,
+            5037
+          ],
+          "seconds": 0.141,
+          "scope": "necessary capacity bound; nonpositive gap does not give a covering"
+        }
+      ],
+      "all_excluded": true
+    }
+  ],
+  "all_excluded": true,
+  "minimum_gap": 312,
+  "seconds": 12.672,
+  "scope": "exact core-residue coupling plus integer plane-capacity bounds"
+}

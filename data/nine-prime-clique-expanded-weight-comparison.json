@@ -1,0 +1,32 @@
+{
+  "pool": "data/nine-prime-clique-expanded-source.json",
+  "configurations": 42532,
+  "comparisons": [
+    {
+      "certificate": "data/nine-prime-cached-slope-support.json",
+      "parent_audit": "data/audit-nine-prime-cached-slope-support.json",
+      "expanded_pool_numerator": -60341240532,
+      "denominator": 1000000,
+      "total_event_weight": 5014870401318,
+      "normalized_gap": -0.01203246259686815
+    },
+    {
+      "certificate": "data/nine-prime-clique-all-group-priced.json",
+      "parent_audit": "data/audit-nine-prime-clique-all-group-priced.json",
+      "expanded_pool_numerator": -17057464471,
+      "denominator": 1000000,
+      "total_event_weight": 1000014684601,
+      "normalized_gap": -0.017057213992618347
+    },
+    {
+      "certificate": "data/nine-prime-clique-closed-priced.json",
+      "parent_audit": "data/audit-nine-prime-clique-closed-priced.json",
+      "expanded_pool_numerator": -11819536974,
+      "denominator": 1000000,
+      "total_event_weight": 1000000000001,
+      "normalized_gap": -0.01181953697398818
+    }
+  ],
+  "best": "data/nine-prime-clique-closed-priced.json",
+  "scope": "Same expanded actual catalogue and previously independently verified local minima; no unrestricted covering exclusion."
+}

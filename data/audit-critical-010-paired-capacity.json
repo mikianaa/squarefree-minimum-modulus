@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "core_size": 23,
+  "layer_sizes": [
+    6,
+    17
+  ],
+  "pair_tables_checked": 91,
+  "matching_witnesses_checked": 126,
+  "seconds": 0.11,
+  "scope": "valid upper bound on subset projection capacities; matching optimality not required or asserted by this audit"
+}

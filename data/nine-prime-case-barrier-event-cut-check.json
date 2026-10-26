@@ -1,0 +1,27 @@
+{
+  "certificate": "data/nine-prime-case-relaxation-barrier.json",
+  "cuts": "data/nine-prime-transferred-group-cuts.json",
+  "previous_cut_audit": "data/audit-nine-prime-transferred-group-primal.json",
+  "individual_violations": [
+    {
+      "axis": 0,
+      "scenario": 2,
+      "cut": 109,
+      "excess": [
+        683,
+        504
+      ]
+    },
+    {
+      "axis": 0,
+      "scenario": 3,
+      "cut": 109,
+      "excess": [
+        3709,
+        1260
+      ]
+    }
+  ],
+  "mixture_violations": [],
+  "scope": "Exact fractional-state consistency diagnostic against the previously audited 327 event cuts; no covering constructed"
+}

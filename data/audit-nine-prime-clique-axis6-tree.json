@@ -1,0 +1,22 @@
+{
+  "verified": true,
+  "axis": 6,
+  "complete_group_coverage": true,
+  "rows": [
+    {
+      "method": "pair",
+      "bound": 6716023195,
+      "nodes": 16,
+      "source": "data/nine-prime-pair-axis6-third-tree.json"
+    },
+    {
+      "method": "clique",
+      "bound": 6175864507,
+      "nodes": 16,
+      "source": "data/nine-prime-clique-axis6-tree.json"
+    }
+  ],
+  "improvement": 540158688,
+  "denominator": 1000000,
+  "covering_obstruction": false
+}

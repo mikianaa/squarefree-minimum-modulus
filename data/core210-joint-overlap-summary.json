@@ -1,0 +1,49 @@
+{
+  "unconditional_upper_bound": 7,
+  "upper_bound_6": "unresolved",
+  "rigorous_results": {
+    "core_minimum_uncovered": 104,
+    "maximum_coverage": 106,
+    "equality_case_orbits": 288846,
+    "assignments_after_normalizing_five_classes": 35490420,
+    "fixed_schedule_all_core_measures_lower_bound": "1.001192376",
+    "obstruction_scope": "One specified pure stop-loss schedule and one actual 104-point residual core; not every schedule or comparison"
+  },
+  "numerical_results": {
+    "prefixes_sampled": 120,
+    "initial_difficult_case": 1.029632267474816,
+    "after_joint_core_tail_search": 1.004150906956244,
+    "after_dyadic_refinement": 1.0031066389826848,
+    "after_noninteger_hull_controls": 1.002937636753504,
+    "scope": "Heuristic catalogue pricing; not certified upper bounds or a universal classification of all prefixes"
+  },
+  "tests": "5 passed",
+  "proof_audits": [
+    "sharp residual bound",
+    "independent complete equality-case enumeration",
+    "independent rational fixed-schedule dual"
+  ],
+  "files_sha256": {
+    "code/core210_maximum_prefixes.py": "622d830830288b7c9ab020e89cb93148ad20f126e9fd08761f2742487b0be476",
+    "code/audit_core210_maximum_prefixes.py": "146dff18feda0485a7adb92722b03bf14bd3389df77492592a30b900d2a273a7",
+    "code/core210_fixed_schedule_obstruction.py": "bc91b0471cc17f0297ba03414284d61b87e22c2f46fb943cfb219da553459624",
+    "code/audit_core210_fixed_schedule.py": "ceab58a92797c858157cadf1c7bfece2c41af0a7e4c5c52a5137f69e3ee84db8",
+    "code/core210_joint_probe.py": "2d2eb048dea224ffa3690f38f00b0de63713f1fda3ad16efa59a0666a7719776",
+    "code/core210_dyadic_probe.py": "1c2ffcd7a14e0c664c5ce449ebaca52a1e271491f390779f6ff4c4b368b20592",
+    "code/core210_continuous_hull.py": "16c1d83dced6e17da311c131ff0f685e8bf389aa808e1ffff2c4e4796f3b9211",
+    "code/refine_core210_tail.py": "6d59759ca93e64585122da754bdd17c3d7f714292eeabd112944d2838c919f3b",
+    "code/test_core210_joint.py": "723814978961464eefa87f3cb984f396f8588215ad9ff11659ea37aee1fc321c",
+    "data/core210-dense-prefix.json": "3d0b4585cb968218293d31a0865552e16d2daa6c633c7f576844aa559bc9718c",
+    "data/core210-maximum-prefixes.json": "1d2bf1334e6f885b61e705c97032d0ded644fa79bec82b64942af596cd75a10e",
+    "data/audit-core210-residual104.json": "bca9e8d99fde9fcbea31b6e8a4ae026848a63e5d3c29af7b907f7ce5444e47e4",
+    "data/audit-core210-maximum-prefixes.json": "aca3cbe3fae168d2ed56e1012ae1b824ae4a6fa0d02b61aa1fdb133923b026b4",
+    "data/core210-hard-prefix.json": "aa51a23d2ad4c8d2d56c6d128ca7d43d155a73daa10577a44acdbfdfe00d8ef2",
+    "data/core210-hard-prefix-classification.json": "8cf22c04042c882f9c6cd2f4e6597882af660ef6eafc607042bd1dd5638550ed",
+    "data/core210-fixed-schedule-lower-coefficients.json": "bb9537b5cdd145384c666323ab22bc9ff14b1ca20e3adfd953dce41f0c6986b1",
+    "data/core210-fixed-schedule-dual.json": "9f312acd5c0cf11aa1c47001ffa6dec31eefca62a4a1cbcd840f588457ebf969",
+    "data/audit-core210-fixed-schedule.json": "01afe38e9e4ee3218873ee3043fb92a97e85a11664ff72c781585902c6da69d7",
+    "data/core210-hard2-dyadic-probe.json": "f0f3e60cfab74cbd1cd3b2d5bd7c591b3717106d3f9e3390dfbce891071b59b4",
+    "data/core210-hard2-continuous-hull-probe.json": "049315a059c638f8e3911faa9f73358903e54f390312ad82eea99b5732730824",
+    "notes/core210-joint-overlap-2026-10-26.md": "304c108b72b0c1545ecd10c29caa271a478f1c8523c34bd9f490cf171c23c489"
+  }
+}

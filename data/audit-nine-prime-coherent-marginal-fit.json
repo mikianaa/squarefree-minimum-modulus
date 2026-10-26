@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "negative_cost": false,
+  "objective_numerator": 7224066529508926,
+  "denominator": 1000000000,
+  "groups_checked": 31,
+  "resource_assignments_checked": 1100,
+  "threshold_links_checked": 10692,
+  "support_size": 273,
+  "scope": "consistent assignment mixture for each group separately; not a joint covering system"
+}

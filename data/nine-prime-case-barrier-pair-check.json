@@ -1,0 +1,1273 @@
+{
+  "source": "data/nine-prime-case-relaxation-barrier.json",
+  "individual_worst_global_pair_violations": [
+    {
+      "axis": 0,
+      "scenario": 2,
+      "points": [
+        6,
+        7
+      ],
+      "thresholds": [
+        10,
+        8
+      ],
+      "excess": [
+        1,
+        35
+      ]
+    },
+    {
+      "axis": 0,
+      "scenario": 3,
+      "points": [
+        0,
+        16
+      ],
+      "thresholds": [
+        10,
+        8
+      ],
+      "excess": [
+        8,
+        35
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 0,
+      "points": [
+        1,
+        8
+      ],
+      "thresholds": [
+        11,
+        10
+      ],
+      "excess": [
+        1,
+        14
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 2,
+      "points": [
+        1,
+        15
+      ],
+      "thresholds": [
+        11,
+        4
+      ],
+      "excess": [
+        1,
+        9
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 5,
+      "points": [
+        0,
+        12
+      ],
+      "thresholds": [
+        12,
+        9
+      ],
+      "excess": [
+        26,
+        63
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 6,
+      "points": [
+        14,
+        20
+      ],
+      "thresholds": [
+        11,
+        10
+      ],
+      "excess": [
+        8,
+        35
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 7,
+      "points": [
+        10,
+        21
+      ],
+      "thresholds": [
+        12,
+        10
+      ],
+      "excess": [
+        3,
+        8
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 8,
+      "points": [
+        4,
+        14
+      ],
+      "thresholds": [
+        11,
+        10
+      ],
+      "excess": [
+        1,
+        2
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 9,
+      "points": [
+        4,
+        18
+      ],
+      "thresholds": [
+        11,
+        10
+      ],
+      "excess": [
+        1,
+        2
+      ]
+    },
+    {
+      "axis": 2,
+      "scenario": 1,
+      "points": [
+        4,
+        11
+      ],
+      "thresholds": [
+        12,
+        9
+      ],
+      "excess": [
+        1,
+        9
+      ]
+    },
+    {
+      "axis": 2,
+      "scenario": 3,
+      "points": [
+        4,
+        11
+      ],
+      "thresholds": [
+        13,
+        8
+      ],
+      "excess": [
+        2,
+        9
+      ]
+    },
+    {
+      "axis": 2,
+      "scenario": 4,
+      "points": [
+        6,
+        19
+      ],
+      "thresholds": [
+        9,
+        12
+      ],
+      "excess": [
+        3,
+        8
+      ]
+    },
+    {
+      "axis": 3,
+      "scenario": 1,
+      "points": [
+        10,
+        21
+      ],
+      "thresholds": [
+        11,
+        11
+      ],
+      "excess": [
+        3,
+        8
+      ]
+    },
+    {
+      "axis": 3,
+      "scenario": 4,
+      "points": [
+        0,
+        12
+      ],
+      "thresholds": [
+        14,
+        7
+      ],
+      "excess": [
+        2,
+        9
+      ]
+    },
+    {
+      "axis": 3,
+      "scenario": 6,
+      "points": [
+        6,
+        19
+      ],
+      "thresholds": [
+        9,
+        12
+      ],
+      "excess": [
+        3,
+        8
+      ]
+    },
+    {
+      "axis": 3,
+      "scenario": 8,
+      "points": [
+        1,
+        8
+      ],
+      "thresholds": [
+        12,
+        9
+      ],
+      "excess": [
+        1,
+        8
+      ]
+    },
+    {
+      "axis": 4,
+      "scenario": 0,
+      "points": [
+        1,
+        8
+      ],
+      "thresholds": [
+        12,
+        9
+      ],
+      "excess": [
+        1,
+        8
+      ]
+    },
+    {
+      "axis": 5,
+      "scenario": 1,
+      "points": [
+        11,
+        15
+      ],
+      "thresholds": [
+        13,
+        6
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 5,
+      "scenario": 2,
+      "points": [
+        15,
+        16
+      ],
+      "thresholds": [
+        6,
+        13
+      ],
+      "excess": [
+        3,
+        10
+      ]
+    },
+    {
+      "axis": 5,
+      "scenario": 4,
+      "points": [
+        15,
+        16
+      ],
+      "thresholds": [
+        6,
+        13
+      ],
+      "excess": [
+        1,
+        5
+      ]
+    },
+    {
+      "axis": 6,
+      "scenario": 5,
+      "points": [
+        4,
+        15
+      ],
+      "thresholds": [
+        16,
+        2
+      ],
+      "excess": [
+        3,
+        5
+      ]
+    },
+    {
+      "axis": 7,
+      "scenario": 5,
+      "points": [
+        4,
+        9
+      ],
+      "thresholds": [
+        15,
+        6
+      ],
+      "excess": [
+        2,
+        3
+      ]
+    },
+    {
+      "axis": 9,
+      "scenario": 1,
+      "points": [
+        7,
+        15
+      ],
+      "thresholds": [
+        13,
+        8
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 9,
+      "scenario": 3,
+      "points": [
+        13,
+        15
+      ],
+      "thresholds": [
+        13,
+        6
+      ],
+      "excess": [
+        3,
+        10
+      ]
+    },
+    {
+      "axis": 11,
+      "scenario": 2,
+      "points": [
+        15,
+        16
+      ],
+      "thresholds": [
+        5,
+        14
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 11,
+      "scenario": 4,
+      "points": [
+        0,
+        15
+      ],
+      "thresholds": [
+        16,
+        5
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 12,
+      "scenario": 4,
+      "points": [
+        0,
+        10
+      ],
+      "thresholds": [
+        15,
+        6
+      ],
+      "excess": [
+        3,
+        10
+      ]
+    },
+    {
+      "axis": 13,
+      "scenario": 9,
+      "points": [
+        1,
+        8
+      ],
+      "thresholds": [
+        15,
+        10
+      ],
+      "excess": [
+        1,
+        9
+      ]
+    },
+    {
+      "axis": 14,
+      "scenario": 5,
+      "points": [
+        4,
+        11
+      ],
+      "thresholds": [
+        14,
+        11
+      ],
+      "excess": [
+        1,
+        9
+      ]
+    },
+    {
+      "axis": 17,
+      "scenario": 5,
+      "points": [
+        2,
+        15
+      ],
+      "thresholds": [
+        15,
+        4
+      ],
+      "excess": [
+        1,
+        3
+      ]
+    },
+    {
+      "axis": 20,
+      "scenario": 2,
+      "points": [
+        11,
+        17
+      ],
+      "thresholds": [
+        15,
+        10
+      ],
+      "excess": [
+        1,
+        5
+      ]
+    },
+    {
+      "axis": 22,
+      "scenario": 1,
+      "points": [
+        3,
+        20
+      ],
+      "thresholds": [
+        13,
+        12
+      ],
+      "excess": [
+        1,
+        5
+      ]
+    },
+    {
+      "axis": 22,
+      "scenario": 2,
+      "points": [
+        3,
+        20
+      ],
+      "thresholds": [
+        13,
+        12
+      ],
+      "excess": [
+        1,
+        10
+      ]
+    },
+    {
+      "axis": 23,
+      "scenario": 2,
+      "points": [
+        3,
+        20
+      ],
+      "thresholds": [
+        14,
+        11
+      ],
+      "excess": [
+        1,
+        10
+      ]
+    },
+    {
+      "axis": 24,
+      "scenario": 2,
+      "points": [
+        11,
+        17
+      ],
+      "thresholds": [
+        16,
+        9
+      ],
+      "excess": [
+        1,
+        5
+      ]
+    },
+    {
+      "axis": 24,
+      "scenario": 3,
+      "points": [
+        4,
+        11
+      ],
+      "thresholds": [
+        15,
+        10
+      ],
+      "excess": [
+        1,
+        10
+      ]
+    },
+    {
+      "axis": 28,
+      "scenario": 5,
+      "points": [
+        11,
+        17
+      ],
+      "thresholds": [
+        14,
+        11
+      ],
+      "excess": [
+        1,
+        10
+      ]
+    }
+  ],
+  "individual_worst_conditional_pair_violations": [
+    {
+      "axis": 0,
+      "scenario": 2,
+      "points": [
+        6,
+        7
+      ],
+      "thresholds": [
+        10,
+        8
+      ],
+      "excess": [
+        1,
+        35
+      ]
+    },
+    {
+      "axis": 0,
+      "scenario": 3,
+      "points": [
+        0,
+        16
+      ],
+      "thresholds": [
+        10,
+        8
+      ],
+      "excess": [
+        8,
+        35
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 0,
+      "points": [
+        1,
+        8
+      ],
+      "thresholds": [
+        11,
+        9
+      ],
+      "excess": [
+        1,
+        14
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 2,
+      "points": [
+        15,
+        16
+      ],
+      "thresholds": [
+        4,
+        11
+      ],
+      "excess": [
+        1,
+        3
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 5,
+      "points": [
+        0,
+        12
+      ],
+      "thresholds": [
+        12,
+        9
+      ],
+      "excess": [
+        26,
+        63
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 6,
+      "points": [
+        14,
+        20
+      ],
+      "thresholds": [
+        11,
+        10
+      ],
+      "excess": [
+        8,
+        35
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 7,
+      "points": [
+        10,
+        21
+      ],
+      "thresholds": [
+        12,
+        10
+      ],
+      "excess": [
+        3,
+        8
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 8,
+      "points": [
+        4,
+        14
+      ],
+      "thresholds": [
+        11,
+        10
+      ],
+      "excess": [
+        1,
+        2
+      ]
+    },
+    {
+      "axis": 1,
+      "scenario": 9,
+      "points": [
+        4,
+        18
+      ],
+      "thresholds": [
+        11,
+        10
+      ],
+      "excess": [
+        1,
+        2
+      ]
+    },
+    {
+      "axis": 2,
+      "scenario": 1,
+      "points": [
+        4,
+        11
+      ],
+      "thresholds": [
+        12,
+        9
+      ],
+      "excess": [
+        1,
+        9
+      ]
+    },
+    {
+      "axis": 2,
+      "scenario": 3,
+      "points": [
+        4,
+        11
+      ],
+      "thresholds": [
+        13,
+        8
+      ],
+      "excess": [
+        2,
+        9
+      ]
+    },
+    {
+      "axis": 2,
+      "scenario": 4,
+      "points": [
+        6,
+        19
+      ],
+      "thresholds": [
+        9,
+        12
+      ],
+      "excess": [
+        3,
+        8
+      ]
+    },
+    {
+      "axis": 3,
+      "scenario": 1,
+      "points": [
+        10,
+        21
+      ],
+      "thresholds": [
+        11,
+        10
+      ],
+      "excess": [
+        3,
+        8
+      ]
+    },
+    {
+      "axis": 3,
+      "scenario": 4,
+      "points": [
+        0,
+        12
+      ],
+      "thresholds": [
+        14,
+        7
+      ],
+      "excess": [
+        2,
+        9
+      ]
+    },
+    {
+      "axis": 3,
+      "scenario": 6,
+      "points": [
+        6,
+        19
+      ],
+      "thresholds": [
+        9,
+        12
+      ],
+      "excess": [
+        3,
+        8
+      ]
+    },
+    {
+      "axis": 3,
+      "scenario": 8,
+      "points": [
+        1,
+        8
+      ],
+      "thresholds": [
+        12,
+        7
+      ],
+      "excess": [
+        1,
+        8
+      ]
+    },
+    {
+      "axis": 4,
+      "scenario": 0,
+      "points": [
+        1,
+        8
+      ],
+      "thresholds": [
+        12,
+        9
+      ],
+      "excess": [
+        1,
+        8
+      ]
+    },
+    {
+      "axis": 5,
+      "scenario": 1,
+      "points": [
+        11,
+        15
+      ],
+      "thresholds": [
+        13,
+        6
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 5,
+      "scenario": 2,
+      "points": [
+        15,
+        16
+      ],
+      "thresholds": [
+        6,
+        13
+      ],
+      "excess": [
+        3,
+        10
+      ]
+    },
+    {
+      "axis": 5,
+      "scenario": 4,
+      "points": [
+        0,
+        15
+      ],
+      "thresholds": [
+        14,
+        6
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 6,
+      "scenario": 5,
+      "points": [
+        4,
+        15
+      ],
+      "thresholds": [
+        16,
+        2
+      ],
+      "excess": [
+        3,
+        5
+      ]
+    },
+    {
+      "axis": 6,
+      "scenario": 7,
+      "points": [
+        10,
+        16
+      ],
+      "thresholds": [
+        5,
+        13
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 7,
+      "scenario": 5,
+      "points": [
+        4,
+        9
+      ],
+      "thresholds": [
+        15,
+        6
+      ],
+      "excess": [
+        2,
+        3
+      ]
+    },
+    {
+      "axis": 9,
+      "scenario": 1,
+      "points": [
+        7,
+        15
+      ],
+      "thresholds": [
+        13,
+        8
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 9,
+      "scenario": 2,
+      "points": [
+        15,
+        18
+      ],
+      "thresholds": [
+        3,
+        13
+      ],
+      "excess": [
+        1,
+        3
+      ]
+    },
+    {
+      "axis": 9,
+      "scenario": 3,
+      "points": [
+        0,
+        15
+      ],
+      "thresholds": [
+        14,
+        6
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 11,
+      "scenario": 2,
+      "points": [
+        15,
+        16
+      ],
+      "thresholds": [
+        5,
+        14
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 11,
+      "scenario": 4,
+      "points": [
+        0,
+        15
+      ],
+      "thresholds": [
+        16,
+        5
+      ],
+      "excess": [
+        2,
+        5
+      ]
+    },
+    {
+      "axis": 12,
+      "scenario": 0,
+      "points": [
+        13,
+        15
+      ],
+      "thresholds": [
+        15,
+        3
+      ],
+      "excess": [
+        3,
+        10
+      ]
+    },
+    {
+      "axis": 12,
+      "scenario": 3,
+      "points": [
+        15,
+        16
+      ],
+      "thresholds": [
+        3,
+        12
+      ],
+      "excess": [
+        3,
+        10
+      ]
+    },
+    {
+      "axis": 12,
+      "scenario": 4,
+      "points": [
+        7,
+        10
+      ],
+      "thresholds": [
+        12,
+        6
+      ],
+      "excess": [
+        3,
+        10
+      ]
+    },
+    {
+      "axis": 13,
+      "scenario": 9,
+      "points": [
+        1,
+        8
+      ],
+      "thresholds": [
+        15,
+        9
+      ],
+      "excess": [
+        1,
+        9
+      ]
+    },
+    {
+      "axis": 14,
+      "scenario": 5,
+      "points": [
+        4,
+        11
+      ],
+      "thresholds": [
+        14,
+        11
+      ],
+      "excess": [
+        1,
+        9
+      ]
+    },
+    {
+      "axis": 17,
+      "scenario": 5,
+      "points": [
+        15,
+        18
+      ],
+      "thresholds": [
+        4,
+        13
+      ],
+      "excess": [
+        4,
+        9
+      ]
+    },
+    {
+      "axis": 20,
+      "scenario": 2,
+      "points": [
+        11,
+        17
+      ],
+      "thresholds": [
+        15,
+        8
+      ],
+      "excess": [
+        1,
+        5
+      ]
+    },
+    {
+      "axis": 22,
+      "scenario": 1,
+      "points": [
+        3,
+        20
+      ],
+      "thresholds": [
+        13,
+        10
+      ],
+      "excess": [
+        1,
+        5
+      ]
+    },
+    {
+      "axis": 22,
+      "scenario": 2,
+      "points": [
+        3,
+        20
+      ],
+      "thresholds": [
+        13,
+        10
+      ],
+      "excess": [
+        1,
+        10
+      ]
+    },
+    {
+      "axis": 23,
+      "scenario": 2,
+      "points": [
+        3,
+        20
+      ],
+      "thresholds": [
+        14,
+        11
+      ],
+      "excess": [
+        1,
+        10
+      ]
+    },
+    {
+      "axis": 24,
+      "scenario": 2,
+      "points": [
+        11,
+        17
+      ],
+      "thresholds": [
+        16,
+        9
+      ],
+      "excess": [
+        1,
+        5
+      ]
+    },
+    {
+      "axis": 24,
+      "scenario": 3,
+      "points": [
+        4,
+        11
+      ],
+      "thresholds": [
+        15,
+        9
+      ],
+      "excess": [
+        1,
+        10
+      ]
+    },
+    {
+      "axis": 28,
+      "scenario": 5,
+      "points": [
+        11,
+        17
+      ],
+      "thresholds": [
+        14,
+        8
+      ],
+      "excess": [
+        1,
+        10
+      ]
+    }
+  ],
+  "mixture_global_pair_violations": [
+    {
+      "axis": 6,
+      "points": [
+        4,
+        15
+      ],
+      "thresholds": [
+        16,
+        2
+      ],
+      "excess": [
+        4961018949,
+        50000000000
+      ]
+    }
+  ],
+  "scope": "Exact pair-threshold compatibility check of the fractional witness; not a covering obstruction"
+}

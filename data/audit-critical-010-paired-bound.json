@@ -1,0 +1,19 @@
+{
+  "verified": true,
+  "counts": [
+    6,
+    17
+  ],
+  "high_pattern": [
+    1,
+    1,
+    1,
+    0
+  ],
+  "exact_numerator": 1323172027,
+  "exact_denominator": 1000000,
+  "integer_lower": 1324,
+  "positive_obstruction": true,
+  "plane_tuples_checked": 59175,
+  "scope": "dual inequality conditional on the separately audited capacity table; not a whole-branch proof"
+}

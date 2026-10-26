@@ -1,0 +1,43 @@
+{
+  "claim": "Every distinct squarefree covering system of minimum modulus at least 7 contains modulus 10; with the existing upper bound 7 it contains both 7 and 10.",
+  "unconditional_upper_bound": 7,
+  "upper_bound_6": "unresolved",
+  "primary_normalized_exact": "494837872169518638938285234633727934062283844433094486236261/500000000000000000000000000000000000000000000000000000000000",
+  "audit_normalized_exact": "4948378721695198102801401498937929630846535139409/5000000000000000000000000000000000000000000000000",
+  "audit_difference": "1171341854915260065029022369669507805513763739/500000000000000000000000000000000000000000000000000000000000",
+  "safe_common_upper": "0.989675744340",
+  "core_law": {
+    "values": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "numerators": [
+      6,
+      13,
+      7,
+      1
+    ],
+    "denominator": 27
+  },
+  "finite_core_enumeration": {
+    "configurations_per_pattern": 810000,
+    "patterns": 3,
+    "also_has_elementary_upper_proof": true
+  },
+  "tests": "4 passed",
+  "files_sha256": {
+    "code/core30_comparison.py": "09f1e49f21ff4a9d0eb698bc79ff5fe398588cf13f1fff66e4b7a888962064f1",
+    "code/audit_core30_no10.py": "523a4edef2ddc88d0eb560235f7847ff5dbe72d90675e94fb8f23993bd8c422b",
+    "code/verify_core30_continuation.py": "094f0359a29fd9fdc8171678b918fc7db3d267d3781ac0553fc3c9e06e3f3b19",
+    "code/audit_core30_continuation.py": "c4dea680ef6293d8f3e962068f4d429a4fb172d66c6ec298441b03f8ef90f800",
+    "code/test_core30_comparison.py": "f628cc7f12cb1a7d454bfcd93d03da3bb3f89f4569e93ba26b998716084d9606",
+    "data/schedule-core30-no10.json": "6b7c288d6f4a1f3bb4ade2cb8db77053ba35fd2fcca6675d2fdf49ca21d59d23",
+    "data/core30-comparison-d5-0.json": "58745ff9b87e838fd3bd9fa220f3e225efb430bb4b816c7002eb057f991e9318",
+    "data/audit-core30-no10-envelope.json": "b6266c4df9e80c044ad71137e65b73896ae1ea44fa7d3d2670a0294060c59ae4",
+    "data/cert-core30-no10.json": "36bb64fb1b9323b7a7e08186181962647fab74c172c95a56bdc3c9ba9bbc092c",
+    "data/audit-core30-no10-continuation.json": "5c56b97f28228882f6489d252eceaf25f910ab839f7b1e8dd5e8d11797e2b9a4",
+    "notes/core30-overlap-refinement-2026-10-26.md": "157c9417ad51277c549ec1af455d84cd33ea04b757539493582b9aa4ade4d430"
+  }
+}

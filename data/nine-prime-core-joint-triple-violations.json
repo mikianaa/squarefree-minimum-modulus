@@ -1,0 +1,8 @@
+{
+  "violations": [],
+  "combinations_checked": 47740,
+  "partition_profiles": 148,
+  "denominator": 1000000000,
+  "seconds": 0.7339999999967404,
+  "scope": "exact joint triple event cuts; not a covering-system obstruction"
+}

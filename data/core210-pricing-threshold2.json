@@ -1,0 +1,29 @@
+{
+  "threshold": 2,
+  "status": "FEASIBLE",
+  "denominator": 999999,
+  "solver_upper": 1488229.0,
+  "normalized_solver_upper": 1.4882304882304882,
+  "seconds": 50.05589747428894,
+  "scope": "Solver bound only, not an audited proof log",
+  "residues": [
+    0,
+    1,
+    0,
+    3,
+    3,
+    4,
+    8,
+    11,
+    3,
+    11,
+    6,
+    4,
+    19,
+    25,
+    23,
+    25
+  ],
+  "integer_witness": 1302973,
+  "normalized_witness": 1.302974302974303
+}

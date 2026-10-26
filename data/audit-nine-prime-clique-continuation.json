@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "retained_local_states": 24653,
+  "new_local_states": 1870,
+  "all_previous_states_retained": true,
+  "all_local_states_valid": true,
+  "retained_group_rows": 4299,
+  "case_order_and_resource_distributions_preserved": true,
+  "nonminimum_masses_only_decreased": true,
+  "scenario_check_uses_floating_tolerance": true,
+  "global_problem_settled": false
+}

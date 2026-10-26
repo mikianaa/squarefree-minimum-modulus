@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "all_previous_states_retained": true,
+  "local_states": 22783,
+  "new_local_states": 1906,
+  "all_states_have_nonpositive_F": true,
+  "all_previous_group_rows_retained": true,
+  "group_rows": 4092,
+  "global_problem_settled": false
+}

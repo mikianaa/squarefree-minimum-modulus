@@ -1,0 +1,24 @@
+{
+  "status": "CERTIFIED",
+  "claim": "The specified fixed core-2310 family has no distinct squarefree covering extension with all moduli >6",
+  "total_integer": "970709038376494614438977887632995512587003924089905690239957",
+  "scale": "1000000000000000000000000000000000000000000000000000000000000",
+  "total_upper": 0.9707090383764946,
+  "part_integers": {
+    "exact": "968716576411466127893173502399120577865664404240447547160275",
+    "far": "1054999422651220147937652636374819830420522690481546355240",
+    "tail": "937462542377266397866732597500114890918997158976596724442"
+  },
+  "schedule_file": "data/schedule-core2310-six-free.json",
+  "schedule_sha256": "d5dcacd3bb1ecd21f0ce8231d4d3e29e939c85c425362af8b890a60e732139a9",
+  "core_file": "data/core2310-six-free-envelope.json",
+  "core_sha256": "41f18c14636e7a1cebee75703336269c40d79032ba3151e27302e9f5400503b5",
+  "parameters": {
+    "p_exact": 3000000,
+    "n_stages": 1000000,
+    "last_prime": 15485863,
+    "count_cap": 120
+  },
+  "seconds": 31.344703674316406,
+  "scope": "Conditional on this fixed family and the audited core comparison; does not prove the global upper bound 6"
+}

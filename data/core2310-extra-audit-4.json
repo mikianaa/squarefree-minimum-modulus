@@ -1,0 +1,242 @@
+[
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-6-12-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-6-12-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-6-13-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-6-13-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-6-14-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-6-14-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-0-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-0-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-1-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-1-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-2-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-2-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-3-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-3-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-4-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-4-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-5-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-5-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-6-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-6-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-7-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-7-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-8-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-8-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-9-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-9-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-10-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-10-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-11-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-11-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-12-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-12-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-13-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-13-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-0-1-4-4-8-14-power-envelope.json",
+    "measure_file": "data/core2310-branch165-0-1-4-4-8-14-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-0-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-0-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-1-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-1-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-2-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-2-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-3-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-3-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-4-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-4-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-5-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-5-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-6-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-6-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-7-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-7-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-8-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-8-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-9-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-9-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-10-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-10-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-11-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-11-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-12-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-12-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-13-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-13-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-0-1-5-14-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-0-1-5-14-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-0-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-0-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-1-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-1-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-2-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-2-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-3-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-3-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-4-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-4-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-5-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-5-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-6-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-6-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-7-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-7-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-8-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-8-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-9-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-9-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-10-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-10-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-11-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-11-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-12-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-12-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-13-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-13-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-5-14-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-5-14-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-0-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-0-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-1-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-1-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-2-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-2-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-3-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-3-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-4-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-4-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-5-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-5-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-6-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-6-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-7-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-7-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-8-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-8-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-9-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-9-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-10-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-10-measure.json"
+  },
+  {
+    "core_file": "data/core2310-branch165-1-1-4-1-9-11-power-envelope.json",
+    "measure_file": "data/core2310-branch165-1-1-4-1-9-11-measure.json"
+  }
+]

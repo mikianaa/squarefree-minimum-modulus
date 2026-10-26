@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "conditional_on_parent_exact_minimum_audit": true,
+  "parent_audit": "data\\audit-nine-prime-clique-expanded-priced.json",
+  "parent_proof_recomputed": false,
+  "sha256": {
+    "data\\nine-prime-clique-expanded-priced.json": "7a9b367cd14fc67eee0312150d926fb479de639d604b04e52cd1a824332e9c46",
+    "data\\audit-nine-prime-clique-expanded-priced.json": "f4ce817e4f2d65713c9f8de0bdbc1aa68c25303ede1cf1dad6583b09e9d38f18",
+    "data\\nine-prime-clique-third-expanded-continuation.json": "7ff7ff785efb0cc003ee5a5313fc4c66734a76020442770b712b83f9ded82951"
+  },
+  "exact_pool_numerator": -5493839687,
+  "denominator": 1000000,
+  "actual_columns_checked": 45581,
+  "preserved_local_states": 30339,
+  "remapped_cached_rows": 4675,
+  "scope": "Unchanged audited local proof and group bounds; every enlarged finite-pool maximum and shifted scenario index independently recomputed. Not unrestricted exclusion."
+}

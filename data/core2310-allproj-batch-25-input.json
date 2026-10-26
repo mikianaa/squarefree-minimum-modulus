@@ -1,0 +1,662 @@
+[
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      0
+    ],
+    "restricted_lp": 0.9655218317466768,
+    "measure_file": "data/core2310-allproj-1-2-0-0-0-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      1
+    ],
+    "restricted_lp": 0.9687608338287643,
+    "measure_file": "data/core2310-allproj-1-2-0-0-1-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      2
+    ],
+    "restricted_lp": 0.9708446441280624,
+    "measure_file": "data/core2310-allproj-1-2-0-0-2-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      3
+    ],
+    "restricted_lp": 0.97101987662995,
+    "measure_file": "data/core2310-allproj-1-2-0-0-3-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      4
+    ],
+    "restricted_lp": 0.9698043613696802,
+    "measure_file": "data/core2310-allproj-1-2-0-0-4-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      5
+    ],
+    "restricted_lp": 0.9778964579807676,
+    "measure_file": "data/core2310-allproj-1-2-0-0-5-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      6
+    ],
+    "restricted_lp": 0.9682926818009769,
+    "measure_file": "data/core2310-allproj-1-2-0-0-6-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      7
+    ],
+    "restricted_lp": 0.9719151538675264,
+    "measure_file": "data/core2310-allproj-1-2-0-0-7-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      8
+    ],
+    "restricted_lp": 0.9697783109210512,
+    "measure_file": "data/core2310-allproj-1-2-0-0-8-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      0,
+      9
+    ],
+    "restricted_lp": 0.9736780615436785,
+    "measure_file": "data/core2310-allproj-1-2-0-0-9-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      0
+    ],
+    "restricted_lp": 0.976671773035112,
+    "measure_file": "data/core2310-allproj-1-2-0-1-0-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      1
+    ],
+    "restricted_lp": 0.9806492051442843,
+    "measure_file": "data/core2310-allproj-1-2-0-1-1-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      2
+    ],
+    "restricted_lp": 0.9798404504553601,
+    "measure_file": "data/core2310-allproj-1-2-0-1-2-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      3
+    ],
+    "restricted_lp": 0.9834714499504904,
+    "measure_file": "data/core2310-allproj-1-2-0-1-3-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      4
+    ],
+    "restricted_lp": 0.9805477374718667,
+    "measure_file": "data/core2310-allproj-1-2-0-1-4-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      5
+    ],
+    "restricted_lp": 0.9894643107473065,
+    "measure_file": "data/core2310-allproj-1-2-0-1-5-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      6
+    ],
+    "restricted_lp": 0.9787390691490191,
+    "measure_file": "data/core2310-allproj-1-2-0-1-6-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      7
+    ],
+    "restricted_lp": 0.9836299910023245,
+    "measure_file": "data/core2310-allproj-1-2-0-1-7-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      8
+    ],
+    "restricted_lp": 0.9810381308820619,
+    "measure_file": "data/core2310-allproj-1-2-0-1-8-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      1,
+      9
+    ],
+    "restricted_lp": 0.9849497191756359,
+    "measure_file": "data/core2310-allproj-1-2-0-1-9-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      0
+    ],
+    "restricted_lp": 0.9718354266972365,
+    "measure_file": "data/core2310-allproj-1-2-0-2-0-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      1
+    ],
+    "restricted_lp": 0.9748767429933131,
+    "measure_file": "data/core2310-allproj-1-2-0-2-1-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      2
+    ],
+    "restricted_lp": 0.9758014807124897,
+    "measure_file": "data/core2310-allproj-1-2-0-2-2-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      3
+    ],
+    "restricted_lp": 0.9772914885737807,
+    "measure_file": "data/core2310-allproj-1-2-0-2-3-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      4
+    ],
+    "restricted_lp": 0.9784237984364724,
+    "measure_file": "data/core2310-allproj-1-2-0-2-4-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      5
+    ],
+    "restricted_lp": 0.984232885352261,
+    "measure_file": "data/core2310-allproj-1-2-0-2-5-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      6
+    ],
+    "restricted_lp": 0.9748013492111705,
+    "measure_file": "data/core2310-allproj-1-2-0-2-6-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      7
+    ],
+    "restricted_lp": 0.9774952323537927,
+    "measure_file": "data/core2310-allproj-1-2-0-2-7-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      8
+    ],
+    "restricted_lp": 0.9788687854789063,
+    "measure_file": "data/core2310-allproj-1-2-0-2-8-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      2,
+      9
+    ],
+    "restricted_lp": 0.9787818630438458,
+    "measure_file": "data/core2310-allproj-1-2-0-2-9-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      0
+    ],
+    "restricted_lp": 0.9760604399743811,
+    "measure_file": "data/core2310-allproj-1-2-0-3-0-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      1
+    ],
+    "restricted_lp": 0.9801164529699583,
+    "measure_file": "data/core2310-allproj-1-2-0-3-1-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      2
+    ],
+    "restricted_lp": 0.9799539815900744,
+    "measure_file": "data/core2310-allproj-1-2-0-3-2-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      3
+    ],
+    "restricted_lp": 0.98126033488183,
+    "measure_file": "data/core2310-allproj-1-2-0-3-3-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      4
+    ],
+    "restricted_lp": 0.979913773116233,
+    "measure_file": "data/core2310-allproj-1-2-0-3-4-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      5
+    ],
+    "restricted_lp": 0.9888420574928812,
+    "measure_file": "data/core2310-allproj-1-2-0-3-5-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      6
+    ],
+    "restricted_lp": 0.9782301866473849,
+    "measure_file": "data/core2310-allproj-1-2-0-3-6-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      7
+    ],
+    "restricted_lp": 0.9839044338257029,
+    "measure_file": "data/core2310-allproj-1-2-0-3-7-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      8
+    ],
+    "restricted_lp": 0.9797889535901156,
+    "measure_file": "data/core2310-allproj-1-2-0-3-8-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      3,
+      9
+    ],
+    "restricted_lp": 0.9857783104177492,
+    "measure_file": "data/core2310-allproj-1-2-0-3-9-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      0
+    ],
+    "restricted_lp": 0.9676462716000213,
+    "measure_file": "data/core2310-allproj-1-2-0-4-0-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      1
+    ],
+    "restricted_lp": 0.9710853961933369,
+    "measure_file": "data/core2310-allproj-1-2-0-4-1-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      2
+    ],
+    "restricted_lp": 0.9711285632249237,
+    "measure_file": "data/core2310-allproj-1-2-0-4-2-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      3
+    ],
+    "restricted_lp": 0.9737833910197065,
+    "measure_file": "data/core2310-allproj-1-2-0-4-3-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      4
+    ],
+    "restricted_lp": 0.9730673016470377,
+    "measure_file": "data/core2310-allproj-1-2-0-4-4-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      5
+    ],
+    "restricted_lp": 0.9802239566092077,
+    "measure_file": "data/core2310-allproj-1-2-0-4-5-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      6
+    ],
+    "restricted_lp": 0.9707323071028617,
+    "measure_file": "data/core2310-allproj-1-2-0-4-6-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      7
+    ],
+    "restricted_lp": 0.9733278626328346,
+    "measure_file": "data/core2310-allproj-1-2-0-4-7-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      8
+    ],
+    "restricted_lp": 0.9739010801390807,
+    "measure_file": "data/core2310-allproj-1-2-0-4-8-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      4,
+      9
+    ],
+    "restricted_lp": 0.9758942285484307,
+    "measure_file": "data/core2310-allproj-1-2-0-4-9-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      0
+    ],
+    "restricted_lp": 0.9754262548989142,
+    "measure_file": "data/core2310-allproj-1-2-0-5-0-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      1
+    ],
+    "restricted_lp": 0.9778625419848475,
+    "measure_file": "data/core2310-allproj-1-2-0-5-1-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      2
+    ],
+    "restricted_lp": 0.9791378594194214,
+    "measure_file": "data/core2310-allproj-1-2-0-5-2-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      3
+    ],
+    "restricted_lp": 0.9815864474327731,
+    "measure_file": "data/core2310-allproj-1-2-0-5-3-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      4
+    ],
+    "restricted_lp": 0.9798148767471608,
+    "measure_file": "data/core2310-allproj-1-2-0-5-4-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      5
+    ],
+    "restricted_lp": 0.9878863302443824,
+    "measure_file": "data/core2310-allproj-1-2-0-5-5-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      6
+    ],
+    "restricted_lp": 0.977393765415739,
+    "measure_file": "data/core2310-allproj-1-2-0-5-6-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      7
+    ],
+    "restricted_lp": 0.9818954288401358,
+    "measure_file": "data/core2310-allproj-1-2-0-5-7-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      8
+    ],
+    "restricted_lp": 0.98016630632993,
+    "measure_file": "data/core2310-allproj-1-2-0-5-8-measure.json"
+  },
+  {
+    "projections": [
+      1,
+      2,
+      0,
+      5,
+      9
+    ],
+    "restricted_lp": 0.9837892631827196,
+    "measure_file": "data/core2310-allproj-1-2-0-5-9-measure.json"
+  }
+]

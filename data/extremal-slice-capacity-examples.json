@@ -1,0 +1,133 @@
+[
+  {
+    "primes": [
+      2,
+      3,
+      5,
+      7
+    ],
+    "period": 210,
+    "sharp_capacity": 130,
+    "exclusion_threshold": 3,
+    "uncovered_lower": 90,
+    "minimizing_residual_size": 22,
+    "input_lower": 22,
+    "new_prime": 11,
+    "input_kind": "integer_lower",
+    "scope": "valid propagated lower bound"
+  },
+  {
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11
+    ],
+    "period": 2310,
+    "sharp_capacity": 838,
+    "exclusion_threshold": 42,
+    "uncovered_lower": 242,
+    "minimizing_residual_size": 90,
+    "input_lower": 90,
+    "new_prime": 13,
+    "input_kind": "integer_lower",
+    "scope": "valid propagated lower bound"
+  },
+  {
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11
+    ],
+    "period": 2310,
+    "sharp_capacity": 950,
+    "exclusion_threshold": 42,
+    "uncovered_lower": 322,
+    "minimizing_residual_size": 106,
+    "input_lower": 106,
+    "new_prime": 13,
+    "input_kind": "integer_lower",
+    "scope": "valid propagated lower bound"
+  },
+  {
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11
+    ],
+    "period": 2310,
+    "sharp_capacity": 1055,
+    "exclusion_threshold": 42,
+    "uncovered_lower": 397,
+    "minimizing_residual_size": 121,
+    "input_lower": 121,
+    "new_prime": 13,
+    "input_kind": "solver_certified_lower",
+    "scope": "valid propagated lower bound"
+  },
+  {
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13
+    ],
+    "period": 30030,
+    "sharp_capacity": 10136,
+    "exclusion_threshold": 511,
+    "uncovered_lower": 2536,
+    "minimizing_residual_size": 792,
+    "input_lower": 792,
+    "new_prime": 17,
+    "input_kind": "witness_upper",
+    "scope": "conditional only; this input is not an established residual lower bound"
+  },
+  {
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17
+    ],
+    "period": 510510,
+    "sharp_capacity": 138912,
+    "exclusion_threshold": 6305,
+    "uncovered_lower": 5088,
+    "minimizing_residual_size": 8000,
+    "input_lower": 8000,
+    "new_prime": 19,
+    "input_kind": "hypothetical",
+    "scope": "conditional only; this input is not an established residual lower bound"
+  },
+  {
+    "primes": [
+      2,
+      3,
+      5,
+      7,
+      11,
+      13,
+      17,
+      19
+    ],
+    "period": 9699690,
+    "sharp_capacity": 1759525,
+    "exclusion_threshold": 79978,
+    "uncovered_lower": 13,
+    "minimizing_residual_size": 79979,
+    "input_lower": 79979,
+    "new_prime": 23,
+    "input_kind": "witness_upper",
+    "scope": "conditional only; this input is not an established residual lower bound"
+  }
+]

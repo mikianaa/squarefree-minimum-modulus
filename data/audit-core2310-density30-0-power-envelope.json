@@ -1,0 +1,16 @@
+{
+  "status": "VERIFIED",
+  "core_file": "data\\core2310-density30-0-power-envelope.json",
+  "core_sha256": "877ecc720002b0bb312ce6114c2164185f7fbf3c913c57c09b41bf35b5f723cb",
+  "catalogues": 810000,
+  "thresholds": [
+    0,
+    1,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "scope": "Independent int64 core audit; initial free-class charges and infinite continuation are separate"
+}

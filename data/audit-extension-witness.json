@@ -1,0 +1,23 @@
+{
+  "verified": true,
+  "period": 9699690,
+  "classes": 254,
+  "uncovered": 79979,
+  "parity_uncovered": [
+    30484,
+    49495
+  ],
+  "sha256": "d1981fecf87a6f8b365e7334180b983b247dbbe791396d2635e0c204a4dda96f",
+  "cardinality_method_ceiling": [
+    {
+      "new_prime": 23,
+      "maximum_certifiable_lower": 13,
+      "positive_threshold": 79978
+    },
+    {
+      "new_prime": 29,
+      "maximum_certifiable_lower": 0
+    }
+  ],
+  "scope": "The witness is an upper bound. Method ceilings are NOT lower bounds for actual families. They limit only sequential use of the sharp unconstrained size-only cylinder bound, starting at this period."
+}

@@ -1,0 +1,188 @@
+{
+  "core_residual": [
+    8,
+    13,
+    19,
+    59,
+    67,
+    68,
+    74,
+    89,
+    97,
+    103,
+    104,
+    109,
+    134,
+    139,
+    157,
+    164,
+    173,
+    179,
+    187,
+    194,
+    199,
+    209
+  ],
+  "cuts": [],
+  "axis_reports": [
+    {
+      "axis": 0,
+      "status": "INFEASIBLE",
+      "seconds": 0.7961274
+    },
+    {
+      "axis": 1,
+      "status": "INFEASIBLE",
+      "seconds": 0.5159126
+    },
+    {
+      "axis": 2,
+      "status": "INFEASIBLE",
+      "seconds": 0.0652255
+    },
+    {
+      "axis": 3,
+      "status": "INFEASIBLE",
+      "seconds": 0.1310008
+    },
+    {
+      "axis": 4,
+      "status": "INFEASIBLE",
+      "seconds": 0.1379855
+    },
+    {
+      "axis": 5,
+      "status": "INFEASIBLE",
+      "seconds": 0.8930392
+    },
+    {
+      "axis": 6,
+      "status": "INFEASIBLE",
+      "seconds": 0.6948419
+    },
+    {
+      "axis": 7,
+      "status": "INFEASIBLE",
+      "seconds": 0.7171564
+    },
+    {
+      "axis": 8,
+      "status": "INFEASIBLE",
+      "seconds": 0.7511165000000001
+    },
+    {
+      "axis": 9,
+      "status": "INFEASIBLE",
+      "seconds": 0.6503267
+    },
+    {
+      "axis": 10,
+      "status": "INFEASIBLE",
+      "seconds": 0.5378281
+    },
+    {
+      "axis": 11,
+      "status": "INFEASIBLE",
+      "seconds": 0.6395408
+    },
+    {
+      "axis": 12,
+      "status": "INFEASIBLE",
+      "seconds": 0.48766630000000005
+    },
+    {
+      "axis": 13,
+      "status": "INFEASIBLE",
+      "seconds": 0.3218748
+    },
+    {
+      "axis": 14,
+      "status": "INFEASIBLE",
+      "seconds": 0.26332880000000003
+    },
+    {
+      "axis": 15,
+      "status": "INFEASIBLE",
+      "seconds": 1.0886506
+    },
+    {
+      "axis": 16,
+      "status": "INFEASIBLE",
+      "seconds": 1.3068993
+    },
+    {
+      "axis": 17,
+      "status": "INFEASIBLE",
+      "seconds": 0.7190374
+    },
+    {
+      "axis": 18,
+      "status": "INFEASIBLE",
+      "seconds": 0.8121015
+    },
+    {
+      "axis": 19,
+      "status": "INFEASIBLE",
+      "seconds": 1.4408633000000002
+    },
+    {
+      "axis": 20,
+      "status": "INFEASIBLE",
+      "seconds": 0.7002571000000001
+    },
+    {
+      "axis": 21,
+      "status": "INFEASIBLE",
+      "seconds": 0.974357
+    },
+    {
+      "axis": 22,
+      "status": "INFEASIBLE",
+      "seconds": 0.514629
+    },
+    {
+      "axis": 23,
+      "status": "INFEASIBLE",
+      "seconds": 0.7678714000000001
+    },
+    {
+      "axis": 24,
+      "status": "INFEASIBLE",
+      "seconds": 0.7502177000000001
+    },
+    {
+      "axis": 25,
+      "status": "INFEASIBLE",
+      "seconds": 0.7535431
+    },
+    {
+      "axis": 26,
+      "status": "INFEASIBLE",
+      "seconds": 0.8190149000000001
+    },
+    {
+      "axis": 27,
+      "status": "INFEASIBLE",
+      "seconds": 0.7925713000000001
+    },
+    {
+      "axis": 28,
+      "status": "INFEASIBLE",
+      "seconds": 0.4357481
+    },
+    {
+      "axis": 29,
+      "status": "INFEASIBLE",
+      "seconds": 0.4099822
+    },
+    {
+      "axis": 30,
+      "status": "INFEASIBLE",
+      "seconds": 1.6020281
+    }
+  ],
+  "weight_limit": 3,
+  "seconds": 21.687999999994645,
+  "scope": "arithmetic-certified cuts; solver absence of further cuts is exploratory",
+  "source": "data/nine-prime-group-refinement-round3-model.json"
+}

@@ -1,0 +1,8 @@
+{
+  "scenarios": 8176,
+  "max_mass_error": 2.220446049250313e-16,
+  "max_supply_error": 1.3322676295501878e-15,
+  "minimum_probability": 0.0,
+  "max_payoff_error": 0.0,
+  "scope": "Numerical consistency check only; not a rational proof"
+}

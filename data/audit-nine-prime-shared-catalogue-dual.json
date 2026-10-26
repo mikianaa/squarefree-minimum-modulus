@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "denominator": 1000000000,
+  "unrestricted_capacity_numerator": -4233469465616000,
+  "pool_numerator": -330462053616000,
+  "plane_states_checked": 9453375,
+  "groups_checked": 31,
+  "configurations_checked": 39968,
+  "pricing_index": -1,
+  "excludes_unrestricted_core_pattern": false,
+  "excludes_stated_pool": false,
+  "scope": "weighted positive-point-expectation bound for this core/pattern; CP-SAT bounds not used"
+}

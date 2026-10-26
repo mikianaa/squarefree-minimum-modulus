@@ -1,0 +1,8 @@
+{"N": 2310, "pattern": [0, 0, 0, 0], "status": "INFEASIBLE", "minimize": false, "label_symmetry": true, "points": 615, "build_seconds": 0.031, "seconds": 0.391}
+{"N": 2310, "pattern": [0, 0, 0, 1], "status": "INFEASIBLE", "minimize": false, "label_symmetry": true, "points": 582, "build_seconds": 0.031, "seconds": 0.375}
+{"N": 2310, "pattern": [0, 0, 1, 0], "status": "INFEASIBLE", "minimize": false, "label_symmetry": true, "points": 562, "build_seconds": 0.031, "seconds": 0.359}
+{"N": 2310, "pattern": [0, 0, 1, 1], "status": "INFEASIBLE", "minimize": false, "label_symmetry": true, "points": 540, "build_seconds": 0.031, "seconds": 0.359}
+{"N": 2310, "pattern": [0, 1, 0, 0], "status": "INFEASIBLE", "minimize": false, "label_symmetry": true, "points": 540, "build_seconds": 0.031, "seconds": 0.375}
+{"N": 2310, "pattern": [0, 1, 0, 1], "status": "INFEASIBLE", "minimize": false, "label_symmetry": true, "points": 524, "build_seconds": 0.031, "seconds": 0.656}
+{"N": 2310, "pattern": [0, 1, 1, 0], "status": "INFEASIBLE", "minimize": false, "label_symmetry": true, "points": 516, "build_seconds": 0.078, "seconds": 0.75}
+{"N": 2310, "pattern": [0, 1, 1, 1], "status": "INFEASIBLE", "minimize": false, "label_symmetry": true, "points": 510, "build_seconds": 0.094, "seconds": 0.766}

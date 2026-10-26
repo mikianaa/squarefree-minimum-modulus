@@ -1,0 +1,12 @@
+{
+  "verified": true,
+  "bound": 6,
+  "inequalities_checked": 17,
+  "threshold_profiles_checked": 3072,
+  "excessive_profiles_excluded": 2079,
+  "relaxation_maximum": 6,
+  "attained_score": 6,
+  "scope": "one fixed finite core event inequality; not a global covering obstruction",
+  "source": "data/small-event-bound-capacity-certificate.json",
+  "source_sha256": "6f6833156fd4e8840b9e7649b5c503a73e20db55d9593d701250bbea01012aa1"
+}

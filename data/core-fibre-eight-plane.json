@@ -1,0 +1,383 @@
+{
+  "core_system": [
+    {
+      "modulus": 3,
+      "residue": 0
+    },
+    {
+      "modulus": 5,
+      "residue": 0
+    },
+    {
+      "modulus": 6,
+      "residue": 4
+    },
+    {
+      "modulus": 7,
+      "residue": 0
+    },
+    {
+      "modulus": 10,
+      "residue": 1
+    },
+    {
+      "modulus": 14,
+      "residue": 1
+    },
+    {
+      "modulus": 15,
+      "residue": 2
+    },
+    {
+      "modulus": 21,
+      "residue": 2
+    },
+    {
+      "modulus": 30,
+      "residue": 26
+    },
+    {
+      "modulus": 35,
+      "residue": 3
+    },
+    {
+      "modulus": 42,
+      "residue": 37
+    },
+    {
+      "modulus": 70,
+      "residue": 53
+    },
+    {
+      "modulus": 105,
+      "residue": 83
+    },
+    {
+      "modulus": 210,
+      "residue": 158
+    }
+  ],
+  "core_residual": [
+    8,
+    13,
+    19,
+    59,
+    67,
+    68,
+    74,
+    89,
+    97,
+    103,
+    104,
+    109,
+    134,
+    139,
+    157,
+    164,
+    173,
+    179,
+    187,
+    194,
+    199,
+    209
+  ],
+  "high_primes": [
+    11,
+    13,
+    17,
+    19
+  ],
+  "high_pattern": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "minimum_found_plane_expression": 145314,
+  "tail_capacity": 132663,
+  "passes": 4502,
+  "choices": [
+    {
+      "high_prime": 11,
+      "core_modulus": 3,
+      "core_residue": 2
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 5,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 6,
+      "core_residue": 2
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 7,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 10,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 14,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 15,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 21,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 30,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 35,
+      "core_residue": 33
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 42,
+      "core_residue": 26
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 70,
+      "core_residue": 33
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 105,
+      "core_residue": 68
+    },
+    {
+      "high_prime": 11,
+      "core_modulus": 210,
+      "core_residue": 68
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 3,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 5,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 6,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 7,
+      "core_residue": 6
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 10,
+      "core_residue": 9
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 14,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 15,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 21,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 30,
+      "core_residue": 7
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 35,
+      "core_residue": 34
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 42,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 70,
+      "core_residue": 69
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 105,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 13,
+      "core_modulus": 210,
+      "core_residue": 13
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 3,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 5,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 6,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 7,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 10,
+      "core_residue": 9
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 14,
+      "core_residue": 5
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 15,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 21,
+      "core_residue": 19
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 30,
+      "core_residue": 7
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 35,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 42,
+      "core_residue": 19
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 70,
+      "core_residue": 39
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 105,
+      "core_residue": 74
+    },
+    {
+      "high_prime": 17,
+      "core_modulus": 210,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 3,
+      "core_residue": 2
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 5,
+      "core_residue": 4
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 6,
+      "core_residue": 1
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 7,
+      "core_residue": 3
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 10,
+      "core_residue": 9
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 14,
+      "core_residue": 3
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 15,
+      "core_residue": 14
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 21,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 30,
+      "core_residue": 7
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 35,
+      "core_residue": 24
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 42,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 70,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 105,
+      "core_residue": 8
+    },
+    {
+      "high_prime": 19,
+      "core_modulus": 210,
+      "core_residue": 8
+    }
+  ],
+  "seconds": 5.0,
+  "scope": "relaxed projection assignment; no optimality or actual covering claim"
+}

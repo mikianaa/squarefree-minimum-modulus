@@ -1,0 +1,67 @@
+{
+  "excluded_primorial": 9699690,
+  "excluded_prime_support": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "minimum_allowed_modulus": 3,
+  "core_patterns": [
+    [
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      0,
+      1,
+      1
+    ]
+  ],
+  "branch_lower_bounds": [
+    6696,
+    305,
+    15,
+    2
+  ],
+  "uniform_uncovered_lower": 2,
+  "counterexample_prime_factors_at_least": 9,
+  "next_primorial": 223092870,
+  "solver_dependent": false,
+  "proof_assistant_verified": false,
+  "global_problem_settled": false,
+  "extension_to_arbitrary_support": "BBMST even-modulus theorem plus odd-prime compression",
+  "certificate_sha256": {
+    "audit-eight-prime-anchor000.json": "7bef411dd339c1c78969c3fa8b1b4fe1168760d19d576f994e1ab78f26c12180",
+    "audit-compressed-tail-branch-001.json": "1890749e0cc3d4ffdd18f637b0c336149e3de70872879cc6d65a7ef9410287c7",
+    "audit-paired-tail-branch-010.json": "91908fdbf8998ddf30c47fe6b276e8f2fe41f2f18cd5ff82ec3c82c67789d10b",
+    "audit-paired-tail-branch-011.json": "5386c88da2091a96996662307c0810b2a2d63d4c1b0f0315c79cceac2c16f6da",
+    "eight-prime-anchor000-certificate.json": "29ac49acc370e25bdfba7529bd38804fe8a02c1f6f74fde6d4844834f3392e5d",
+    "conditional-tail-core-pattern-certificates.json": "69ac7ca5f3084bcc92484d8db3ed36841132f6b00e0c4683a7edb2abd973863a",
+    "core-hit-concentration-7-15.json": "aa74869a6d0927cc214a3ccf83fbaae27ded5ff65a13b9b6f826e831c6cfb3ac",
+    "core-fibre-eight-plane.json": "497c3e6727155a08ccfabb205aa056d365ac1d3be240b063d6c670aacd24fc0e",
+    "compressed-tail-branch-001.json": "0da1453b605bc6a46e188c4d58aac17b0267bedd05f618da264052837523d4b6",
+    "paired-tail-refinement-010.json": "9166e5eb4ab2f3222084f60bf25dc9fb7adb78884a3487482097df1d6f882c39",
+    "joint-tail-profiles-010.json": "529740b9cd242eea7f96cb9ab4c6ccd84e19e2be86d2841563ff1448cdc4cc01",
+    "joint-tail-envelopes-010.json": "ee3dc578cda5481b7ce95714605270eae68f6451c2e38de07b4ed2023ba15e66",
+    "paired-tail-refinement-011.json": "606bd6d68ccac01a74839401e499bb43431de02f6f202d17296d8ba2b34bdef9",
+    "joint-tail-profiles-011.json": "32f40c9fc646adbb703d2abc5d5efe1293c3deea1a7502be7f721fbbd8cbfeec",
+    "joint-tail-envelopes-011.json": "cea05a494f9ff35c7b344b69eb4b96ee1de1c6b2dbf69873d94bc7502b3532d1"
+  },
+  "scope": "summary of the four saved independent branch audits; not a proof of the global minimum-2 conjecture"
+}

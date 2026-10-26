@@ -1,0 +1,11 @@
+{
+  "verified": true,
+  "cases_checked": 12,
+  "strictly_improved_cases": 12,
+  "positive_pair_multipliers_checked": 0,
+  "maximum_bound_decrease": 3620876565,
+  "positive_clique_multipliers_checked": 274,
+  "complete_group_coverage": false,
+  "covering_obstruction": false,
+  "scope": "Every listed conditional bound is verified; this list is not a full group case partition"
+}

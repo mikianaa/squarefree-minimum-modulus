@@ -1,0 +1,21 @@
+{
+  "N": 510510,
+  "pattern": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1
+  ],
+  "core_residual": [
+    8,
+    14
+  ],
+  "status": "UNKNOWN",
+  "cells": 3405,
+  "resources": 106,
+  "build_seconds": 1.547,
+  "seconds": 62.484,
+  "scope": "capacity relaxation at one fixed pattern and residual pair"
+}

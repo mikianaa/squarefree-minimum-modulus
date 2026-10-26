@@ -1,0 +1,457 @@
+{
+  "base_profiles_checked": 2936,
+  "additional_profiles_checked": 116,
+  "cases": [
+    {
+      "core_pattern": [
+        0,
+        0,
+        0
+      ],
+      "high_pattern": [
+        0,
+        0,
+        0
+      ],
+      "profiles": 60,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        0
+      ],
+      "high_pattern": [
+        0,
+        0,
+        1
+      ],
+      "profiles": 60,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        0
+      ],
+      "high_pattern": [
+        0,
+        1,
+        0
+      ],
+      "profiles": 60,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        0
+      ],
+      "high_pattern": [
+        0,
+        1,
+        1
+      ],
+      "profiles": 60,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        0
+      ],
+      "high_pattern": [
+        1,
+        0,
+        0
+      ],
+      "profiles": 60,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        0
+      ],
+      "high_pattern": [
+        1,
+        0,
+        1
+      ],
+      "profiles": 60,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        0
+      ],
+      "high_pattern": [
+        1,
+        1,
+        0
+      ],
+      "profiles": 60,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        0
+      ],
+      "high_pattern": [
+        1,
+        1,
+        1
+      ],
+      "profiles": 60,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        1
+      ],
+      "high_pattern": [
+        0,
+        0,
+        0
+      ],
+      "profiles": 66,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        1
+      ],
+      "high_pattern": [
+        0,
+        0,
+        1
+      ],
+      "profiles": 66,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        1
+      ],
+      "high_pattern": [
+        0,
+        1,
+        0
+      ],
+      "profiles": 66,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        1
+      ],
+      "high_pattern": [
+        0,
+        1,
+        1
+      ],
+      "profiles": 66,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        1
+      ],
+      "high_pattern": [
+        1,
+        0,
+        0
+      ],
+      "profiles": 66,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        1
+      ],
+      "high_pattern": [
+        1,
+        0,
+        1
+      ],
+      "profiles": 66,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        1
+      ],
+      "high_pattern": [
+        1,
+        1,
+        0
+      ],
+      "profiles": 66,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        0,
+        1
+      ],
+      "high_pattern": [
+        1,
+        1,
+        1
+      ],
+      "profiles": 66,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        0
+      ],
+      "high_pattern": [
+        0,
+        0,
+        0
+      ],
+      "profiles": 115,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        0
+      ],
+      "high_pattern": [
+        0,
+        0,
+        1
+      ],
+      "profiles": 115,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        0
+      ],
+      "high_pattern": [
+        0,
+        1,
+        0
+      ],
+      "profiles": 115,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        0
+      ],
+      "high_pattern": [
+        0,
+        1,
+        1
+      ],
+      "profiles": 115,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        0
+      ],
+      "high_pattern": [
+        1,
+        0,
+        0
+      ],
+      "profiles": 115,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        0
+      ],
+      "high_pattern": [
+        1,
+        0,
+        1
+      ],
+      "profiles": 115,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        0
+      ],
+      "high_pattern": [
+        1,
+        1,
+        0
+      ],
+      "profiles": 115,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        0
+      ],
+      "high_pattern": [
+        1,
+        1,
+        1
+      ],
+      "profiles": 115,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        1
+      ],
+      "high_pattern": [
+        0,
+        0,
+        0
+      ],
+      "profiles": 126,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        1
+      ],
+      "high_pattern": [
+        0,
+        0,
+        1
+      ],
+      "profiles": 126,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        1
+      ],
+      "high_pattern": [
+        0,
+        1,
+        0
+      ],
+      "profiles": 126,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        1
+      ],
+      "high_pattern": [
+        0,
+        1,
+        1
+      ],
+      "profiles": 126,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        1
+      ],
+      "high_pattern": [
+        1,
+        0,
+        0
+      ],
+      "profiles": 126,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        1
+      ],
+      "high_pattern": [
+        1,
+        0,
+        1
+      ],
+      "profiles": 126,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        1
+      ],
+      "high_pattern": [
+        1,
+        1,
+        0
+      ],
+      "profiles": 126,
+      "verified": true
+    },
+    {
+      "core_pattern": [
+        0,
+        1,
+        1
+      ],
+      "high_pattern": [
+        1,
+        1,
+        1
+      ],
+      "profiles": 126,
+      "verified": true
+    }
+  ],
+  "verified": true,
+  "seconds": 308.688,
+  "scope": "independent arithmetic audit; core-catalogue completeness is audited separately"
+}

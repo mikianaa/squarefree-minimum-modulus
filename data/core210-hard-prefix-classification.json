@@ -1,0 +1,20 @@
+{
+  "canonical_moduli": [
+    30,
+    35,
+    42,
+    70,
+    105,
+    210
+  ],
+  "canonical_residues": [
+    12,
+    3,
+    13,
+    18,
+    93,
+    193
+  ],
+  "catalogue_index_zero_based": 168749,
+  "uncovered": 104
+}

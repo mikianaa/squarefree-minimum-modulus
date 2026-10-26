@@ -1,0 +1,6 @@
+{
+  "verified": true,
+  "integer_expression": 678850,
+  "projection_resources": 486,
+  "scope": "one integer assignment gives an upper bound on the minimum conditional expression; no exclusion or cover"
+}

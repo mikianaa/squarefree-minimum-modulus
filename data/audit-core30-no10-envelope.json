@@ -1,0 +1,70 @@
+{
+  "passed": true,
+  "n_configurations": 810000,
+  "n_core_patterns": 3,
+  "uncovered_points": 27,
+  "stoploss_numerators": [
+    68,
+    41,
+    20,
+    12,
+    4,
+    3,
+    2,
+    1,
+    0
+  ],
+  "denominator": 27,
+  "law_numerators": [
+    6,
+    13,
+    0,
+    7,
+    0,
+    0,
+    0,
+    1
+  ],
+  "count_seed_numerators": [
+    6,
+    13,
+    7,
+    1
+  ],
+  "argmax_indices": [
+    [
+      58005,
+      58005,
+      58004,
+      67004,
+      57972,
+      57972,
+      57972,
+      57972,
+      0
+    ],
+    [
+      29051,
+      29051,
+      29050,
+      47050,
+      28986,
+      28986,
+      28986,
+      28986,
+      0
+    ],
+    [
+      29237,
+      29237,
+      29951,
+      76036,
+      28986,
+      28986,
+      28986,
+      28986,
+      0
+    ]
+  ],
+  "scope": "complete integer core comparison; no floating solver"
+}

@@ -12,7 +12,7 @@ min( E S , E (S - delta)_+ / (1 - delta) , E S^2 / (4 delta (1 - delta)) ).
 
 Usage: python -I audit_verify.py opt10.json out.json [--p-exact 1000000] [--n-stages 1000000]
 """
-import json, sys, time
+import bisect, json, sys, time
 from fractions import Fraction
 from itertools import combinations
 
@@ -50,6 +50,8 @@ def load_schedule(path):
     edges = [int(e) for e in sch["edges"]]
     params = sch["params"]
     assert len(edges) == len(params)
+    assert edges and edges[0] >= 1
+    assert all(a < b for a, b in zip(edges, edges[1:]))
     Ds = [int(round(float(d) * L)) for d in params]
     for D in Ds:
         assert 0 <= D <= L // 2, D
@@ -57,10 +59,10 @@ def load_schedule(path):
 
 
 def D_for_stage(k, edges, Ds):
-    for e, D in zip(edges, Ds):
-        if k <= e:
-            return D
-    raise ValueError("stage %d beyond schedule" % k)
+    i = bisect.bisect_left(edges, k)
+    if i == len(edges):
+        raise ValueError("stage %d beyond schedule" % k)
+    return Ds[i]
 
 
 # ----------------------------------------------------------------------------------------

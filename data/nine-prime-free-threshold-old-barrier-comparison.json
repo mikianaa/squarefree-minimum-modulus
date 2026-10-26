@@ -1,0 +1,11 @@
+{
+  "new_curve_source": "data/nine-prime-free-threshold-support.json",
+  "barrier_witness": "data/nine-prime-case-relaxation-barrier.json",
+  "local_mixture_minus_group_mixture": [
+    40168077530309856979284257066082985633923290494671885404736321427,
+    20999999999999999998950000000000000000008400000000000000000
+  ],
+  "decimal": 1912765.5966814219,
+  "old_fixed_curve_witness_defeated": true,
+  "scope": "This compares two specific mixtures only; it is not a covering obstruction"
+}

@@ -1,0 +1,511 @@
+{
+  "verified": true,
+  "seconds": 101.094,
+  "cases": [
+    {
+      "period": 2310,
+      "pattern": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "verified": true,
+      "lower": 174
+    },
+    {
+      "period": 2310,
+      "pattern": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "verified": true,
+      "lower": 158
+    },
+    {
+      "period": 2310,
+      "pattern": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "verified": true,
+      "lower": 141
+    },
+    {
+      "period": 2310,
+      "pattern": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "verified": true,
+      "lower": 127
+    },
+    {
+      "period": 2310,
+      "pattern": [
+        0,
+        1,
+        0,
+        0
+      ],
+      "verified": true,
+      "lower": 121
+    },
+    {
+      "period": 2310,
+      "pattern": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "verified": true,
+      "lower": 112
+    },
+    {
+      "period": 2310,
+      "pattern": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "verified": true,
+      "lower": 109
+    },
+    {
+      "period": 2310,
+      "pattern": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "verified": true,
+      "lower": 106
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 920
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 838
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 920
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 838
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 805
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 737
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 805
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 737
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 689
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 618
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 689
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 618
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 592
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 513
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 660
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 639
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 530
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 467
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 624
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 544
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 473
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 425
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 553
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        0,
+        1,
+        1
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 494
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 457
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 411
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 493
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        1,
+        0,
+        1
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 495
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 448
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "integer_only",
+      "verified": true,
+      "lower": 415
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        1,
+        1,
+        0
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 488
+    },
+    {
+      "period": 30030,
+      "pattern": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "status": "including_solver",
+      "verified": true,
+      "lower": 507
+    }
+  ],
+  "scope": "arithmetic audit; solver-dependent inputs remain solver-dependent"
+}

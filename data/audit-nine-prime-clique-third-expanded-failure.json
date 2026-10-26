@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "local_state_score": 143904845471,
+  "actual_group_score": 149398685158,
+  "score_difference": -5493839687,
+  "denominator": 1000000,
+  "these_weights_cannot_exclude_unrestricted_core": true,
+  "local_states_checked": 22,
+  "actual_group_assignments_checked": 31,
+  "covering_constructed": false,
+  "global_problem_settled": false,
+  "scope": "Only the specified fixed weights: exact local minima cannot exceed the displayed local-state score, and any unrestricted group bound must admit the displayed actual assignments."
+}

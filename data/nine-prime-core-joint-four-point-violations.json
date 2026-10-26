@@ -1,0 +1,10 @@
+{
+  "violations": [],
+  "subset_size": 4,
+  "subset_group_combinations_checked": 226765,
+  "candidate_event_tuples_checked": 2310450,
+  "projection_profiles_requested": 11412,
+  "denominator": 1000000000,
+  "seconds": 14.14100000000326,
+  "scope": "exact joint event compatibility on fixed-size subsets; not a covering-system obstruction"
+}

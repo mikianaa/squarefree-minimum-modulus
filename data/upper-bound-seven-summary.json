@@ -1,0 +1,26 @@
+{
+  "status": "CERTIFIED",
+  "conclusion": "Every finite covering system with distinct squarefree moduli has a modulus at most 7.",
+  "cutoff_used": 8,
+  "squarefree_reduction": "8 is not squarefree, so a modulus at most 8 is at most 7.",
+  "schedule_file": "data\\schedule7-breakpoints.json",
+  "schedule_sha256": "74ebcb30fc6eb0b4cca72e2e4edecf9f8729a550547bee1ac1bf8c593d5520af",
+  "primary_certificate": "data/cert7-breakpoints.json",
+  "audit_certificate": "data/audit-cert7-breakpoints.json",
+  "primary_upper_integer": "999087538090134249032793704260561781812927932344492427708399",
+  "audit_upper_integer": "999087538090134249030821201485083204038153377114994384897372",
+  "scale": "1000000000000000000000000000000000000000000000000000000000000",
+  "convenient_rational_upper": {
+    "numerator": 999087538091,
+    "denominator": 1000000000000
+  },
+  "verification_parameters": {
+    "L": 1000000,
+    "NMAX": 120,
+    "p_exact": 3000000,
+    "n_stages": 1000000,
+    "p_N": 15485863
+  },
+  "difference_explanation": "The primary verifier adds conservative truncation remainders at the first four stages; the independent verifier evaluates these exactly. Their total difference, entirely accounted for by these four stages, is less than 2e-21.",
+  "scope": "Disproves a barrier at 10 for this distribution-based comparison; does not settle whether every such covering contains modulus 2."
+}

@@ -1,0 +1,82 @@
+{
+  "verified": true,
+  "exact_numerator": 15256349133,
+  "exact_denominator": 1000000,
+  "conditional_residual_lower": 15257,
+  "excludes_this_core_and_pattern": true,
+  "core_subsets_checked": 4194304,
+  "plane_count_tuples_checked": 630225,
+  "tail_counts_per_group_checked": 17,
+  "core_system": [
+    {
+      "modulus": 3,
+      "residue": 0
+    },
+    {
+      "modulus": 5,
+      "residue": 0
+    },
+    {
+      "modulus": 6,
+      "residue": 4
+    },
+    {
+      "modulus": 7,
+      "residue": 0
+    },
+    {
+      "modulus": 10,
+      "residue": 1
+    },
+    {
+      "modulus": 14,
+      "residue": 1
+    },
+    {
+      "modulus": 15,
+      "residue": 2
+    },
+    {
+      "modulus": 21,
+      "residue": 2
+    },
+    {
+      "modulus": 30,
+      "residue": 26
+    },
+    {
+      "modulus": 35,
+      "residue": 3
+    },
+    {
+      "modulus": 42,
+      "residue": 37
+    },
+    {
+      "modulus": 70,
+      "residue": 53
+    },
+    {
+      "modulus": 105,
+      "residue": 83
+    },
+    {
+      "modulus": 210,
+      "residue": 158
+    }
+  ],
+  "high_primes": [
+    11,
+    13,
+    17,
+    19
+  ],
+  "high_pattern": [
+    1,
+    1,
+    1,
+    1
+  ],
+  "seconds": 17.422,
+  "scope": "one specified core and high-prime anchor pattern only; not all eight-prime covers"
+}

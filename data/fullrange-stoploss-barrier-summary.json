@@ -1,0 +1,42 @@
+{
+  "status": "CERTIFIED_AND_SEPARATELY_VERIFIED",
+  "conclusion": "7 is optimal for the fixed independent Bernoulli catalogue comparison, including all real 0<=delta_p<1.",
+  "modulus_cutoff_excluded": 6,
+  "original_objective_horizon_prime": 10007,
+  "pruned_relaxation_prefix_prime": 5003,
+  "certified_action_eliminations": 326,
+  "remaining_initial_cases": 32,
+  "primary_lower": {
+    "numerator": 1029993468,
+    "denominator": 1000000000
+  },
+  "separate_audit_lower": {
+    "numerator": 103219703,
+    "denominator": 100000000
+  },
+  "probability_cap": "min(1, 1/[p(1-delta_p)])",
+  "scope": [
+    "increasing prime order",
+    "fixed independent Bernoulli squarefree catalogue comparison",
+    "minimum of first moment, stop-loss and quadratic stage estimates",
+    "every real parameter schedule 0<=delta_p<1",
+    "uniform total-loss-less-than-1 certificate"
+  ],
+  "not_excluded": [
+    "different comparison distributions or prime ordering",
+    "conditional distortions",
+    "actual congruence compatibility and overlaps",
+    "proofs using extra family-specific information",
+    "the existence or nonexistence of a covering omitting modulus 2"
+  ],
+  "files_sha256": {
+    "code/certify_fullrange_action_pruning.py": "68d7b33533e9c4d382aba239bd2fcc7e8ad55976eb19e4c24ab732a22499495a",
+    "code/audit_fullrange_action_pruning.py": "01b1615f261ddc8398421a2bf61cec28cee322dfe5a2a5046a4eb33b70ce5d29",
+    "code/certify_fullrange_stoploss_barrier.py": "ede9f5f0c684fe7a805dcc278791aa2b92ef75610ff7290767a5500ed881876f",
+    "code/audit_fullrange_stoploss_barrier.py": "f796b016cefd0851315aae27d116dbd540735687f916ac9d33730d2958dd34a0",
+    "data/fullrange-action-pruning.json": "d10aa8de81211367e164975bf083936203f5b1071236a36be5d81e063dc1ad80",
+    "data/audit-fullrange-action-pruning.json": "9714df1abe64a0bab18179774744de3b340d65f16770db372c6c7cb68508669f",
+    "data/fullrange-stoploss-barrier.json": "92ce77d4120b7da0d0d9939b777b4a6365046696559553719fccc68f80379a43",
+    "data/audit-fullrange-stoploss-barrier.json": "bcec57c345d9cf8309786ebac1a21395c218fcf7e857d269342759f8ccb72f5f"
+  }
+}
