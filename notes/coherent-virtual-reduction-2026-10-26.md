@@ -104,28 +104,55 @@ tightest G-side witness found so far at this scale by a wide margin (ratio
 22.94 against a requirement of 22, versus ~7-8 for every spread witness
 tested elsewhere tonight).
 
-## The F-side: heuristically, nowhere close
+## The F-side: three heuristics tried, all far short -- and biasing toward m makes it WORSE
 
 Does an actual family F achieve a residual anywhere near {4199 | x}
-(2310 points, 0.024% of Z_9699690)? `code/safe_residue_construction.py`
-(restricting every candidate modulus to residues that provably can't touch
-a multiple of 4199, per `coherence-capacity-tradeoff-2026-10-26.md`) gives
-an actual family whose uncovered set is **4,751,373** points -- 2,056 times
-the coherent target. A further local-search refinement
-(`code/safe_residue_local_search.py`, 10 sweeps) converges after a single
-sweep with **zero improvement**: the safe-residue greedy is already stuck
-at a strict local optimum, and local search cannot move it at all here
-(contrast with the m=390, k=9 case, where local search bought a modest 5%).
+(2310 points, 0.024% of Z_9699690)? Three heuristics, in increasing order
+of actual performance:
 
-This is much weaker evidence than the G-side's exact result: it only rules
-out one specific (and, by construction, quite conservative) heuristic
-family-building strategy, the same way the earlier coherence-capacity note
-found for a different, larger coherent target at k=9. It does not attempt,
-and does not rule out, a genuinely different exact construction for the
-F-side, analogous to the one that worked for the historical 2310/105
-duplicate case (found by direct CP-SAT at that small scale, not a greedy
-heuristic). Whether an analogous exact F-side reduction exists for k=8 is
-not attempted here and is the natural next step.
+1. **Safe-residue construction** (`code/safe_residue_construction.py`,
+   restricting every candidate modulus to residues that provably can't
+   touch a multiple of 4199): uncovered = **4,751,373** (2,056x the
+   target). Local search (`code/safe_residue_local_search.py`, 10 sweeps)
+   converges after one sweep with **zero improvement**.
+2. **Direct T-targeting** (`code/cover_complement_of_coherent.py`): drop
+   the "safe" restriction entirely -- it is not actually needed, since
+   accidentally covering some multiples of m is harmless, not forbidden;
+   all that matters is covering every point that is *not* a multiple of m.
+   One-pass greedy, scored only on genuine non-multiples of m: uncovered
+   (non-multiples of m still missing) = **123,687** (53.6x the target), a
+   38x improvement in method over (1). Local search
+   (`code/cover_complement_local_search.py`) converges after 2 sweeps to
+   **122,653** (53.1x), almost no further gain. Total residual size (the
+   123,687-ish non-m points plus the handful of m-multiples still missing)
+   is 122,767 -- cap(R)/|R| = 6.40, slightly *worse* than the untargeted
+   general-purpose witness below.
+3. **The best already-existing general-purpose witness**
+   (`data/min-uncovered-9699690-witness.json`, |R| = 79,979, built by this
+   project's ordinary local search with *no* awareness of m = 4199 at
+   all): checking directly, **0 of its 79,979 uncovered points happen to
+   be multiples of 4199**, so its T-shortfall is exactly 79,979 -- **34.6x
+   the target**, better than either method that specifically tried to
+   steer toward m.
+
+So biasing the construction toward the coherent target, by either method
+tried, makes things *worse* than simply running the best known
+general-purpose covering search and accepting whatever (here: zero)
+overlap with the target occurs by chance. The honest headline number for
+"how far is F from the coherent target" is **34.6x**, from a construction
+that was not even trying to get there, and the two methods that did try
+both did worse. That is itself informative: it suggests the coherent
+target is not merely hard to *reach deliberately*, it may not sit anywhere
+near where general-purpose good covers naturally land either.
+
+This is still much weaker evidence than the G-side's exact result: it only
+rules out these three heuristic family-building strategies, not every
+possible construction, and does not rule out a genuinely different exact
+construction for the F-side, analogous to the one that worked for the
+historical 2310/105 duplicate case (found by direct CP-SAT at that small
+scale, not a greedy heuristic). Whether an analogous exact F-side
+reduction exists for k=8 is not attempted here and is the natural next
+step.
 
 ## Same pattern one level up: 9 -> 10 (q = 29)
 
@@ -139,12 +166,22 @@ with the translated-back 511-divisor real system re-verified directly on
 all 2310 real multiples of 96577 in Z_223092870.
 
 F-side, same story but worse: the safe-residue construction for m = 96577
-leaves **89,929,666** uncovered -- 38,931 times the coherent target, an
-order of magnitude further off than the m=4199 case at k=8->9 (2,056x).
-So the pattern holds, and gets worse, one level up: **the G-side capacity
-requirement is consistently achievable (exactly) for the smallest-omega
-coherent target at both tested extensions, while the F-side gets further
-and further from achievable as the target gets smaller/more concentrated.**
+leaves **89,929,666** uncovered -- 38,931 times the coherent target. But
+as above, that specific heuristic is not the best available comparison:
+the existing general-purpose nine-prime witness used throughout
+`nine-prime-greedy-construction-2026-10-26.md`
+(`data/local-search-nine-prime.json`, |R| = 1,213,060, built with no
+awareness of m = 96577) has **0 overlap** with multiples of 96577 too, so
+its T-shortfall is the full 1,213,060 -- **525x the target**. Smaller than
+the safe-residue number, but still two orders of magnitude off, and still
+worse (as a *ratio*) than the k=8->9 case's best comparison figure
+(34.6x). So the pattern holds, and gets worse, one level up either way it
+is measured: **the G-side capacity requirement is consistently achievable
+(exactly) for the smallest-omega coherent target at both tested
+extensions, while the F-side gets further and further from achievable as
+the target gets smaller/more concentrated -- and in both cases, deliberately
+steering toward the target is no better (here, much worse) than just
+running the best known unaware general-purpose search.**
 This is a specific, nontrivial reason the coherent-residual route looks
 like a dead end that is different from (and sharper than) "not enough raw
 capacity": the capacity is there; getting a real family anywhere near the
@@ -183,6 +220,12 @@ tmp/research-venv/Scripts/python.exe code/coherent_virtual_reduction.py \
     --m 96577 --q 29 --primes 2 3 5 7 11 13 17 19 23 --time 180 \
     --output data/coherent-virtual-reduction-96577-29.json
 python code/safe_residue_construction.py --m 96577 --output data/safe-residue-96577.json
+
+# the better (unrestricted) F-side probe at k=8->9:
+python code/cover_complement_of_coherent.py --m 4199 --primes 2 3 5 7 11 13 17 19 \
+    --output data/cover-complement-4199.json
+python code/cover_complement_local_search.py --init data/cover-complement-4199.json \
+    --sweeps 10 --output data/cover-complement-4199-local-search.json
 ```
 
 ortools is only in `tmp/research-venv`, not the main interpreter. The G-side
