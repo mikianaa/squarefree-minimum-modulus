@@ -154,6 +154,28 @@ scale, not a greedy heuristic). Whether an analogous exact F-side
 reduction exists for k=8 is not attempted here and is the natural next
 step.
 
+## Why the G-side trick does not have an F-side analogue
+
+Worth recording why no amount of cleverness is likely to find a G-side-style
+exact reduction for the F-side question. The G-side reduction worked
+because its target R = {m | x} is *sparse* (|R| = L/m, a small fraction of
+L): every real divisor's contribution to covering R collapses to a single
+residue class on a *much smaller* virtual domain, because R itself only
+occupies a thin slice of each divisor's progression.
+
+The F-side target T = Z_L \\ {m | x} is the *complement* -- dense, nearly
+all of Z_L. Writing Z_L = Z_m x Z_n (n = L/m) by CRT, a divisor d = d_m*d_n
+(d_m | m, d_n | n) with residue (a_m, a_n) covers the *cylinder*
+{i ≡ a_m (mod d_m)} x {k ≡ a_n (mod d_n)} -- a 1/d_m fraction of the
+i-coordinate and 1/d_n of the k-coordinate, simultaneously. Small d_m
+(hence large 1/d_m) is what makes a divisor efficient at covering T broadly,
+exactly as in ordinary unbiased covering; there is no sparse structure to
+exploit, so the natural effective strategy is just "cover efficiently",
+not "cover this specific small complement cleverly" -- consistent with the
+empirical finding just above that trying to steer toward the target
+backfires. This is a structural (sparse-vs-dense), not just empirical,
+reason the F-side resisted the G-side's trick tonight.
+
 ## Same pattern one level up: 9 -> 10 (q = 29)
 
 Repeating the whole exercise at L = 223092870 (nine primes), q = 29: the
