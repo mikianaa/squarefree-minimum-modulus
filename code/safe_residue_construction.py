@@ -47,8 +47,8 @@ def gcd(a, b):
     return a
 
 
-def run(m, output=None):
-    L, seq = divisors_ge3(PRIMES)
+def run(m, output=None, primes=PRIMES):
+    L, seq = divisors_ge3(primes)
     assert L % m == 0
     uncovered = np.ones(L, dtype=np.uint8)
     system = []
@@ -95,7 +95,9 @@ def run(m, output=None):
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--m", type=int, required=True)
+    ap.add_argument("--primes", type=int, nargs="*", default=None)
     ap.add_argument("--output")
     args = ap.parse_args()
-    out = run(args.m, args.output)
+    primes = args.primes if args.primes else PRIMES
+    out = run(args.m, args.output, primes=primes)
     print(json.dumps({k: v for k, v in out.items() if k != "system"}, indent=2))
