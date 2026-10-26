@@ -96,6 +96,40 @@ the tuned one (0.82%) shows is possible -- but the gap would have to widen
 by an order of magnitude to approach 28, not shrink by the ~15% that tuning
 bought at eight primes.
 
+## Follow-up: tuned local search barely moves the ratio
+
+The note above flagged a tuned local search as the natural next step and
+predicted the gap "would have to widen by an order of magnitude... not
+shrink by the ~15% that tuning bought at eight primes" to threaten the
+conclusion. `code/local_search_nine_primes.py` implements this properly at
+the same L = 223092870 scale: a coordinate-descent (Gauss-Seidel) sweep over
+all 510 moduli, each revisited and allowed to pick a better residue given
+every other modulus's current choice, using an int16 coverage-count array
+(not the one-pass greedy's one-shot commitment) so each sweep can only keep
+or reduce the uncovered count.
+
+Starting from the one-pass witness above, five sweeps (~93s each) converge
+to **1,213,060** uncovered -- an 8.5% reduction from 1,325,141, consistent
+with the 15% tuning bought at eight primes. Recomputing the capacity ratio
+on this improved residual:
+
+    cap(R) = 9,556,220,  cap(R)/|R| = 7.878,  fraction of requirement (28) = 0.2814
+
+Essentially unchanged from the one-pass witness (7.778 -> 7.878, 0.278 ->
+0.281). Tuning shrank the residual by 8.5% but barely moved the capacity
+ratio at all. This is the strongest evidence this note has for its own
+conclusion: the 28% figure is not an artifact of the crude one-pass method,
+it survives an actual (if still modest) local-search refinement at the same
+scale.
+
+Reproduction:
+
+```
+python code/local_search_nine_primes.py --init data/greedy-nine-prime-smalld.json --sweeps 6 --output data/local-search-nine-prime.json
+```
+
+~8 minutes total (5 sweeps to convergence), numpy required.
+
 ## Scope and honesty about limits
 
 * This is a heuristic upper witness, not a lower bound and not a claim that
