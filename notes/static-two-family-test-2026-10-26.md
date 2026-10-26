@@ -56,6 +56,33 @@ points), the other four CP-SAT-optimal anchor patterns in
 134, 141) are expected to fail at least as badly and were not separately
 run.
 
+## Extending to k=6 and finding the scaling wall at k=7
+
+Ran the identical model against two more actual witnesses, reconstructing
+each one's explicit uncovered-residue list from its saved
+`(modulus, residue)` system (not re-solved; same already-computed families):
+
+| k | L | q | need (q-1) | \|R\| | num divisors (d>1) | boolean vars (Sum d) | status |
+| - | - | - | - | - | - | - | - |
+| 5 | 2310 | 13 | 12 | 121 (true optimum) | 31 | 6,909 | **INFEASIBLE** |
+| 6 | 30030 | 17 | 16 | 792 (heuristic upper witness, `data/min-uncovered-30030-witness.json`) | 63 | 96,767 | **INFEASIBLE** |
+| 7 | 510510 | 19 | 18 | 7,436 (heuristic upper witness, `data/min-uncovered-510510-witness.json`) | 127 | ~1,742,621 | **UNKNOWN** (480s CP-SAT limit, ~8m10s wall including model build; neither SAT nor proved UNSAT) |
+
+So the exact encoding is still decisive at k=6 (INFEASIBLE, consistent with
+the already-established six-prime obstruction and with k=5), but the
+"boolean vars = sum of divisors" blow-up already makes k=7 too slow to
+decide in minutes, confirming the scaling-wall claim below one step earlier
+than the k=8 estimate alone would have suggested. k=6 and k=7's witnesses
+are each only one heuristic upper witness, not the true optimum (unlike
+k=5), so their INFEASIBLE/UNKNOWN verdicts say less on their own; they are
+reported here as calibration data points for the same model, not as new
+certified obstructions.
+
+These two extra runs (k=6, k=7) are self-verified only (the script's own
+in-code recomputation, used for the SAT direction, does not apply here
+since both come back INFEASIBLE/UNKNOWN); they were not separately sent to
+the blind auditor, which already confirmed the k=5 methodology and verdict.
+
 ## Why this does not scale to k=8 (9699690, q=23) directly
 
 The same exact-CP-SAT encoding needs sum_{d|L, d>1} d boolean variables (one
