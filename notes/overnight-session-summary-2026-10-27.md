@@ -136,7 +136,7 @@ entries 26-39).
   `PROGRESS.md` should fold in the entries this session added (search for
   "aligned construction test", "static two-family", "coherent", "nine-
   prime greedy" in the uncommitted working tree, or diff against commit
-  `9cb4da5` which is the last commit of this session).
+  `c25787a` which is the last commit of this session).
 
 ## Suggested next steps, roughly in order of promise
 
@@ -166,8 +166,8 @@ entries 26-39).
 
 ## Housekeeping
 
-* All code, notes, and data from tonight are committed (20 commits,
-  `eb7afcb..9cb4da5`). `meta/agent-progress.jsonl` (entries 26-39) and
+* All code, notes, and data from tonight are committed (35 commits,
+  `eb7afcb..c25787a`). `meta/agent-progress.jsonl` (entries 26-45) and
   `meta/audit-comparison.jsonl` (entries 4-9) are up to date; regenerate
   the rendered `.md` views with `python meta/meta_stats.py` and
   `python meta/compare_audits.py` if anyone adds more entries before
