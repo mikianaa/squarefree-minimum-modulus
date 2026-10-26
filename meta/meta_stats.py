@@ -114,6 +114,7 @@ def claude_events():
                         "ts": parse_ts(x["timestamp"]),
                         "agent": "claude-code",
                         "session": session,
+                        "file": f,
                         "model": msg.get("model"),
                         "input": u.get("input_tokens", 0),
                         "cache_write_5m": cc.get("ephemeral_5m_input_tokens", 0),

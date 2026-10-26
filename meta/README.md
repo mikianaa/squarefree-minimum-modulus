@@ -60,3 +60,21 @@ without a checked proof log; `conditional`; `candidate`; `none`), `notes`, `file
 Append one line to `agent-progress.jsonl` when a milestone is reached or an attempt is
 closed, then run `python meta/meta_stats.py`. Keep entries factual; the computed columns
 should never be written by hand.
+
+## Audit comparison (cheap model vs reference)
+
+Added 26 Oct 2026. Tests whether a short fresh-context audit on a cheaper model (Sonnet,
+`.claude/agents/auditor.md`) reproduces a reference audit, and what it costs. Rules for the
+agents are in `CLAUDE.md` and `AGENTS.md`.
+
+| File | Role |
+| --- | --- |
+| `audit-comparison.jsonl` | Source of truth, one hand-written record per comparison. |
+| `compare_audits.py` | Computes agreeing digits, difference, and the tokens / list-price cost of the candidate run from the transcripts (by model and time window). Standard library only. |
+| `audit-comparison.md` | Output table. |
+
+Record fields: `id`, `task`, `threshold_digits` (default 12), `reference` (`agent`, `model`,
+`source` file, `value` as an exact decimal string), `candidate` (`agent`, `model`, `value`,
+`window` = [start, end] ISO timestamps of the run, `runtime_s`, `files`, `issues`).
+Regenerate with `python meta/compare_audits.py`. The candidate must not be shown the
+reference value before its run; record any disagreement as well as agreement.
