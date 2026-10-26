@@ -255,6 +255,7 @@ decent margin and a virtual period small enough to actually resolve:
 | 37145 | 13.97 | 6,006 | 258,032 | **SAT** | 46.1s | **202.0x** |
 | 10659 | 7.99 | 20,930 | 774,128 | **SAT** | 158.1s | **58.0x** |
 | 5005 | 8.22 | 44,574 | 1,658,864 | **SAT** | 271.8s | **27.2x** |
+| 3003 | 4.49 | 74,290 | 2,488,304 | UNKNOWN | (311s, not resolved) | (16.3x, if it held) |
 | 2145 | 2.90 | 104,006 | 3,317,744 | UNKNOWN | (246s, not resolved) | (11.7x, if it held) |
 
 Every SAT row's real system (511 divisor/residue pairs) was re-verified
@@ -265,7 +266,8 @@ matters, but margin *relative to the size of the resulting virtual
 problem* -- m=2145 has a smaller margin (2.90) than every SAT case here,
 and also by far the largest virtual period (104,006 vs <=44,574), and it
 is the one that did not resolve. The practical frontier for this specific
-exact method, tonight, sits around |R| ~ 44,000-100,000: the F-side
+exact method, tonight, sits between |R| = 44,574 (SAT, m=5005) and 74,290
+(UNKNOWN after 311s, m=3003): the F-side
 comparison ratio for the best *confirmed* target has improved from 525x to
 **27.2x** by choosing a better coherent target, without weakening the
 G-side guarantee at all (every SAT row is an exact, re-verified result,
