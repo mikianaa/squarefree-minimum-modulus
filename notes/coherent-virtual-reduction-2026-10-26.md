@@ -112,13 +112,15 @@ Four omega(m)=3 combinations clear ratio >= 22 at k=8->9: m=4199 (ratio
 the F-side (biggest, hence most achievable, target) -- its direct
 general-witness T-shortfall ratio is 20.0x, the best of the four. But its
 G-side reduced model (92,152 compressed variables, essentially the same
-size as m=4199's 55,288) is **UNKNOWN after 300s**, not SAT, despite
-clearing the capacity threshold by a comparable margin (0.10 vs m=4199's
-0.94 above 22). The capacity ratio is a necessary, not sufficient,
-condition; a thinner margin above it apparently makes the actual
-constraint-satisfaction problem harder for the solver (or possibly
-genuinely infeasible -- not resolved either way here). m=4199, with the
-largest margin of the four, is the only one confirmed SAT tonight.
+size as m=4199's 55,288) is **UNKNOWN after 300s, and still UNKNOWN after a second run to 580s**
+(roughly 15 minutes of CP-SAT time total), not SAT, despite clearing the
+capacity threshold by a comparable margin (0.10 vs m=4199's 0.94 above
+22). The capacity ratio is a necessary, not sufficient, condition; a
+thinner margin above it apparently makes the actual constraint-
+satisfaction problem harder for the solver (or possibly genuinely
+infeasible -- not resolved either way here, and not pursued further
+tonight). m=4199, with the largest margin of the four, is the only one
+confirmed SAT.
 
 ## The F-side: three heuristics tried, all far short -- and biasing toward m makes it WORSE
 
