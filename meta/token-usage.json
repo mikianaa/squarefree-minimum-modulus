@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T13:09:12+00:00",
+ "generated": "2026-10-26T13:49:57+00:00",
  "start_date": "2026-10-23",
  "claude_sources": [
   {
@@ -57,9 +57,9 @@
  },
  "totals": {
   "claude-code": {
-   "total": 91278517,
-   "output": 893048,
-   "cost_usd": 123.22,
+   "total": 123716174,
+   "output": 985211,
+   "cost_usd": 142.28,
    "sessions": 8
   },
   "codex": {
@@ -71,9 +71,9 @@
  },
  "per_model": {
   "claude-code/claude-fable-5-1": {
-   "total": 51004675,
-   "output": 594310,
-   "calls": 277
+   "total": 64726434,
+   "output": 636403,
+   "calls": 326
   },
   "codex/gpt-6-astra": {
    "total": 197798044,
@@ -96,9 +96,9 @@
    "calls": 1
   },
   "claude-code/claude-sonnet-5": {
-   "total": 35018826,
-   "output": 246916,
-   "calls": 153
+   "total": 53734724,
+   "output": 296986,
+   "calls": 220
   }
  },
  "per_day": {
@@ -130,8 +130,8 @@
     "output": 390299
    },
    "claude-code": {
-    "total": 57396095,
-    "output": 475211
+    "total": 89833752,
+    "output": 567374
    }
   }
  },
@@ -548,38 +548,38 @@
    "agent": "claude-code",
    "session": "e17309b7",
    "models": {
-    "claude-sonnet-5": 27544304,
-    "claude-fable-5-1": 17122253,
+    "claude-sonnet-5": 38495905,
+    "claude-fable-5-1": 30844012,
     "claude-sonnet-5-5": 5255016,
     "<synthetic>": 0
    },
    "start": "2026-10-26T06:35:48.320000+00:00",
-   "end": "2026-10-26T13:08:55.265000+00:00",
-   "calls": 226,
-   "input": 1636,
-   "cache_write": 1398273,
-   "cache_read": 48158405,
-   "output": 363259,
-   "total": 49921573,
-   "cost_usd": 45.29,
-   "hours": 6.55
+   "end": "2026-10-26T13:49:39.274000+00:00",
+   "calls": 304,
+   "input": 2186,
+   "cache_write": 1797333,
+   "cache_read": 72386505,
+   "output": 408909,
+   "total": 74594933,
+   "cost_usd": 58.82,
+   "hours": 7.23
   },
   {
    "agent": "claude-code",
    "session": "b1b21c80",
    "models": {
-    "claude-sonnet-5": 7474522
+    "claude-sonnet-5": 15238819
    },
    "start": "2026-10-26T12:49:47.504000+00:00",
-   "end": "2026-10-26T13:09:09.594000+00:00",
-   "calls": 56,
-   "input": 112,
-   "cache_write": 214466,
-   "cache_read": 7147992,
-   "output": 111952,
-   "total": 7474522,
-   "cost_usd": 11.4,
-   "hours": 0.32
+   "end": "2026-10-26T13:49:47.542000+00:00",
+   "calls": 94,
+   "input": 188,
+   "cache_write": 287334,
+   "cache_read": 14792832,
+   "output": 158465,
+   "total": 15238819,
+   "cost_usd": 16.93,
+   "hours": 1.0
   }
  ]
 }
