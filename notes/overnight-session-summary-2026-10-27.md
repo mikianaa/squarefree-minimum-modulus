@@ -64,9 +64,13 @@ entries 26-39).
    general-purpose witness, built with no awareness of the target at all)
    falls short by 34.6x (k=8->9) and 525x (k=9->10), and *trying* to steer
    a construction toward the target makes it worse, not better. A
-   follow-up found that not every target clearing the necessary capacity
-   condition is actually solver-confirmed SAT: margin above the threshold
-   matters, not just clearing it.
+   follow-up completed the picture across all four omega=3 targets that
+   clear the capacity threshold at this scale: margin above the threshold,
+   not just clearing it, predicts solve difficulty with a clean monotonic
+   trend (0.94 margin -> SAT in 22s; 0.63 -> SAT in 238s; 0.23 and 0.10 ->
+   UNKNOWN after several minutes each) -- and, intriguingly, an inverse
+   relationship with F-friendliness (the easiest G-side cases have the
+   smallest, least F-achievable residuals).
    
    The reduction technique itself (sparse coherent target -> tiny virtual
    period) is the most likely-to-be-reusable output of the night; the
