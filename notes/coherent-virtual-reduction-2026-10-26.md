@@ -127,6 +127,29 @@ duplicate case (found by direct CP-SAT at that small scale, not a greedy
 heuristic). Whether an analogous exact F-side reduction exists for k=8 is
 not attempted here and is the natural next step.
 
+## Same pattern one level up: 9 -> 10 (q = 29)
+
+Repeating the whole exercise at L = 223092870 (nine primes), q = 29: the
+smallest omega(m) whose capacity ratio clears 28 is **omega(m) = 4**, at
+**m = 96577 = 13*17*19*23** (ratio 46.88, |R| = 2310 -- the same size by
+coincidence, since the complementary primes are again 2,3,5,7,11). The
+reduced G-side model (free = 15, need_extra = 13, 31 virtual divisors of
+2310, 16 copies each, 110,576 compressed variables) is **SAT in 22.1s**,
+with the translated-back 511-divisor real system re-verified directly on
+all 2310 real multiples of 96577 in Z_223092870.
+
+F-side, same story but worse: the safe-residue construction for m = 96577
+leaves **89,929,666** uncovered -- 38,931 times the coherent target, an
+order of magnitude further off than the m=4199 case at k=8->9 (2,056x).
+So the pattern holds, and gets worse, one level up: **the G-side capacity
+requirement is consistently achievable (exactly) for the smallest-omega
+coherent target at both tested extensions, while the F-side gets further
+and further from achievable as the target gets smaller/more concentrated.**
+This is a specific, nontrivial reason the coherent-residual route looks
+like a dead end that is different from (and sharper than) "not enough raw
+capacity": the capacity is there; getting a real family anywhere near the
+needed residual is what fails, and fails harder as primes are added.
+
 ## Scope (read this before citing the headline result)
 
 * This does **not** show a 9-prime covering system exists, and does not
@@ -154,6 +177,12 @@ python code/safe_residue_construction.py --m 4199 --primes 2 3 5 7 11 13 17 19 \
     --output data/safe-residue-4199-at-9699690.json
 python code/safe_residue_local_search.py --init data/safe-residue-4199-at-9699690.json \
     --sweeps 10 --output data/safe-residue-4199-local-search.json
+
+# the 9 -> 10 extension (q=29), same pattern:
+tmp/research-venv/Scripts/python.exe code/coherent_virtual_reduction.py \
+    --m 96577 --q 29 --primes 2 3 5 7 11 13 17 19 23 --time 180 \
+    --output data/coherent-virtual-reduction-96577-29.json
+python code/safe_residue_construction.py --m 96577 --output data/safe-residue-96577.json
 ```
 
 ortools is only in `tmp/research-venv`, not the main interpreter. The G-side
