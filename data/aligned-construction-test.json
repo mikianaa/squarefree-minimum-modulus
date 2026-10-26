@@ -1,0 +1,118 @@
+{
+  "scope": "Aligned construction test (G-residues zero) for the slice extension L -> Lq: exact counting only, no solver. Decides k <= 6 infeasible; k = 7, 8 remain ambiguous by counting alone.",
+  "rows": [
+    {
+      "k": 4,
+      "primes": [
+        2,
+        3,
+        5,
+        7
+      ],
+      "L": 210,
+      "q": 11,
+      "s": 4,
+      "t": 3,
+      "T": 209,
+      "R_allowed": 1,
+      "R_allowed_density": 0.004761904761904762,
+      "known_u_lower": 22,
+      "known_u_lower_source": "exact (CP-SAT OPTIMAL)",
+      "decided_infeasible_by_counting": true
+    },
+    {
+      "k": 5,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11
+      ],
+      "L": 2310,
+      "q": 13,
+      "s": 4,
+      "t": 3,
+      "T": 2286,
+      "R_allowed": 24,
+      "R_allowed_density": 0.01038961038961039,
+      "known_u_lower": 121,
+      "known_u_lower_source": "exact (CP-SAT OPTIMAL, five anchor patterns)",
+      "decided_infeasible_by_counting": true
+    },
+    {
+      "k": 6,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13
+      ],
+      "L": 30030,
+      "q": 17,
+      "s": 5,
+      "t": 4,
+      "T": 29994,
+      "R_allowed": 36,
+      "R_allowed_density": 0.0011988011988011988,
+      "known_u_lower": 501,
+      "known_u_lower_source": "integer-only lower bound, quantitative-core-extension-2026-10-25.md",
+      "decided_infeasible_by_counting": true
+    },
+    {
+      "k": 7,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17
+      ],
+      "L": 510510,
+      "q": 19,
+      "s": 5,
+      "t": 4,
+      "T": 509436,
+      "R_allowed": 1074,
+      "R_allowed_density": 0.0021037785743668095,
+      "known_u_lower": 510,
+      "known_u_lower_source": "integer-only lower bound, quantitative-core-extension-2026-10-25.md",
+      "decided_infeasible_by_counting": false
+    },
+    {
+      "k": 8,
+      "primes": [
+        2,
+        3,
+        5,
+        7,
+        11,
+        13,
+        17,
+        19
+      ],
+      "L": 9699690,
+      "q": 23,
+      "s": 5,
+      "t": 4,
+      "T": 9669008,
+      "R_allowed": 30682,
+      "R_allowed_density": 0.0031631938752681786,
+      "known_u_lower": 2,
+      "known_u_lower_source": "minimum branch bound (011 pattern), eight-prime-obstruction-2026-10-25.md; other branches give 15, 305, 6696",
+      "decided_infeasible_by_counting": false
+    }
+  ],
+  "coprime_class_size": {
+    "4": 48,
+    "5": 480,
+    "6": 5760,
+    "7": 92160,
+    "8": 1658880
+  },
+  "note": "coprime_class_size[k] is |{x mod L : gcd(x,L)=1}|, the largest single pattern class; it is already far above R_allowed for k=8, and no residue-0 modulus can ever intersect it, showing the naive 'residue 0 on small divisors' realization of this construction fails."
+}
